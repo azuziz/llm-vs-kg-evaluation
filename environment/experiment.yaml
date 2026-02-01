@@ -1,0 +1,16 @@
+experiment_name: prompt_design_v1
+
+n_runs_per_prompt: 25
+
+prompts:
+  - id: v2
+    file: prompts/prompt_v2_curated_kb.txt
+  - id: v3
+    file: prompts/prompt_v3_directional.txt
+  - id: v4
+    file: prompts/prompt_v4_forced_choice.txt
+
+model:
+  name: gpt-5.2
+  temperature: 0.7
+  max_output_tokens: 512

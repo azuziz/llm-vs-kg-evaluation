@@ -1,0 +1,7 @@
+Extract biomedical relations between exactly two given nodes.
+
+Return only relations that plausibly hold.
+
+Use only the allowed predicates and only the provided CURIEs.
+
+Return the result as JSON.
