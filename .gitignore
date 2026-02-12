@@ -1,0 +1,17 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+
+# Python
+__pycache__/
+*.pyc
+
+# Environments / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Large outputs (adjust as needed)
+data/outputs/**

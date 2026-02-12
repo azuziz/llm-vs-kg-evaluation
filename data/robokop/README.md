@@ -3,8 +3,8 @@
 This folder contains the **reference edges** obtained by querying ROBOKOP for each
 node pair in `data/node_pairs/node_pairs_163.tsv`.
 
-These edges serve as a **KG-derived reference set** for evaluation. They are not
-assumed to be complete biological truth; they represent what is explicitly asserted
+These edges serve as a **KG-derived reference set** for evaluation. They may not be 
+complete biological truth; they represent what is explicitly asserted
 in ROBOKOP’s integrated knowledge sources at the time of retrieval.
 
 ## Files
