@@ -1,0 +1,9 @@
+id	question	kg(s)
+Q1	Is Langerhans cell histiocytosis related to neurodegenerative disease?	ctd, hetionet
+Q2	Is Langerhans cell histiocytosis related to BRAF mutation?	ctd, hetionet, OMIM
+Q3	Is lung adenocarcinoma related to p53 mutations?	ctd, hetionet, OMIM
+Q4	Is TP53 related to FOXO1 (Homo sapiens)?	string, hetionet
+Q5	Is KRAS related to liver cancer?	ctd, hetionet
+Q6	How is FOXO1 related to BNIP3?	string, reactome
+Q7	How is FOXO1 related to SOD2?	string, reactome
+Q8	How is FOXO1 related to IGF1?	reactome, hetionet, kegg

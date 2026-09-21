@@ -1,0 +1,617 @@
+[
+  {
+    "source_type": "biolink:SmallMolecule",
+    "target_type": "biolink:Gene",
+    "edge_type": "biolink:affects"
+  },
+  {
+    "source_type": "biolink:SmallMolecule",
+    "target_type": "biolink:Gene",
+    "edge_type": "biolink:decreases_response_to"
+  },
+  {
+    "source_type": "biolink:SmallMolecule",
+    "target_type": "biolink:Gene",
+    "edge_type": "biolink:increases_response_to"
+  },
+  {
+    "source_type": "biolink:SmallMolecule",
+    "target_type": "biolink:Gene",
+    "edge_type": "biolink:response_affected_by"
+  },
+  {
+    "source_type": "biolink:SmallMolecule",
+    "target_type": "biolink:Gene",
+    "edge_type": "biolink:related_to"
+  },
+  {
+    "source_type": "biolink:SmallMolecule",
+    "target_type": "biolink:Disease",
+    "edge_type": "biolink:contributes_to"
+  },
+  {
+    "source_type": "biolink:SmallMolecule",
+    "target_type": "biolink:Disease",
+    "edge_type": "biolink:affects"
+  },
+  {
+    "source_type": "biolink:SmallMolecule",
+    "target_type": "biolink:Disease",
+    "edge_type": "biolink:negatively_correlated_with"
+  },
+  {
+    "source_type": "biolink:SmallMolecule",
+    "target_type": "biolink:Disease",
+    "edge_type": "biolink:treats_or_applied_or_studied_to_treat"
+  },
+  {
+    "source_type": "biolink:SmallMolecule",
+    "target_type": "biolink:Disease",
+    "edge_type": "biolink:positively_correlated_with"
+  },
+  {
+    "source_type": "biolink:SmallMolecule",
+    "target_type": "biolink:PhenotypicFeature",
+    "edge_type": "biolink:contributes_to"
+  },
+  {
+    "source_type": "biolink:SmallMolecule",
+    "target_type": "biolink:PhenotypicFeature",
+    "edge_type": "biolink:affects"
+  },
+  {
+    "source_type": "biolink:SmallMolecule",
+    "target_type": "biolink:PhenotypicFeature",
+    "edge_type": "biolink:negatively_correlated_with"
+  },
+  {
+    "source_type": "biolink:SmallMolecule",
+    "target_type": "biolink:PhenotypicFeature",
+    "edge_type": "biolink:treats_or_applied_or_studied_to_treat"
+  },
+  {
+    "source_type": "biolink:SmallMolecule",
+    "target_type": "biolink:PhenotypicFeature",
+    "edge_type": "biolink:positively_correlated_with"
+  },
+  {
+    "source_type": "biolink:SmallMolecule",
+    "target_type": "biolink:GrossAnatomicalStructure",
+    "edge_type": "biolink:contributes_to"
+  },
+  {
+    "source_type": "biolink:SmallMolecule",
+    "target_type": "biolink:GrossAnatomicalStructure",
+    "edge_type": "biolink:treats_or_applied_or_studied_to_treat"
+  },
+  {
+    "source_type": "biolink:SmallMolecule",
+    "target_type": "biolink:ChemicalEntity",
+    "edge_type": "biolink:subclass_of"
+  },
+  {
+    "source_type": "biolink:SmallMolecule",
+    "target_type": "biolink:SmallMolecule",
+    "edge_type": "biolink:subclass_of"
+  },
+  {
+    "source_type": "biolink:SmallMolecule",
+    "target_type": "biolink:MolecularMixture",
+    "edge_type": "biolink:subclass_of"
+  },
+  {
+    "source_type": "biolink:SmallMolecule",
+    "target_type": "biolink:ChemicalMixture",
+    "edge_type": "biolink:subclass_of"
+  },
+  {
+    "source_type": "biolink:Gene",
+    "target_type": "biolink:SmallMolecule",
+    "edge_type": "biolink:affects"
+  },
+  {
+    "source_type": "biolink:Gene",
+    "target_type": "biolink:SmallMolecule",
+    "edge_type": "biolink:decreases_response_to"
+  },
+  {
+    "source_type": "biolink:Gene",
+    "target_type": "biolink:SmallMolecule",
+    "edge_type": "biolink:increases_response_to"
+  },
+  {
+    "source_type": "biolink:Gene",
+    "target_type": "biolink:SmallMolecule",
+    "edge_type": "biolink:affects_response_to"
+  },
+  {
+    "source_type": "biolink:Gene",
+    "target_type": "biolink:SmallMolecule",
+    "edge_type": "biolink:related_to"
+  },
+  {
+    "source_type": "biolink:Gene",
+    "target_type": "biolink:MolecularMixture",
+    "edge_type": "biolink:decreases_response_to"
+  },
+  {
+    "source_type": "biolink:Gene",
+    "target_type": "biolink:MolecularMixture",
+    "edge_type": "biolink:affects"
+  },
+  {
+    "source_type": "biolink:Gene",
+    "target_type": "biolink:MolecularMixture",
+    "edge_type": "biolink:increases_response_to"
+  },
+  {
+    "source_type": "biolink:Gene",
+    "target_type": "biolink:MolecularMixture",
+    "edge_type": "biolink:affects_response_to"
+  },
+  {
+    "source_type": "biolink:Gene",
+    "target_type": "biolink:MolecularMixture",
+    "edge_type": "biolink:related_to"
+  },
+  {
+    "source_type": "biolink:Gene",
+    "target_type": "biolink:ChemicalEntity",
+    "edge_type": "biolink:affects"
+  },
+  {
+    "source_type": "biolink:Gene",
+    "target_type": "biolink:ChemicalEntity",
+    "edge_type": "biolink:decreases_response_to"
+  },
+  {
+    "source_type": "biolink:Gene",
+    "target_type": "biolink:ChemicalEntity",
+    "edge_type": "biolink:increases_response_to"
+  },
+  {
+    "source_type": "biolink:Gene",
+    "target_type": "biolink:ChemicalEntity",
+    "edge_type": "biolink:affects_response_to"
+  },
+  {
+    "source_type": "biolink:Gene",
+    "target_type": "biolink:ChemicalEntity",
+    "edge_type": "biolink:related_to"
+  },
+  {
+    "source_type": "biolink:Gene",
+    "target_type": "biolink:ComplexMolecularMixture",
+    "edge_type": "biolink:decreases_response_to"
+  },
+  {
+    "source_type": "biolink:Gene",
+    "target_type": "biolink:ComplexMolecularMixture",
+    "edge_type": "biolink:affects"
+  },
+  {
+    "source_type": "biolink:Gene",
+    "target_type": "biolink:ComplexMolecularMixture",
+    "edge_type": "biolink:increases_response_to"
+  },
+  {
+    "source_type": "biolink:Gene",
+    "target_type": "biolink:ComplexMolecularMixture",
+    "edge_type": "biolink:affects_response_to"
+  },
+  {
+    "source_type": "biolink:Gene",
+    "target_type": "biolink:ComplexMolecularMixture",
+    "edge_type": "biolink:related_to"
+  },
+  {
+    "source_type": "biolink:ChemicalEntity",
+    "target_type": "biolink:Gene",
+    "edge_type": "biolink:decreases_response_to"
+  },
+  {
+    "source_type": "biolink:ChemicalEntity",
+    "target_type": "biolink:Gene",
+    "edge_type": "biolink:affects"
+  },
+  {
+    "source_type": "biolink:ChemicalEntity",
+    "target_type": "biolink:Gene",
+    "edge_type": "biolink:increases_response_to"
+  },
+  {
+    "source_type": "biolink:ChemicalEntity",
+    "target_type": "biolink:Gene",
+    "edge_type": "biolink:response_affected_by"
+  },
+  {
+    "source_type": "biolink:ChemicalEntity",
+    "target_type": "biolink:Gene",
+    "edge_type": "biolink:related_to"
+  },
+  {
+    "source_type": "biolink:ChemicalEntity",
+    "target_type": "biolink:Disease",
+    "edge_type": "biolink:contributes_to"
+  },
+  {
+    "source_type": "biolink:ChemicalEntity",
+    "target_type": "biolink:Disease",
+    "edge_type": "biolink:affects"
+  },
+  {
+    "source_type": "biolink:ChemicalEntity",
+    "target_type": "biolink:Disease",
+    "edge_type": "biolink:negatively_correlated_with"
+  },
+  {
+    "source_type": "biolink:ChemicalEntity",
+    "target_type": "biolink:Disease",
+    "edge_type": "biolink:treats_or_applied_or_studied_to_treat"
+  },
+  {
+    "source_type": "biolink:ChemicalEntity",
+    "target_type": "biolink:Disease",
+    "edge_type": "biolink:positively_correlated_with"
+  },
+  {
+    "source_type": "biolink:ChemicalEntity",
+    "target_type": "biolink:PhenotypicFeature",
+    "edge_type": "biolink:contributes_to"
+  },
+  {
+    "source_type": "biolink:ChemicalEntity",
+    "target_type": "biolink:PhenotypicFeature",
+    "edge_type": "biolink:affects"
+  },
+  {
+    "source_type": "biolink:ChemicalEntity",
+    "target_type": "biolink:PhenotypicFeature",
+    "edge_type": "biolink:negatively_correlated_with"
+  },
+  {
+    "source_type": "biolink:ChemicalEntity",
+    "target_type": "biolink:PhenotypicFeature",
+    "edge_type": "biolink:treats_or_applied_or_studied_to_treat"
+  },
+  {
+    "source_type": "biolink:ChemicalEntity",
+    "target_type": "biolink:PhenotypicFeature",
+    "edge_type": "biolink:positively_correlated_with"
+  },
+  {
+    "source_type": "biolink:ChemicalEntity",
+    "target_type": "biolink:GrossAnatomicalStructure",
+    "edge_type": "biolink:contributes_to"
+  },
+  {
+    "source_type": "biolink:ChemicalEntity",
+    "target_type": "biolink:ChemicalEntity",
+    "edge_type": "biolink:subclass_of"
+  },
+  {
+    "source_type": "biolink:ChemicalEntity",
+    "target_type": "biolink:SmallMolecule",
+    "edge_type": "biolink:subclass_of"
+  },
+  {
+    "source_type": "biolink:ChemicalEntity",
+    "target_type": "biolink:MolecularMixture",
+    "edge_type": "biolink:subclass_of"
+  },
+  {
+    "source_type": "biolink:ChemicalEntity",
+    "target_type": "biolink:ChemicalMixture",
+    "edge_type": "biolink:subclass_of"
+  },
+  {
+    "source_type": "biolink:MolecularMixture",
+    "target_type": "biolink:Gene",
+    "edge_type": "biolink:affects"
+  },
+  {
+    "source_type": "biolink:MolecularMixture",
+    "target_type": "biolink:Gene",
+    "edge_type": "biolink:decreases_response_to"
+  },
+  {
+    "source_type": "biolink:MolecularMixture",
+    "target_type": "biolink:Gene",
+    "edge_type": "biolink:increases_response_to"
+  },
+  {
+    "source_type": "biolink:MolecularMixture",
+    "target_type": "biolink:Gene",
+    "edge_type": "biolink:response_affected_by"
+  },
+  {
+    "source_type": "biolink:MolecularMixture",
+    "target_type": "biolink:Gene",
+    "edge_type": "biolink:related_to"
+  },
+  {
+    "source_type": "biolink:MolecularMixture",
+    "target_type": "biolink:PhenotypicFeature",
+    "edge_type": "biolink:contributes_to"
+  },
+  {
+    "source_type": "biolink:MolecularMixture",
+    "target_type": "biolink:PhenotypicFeature",
+    "edge_type": "biolink:affects"
+  },
+  {
+    "source_type": "biolink:MolecularMixture",
+    "target_type": "biolink:PhenotypicFeature",
+    "edge_type": "biolink:negatively_correlated_with"
+  },
+  {
+    "source_type": "biolink:MolecularMixture",
+    "target_type": "biolink:PhenotypicFeature",
+    "edge_type": "biolink:treats_or_applied_or_studied_to_treat"
+  },
+  {
+    "source_type": "biolink:MolecularMixture",
+    "target_type": "biolink:PhenotypicFeature",
+    "edge_type": "biolink:positively_correlated_with"
+  },
+  {
+    "source_type": "biolink:MolecularMixture",
+    "target_type": "biolink:Disease",
+    "edge_type": "biolink:contributes_to"
+  },
+  {
+    "source_type": "biolink:MolecularMixture",
+    "target_type": "biolink:Disease",
+    "edge_type": "biolink:affects"
+  },
+  {
+    "source_type": "biolink:MolecularMixture",
+    "target_type": "biolink:Disease",
+    "edge_type": "biolink:negatively_correlated_with"
+  },
+  {
+    "source_type": "biolink:MolecularMixture",
+    "target_type": "biolink:Disease",
+    "edge_type": "biolink:treats_or_applied_or_studied_to_treat"
+  },
+  {
+    "source_type": "biolink:MolecularMixture",
+    "target_type": "biolink:Disease",
+    "edge_type": "biolink:positively_correlated_with"
+  },
+  {
+    "source_type": "biolink:MolecularMixture",
+    "target_type": "biolink:GrossAnatomicalStructure",
+    "edge_type": "biolink:treats_or_applied_or_studied_to_treat"
+  },
+  {
+    "source_type": "biolink:MolecularMixture",
+    "target_type": "biolink:ChemicalEntity",
+    "edge_type": "biolink:subclass_of"
+  },
+  {
+    "source_type": "biolink:MolecularMixture",
+    "target_type": "biolink:SmallMolecule",
+    "edge_type": "biolink:subclass_of"
+  },
+  {
+    "source_type": "biolink:MolecularMixture",
+    "target_type": "biolink:MolecularMixture",
+    "edge_type": "biolink:subclass_of"
+  },
+  {
+    "source_type": "biolink:MolecularMixture",
+    "target_type": "biolink:ChemicalMixture",
+    "edge_type": "biolink:subclass_of"
+  },
+  {
+    "source_type": "biolink:ComplexMolecularMixture",
+    "target_type": "biolink:Gene",
+    "edge_type": "biolink:affects"
+  },
+  {
+    "source_type": "biolink:ComplexMolecularMixture",
+    "target_type": "biolink:Gene",
+    "edge_type": "biolink:decreases_response_to"
+  },
+  {
+    "source_type": "biolink:ComplexMolecularMixture",
+    "target_type": "biolink:Gene",
+    "edge_type": "biolink:increases_response_to"
+  },
+  {
+    "source_type": "biolink:ComplexMolecularMixture",
+    "target_type": "biolink:Gene",
+    "edge_type": "biolink:response_affected_by"
+  },
+  {
+    "source_type": "biolink:ComplexMolecularMixture",
+    "target_type": "biolink:Gene",
+    "edge_type": "biolink:related_to"
+  },
+  {
+    "source_type": "biolink:ComplexMolecularMixture",
+    "target_type": "biolink:Disease",
+    "edge_type": "biolink:contributes_to"
+  },
+  {
+    "source_type": "biolink:ComplexMolecularMixture",
+    "target_type": "biolink:Disease",
+    "edge_type": "biolink:affects"
+  },
+  {
+    "source_type": "biolink:ComplexMolecularMixture",
+    "target_type": "biolink:Disease",
+    "edge_type": "biolink:negatively_correlated_with"
+  },
+  {
+    "source_type": "biolink:ComplexMolecularMixture",
+    "target_type": "biolink:Disease",
+    "edge_type": "biolink:treats_or_applied_or_studied_to_treat"
+  },
+  {
+    "source_type": "biolink:ComplexMolecularMixture",
+    "target_type": "biolink:Disease",
+    "edge_type": "biolink:positively_correlated_with"
+  },
+  {
+    "source_type": "biolink:ComplexMolecularMixture",
+    "target_type": "biolink:PhenotypicFeature",
+    "edge_type": "biolink:contributes_to"
+  },
+  {
+    "source_type": "biolink:ComplexMolecularMixture",
+    "target_type": "biolink:PhenotypicFeature",
+    "edge_type": "biolink:affects"
+  },
+  {
+    "source_type": "biolink:ComplexMolecularMixture",
+    "target_type": "biolink:PhenotypicFeature",
+    "edge_type": "biolink:negatively_correlated_with"
+  },
+  {
+    "source_type": "biolink:ComplexMolecularMixture",
+    "target_type": "biolink:PhenotypicFeature",
+    "edge_type": "biolink:treats_or_applied_or_studied_to_treat"
+  },
+  {
+    "source_type": "biolink:ComplexMolecularMixture",
+    "target_type": "biolink:PhenotypicFeature",
+    "edge_type": "biolink:positively_correlated_with"
+  },
+  {
+    "source_type": "biolink:Disease",
+    "target_type": "biolink:SmallMolecule",
+    "edge_type": "biolink:negatively_correlated_with"
+  },
+  {
+    "source_type": "biolink:Disease",
+    "target_type": "biolink:SmallMolecule",
+    "edge_type": "biolink:positively_correlated_with"
+  },
+  {
+    "source_type": "biolink:Disease",
+    "target_type": "biolink:ChemicalEntity",
+    "edge_type": "biolink:positively_correlated_with"
+  },
+  {
+    "source_type": "biolink:Disease",
+    "target_type": "biolink:ChemicalEntity",
+    "edge_type": "biolink:negatively_correlated_with"
+  },
+  {
+    "source_type": "biolink:Disease",
+    "target_type": "biolink:MolecularMixture",
+    "edge_type": "biolink:negatively_correlated_with"
+  },
+  {
+    "source_type": "biolink:Disease",
+    "target_type": "biolink:MolecularMixture",
+    "edge_type": "biolink:positively_correlated_with"
+  },
+  {
+    "source_type": "biolink:Disease",
+    "target_type": "biolink:ComplexMolecularMixture",
+    "edge_type": "biolink:negatively_correlated_with"
+  },
+  {
+    "source_type": "biolink:Disease",
+    "target_type": "biolink:ComplexMolecularMixture",
+    "edge_type": "biolink:positively_correlated_with"
+  },
+  {
+    "source_type": "biolink:Disease",
+    "target_type": "biolink:Disease",
+    "edge_type": "biolink:subclass_of"
+  },
+  {
+    "source_type": "biolink:Disease",
+    "target_type": "biolink:PhenotypicFeature",
+    "edge_type": "biolink:subclass_of"
+  },
+  {
+    "source_type": "biolink:Disease",
+    "target_type": "biolink:Cell",
+    "edge_type": "biolink:subclass_of"
+  },
+  {
+    "source_type": "biolink:PhenotypicFeature",
+    "target_type": "biolink:SmallMolecule",
+    "edge_type": "biolink:negatively_correlated_with"
+  },
+  {
+    "source_type": "biolink:PhenotypicFeature",
+    "target_type": "biolink:SmallMolecule",
+    "edge_type": "biolink:positively_correlated_with"
+  },
+  {
+    "source_type": "biolink:PhenotypicFeature",
+    "target_type": "biolink:ChemicalEntity",
+    "edge_type": "biolink:positively_correlated_with"
+  },
+  {
+    "source_type": "biolink:PhenotypicFeature",
+    "target_type": "biolink:ChemicalEntity",
+    "edge_type": "biolink:negatively_correlated_with"
+  },
+  {
+    "source_type": "biolink:PhenotypicFeature",
+    "target_type": "biolink:MolecularMixture",
+    "edge_type": "biolink:negatively_correlated_with"
+  },
+  {
+    "source_type": "biolink:PhenotypicFeature",
+    "target_type": "biolink:MolecularMixture",
+    "edge_type": "biolink:positively_correlated_with"
+  },
+  {
+    "source_type": "biolink:PhenotypicFeature",
+    "target_type": "biolink:ComplexMolecularMixture",
+    "edge_type": "biolink:negatively_correlated_with"
+  },
+  {
+    "source_type": "biolink:PhenotypicFeature",
+    "target_type": "biolink:ComplexMolecularMixture",
+    "edge_type": "biolink:positively_correlated_with"
+  },
+  {
+    "source_type": "biolink:PhenotypicFeature",
+    "target_type": "biolink:PhenotypicFeature",
+    "edge_type": "biolink:subclass_of"
+  },
+  {
+    "source_type": "biolink:PhenotypicFeature",
+    "target_type": "biolink:Disease",
+    "edge_type": "biolink:subclass_of"
+  },
+  {
+    "source_type": "biolink:Protein",
+    "target_type": "biolink:ChemicalEntity",
+    "edge_type": "biolink:subclass_of"
+  },
+  {
+    "source_type": "biolink:ChemicalMixture",
+    "target_type": "biolink:ChemicalEntity",
+    "edge_type": "biolink:subclass_of"
+  },
+  {
+    "source_type": "biolink:ChemicalMixture",
+    "target_type": "biolink:SmallMolecule",
+    "edge_type": "biolink:subclass_of"
+  },
+  {
+    "source_type": "biolink:GrossAnatomicalStructure",
+    "target_type": "biolink:AnatomicalEntity",
+    "edge_type": "biolink:subclass_of"
+  },
+  {
+    "source_type": "biolink:GrossAnatomicalStructure",
+    "target_type": "biolink:GrossAnatomicalStructure",
+    "edge_type": "biolink:subclass_of"
+  },
+  {
+    "source_type": "biolink:Cell",
+    "target_type": "biolink:Disease",
+    "edge_type": "biolink:subclass_of"
+  }
+]
