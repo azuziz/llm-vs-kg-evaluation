@@ -1,0 +1,35 @@
+Standardize everything to predicate-only, with undirected/canonicalized node-pair handling
+-----------------------------------------------------------------------------------------
+4 set metrics against ROBOKOP for each GPT run:
+1. Jaccard
+2. Precision-like containment = |∩| / |GPT|
+3. Recall-like containment = |∩| / |ROBOKOP|
+4. F1 (from precision/recall)
+
+Step 1 - Define the new data contract 
+
+------HALLUCINATIONS---------------------
+Type 1 — Predicate hallucination
+GPT invents a predicate that is not in ROBOKOP / Biolink.
+Type 2 — Edge hallucination
+GPT asserts a valid predicate that ROBOKOP does not support for this pair.
+Type 3 — Overgeneralization
+GPT outputs many weak or vague predicates (“related_to”, “associated_with”, etc.)
+
+-------------------central scientific questions of the project-------------------------------
+(A) Within-question stability
+
+Jaccard between runs
+Mode predicate frequency
+Predicate entropy
+
+(B) Run-to-ROBOKOP stability
+Distribution of Precision / Recall / F1
+Variance across runs
+
+
+1. i generated 500 questions (node pairs) which might have 1-10 edges inbetween
+2. i queried them to find out the actual amount of edges. they are between 0 and 100s.
+3. i filtered those which do have 1-10 edges and saved them in a new file. it ended up to have 115 node pairs.
+4. i extracted node pairs so now i have a new clean file with only node pairs ready for gpt querying.
+5. i called every node pair 100 times.

@@ -1,0 +1,230 @@
+Precision-like = 1 / 4 = 0.25:
+Only 25% of GPT’s predictions were supported by the KG.
+
+Recall-like containment = |G ∩ R| / |R|
+Of everything that ROBOKOP says exists, how much did GPT manage to recover?
+GPT recovered about one third of the KG relations.
+
+TP = |G ∩ R|
+
+Jaccard penalizes both extra predictions and missing predictions at once
+		J = ∣G∪R∣ / ∣G∩R∣​
+
+F1 DISTRIBUTION PER QUESTION:
+F1 is high only if:
+- GPT predictions are mostly correct (high precision-like containment)
+- AND GPT recovers most KG relations (high recall-like containment)
+
+F1 = 2⋅(precision⋅recall)/​ (precision+recall)
+
+- F1 ≈ 0 → almost no overlap with ROBOKOP
+- F1 ≈ 1 → near-perfect agreement with ROBOKOP
+
+
+Evaluation of GPT vs ROBOKOP
+Set-based edge prediction across 8 biomedical questions (20 runs each)
+Experimental reminder:
+For each question, GPT was queried 20 independent times.
+
+Each run produced a set of predicates (edges) between the same two nodes.
+
+These sets were compared against ROBOKOP’s reference set using:
+
+Jaccard overlap
+
+Precision-like containment = |∩| / |GPT|
+
+Recall-like containment = |∩| / |ROBOKOP|
+
+F1 score (from precision & recall)
+
+All edges were canonicalized and direction-agnostic.
+
+Figure 1 — F1 distribution per question
+What the plot shows
+
+Each box represents the distribution of F1 scores across 20 GPT runs for one question.
+
+The median indicates typical performance; spread indicates run-to-run instability.
+
+Key observations
+Q1, Q3, Q6
+
+F1 ≈ 0 for all runs
+
+Interpretation:
+
+GPT never overlaps with ROBOKOP on these questions.
+
+This is not random noise; it is systematic disagreement.
+
+GPT consistently proposes plausible but unsupported edges relative to ROBOKOP.
+
+Q2, Q4, Q5, Q8
+
+Non-zero median F1, typically between ~0.2 and ~0.3
+
+Visible spread across runs
+
+Interpretation:
+
+GPT can sometimes recover correct predicates, but:
+
+performance is unstable
+
+quality varies substantially across identical prompts
+
+These questions appear to lie in a gray zone where partial biomedical knowledge exists.
+
+Q7
+
+Very low F1 with occasional non-zero outliers
+
+Interpretation:
+
+Mostly incorrect or overly generic responses
+
+Rare partial hits, but not reliable
+
+Take-home message (F1)
+
+GPT’s ability to match ROBOKOP is highly question-dependent and not stable across runs.
+Zero-performance questions coexist with moderately successful but inconsistent ones.
+
+Figure 2 — Jaccard overlap per question
+What the plot shows
+
+Jaccard measures overall set overlap, penalizing both:
+
+missing reference edges
+
+extra hallucinated edges
+
+Key observations
+
+The same structural pattern as the F1 plot appears:
+
+Q1, Q3, Q6 → Jaccard ≈ 0
+
+Q2, Q4, Q5, Q8 → small but non-zero overlap
+
+Absolute values are low across all questions (generally < 0.25)
+
+Interpretation
+
+Even when GPT finds a correct predicate:
+
+it typically also outputs many additional predicates
+
+As a result:
+
+intersection grows slowly
+
+union grows quickly
+
+Jaccard remains low
+
+Take-home message (Jaccard)
+
+GPT tends to over-generate plausible relations, leading to poor set overlap even when some correct edges are present.
+
+Figure 3 — Precision vs Recall per run
+What the plot shows
+
+Each dot = one GPT run
+
+X-axis: Precision-like (how many GPT edges are correct)
+
+Y-axis: Recall-like (how much of ROBOKOP is recovered)
+
+Colors distinguish questions
+
+Structural patterns (very important)
+1. Horizontal bands
+
+Many questions show fixed recall values (e.g. 0.5, ~0.33, ~0.25)
+
+Interpretation:
+
+ROBOKOP has a small, fixed number of edges
+
+GPT usually recovers 0 or 1 of them
+
+Recall therefore takes discrete values
+
+2. Wide spread along precision axis
+
+Precision varies strongly within the same recall band
+
+Interpretation:
+
+GPT often finds the same number of correct edges,
+
+but adds a variable number of extra (hallucinated) predicates
+
+3. Points at (0, 0)
+
+Present for several questions
+
+Interpretation:
+
+Complete hallucination runs:
+
+no correct edges
+
+only unsupported relations
+
+Question-level interpretation
+
+Q2 / Q5
+
+Recall around 0.5
+
+Precision ranges widely
+
+GPT frequently finds one correct edge but adds noise
+
+Q4
+
+Higher recall values (~0.66)
+
+Suggests GPT occasionally recovers most of ROBOKOP
+
+Still unstable across runs
+
+Q1 / Q3 / Q6
+
+Points clustered at (0, 0)
+
+Complete systematic mismatch
+
+Global interpretation (for conclusions slide)
+1. GPT is not stable
+
+Identical prompts → widely different outputs
+
+Instability is empirically demonstrated, not anecdotal
+
+2. GPT over-generalizes
+
+Even when correct, GPT usually outputs too many predicates
+
+This severely hurts precision and Jaccard overlap
+
+3. Performance is question-dependent
+
+Some biomedical relationships are partially captured
+
+Others are consistently missed or mischaracterized
+
+4. Default GPT behavior ≠ knowledge graph reasoning
+
+Under default settings (temperature = 1):
+
+GPT behaves like a plausibility generator
+
+ROBOKOP behaves like a curated evidence aggregator
+
+One-sentence summary (very useful)
+
+Across eight biomedical questions, GPT shows strong question-dependent behavior with frequent over-generation of relations, low set overlap with ROBOKOP, and substantial run-to-run instability—even under identical prompts.
