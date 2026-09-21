@@ -50,9 +50,11 @@ Only **prompt text** changes.
 | ID | Prompt focus |
 |----|-------------|
 | v1 | Minimal baseline |
-| v2 | Curated knowledge base framing |
-| v3 | Explicit directionality constraint |
-| v4 | Forced decision (edge vs no edge) |
+| v2 | Single most plausible relation |
+| v3 | Curated knowledge base constraint |
+| v4 | Single most commonly asserted curated relation |
+
+(Labels as in the thesis, Appendix A.1. An earlier version of this note called v3 "explicit directionality constraint" and v4 "forced decision"; the prompt files in `prompts/` show that neither matches, and none of the variants forces a non-empty answer.)
 
 ### Sampling
 
@@ -61,6 +63,8 @@ Only **prompt text** changes.
 
 Total GPT calls:
 4 × 25 × 163 = 16,300
+
+(This is the planned design at this stage. In the final experiments reported in the thesis, the baseline v1 was run 100 times per question and v2–v4 25 times per question.)
 ---
 
 ## 4. Data Flow
