@@ -1,0 +1,16 @@
+edge	count_before_dedup	count_exact_dedup	count_directionless
+NCBIGene:6934 | biolink:genetically_associated_with | MONDO:0005148	6	1	0
+MONDO:0024327 | biolink:subclass_of | MONDO:0005300	5	5	0
+CHEBI:3766 | biolink:affects | NCBIGene:1813	5	1	1
+CHEBI:44185 | biolink:affects | NCBIGene:7124	5	1	1
+NCBIGene:6517 | biolink:genetically_associated_with | MONDO:0005148	5	1	0
+CHEBI:41774 | biolink:affects | NCBIGene:7157	4	1	1
+CHEBI:41879 | biolink:affects | NCBIGene:7157	4	1	1
+NCBIGene:3630 | biolink:genetically_associated_with | MONDO:0005148	4	1	0
+NCBIGene:3952 | biolink:genetically_associated_with | MONDO:0005148	4	1	0
+NCBIGene:6775 | biolink:genetically_associated_with | MONDO:0007915	4	1	0
+NCBIGene:79068 | biolink:genetically_associated_with | MONDO:0005148	4	1	0
+CHEBI:27899 | biolink:affects | NCBIGene:3569	3	1	1
+CHEBI:41879 | biolink:affects | NCBIGene:1636	3	1	1
+CHEBI:6801 | biolink:affects | NCBIGene:3630	3	1	1
+NCBIGene:5594 | biolink:affects | NCBIGene:673	3	1	1

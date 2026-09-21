@@ -1,0 +1,232 @@
+1. Evaluation setups for now:
+A. Strict evaluation
+- Predicate must match exactly.
+- Direction must match (subject → object).
+- Hardest evaluation condition.
+Purpose:
+- Measures exact semantic agreement with the KG.
+- Best proxy for factual correctness.
+
+B. Inverse-allowed evaluation
+- Predicate inverses counted as correct.
+- Direction allowed to flip if predicate inverse exists.
+Purpose:
+- Corrects for directional ambiguity in biomedical relations.
+- Removes penalization for trivial edge reversal.
+
+C. Pair-tolerant, directionless evaluation:
+- Predicates collapsed into inverse pairs.
+- Direction completely ignored.
+- Metrics averaged:
+	- across ~25 runs per question,
+	- then macro-averaged across 163 questions.
+Purpose:
+- Measures whether GPT retrieves any correct relation conceptually, ignoring syntactic representation.
+- More about semantic discovery than graph exactness.
+
+2. Run consistency check
+This confirms methodological validity:
+	489 entries = 163 questions × 3 prompt versions
+	each question averaged over 25 runs
+So aggregation is statistically consistent.
+
+3. Core results comparison
+Strict evaluation (baseline realism)
+| Prompt | Mean F1 | Precision | Recall | Zero-F1 rate |
+| ------ | ------- | --------- | ------ | ------------ |
+| v2     | 0.028   | 0.099     | 0.017  | ~90%         |
+| v3     | 0.009   | 0.031     | 0.006  | ~97%         |
+| v4     | 0.026   | 0.085     | 0.015  | ~92%         |
+Interpretation:
+	Very sparse overlap with KG.
+	Median F1 = 0 → most runs return no correct edge.
+	GPT struggles with exact biomedical relation prediction.
+This is expected.
+
+Inverse-allowed evaluation
+| Prompt | Mean F1 |
+| ------ | ------- |
+| v2     | 0.036   |
+| v3     | 0.012   |
+| v4     | 0.032   |
+
+Observations:
+- Small improvement over strict.
+- Direction errors exist but are not dominant.
+- Precision slightly increases because inverse matches count.
+
+Pair-tolerant evaluation (new analysis)
+| Prompt | Mean F1 | Precision | Recall |
+| ------ | ------- | --------- | ------ |
+| v2     | 0.039   | 0.107     | 0.025  |
+| v3     | 0.012   | 0.032     | 0.008  |
+| v4     | 0.034   | 0.087     | 0.023  |
+
+Key points:
+1. Only marginal gain over inverse-allowed
+This indicates:
+- Errors are not mostly direction errors.
+- Errors are mostly wrong predicates or hallucinated edges.
+
+2. Precision consistently higher than recall
+precision ≈ 0.09–0.11
+recall ≈ 0.02–0.03
+
+Meaning:
+- GPT proposes few edges.
+- Most proposed edges are incorrect.
+- But when it predicts, some are correct.
+This suggests conservative but noisy prediction.
+
+3. Prompt comparison
+v2:
+- Best overall performance.
+- Highest precision.
+- Most edges predicted.
+Interpretation:
+- Balanced prompting.
+
+v3:
+- Worst by far.
+- Very low edge production (~0.22 edges/question).
+- High zero-F1 rate.
+Interpretation:
+- Over-constrained prompt.
+- Model abstains frequently.
+
+v4:
+- Between v2 and v3.
+- Lower recall than v2.
+- Lower precision than v2.
+Interpretation:
+- Trade-off prompt design.
+
+4. Additional structural observations
+A. Average KG reference edges:
+mean_n_ref ≈ 3.7 (strict)
+≈ 6.77 (inverse allowed)
+
+So:
+- Biomedical node pairs often have multiple relation types.
+- GPT rarely retrieves more than one.
+
+B. Edge production:
+| Prompt | Mean predicted edges |
+| ------ | -------------------- |
+| v2     | ~0.75                |
+| v3     | ~0.22                |
+| v4     | ~0.42                |
+Thus:
+- GPT tends to under-predict relations.
+- Under-recall dominates errors.
+
+5. What this means scientifically
+Reliability of LLM biomedical relation discovery:
+Main takeaway:
+
+LLMs show limited alignment with structured biomedical knowledge graphs, even under relaxed matching conditions.
+
+Specifically:
+- Exact relation prediction is rare.
+- Direction errors are secondary.
+- Predicate selection is the primary challenge.
+- Prompt design strongly affects edge production.
+
+Interpretation for thesis (very usable):
+- LLMs may capture semantic associations,
+- but structured biomedical relation extraction remains unreliable,
+- especially compared to curated knowledge graphs.
+
+
+6. Methodological strengths of your evaluation
+You now have a strong evaluation framework:
+✔ Multiple prompt versions
+✔ Multiple runs per question
+✔ Strict vs tolerant scoring
+✔ Predicate-level semantic normalization
+✔ Per-question aggregation
+✔ Macro averages across dataset
+
+This is already publishable-quality methodology.
+
+Given earlier outputs, expect:
+- v3 most stable (but because mostly empty)
+- v2 moderate unstable
+- v4 intermediate
+
+
+If instability high:
+Key argument:
+- LLMs produce probabilistic biomedical relations that vary substantially between identical prompts, suggesting limited reliability for knowledge extraction.
+
+there are:
+Epistemic hallucination: Wrong facts.
+Aleatoric instability: Model randomness.
+second may affect first though.
+
+variance ≠ hallucination by default. But it can indicate reliability issues
+(A) F1 variance across runs
+| Prompt | Mean variance | Mean std |
+| ------ | ------------- | -------- |
+| v2     | 0.0096        | 0.049    |
+| v3     | 0.0034        | 0.022    |
+| v4     | 0.0070        | 0.037    |
+Overall variance is low.
+Performance differences between runs are modest.
+v3 most stable (but its mostly empty).
+
+(B) Edge-count variance
+| Prompt | Variance (#edges predicted) |
+| ------ | --------------------------- |
+| v2     | 0.041                       |
+| v3     | 0.078                       |
+| v4     | 0.061                       |
+This measures output verbosity stability.
+
+v3 highest variance
+This happens because:
+- Often predicts zero edges
+- Sometimes predicts one edge
+- Occasional variation → variance increases
+
+So:
+v3 is inconsistent in whether it predicts anything.
+
+(C) Semantic stability (pairwise Jaccard across runs)
+| Prompt | Stability |
+| ------ | --------- |
+| v2     | 0.66      |
+| v3     | 0.81      |
+| v4     | 0.76      |
+ This is the most meaningful metric.
+How similar are predicted edges between runs?
+Combined interpretation:
+v3:
+Highest stability (0.81)
+Lowest F1
+Model consistently predicts little or nothing.
+ Stable but uninformative.
+ This is typical of conservative prompting.
+
+v2:
+- Moderate stability (0.66)
+- Best F1
+Meaning:
+👉 More exploratory predictions.
+👉 Some variability but more information retrieved.
+This is often desirable.
+
+v4:
+Middle ground:
+	stability ~0.76
+	performance slightly below v2.
+
+You’re measuring run-to-run stochastic variability.
+That reflects:
+- sampling randomness
+- prompt sensitivity
+- model uncertainty
+
+
+'Across repeated queries, the model exhibited moderate-to-high semantic stability (mean pairwise Jaccard 0.66–0.81), indicating that outputs were generally reproducible. However, higher stability was associated with lower relation recall, suggesting that conservative prompting leads to consistent but sparse predictions. Conversely, prompts yielding more relations showed slightly increased variability, likely reflecting stochastic sampling rather than systematic hallucination.'
+
