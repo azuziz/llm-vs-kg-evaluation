@@ -1,0 +1,7 @@
+predicate	count	fraction
+biolink:gene_associated_with_condition	998	0.5795586527293844
+biolink:interacts_with	530	0.3077816492450639
+biolink:physically_interacts_with	125	0.07259001161440186
+biolink:directly_physically_interacts_with	43	0.02497096399535424
+biolink:disease_has_basis_in	24	0.013937282229965157
+biolink:produces	2	0.0011614401858304297

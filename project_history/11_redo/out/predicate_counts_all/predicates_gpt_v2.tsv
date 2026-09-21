@@ -1,0 +1,17 @@
+predicate	count	fraction
+biolink:gene_associated_with_condition	1167	0.3827484421121679
+biolink:directly_physically_interacts_with	611	0.20039357166284028
+biolink:interacts_with	558	0.18301082322072812
+biolink:physically_interacts_with	448	0.14693342079370286
+biolink:produces	59	0.019350606756313546
+biolink:associated_with	55	0.01803870121351263
+biolink:treats	42	0.013775008199409643
+biolink:catalyzes	38	0.012463102656608724
+biolink:disease_has_basis_in	28	0.009183338799606429
+biolink:target_for	25	0.008199409642505739
+biolink:related_to	9	0.0029517874713020664
+biolink:treats_or_applied_or_studied_to_treat	3	0.0009839291571006887
+biolink:contraindicated_in	3	0.0009839291571006887
+biolink:active_in	1	0.00032797638570022957
+biolink:affects	1	0.00032797638570022957
+biolink:genetically_associated_with	1	0.00032797638570022957

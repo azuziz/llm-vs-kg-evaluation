@@ -1,0 +1,73 @@
+excellent, clean result. It tells a very sharp story about predicate mode collapse, prompt effects, and why some prompts “feel” better but still score poorly.
+1️⃣ ROBOKOP: the reference distribution (what “real biology” looks like)
+No single predicate dominates:
+- Top-1 (affects) ≈ 19%
+- Top-3 ≈ 51%
+- Top-10 ≈ ~90%, but spread across many distinct semantics
+
+Semantic diversity - ROBOKOP covers:
+- association (genetically_associated_with)
+- interaction (interacts_with, physically_interacts_with)
+- ontology structure (subclass_of)
+- intervention (treats_or_applied_or_studied_to_treat)
+- regulation, causality, phenotype
+
+Interpretation:
+ROBOKOP distributes probability mass across multiple biological relation types, because it reflects curated, heterogeneous evidence.
+
+2️⃣ GPT v1: classic LLM mode collapse
+Top-2 predicates:
+- gene_associated_with_condition 41%
+- interacts_with 35%
+Together: ~76% of all outputs.
+This is severe collapse.
+
+What v1 is doing:
+- default disease–gene association
+- fallback interaction relation
+- everything else is marginal noise
+Why this happens
+- v1 prompt allows “plausible relations”
+- GPT chooses maximum epistemic safety
+- association > mechanism > intervention
+This fully explains:
+- low F1
+- inflated recall-like
+- high stability but wrong semantics
+
+3️⃣ GPT v2: the only prompt that actually changes behavior
+What improved:
+- Top-1 drops from ~41% → 38%
+- Interaction predicates are split: directly_physically_interacts_with/ physically_interacts_with/ interacts_with
+Top-4 ≈ 91%, but internally diversified.
+👉 Interpretation:
+- v2 forces mechanistic thinking.
+- GPT moves from association-first to interaction-first reasoning.
+This is real semantic movement, even if it doesn’t fully match ROBOKOP.
+
+4️⃣ GPT v3: catastrophic collapse (the worst)
+Top-1 predicate:
+- gene_associated_with_condition = 62%
+Top-3 ≈ 92%:
+- Everything else is nearly zero.
+
+👉 Interpretation
+v3’s constraints likely:
+- over-penalize diversity
+- force a single “safe” answer
+- eliminate alternative predicates entirely
+
+5️⃣ GPT v4: polished but still collapsed
+Top-2 ≈ 89%
+This looks like:
+- v1 with stronger steering
+- less noise, but no diversity
+- “clean collapse”
+👉 Interpretation
+v4 improves consistency, not semantic richness.
+
+
+
+
+
+
