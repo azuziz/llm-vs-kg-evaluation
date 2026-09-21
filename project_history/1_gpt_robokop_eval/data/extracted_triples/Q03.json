@@ -1,0 +1,1602 @@
+[
+  {
+    "question": "is LCH associated with neurodegeneration?",
+    "run": "1",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "associated_with",
+        "object": "neurodegenerative LCH (ND-LCH)"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "is_a",
+        "object": "progressive neurologic syndrome"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "can_occur_after",
+        "object": "initial LCH diagnosis"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "has_symptom",
+        "object": "cerebellar ataxia"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "has_symptom",
+        "object": "tremor"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "has_symptom",
+        "object": "dysarthria"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "has_symptom",
+        "object": "dystonia or other movement disorders"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "has_symptom",
+        "object": "cognitive or behavioral changes"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "has_symptom",
+        "object": "memory problems"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "has_symptom",
+        "object": "seizures"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "MRI_findings",
+        "object": "symmetric T2/FLAIR signal abnormalities in the cerebellum"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "MRI_findings",
+        "object": "symmetric T2/FLAIR signal abnormalities in the brainstem"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "MRI_findings",
+        "object": "symmetric T2/FLAIR signal abnormalities in deep white matter"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "MRI_findings",
+        "object": "brain atrophy (sometimes)"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "MRI_pattern_help_differentiation",
+        "object": "helps differentiate ND-LCH from other causes"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "is_recognized_complication_of",
+        "object": "Langerhans cell histiocytosis (LCH)"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "more_likely_in",
+        "object": "people with prior CNS involvement during LCH"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "prevalence",
+        "object": "relatively uncommon"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "pathophysiology",
+        "object": "not fully understood"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "believed_mechanism",
+        "object": "neuroinflammatory or autoimmune process linked to prior LCH"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "relation_to_active_LCH_lesions",
+        "object": "may or may not be related to active LCH lesions"
+      },
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "has_mutation",
+        "object": "BRAF V600E"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "may_involve_mutation",
+        "object": "BRAF V600E (in some cases)"
+      },
+      {
+        "subject": "ND-LCH_diagnosis_workup",
+        "relation": "involves",
+        "object": "a neurologist"
+      },
+      {
+        "subject": "ND-LCH_diagnosis_workup",
+        "relation": "involves",
+        "object": "an LCH specialist"
+      },
+      {
+        "subject": "ND-LCH_diagnosis_workup",
+        "relation": "includes",
+        "object": "brain MRI"
+      },
+      {
+        "subject": "ND-LCH_diagnosis_workup",
+        "relation": "includes",
+        "object": "neurological exam"
+      },
+      {
+        "subject": "ND-LCH_diagnosis_workup",
+        "relation": "includes",
+        "object": "assessment of systemic LCH activity"
+      },
+      {
+        "subject": "ND-LCH_diagnosis_workup",
+        "relation": "may_include",
+        "object": "genetic/molecular testing (e.g., BRAF mutation status)"
+      },
+      {
+        "subject": "BRAF mutation status",
+        "relation": "inform",
+        "object": "treatment options"
+      },
+      {
+        "subject": "ND-LCH_treatment",
+        "relation": "lacks_single_proven_therapy",
+        "object": "true"
+      },
+      {
+        "subject": "ND-LCH_treatment",
+        "relation": "may_include",
+        "object": "immunotherapy"
+      },
+      {
+        "subject": "ND-LCH_treatment",
+        "relation": "may_include",
+        "object": "cytotoxic chemotherapy"
+      },
+      {
+        "subject": "immunotherapy",
+        "relation": "examples",
+        "object": "cladribine"
+      },
+      {
+        "subject": "immunotherapy",
+        "relation": "examples",
+        "object": "methotrexate"
+      },
+      {
+        "subject": "ND-LCH_treatment",
+        "relation": "may_include",
+        "object": "targeted therapy"
+      },
+      {
+        "subject": "targeted_therapy",
+        "relation": "examples",
+        "object": "BRAF inhibitors (dabrafenib or vemurafenib)"
+      },
+      {
+        "subject": "ND-LCH_treatment",
+        "relation": "includes",
+        "object": "supportive and rehabilitative care"
+      },
+      {
+        "subject": "supportive and rehabilitative care",
+        "relation": "types",
+        "object": "physical therapy"
+      },
+      {
+        "subject": "supportive and rehabilitative care",
+        "relation": "types",
+        "object": "occupational therapy"
+      },
+      {
+        "subject": "supportive and rehabilitative care",
+        "relation": "types",
+        "object": "speech therapy"
+      },
+      {
+        "subject": "multidisciplinary_team",
+        "relation": "comprises",
+        "object": "oncology/hematology"
+      },
+      {
+        "subject": "multidisciplinary_team",
+        "relation": "comprises",
+        "object": "neurology"
+      },
+      {
+        "subject": "multidisciplinary_team",
+        "relation": "comprises",
+        "object": "endocrinology"
+      },
+      {
+        "subject": "multidisciplinary_team",
+        "relation": "comprises",
+        "object": "rehabilitation"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "prognosis_can_be",
+        "object": "progressive"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "prognosis_may_lead_to",
+        "object": "lasting disability"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "prognosis_course",
+        "object": "highly variable"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "prognosis_may_stabilize_or_improve_with",
+        "object": "treatment and rehab"
+      }
+    ]
+  },
+  {
+    "question": "is LCH associated with neurodegeneration?",
+    "run": "2",
+    "triples": [
+      [
+        "Langerhans cell histiocytosis (LCH)",
+        "can be associated with",
+        "neurodegeneration in a subset of patients"
+      ],
+      [
+        "Neurodegenerative LCH (ND-LCH)",
+        "is",
+        "a late-onset, progressive neurological syndrome seen in some people with a history of LCH"
+      ],
+      [
+        "ND-LCH",
+        "can occur when",
+        "systemic LCH is quiet or in remission"
+      ],
+      [
+        "ND-LCH",
+        "appears after",
+        "months to years after the initial LCH diagnosis"
+      ],
+      [
+        "ND-LCH",
+        "causes",
+        "movement problems (ataxia, tremor, dysarthria, dystonia, myoclonus)"
+      ],
+      [
+        "ND-LCH",
+        "causes",
+        "balance difficulties"
+      ],
+      [
+        "ND-LCH",
+        "causes",
+        "dysphagia"
+      ],
+      [
+        "ND-LCH",
+        "causes",
+        "cognitive or behavioral changes"
+      ],
+      [
+        "ND-LCH",
+        "causes",
+        "seizures"
+      ],
+      [
+        "ND-LCH",
+        "MRI finding",
+        "cerebellar involvement"
+      ],
+      [
+        "ND-LCH",
+        "MRI finding",
+        "brainstem involvement"
+      ],
+      [
+        "ND-LCH",
+        "MRI finding",
+        "white matter changes"
+      ],
+      [
+        "ND-LCH",
+        "MRI finding",
+        "brain atrophy"
+      ],
+      [
+        "ND-LCH",
+        "mechanism",
+        "inflammatory/immune-mediated neurodegeneration"
+      ],
+      [
+        "ND-LCH",
+        "not primarily due to",
+        "direct infiltration by Langerhans cells in many cases"
+      ],
+      [
+        "ND-LCH",
+        "relationship with",
+        "prior CNS involvement"
+      ],
+      [
+        "ND-LCH",
+        "relationship with",
+        "BRAFV600E mutation"
+      ],
+      [
+        "ND-LCH",
+        "associated with",
+        "BRAFV600E mutation"
+      ],
+      [
+        "ND-LCH",
+        "treatment status",
+        "no universally proven disease-modifying therapy"
+      ],
+      [
+        "ND-LCH",
+        "management",
+        "multidisciplinary"
+      ],
+      [
+        "ND-LCH",
+        "management goal",
+        "treat active LCH if present"
+      ],
+      [
+        "ND-LCH",
+        "management goal",
+        "symptom control and rehabilitation"
+      ],
+      [
+        "ND-LCH",
+        "management methods",
+        "physical therapy"
+      ],
+      [
+        "ND-LCH",
+        "management methods",
+        "occupational therapy"
+      ],
+      [
+        "ND-LCH",
+        "management methods",
+        "speech therapy"
+      ],
+      [
+        "ND-LCH",
+        "treatment options",
+        "medications or interventions for specific neurologic symptoms"
+      ],
+      [
+        "ND-LCH",
+        "targeted therapies",
+        "BRAF or MEK inhibitors"
+      ],
+      [
+        "ND-LCH",
+        "evidence",
+        "data are limited"
+      ],
+      [
+        "ND-LCH",
+        "treatment approach",
+        "individualized"
+      ],
+      [
+        "If ND-LCH is a concern",
+        "advise to discuss with",
+        "a hematologist/oncologist who specializes in LCH and a neurologist"
+      ],
+      [
+        "Hematologist/oncologist specializing in LCH",
+        "can evaluate with",
+        "clinical exams and MRI"
+      ],
+      [
+        "Neurologist",
+        "can tailor management for",
+        "ND-LCH"
+      ]
+    ]
+  },
+  {
+    "question": "is LCH associated with neurodegeneration?",
+    "run": "3",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "can be associated with",
+        "object": "a neurodegenerative process"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "can occur after",
+        "object": "the initial LCH diagnosis"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "can occur even if",
+        "object": "there is no active systemic disease at the time"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "cerebellar ataxia"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "gait dysfunction"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "dystonia or other movement disorders"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "dysarthria"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "dysphagia"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "vision or eye movement abnormalities"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "cognitive/behavioral changes"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "seizures"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "MRI findings involve",
+        "object": "cerebellum and brainstem"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "MRI findings include",
+        "object": "white matter changes"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "CSF findings may show",
+        "object": "inflammatory markers"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "CSF findings may show",
+        "object": "oligoclonal bands"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "cause",
+        "object": "not fully understood"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "may involve",
+        "object": "autoimmune/inflammatory mechanisms"
+      },
+      {
+        "subject": "CNS tumor infiltration",
+        "relation": "is less often the sole explanation for",
+        "object": "ND-LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "risk factors include",
+        "object": "younger age at initial LCH diagnosis"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "risk factors include",
+        "object": "multisystem/high-risk organ disease"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "has_proven_disease-modifying_therapy",
+        "object": "false"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatments include",
+        "object": "immunotherapy (IVIG, steroids, rituximab)"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatments include",
+        "object": "other anti-inflammatory approaches"
+      },
+      {
+        "subject": "BRAFV600E mutation",
+        "relation": "present in",
+        "object": "lesions of LCH"
+      },
+      {
+        "subject": "BRAF inhibitors",
+        "relation": "may help",
+        "object": "active LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "role of BRAFV inhibitors",
+        "object": "not well established"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "management focuses on",
+        "object": "symptom control"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "management focuses on",
+        "object": "supportive care"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "management focuses on",
+        "object": "monitoring"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "management should be coordinated with",
+        "object": "a center experienced in LCH"
+      }
+    ]
+  },
+  {
+    "question": "is LCH associated with neurodegeneration?",
+    "run": "4",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "associated_with",
+        "object": "neurodegenerative LCH (ND-LCH)"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "is_a",
+        "object": "late complication of LCH"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "presents_with",
+        "object": "progressive neurologic problems"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "presents_with",
+        "object": "cerebellar signs (ataxia, unsteady gait, slurred speech)"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "presents_with",
+        "object": "cognitive or behavioral changes"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "presents_with",
+        "object": "myoclonus"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "presents_with",
+        "object": "dystonia"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "presents_with",
+        "object": "other movement disorders"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "imaging_findings",
+        "object": "T2/FLAIR signal changes in cerebellum, brainstem, or other white matter regions"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "imaging_may_be_normal_early",
+        "object": "some patients"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "causal_mechanism",
+        "object": "immune/inflammatory processes related to LCH"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "causal_mechanism",
+        "object": "ongoing inflammation related to the original LCH"
+      },
+      {
+        "subject": "BRAFV600E mutation",
+        "relation": "found_in",
+        "object": "LCH lesions"
+      },
+      {
+        "subject": "BRAFV600E mutation",
+        "relation": "associated_with",
+        "object": "higher risk of ND-LCH"
+      },
+      {
+        "subject": "MAPK pathway mutations in LCH lesions",
+        "relation": "associated_with",
+        "object": "ND-LCH risk"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "diagnosis_components",
+        "object": "clinical assessment"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "diagnosis_components",
+        "object": "brain imaging"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "diagnosis_components",
+        "object": "exclusion of other causes"
+      },
+      {
+        "subject": "CSF studies",
+        "relation": "used_in_diagnosis",
+        "object": "ND-LCH"
+      },
+      {
+        "subject": "autoimmune testing",
+        "relation": "used_in_diagnosis",
+        "object": "ND-LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatment_options",
+        "object": "immunomodulatory therapies (steroids, IVIG)"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatment_options",
+        "object": "cytarabine or other chemotherapy"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatment_options",
+        "object": "targeted therapy (MEK inhibitors or BRAF inhibitors)"
+      },
+      {
+        "subject": "MEK inhibitors",
+        "relation": "used_for",
+        "object": "patients with relevant mutations"
+      },
+      {
+        "subject": "BRAF inhibitors",
+        "relation": "used_for",
+        "object": "patients with relevant mutations"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatment_components",
+        "object": "supportive care (physical/occupational therapy)"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "outcomes",
+        "object": "variable"
+      },
+      {
+        "subject": "some patients",
+        "relation": "respond_to",
+        "object": "therapy"
+      },
+      {
+        "subject": "some patients",
+        "relation": "have",
+        "object": "progressive symptoms"
+      },
+      {
+        "subject": "multidisciplinary team",
+        "relation": "recommended_for",
+        "object": "LCH with new or worsening neurological symptoms"
+      }
+    ]
+  },
+  {
+    "question": "is LCH associated with neurodegeneration?",
+    "run": "5",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "can be associated with",
+        "object": "neurodegenerative LCH (ND-LCH)"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "can develop after",
+        "object": "the initial LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "may appear when",
+        "object": "systemic LCH is quiet or in remission"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "ataxia"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "tremor"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "dystonia"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "balance difficulties"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "gait difficulties"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "dysarthria"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "cognitive changes"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "behavioral changes"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "seizures"
+      },
+      {
+        "subject": "Brain MRI",
+        "relation": "shows",
+        "object": "patterns in cerebellum/brainstem or other deep structures with T2/FLAIR signal changes"
+      },
+      {
+        "subject": "Neurological evaluation",
+        "relation": "is used for assessment of",
+        "object": "ND-LCH"
+      },
+      {
+        "subject": "CSF tests",
+        "relation": "are used for assessment of",
+        "object": "ND-LCH"
+      },
+      {
+        "subject": "neuropsychology tests",
+        "relation": "are used for assessment of",
+        "object": "ND-LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "causes",
+        "object": "not fully understood"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "is thought to involve",
+        "object": "ongoing inflammation or autoimmune-like processes affecting the nervous system"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "may be linked to",
+        "object": "immune dysregulation even if LCH is not active elsewhere"
+      },
+      {
+        "subject": "Management of ND-LCH",
+        "relation": "is",
+        "object": "individualized and multidisciplinary"
+      },
+      {
+        "subject": "ND-LCH treatment",
+        "relation": "includes",
+        "object": "immunotherapies (IVIG, steroids, rituximab)"
+      },
+      {
+        "subject": "ND-LCH treatment",
+        "relation": "includes",
+        "object": "chemotherapy agents (cladribine, cytarabine)"
+      },
+      {
+        "subject": "ND-LCH management",
+        "relation": "includes",
+        "object": "supportive therapies (physical, occupational, speech therapy)"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "has outcomes",
+        "object": "vary; some patients stabilize, others decline"
+      },
+      {
+        "subject": "If someone with LCH develops new neurological symptoms",
+        "relation": "should undergo",
+        "object": "prompt evaluation by a neurologist"
+      }
+    ]
+  },
+  {
+    "question": "is LCH associated with neurodegeneration?",
+    "run": "6",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "can be associated with",
+        "object": "neurodegenerative LCH (ND-LCH)"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "occurs in",
+        "object": "a minority of people with LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "is more commonly reported in",
+        "object": "patients with multisystem LCH or CNS risk lesions"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "ataxia"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "tremor"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "dysarthria"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "gait problems"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "cognitive or behavioral changes"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "may include",
+        "object": "seizures"
+      },
+      {
+        "subject": "ND-LCH imaging",
+        "relation": "shows",
+        "object": "bilateral, symmetric changes in the cerebellum and brainstem"
+      },
+      {
+        "subject": "ND-LCH imaging",
+        "relation": "shows",
+        "object": "involvement of deep brain structures (basal ganglia, thalamus)"
+      },
+      {
+        "subject": "ND-LCH imaging",
+        "relation": "may involve",
+        "object": "white matter"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "may involve",
+        "object": "autoimmune/inflammatory processes"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "may involve",
+        "object": "persistent MAPK pathway activity linked to the LCH clone"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "is associated with",
+        "object": "anti-neuronal antibodies"
+      },
+      {
+        "subject": "LCH mutation BRAF V600E",
+        "relation": "is linked to",
+        "object": "ND-LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "has",
+        "object": "no single proven cure"
+      },
+      {
+        "subject": "ND-LCH treatments",
+        "relation": "focus on",
+        "object": "slowing progression and managing symptoms"
+      },
+      {
+        "subject": "ND-LCH treatments",
+        "relation": "include",
+        "object": "steroids"
+      },
+      {
+        "subject": "ND-LCH treatments",
+        "relation": "include",
+        "object": "cytarabine"
+      },
+      {
+        "subject": "ND-LCH treatments",
+        "relation": "include",
+        "object": "cladribine"
+      },
+      {
+        "subject": "ND-LCH treatments",
+        "relation": "include",
+        "object": "IVIG"
+      },
+      {
+        "subject": "ND-LCH treatments",
+        "relation": "include",
+        "object": "rituximab"
+      },
+      {
+        "subject": "ND-LCH treatments",
+        "relation": "include",
+        "object": "BRAF inhibitors (e.g., dabrafenib, vemurafenib)"
+      },
+      {
+        "subject": "ND-LCH treatments",
+        "relation": "include",
+        "object": "MEK inhibitors (e.g., trametinib)"
+      },
+      {
+        "subject": "ND-LCH treatments",
+        "relation": "include",
+        "object": "rehabilitation (physiotherapy, speech and occupational therapy)"
+      },
+      {
+        "subject": "ND-LCH assessment",
+        "relation": "uses",
+        "object": "MRI brain and neuropsychological testing"
+      },
+      {
+        "subject": "LCH patient with new neurological symptoms",
+        "relation": "should seek evaluation by",
+        "object": "hematologist/oncologist and neurologist"
+      }
+    ]
+  },
+  {
+    "question": "is LCH associated with neurodegeneration?",
+    "run": "7",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "can be associated with",
+        "object": "neurodegenerative LCH (ND-LCH)"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "is a late complication of",
+        "object": "Langerhans cell histiocytosis (LCH)"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "develops after",
+        "object": "initial LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "occurs especially in",
+        "object": "people with multisystem disease or CNS involvement"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "can occur even when",
+        "object": "LCH seems quiet"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "has symptom",
+        "object": "ataxia"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "has symptom",
+        "object": "dysarthria"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "has symptom",
+        "object": "tremors or myoclonus"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "has symptom",
+        "object": "difficulty with walking"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "has symptom",
+        "object": "changes in thinking, behavior, or memory"
+      },
+      {
+        "subject": "MRI findings",
+        "relation": "involve",
+        "object": "brainstem"
+      },
+      {
+        "subject": "MRI findings",
+        "relation": "involve",
+        "object": "cerebellum"
+      },
+      {
+        "subject": "MRI findings",
+        "relation": "involve",
+        "object": "basal ganglia"
+      },
+      {
+        "subject": "MRI findings",
+        "relation": "involve",
+        "object": "thalamus"
+      },
+      {
+        "subject": "MRI scans",
+        "relation": "can be",
+        "object": "normal early in the disease course"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "has",
+        "object": "cause not fully understood"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "is thought to reflect",
+        "object": "a chronic inflammatory/autoimmune process in the CNS"
+      },
+      {
+        "subject": "MAPK pathway mutations",
+        "relation": "are associated with",
+        "object": "neurodegenerative LCH (ND-LCH)"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "has",
+        "object": "no single proven standard treatment"
+      },
+      {
+        "subject": "MEK inhibitors (trametinib or cobimetinib)",
+        "relation": "are used to treat",
+        "object": "ND-LCH when MAPK pathway mutations are present"
+      },
+      {
+        "subject": "steroids",
+        "relation": "are used to treat",
+        "object": "ND-LCH"
+      },
+      {
+        "subject": "intravenous immunoglobulin",
+        "relation": "is used to treat",
+        "object": "ND-LCH"
+      },
+      {
+        "subject": "chemotherapy",
+        "relation": "is used to treat",
+        "object": "ND-LCH"
+      },
+      {
+        "subject": "physical therapy",
+        "relation": "is a supportive therapy for",
+        "object": "ND-LCH"
+      },
+      {
+        "subject": "occupational therapy",
+        "relation": "is a supportive therapy for",
+        "object": "ND-LCH"
+      },
+      {
+        "subject": "speech therapy",
+        "relation": "is a supportive therapy for",
+        "object": "ND-LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "prognosis",
+        "object": "variable"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "is a major source of",
+        "object": "long-term morbidity for survivors"
+      },
+      {
+        "subject": "outcomes",
+        "relation": "depend on",
+        "object": "extent of neurodegeneration"
+      },
+      {
+        "subject": "outcomes",
+        "relation": "depend on",
+        "object": "how quickly ND-LCH is recognized and treated"
+      }
+    ]
+  },
+  {
+    "question": "is LCH associated with neurodegeneration?",
+    "run": "8",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis",
+        "relation": "associated_with",
+        "object": "neurodegenerative_process_in_brain"
+      },
+      {
+        "subject": "neurodegenerative_process_in_brain",
+        "relation": "also_called",
+        "object": "LCH-associated_neurodegeneration"
+      },
+      {
+        "subject": "LCH_patients_with_CNS_risk_lesions_or_hypothalamic_pituitary_involvement",
+        "relation": "at_risk_of",
+        "object": "LCH-associated_neurodegeneration"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "presents_with",
+        "object": "ataxia"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "presents_with",
+        "object": "tremor"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "presents_with",
+        "object": "dysarthria"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "presents_with",
+        "object": "myoclonus"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "presents_with",
+        "object": "other_movement_abnormalities"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "presents_with",
+        "object": "cognitive_changes"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "presents_with",
+        "object": "behavioral_changes"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "presents_with",
+        "object": "seizures"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "MRI_findings",
+        "object": "cerebellar_atrophy"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "MRI_findings",
+        "object": "brainstem_atrophy"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "MRI_findings",
+        "object": "signal_changes"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "MRI_findings",
+        "object": "neuroinflammation"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "distinguished_from",
+        "object": "direct_LCH_brain_infiltration"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "pathogenesis_involves",
+        "object": "autoimmune_inflammatory_mechanisms"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "pathogenesis_involves",
+        "object": "microglial_activation"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "pathogenesis",
+        "object": "not_fully_understood"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "pathogenesis",
+        "object": "no_active_cancerous_Langerhans_cells_in_brain"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "treatment",
+        "object": "no_established_disease_modifying_therapy"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "treatments_tried",
+        "object": "methotrexate"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "treatments_tried",
+        "object": "cytarabine"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "treatments_tried",
+        "object": "intravenous_immunoglobulin"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "treatments_tried",
+        "object": "rituximab"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "treatments_tried",
+        "object": "supportive_rehabilitative_therapies"
+      },
+      {
+        "subject": "LCH-associated_neurodegeneration",
+        "relation": "response_to_treatment",
+        "object": "variable"
+      },
+      {
+        "subject": "early_rehabilitation_and_multidisciplinary_care",
+        "relation": "important_for",
+        "object": "LCH-associated_neurodegeneration_management"
+      },
+      {
+        "subject": "regular_follow-up_with_neurology_and_neuroimaging",
+        "relation": "common_for",
+        "object": "survivors_of_LCH"
+      },
+      {
+        "subject": "new_or_worsening_neurological_symptoms",
+        "relation": "prompt_discussion_with",
+        "object": "treating_team"
+      },
+      {
+        "subject": "new_or_worsening_neurological_symptoms",
+        "relation": "examples",
+        "object": "balance_problems"
+      },
+      {
+        "subject": "new_or_worsening_neurological_symptoms",
+        "relation": "examples",
+        "object": "coordination_issues"
+      },
+      {
+        "subject": "new_or_worsening_neurological_symptoms",
+        "relation": "examples",
+        "object": "slurred_speech"
+      },
+      {
+        "subject": "new_or_worsening_neurological_symptoms",
+        "relation": "examples",
+        "object": "tremor"
+      },
+      {
+        "subject": "new_or_worsening_neurological_symptoms",
+        "relation": "examples",
+        "object": "cognitive_changes"
+      }
+    ]
+  },
+  {
+    "question": "is LCH associated with neurodegeneration?",
+    "run": "9",
+    "triples": [
+      [
+        "Langerhans cell histiocytosis",
+        "may be followed by",
+        "neurodegenerative process"
+      ],
+      [
+        "neurodegenerative LCH",
+        "abbreviated as",
+        "ND-LCH"
+      ],
+      [
+        "neurodegenerative LCH",
+        "also called",
+        "CNS-LCH with neurodegeneration"
+      ],
+      [
+        "ND-LCH",
+        "onset",
+        "years after initial LCH"
+      ],
+      [
+        "ND-LCH",
+        "may occur when",
+        "systemic disease is in remission"
+      ],
+      [
+        "ND-LCH",
+        "symptoms include",
+        "movement problems (ataxia, tremor, dysarthria)"
+      ],
+      [
+        "ND-LCH",
+        "symptoms include",
+        "cognitive or behavioral changes"
+      ],
+      [
+        "ND-LCH",
+        "symptoms include",
+        "seizures"
+      ],
+      [
+        "ND-LCH",
+        "imaging findings",
+        "degeneration in cerebellum"
+      ],
+      [
+        "ND-LCH",
+        "imaging findings",
+        "degeneration in brainstem"
+      ],
+      [
+        "ND-LCH",
+        "imaging findings",
+        "degeneration in basal ganglia"
+      ],
+      [
+        "ND-LCH",
+        "imaging findings",
+        "degeneration in other CNS areas"
+      ],
+      [
+        "ND-LCH",
+        "possible mechanism",
+        "chronic CNS inflammation"
+      ],
+      [
+        "ND-LCH",
+        "possible mechanism",
+        "autoimmune-like processes"
+      ],
+      [
+        "BRAFV600E mutation",
+        "may be involved in",
+        "brain tissue in ND-LCH"
+      ],
+      [
+        "ND-LCH",
+        "treatment",
+        "no standardized cure"
+      ],
+      [
+        "ND-LCH treatment",
+        "includes",
+        "chemotherapy (e.g., cladribine, cytarabine)"
+      ],
+      [
+        "ND-LCH treatment",
+        "includes",
+        "steroids"
+      ],
+      [
+        "ND-LCH treatment",
+        "includes",
+        "MAPK inhibitors (vemurafenib, dabrafenib)"
+      ],
+      [
+        "BRAFV600E mutation",
+        "presence affects",
+        "use of MAPK inhibitors"
+      ],
+      [
+        "ND-LCH management",
+        "is",
+        "individualized"
+      ],
+      [
+        "ND-LCH management",
+        "coordinated by",
+        "neuro-oncology or LCH specialist center"
+      ],
+      [
+        "ND-LCH prognosis",
+        "varies",
+        "between patients"
+      ],
+      [
+        "ND-LCH prognosis",
+        "may include",
+        "stabilization or slow progression in some patients"
+      ],
+      [
+        "ND-LCH prognosis",
+        "may include",
+        "rapid decline in others"
+      ]
+    ]
+  },
+  {
+    "question": "is LCH associated with neurodegeneration?",
+    "run": "10",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "can be associated with",
+        "object": "neurodegenerative process (ND-LCH)"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "is a",
+        "object": "rare, progressive neurologic syndrome"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "can develop in",
+        "object": "some people with LCH"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "most commonly affects",
+        "object": "cerebellum, brainstem, basal ganglia, and white matter"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "is recognized especially in",
+        "object": "people with a history of CNS involvement from LCH"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "has symptom",
+        "object": "ataxia"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "has symptom",
+        "object": "tremor"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "has symptom",
+        "object": "dysarthria"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "has symptom",
+        "object": "dystonia"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "has symptom",
+        "object": "myoclonus"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "has symptom",
+        "object": "cognitive or behavior changes"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "has symptom",
+        "object": "seizures"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "diagnosis is based on",
+        "object": "neurologic exam and MRI brain findings plus history of LCH"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "diagnosis involves",
+        "object": "ruling out other causes"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "has no",
+        "object": "single proven cure"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "treatment includes",
+        "object": "immunomodulatory therapies (steroids, IVIG, other immunosuppressants)"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "treatment includes",
+        "object": "MAPK pathway inhibitors (e.g., MEK inhibitors) when BRAFV600E mutation is present"
+      },
+      {
+        "subject": "BRAFV600E mutation",
+        "relation": "may be present in",
+        "object": "some ND-LCH cases"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "treatment may include",
+        "object": "supportive care (physiotherapy, occupational therapy, speech therapy)"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "prognosis",
+        "object": "ranges from stabilization to slow progression"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "prognosis",
+        "object": "outcomes vary widely"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "diagnosis requires",
+        "object": "MRI and neurologic assessment"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "discussion of targeted therapies may be appropriate",
+        "object": "if mutations are identified"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "should be managed by",
+        "object": "multidisciplinary team (histiocytosis specialist, neurologist, endocrinologist, rehab specialists)"
+      }
+    ]
+  }
+]

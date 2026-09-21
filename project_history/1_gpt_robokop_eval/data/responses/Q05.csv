@@ -1,0 +1,110 @@
+question_id,question,run,response
+4,What regulates the expression of cyclin-dependent kinases?,1,"CDK activity is regulated mainly at the post-translational level, and their gene expression is not the primary control point. The key regulators are:
+
+- Cyclins: CDKs must bind to specific cyclins (e.g., D with CDK4/6; E with CDK2; A with CDK2/1; B with CDK1) to become active. Cyclin levels rise and fall during the cell cycle, driving CDK activity.
+- CDK inhibitors (CKIs): INK4 family (p16, p15, etc.) inhibit CDK4/6; CIP/KIP family (p21, p27, p57) inhibit CDKs such as CDK2 and CDK1.
+- Phosphorylation status: CDKs are activated by CAK-mediated phosphorylation; inhibitory phosphorylation by Wee1; activating dephosphorylation by Cdc25.
+- Proteolysis/degradation: Degradation of cyclins (via APC/C and SCF ubiquitin ligases) lowers CDK activity.
+- Localization: Nuclear/cytoplasmic localization can regulate access to substrates.
+- Transcriptional control (less dynamic): Expression of some CDK genes can be influenced by growth signals and E2F/p53 pathways, but this is generally a secondary layer compared with cyclin-regulated activity.
+
+In short, CDK expression per se is fairly constant; their activity is governed mainly by cyclin availability, CKIs, phosphorylation, and cyclin degradation."
+4,What regulates the expression of cyclin-dependent kinases?,2,"In general, CDK expression is controlled at the transcriptional level by cell-cycle transcription factors, especially the E2F family. Key points:
+
+- E2F factors (regulated by the RB pathway) promote transcription of many CDK genes (e.g., CDK2, CDK4/6, CDK1) as cells progress from G1 to S and beyond.
+- Other transcription factors such as c-Myc and FoxM1 also drive CDK gene expression during the cell cycle.
+- Tumor suppressor p53 can indirectly reduce CDK activity/expression by inducing p21 and repressing E2F activity.
+
+Note: CDK activity is also tightly regulated post-translationally (binding to cyclins, phosphorylation/dephosphorylation by Wee1/Cdc25, and inhibition by CKIs), but the question about expression is mainly about transcriptional control by E2F and related factors."
+4,What regulates the expression of cyclin-dependent kinases?,3,"CDK activity is controlled at several levels, with the key regulators being:
+
+- Cyclins (the binding partners): CDKs are active only when bound to specific cyclins; cyclin levels rise and fall with the cell cycle.
+
+- CDK inhibitors (CKIs): Proteins like p21^Cip1, p27^Kip1, p16^INK4a, etc., bind CDK–cyclin complexes and inhibit their activity.
+
+- Phosphorylation status: Activation requires phosphorylation by CDK-activating kinase (CAK); inhibitory phosphorylation on Thr14/Tyr15 by Wee1 kinase can block activity and is reversed by Cdc25 phosphatases.
+
+- Degradation of cyclins: Ubiquitin-proteasome–mediated destruction of cyclins (often via APC/C or SCF complexes) reduces CDK activity by removing the activating partner.
+
+- Transcriptional regulation: Growth factors and cell-cycle transcription factors (e.g., E2F) regulate the expression of cyclins and, to a lesser extent, CDKs themselves; tumor suppressors like p53 and Rb influence this program.
+
+In practice, CDK activity is mainly governed by the availability of cyclins and CKIs, plus post-translational modifications and cyclin degradation."
+4,What regulates the expression of cyclin-dependent kinases?,4,"CDK expression is mainly controlled at the transcriptional level by cell-cycle transcription factors, especially the E2F family (governed by the Rb pathway). Growth signals (e.g., via Myc and other mitogenic pathways) also promote transcription of CDKs and cyclins. In addition, CDK activity is regulated post-transcriptionally by:
+
+- Cyclins: partner proteins that activate specific CDKs.
+- CDK inhibitors (CKIs): p21, p27, p16, etc., which block CDK activity.
+- Phosphorylation status: CAK activates CDKs by phosphorylation; Wee1/Myt1 add inhibitory phosphates, and Cdc25 removes them.
+- Degradation of cyclins (limits CDK activity).
+
+If you meant regulation of CDK activity rather than gene expression, the above post-translational regulators are the key players."
+4,What regulates the expression of cyclin-dependent kinases?,5,"CDK activity is regulated mainly by regulation of their partners (cyclins) and by inhibitors, rather than by large changes in CDK protein levels themselves. Key regulators include:
+
+- Cyclins: the binding of a specific cyclin to a CDK activates the kinase; cyclin levels rise and fall during the cell cycle, controlling when a CDK is active.
+
+- CDK inhibitors (CKIs): 
+  - CIP/KIP family (p21, p27, p57) bind to CDK–cyclin complexes and block activity.
+  - INK4 family (p16, p15, p18, p19) specifically inhibits CDK4/6.
+
+- Phosphorylation state:
+  - Wee1/Myt1 add inhibitory phosphates to CDKs.
+  - Cdc25 removes these inhibitory phosphates to activate CDKs.
+  - CDK-activating kinase (CAK) also phosphorylates/CDK T-loop to help activation.
+
+- Cyclin degradation: the ubiquitin–proteasome system (via SCF and APC/C ligases) targets cyclins for degradation, turning off CDK activity.
+
+- Transcriptional regulation of cyclins (and to some extent CDKs) by signals that control cell cycle progression (e.g., E2F, Myc, p53 pathways).
+
+In short, CDK activity is governed by cyclin availability, inhibitors, phosphorylation status, and periodic degradation of cyclins."
+4,What regulates the expression of cyclin-dependent kinases?,6,"- The primary regulator of CDK activity is cyclins. CDKs are constitutively present, but they become active only when bound to specific cyclins (e.g., cyclin D/E/A/B for CDK4/6, CDK2, CDK1).
+
+- Other layers of regulation include:
+  - Inhibitory phosphorylation (Wee1/Myt1) and activating phosphorylation (CAK) of CDKs.
+  - CDK inhibitors (CKIs) such as p21, p27, and p16 that block CDK activity.
+  - Regulated degradation of cyclins (via ubiquitin-proteasome pathway) to turn off the activity.
+
+- Transcriptional regulation of CDK genes themselves can also occur, but the key control of CDK function is via cyclin binding and the above regulators."
+4,What regulates the expression of cyclin-dependent kinases?,7,"If you mean regulation of CDK activity (the common teaching point), CDKs are regulated mainly after they’re made rather than by changing their expression levels. Key regulators include:
+
+- Cyclins: CDKs become active only when bound to specific cyclins; cyclin levels rise and fall during the cell cycle.
+- CDK-activating kinase (CAK, e.g., CDK7): adds an activating phosphorylation on the CDK.
+- Inhibitory phosphorylation: Wee1 adds inhibitory phosphate; Cdc25 removes it to re-activate.
+- CDK inhibitors (CKIs): proteins like p21, p27 (and p15, p16) bind and inhibit CDK–cyclin complexes.
+- Proteolysis of cyclins: ubiquitin–proteasome–mediated degradation of cyclins leads to inactivation of the CDK it’s paired with.
+
+If you’re asking about transcriptional regulation (expression) of CDKs themselves, that is less tightly controlled and CDK levels are often relatively constant; however, their expression can be influenced by growth signals and transcription factors such as E2F (which links to Rb phosphorylation) in proliferating cells. In short: activity is tightly regulated by cyclin binding, phosphorylation, CKIs, and cyclin degradation; expression is comparatively constitutive with some transcriptional control by cell-cycle regulators."
+4,What regulates the expression of cyclin-dependent kinases?,8,"Cyclin-dependent kinases (CDKs) are not mainly regulated by changes in their own expression. Their activity is controlled by:
+
+- Cyclins: CDKs must bind to specific cyclins (D, E, A, B) to become active; cyclin levels rise and fall with the cell cycle.
+- CDK inhibitors (CKIs): Proteins like p21, p27, and p16 can inhibit CDK activity or prevent cyclin–CDK complex formation.
+- Phosphorylation status: Activation by phosphorylation of the activation loop (by CAK); inhibitory phosphorylation on Thr14/Tyr15 by Wee1/Myt1; removal of inhibitory phosphates by Cdc25 phosphatases.
+- Transcriptional regulation of cyclins and CKIs: Signals (growth factors, p53 status, RB-E2F pathway) regulate the levels of cyclins and CKIs, thereby indirectly controlling CDK activity.
+
+In short, CDK activity is regulated mainly by cyclin association, inhibitory proteins, and phosphorylation, rather than by large changes in CDK expression."
+4,What regulates the expression of cyclin-dependent kinases?,9,"Cyclin-dependent kinases (CDKs) are regulated mainly at the level of activity rather than by large changes in their expression. The key regulators are:
+
+- Cyclins: They bind to and activate specific CDKs (e.g., cyclin D with CDK4/6, cyclin E with CDK2, cyclin A with CDK2, cyclin B with CDK1). The availability of the relevant cyclin controls when a CDK is active.
+- CDK inhibitors (CKIs): Proteins such as p16INK4a, p21Cip1, and p27Kip1 can prevent CDK activity by inhibiting the kinase or preventing the formation of active cyclin-CDK complexes.
+- Phosphorylation state: 
+  - Wee1/Myt1 kinases add inhibitory phosphates to CDKs.
+  - Cdc25 phosphatases remove these inhibitory phosphates to activate CDKs.
+  - CDK-activating kinase (CAK) provides activating phosphorylation.
+- Proteolysis of cyclins: The destruction of cyclins by the ubiquitin–proteasome system (e.g., SCF/APC targets) reduces CDK activity by removing the activating partner.
+- Transcriptional regulation of CDK/cyclin genes: Growth factor signaling and the RB–E2F pathway (and factors like Myc and p53) can influence the transcription of CDKs or their cyclins, thereby indirectly affecting CDK activity.
+
+In short, CDK activity is governed mainly by cyclin availability, CKIs, phosphorylation-control enzymes, and the degradation of cyclins; CDK expression per se is relatively constitutive."
+4,What regulates the expression of cyclin-dependent kinases?,10,"Cyclin-dependent kinases (CDKs) are regulated at several levels. If you mean regulation of their expression (how much CDK mRNA/protein is made), the main regulators are cell-cycle– and growth-factor–responsive transcription programs. If you meant regulation of their activity, see below.
+
+Regulation of CDK expression (transcriptional/post-transcriptional):
+- Cell-cycle transcription factors (e.g., E2F) and oncogenic signals (e.g., Myc) promote transcription of CDK genes.
+- Tumor suppressors and their pathways (Rb–E2F axis, p53) modulate CDK gene expression indirectly.
+- Growth-factor signaling pathways (MAPK/ERK, PI3K/AKT/mTOR) influence CDK transcription.
+- Post-transcriptional control (microRNAs, RNA-binding proteins) can affect CDK mRNA stability and translation.
+- Epigenetic regulation (promoter chromatin state) also impacts CDK gene expression.
+
+Regulation of CDK activity (more commonly emphasized):
+- Cyclin binding: CDKs require association with a specific cyclin partner to be active.
+- Inhibitors: CKIs inhibit CDKs (INK4 family inhibits CDK4/6; Cip/Kip family inhibits CDK2/1 with various cyclins).
+- Phosphorylation status: Wee1 adds inhibitory phosphates; Cdc25 removes them (activation); CAK helps activate CDKs by phosphorylation.
+- Proteolysis: degradation of cyclins (via SCF/APC/C ubiquitin ligases) limits CDK activity during the cycle.
+
+If you’re asking about a specific CDK (e.g., CDK1, CDK2, CDK4/6), I can tailor the details to that kinase."

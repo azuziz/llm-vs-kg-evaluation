@@ -1,0 +1,1102 @@
+[
+  {
+    "question": "What regulates the expression of cyclin-dependent kinases?",
+    "run": "1",
+    "triples": [
+      {
+        "subject": "CDK activity",
+        "relation": "is regulated by",
+        "object": "post-translational level"
+      },
+      {
+        "subject": "CDK gene expression",
+        "relation": "is not the primary control point for",
+        "object": "CDK activity"
+      },
+      {
+        "subject": "CDKs",
+        "relation": "must bind to",
+        "object": "specific cyclins"
+      },
+      {
+        "subject": "Cyclin D",
+        "relation": "binds to",
+        "object": "CDK4/6"
+      },
+      {
+        "subject": "Cyclin E",
+        "relation": "binds to",
+        "object": "CDK2"
+      },
+      {
+        "subject": "Cyclin A",
+        "relation": "binds to",
+        "object": "CDK2"
+      },
+      {
+        "subject": "Cyclin A",
+        "relation": "binds to",
+        "object": "CDK1"
+      },
+      {
+        "subject": "Cyclin B",
+        "relation": "binds to",
+        "object": "CDK1"
+      },
+      {
+        "subject": "Cyclin levels",
+        "relation": "vary during",
+        "object": "cell cycle"
+      },
+      {
+        "subject": "Cyclin levels",
+        "relation": "drive",
+        "object": "CDK activity"
+      },
+      {
+        "subject": "p16",
+        "relation": "inhibits",
+        "object": "CDK4/6"
+      },
+      {
+        "subject": "p15",
+        "relation": "inhibits",
+        "object": "CDK4/6"
+      },
+      {
+        "subject": "p21",
+        "relation": "inhibits",
+        "object": "CDK2"
+      },
+      {
+        "subject": "p27",
+        "relation": "inhibits",
+        "object": "CDK2"
+      },
+      {
+        "subject": "p57",
+        "relation": "inhibits",
+        "object": "CDK2"
+      },
+      {
+        "subject": "p21",
+        "relation": "inhibits",
+        "object": "CDK1"
+      },
+      {
+        "subject": "p27",
+        "relation": "inhibits",
+        "object": "CDK1"
+      },
+      {
+        "subject": "p57",
+        "relation": "inhibits",
+        "object": "CDK1"
+      },
+      {
+        "subject": "CAK",
+        "relation": "phosphorylates",
+        "object": "CDKs"
+      },
+      {
+        "subject": "CDKs",
+        "relation": "are activated by",
+        "object": "CAK-mediated phosphorylation"
+      },
+      {
+        "subject": "Wee1",
+        "relation": "provides inhibitory phosphorylation to",
+        "object": "CDKs"
+      },
+      {
+        "subject": "Cdc25",
+        "relation": "dephosphorylates",
+        "object": "CDKs"
+      },
+      {
+        "subject": "APC/C ubiquitin ligase",
+        "relation": "degrades",
+        "object": "cyclins"
+      },
+      {
+        "subject": "SCF ubiquitin ligase",
+        "relation": "degrades",
+        "object": "cyclins"
+      },
+      {
+        "subject": "cyclin degradation",
+        "relation": "lowers",
+        "object": "CDK activity"
+      },
+      {
+        "subject": "subcellular localization",
+        "relation": "regulates access to",
+        "object": "CDK substrates"
+      },
+      {
+        "subject": "Growth signals",
+        "relation": "influence expression of",
+        "object": "CDK genes"
+      },
+      {
+        "subject": "E2F pathway",
+        "relation": "influences",
+        "object": "CDK gene expression"
+      },
+      {
+        "subject": "p53 pathway",
+        "relation": "influences",
+        "object": "CDK gene expression"
+      },
+      {
+        "subject": "CDK expression",
+        "relation": "is",
+        "object": "constant"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "is governed by",
+        "object": "cyclin availability"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "is governed by",
+        "object": "CKIs"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "is governed by",
+        "object": "phosphorylation"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "is governed by",
+        "object": "cyclin degradation"
+      }
+    ]
+  },
+  {
+    "question": "What regulates the expression of cyclin-dependent kinases?",
+    "run": "2",
+    "triples": [
+      {
+        "subject": "CDK expression",
+        "relation": "is_regulated_at_transcriptional_level_by",
+        "object": "cell-cycle transcription factors (especially E2F family)"
+      },
+      {
+        "subject": "E2F factors",
+        "relation": "are_regulated_by",
+        "object": "RB pathway"
+      },
+      {
+        "subject": "E2F factors",
+        "relation": "promote_transcription_of",
+        "object": "CDK2"
+      },
+      {
+        "subject": "E2F factors",
+        "relation": "promote_transcription_of",
+        "object": "CDK4"
+      },
+      {
+        "subject": "E2F factors",
+        "relation": "promote_transcription_of",
+        "object": "CDK6"
+      },
+      {
+        "subject": "E2F factors",
+        "relation": "promote_transcription_of",
+        "object": "CDK1"
+      },
+      {
+        "subject": "c-Myc",
+        "relation": "drive_transcription_of",
+        "object": "CDK genes"
+      },
+      {
+        "subject": "FoxM1",
+        "relation": "drive_transcription_of",
+        "object": "CDK genes"
+      },
+      {
+        "subject": "p53",
+        "relation": "induces",
+        "object": "p21"
+      },
+      {
+        "subject": "p53",
+        "relation": "represses",
+        "object": "E2F activity"
+      },
+      {
+        "subject": "p53",
+        "relation": "indirectly_reduces",
+        "object": "CDK activity/expression"
+      },
+      {
+        "subject": "RB pathway",
+        "relation": "regulates",
+        "object": "E2F factors"
+      }
+    ]
+  },
+  {
+    "question": "What regulates the expression of cyclin-dependent kinases?",
+    "run": "3",
+    "triples": [
+      {
+        "subject": "CDKs",
+        "relation": "are_active_when_bound_to",
+        "object": "cyclins"
+      },
+      {
+        "subject": "Cyclins",
+        "relation": "bind_to",
+        "object": "CDKs"
+      },
+      {
+        "subject": "Cyclins",
+        "relation": "levels_rise_and_fall_with",
+        "object": "cell_cycle"
+      },
+      {
+        "subject": "CKIs",
+        "relation": "bind_to",
+        "object": "CDK\u2013cyclin_complexes"
+      },
+      {
+        "subject": "CKIs",
+        "relation": "inhibit",
+        "object": "CDK\u2013cyclin_complexes"
+      },
+      {
+        "subject": "CDK-activating_kinase",
+        "relation": "phosphorylates",
+        "object": "CDKs"
+      },
+      {
+        "subject": "Wee1_kinase",
+        "relation": "phosphorylates_inhibitory_sites_on",
+        "object": "CDKs_at_Thr14/Tyr15"
+      },
+      {
+        "subject": "Cdc25_phosphatases",
+        "relation": "reverse_inhibitory_phosphorylation_of",
+        "object": "CDKs_at_Thr14/Tyr15"
+      },
+      {
+        "subject": "APC/C_complexes",
+        "relation": "mediate_degradation_of",
+        "object": "cyclins"
+      },
+      {
+        "subject": "Growth_factors",
+        "relation": "regulate_expression_of",
+        "object": "cyclins"
+      },
+      {
+        "subject": "E2F",
+        "relation": "regulate_expression_of",
+        "object": "cyclins"
+      },
+      {
+        "subject": "p53_and_Rb",
+        "relation": "influence_transcriptional_program_for",
+        "object": "cyclins_and_CDKs"
+      },
+      {
+        "subject": "CDK_activity",
+        "relation": "is_governed_by",
+        "object": "cyclin_availability_and_CKIs"
+      },
+      {
+        "subject": "CDK_activity",
+        "relation": "is_governed_by",
+        "object": "post-translational_modifications"
+      }
+    ]
+  },
+  {
+    "question": "What regulates the expression of cyclin-dependent kinases?",
+    "run": "4",
+    "triples": [
+      {
+        "subject": "CDK expression",
+        "relation": "is regulated by",
+        "object": "cell-cycle transcription factors"
+      },
+      {
+        "subject": "E2F family",
+        "relation": "governs",
+        "object": "CDK expression"
+      },
+      {
+        "subject": "Rb pathway",
+        "relation": "governs",
+        "object": "E2F family"
+      },
+      {
+        "subject": "Growth signals",
+        "relation": "promote transcription of",
+        "object": "CDKs"
+      },
+      {
+        "subject": "Growth signals",
+        "relation": "promote transcription of",
+        "object": "cyclins"
+      },
+      {
+        "subject": "Cyclins",
+        "relation": "activate",
+        "object": "CDKs"
+      },
+      {
+        "subject": "CDK inhibitors (CKIs)",
+        "relation": "block",
+        "object": "CDK activity"
+      },
+      {
+        "subject": "p21",
+        "relation": "is a",
+        "object": "CDK inhibitor"
+      },
+      {
+        "subject": "p27",
+        "relation": "is a",
+        "object": "CDK inhibitor"
+      },
+      {
+        "subject": "p16",
+        "relation": "is a",
+        "object": "CDK inhibitor"
+      },
+      {
+        "subject": "CAK",
+        "relation": "activates",
+        "object": "CDKs by phosphorylation"
+      },
+      {
+        "subject": "Wee1/Myt1",
+        "relation": "add",
+        "object": "inhibitory phosphates to CDKs"
+      },
+      {
+        "subject": "Cdc25",
+        "relation": "removes",
+        "object": "inhibitory phosphates from CDKs"
+      },
+      {
+        "subject": "Degradation of cyclins",
+        "relation": "limits",
+        "object": "CDK activity"
+      }
+    ]
+  },
+  {
+    "question": "What regulates the expression of cyclin-dependent kinases?",
+    "run": "5",
+    "triples": [
+      {
+        "subject": "CDK activity",
+        "relation": "is regulated by",
+        "object": "cyclins"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "is regulated by",
+        "object": "CDK inhibitors"
+      },
+      {
+        "subject": "cyclin",
+        "relation": "binds to",
+        "object": "CDK"
+      },
+      {
+        "subject": "cyclin",
+        "relation": "activates",
+        "object": "CDK"
+      },
+      {
+        "subject": "cyclin levels",
+        "relation": "fluctuate during",
+        "object": "cell cycle"
+      },
+      {
+        "subject": "cyclin levels",
+        "relation": "control",
+        "object": "CDK activity"
+      },
+      {
+        "subject": "CIP/KIP family (p21, p27, p57)",
+        "relation": "binds to",
+        "object": "CDK-cyclin complexes"
+      },
+      {
+        "subject": "CIP/KIP family (p21, p27, p57)",
+        "relation": "inhibits",
+        "object": "CDK-cyclin complexes"
+      },
+      {
+        "subject": "p21",
+        "relation": "inhibits",
+        "object": "CDK-cyclin complex"
+      },
+      {
+        "subject": "p27",
+        "relation": "inhibits",
+        "object": "CDK-cyclin complex"
+      },
+      {
+        "subject": "p57",
+        "relation": "inhibits",
+        "object": "CDK-cyclin complex"
+      },
+      {
+        "subject": "INK4 family (p16, p15, p18, p19)",
+        "relation": "inhibits",
+        "object": "CDK4/6"
+      },
+      {
+        "subject": "Wee1",
+        "relation": "adds",
+        "object": "inhibitory phosphates to CDKs"
+      },
+      {
+        "subject": "Myt1",
+        "relation": "adds",
+        "object": "inhibitory phosphates to CDKs"
+      },
+      {
+        "subject": "Cdc25",
+        "relation": "removes",
+        "object": "inhibitory phosphates from CDKs"
+      },
+      {
+        "subject": "CAK",
+        "relation": "phosphorylates",
+        "object": "CDK T-loop"
+      },
+      {
+        "subject": "CAK",
+        "relation": "activates",
+        "object": "CDKs"
+      },
+      {
+        "subject": "SCF ligase",
+        "relation": "targets",
+        "object": "cyclins for degradation"
+      },
+      {
+        "subject": "APC/C ligase",
+        "relation": "targets",
+        "object": "cyclins for degradation"
+      },
+      {
+        "subject": "cyclins degradation",
+        "relation": "turns off",
+        "object": "CDK activity"
+      },
+      {
+        "subject": "E2F pathways",
+        "relation": "regulate transcription of",
+        "object": "cyclins"
+      },
+      {
+        "subject": "Myc pathways",
+        "relation": "regulate transcription of",
+        "object": "cyclins"
+      },
+      {
+        "subject": "p53 pathways",
+        "relation": "regulate transcription of",
+        "object": "cyclins"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "governed by",
+        "object": "cyclin availability"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "governed by",
+        "object": "inhibitors"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "governed by",
+        "object": "phosphorylation status"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "governed by",
+        "object": "periodic degradation of cyclins"
+      }
+    ]
+  },
+  {
+    "question": "What regulates the expression of cyclin-dependent kinases?",
+    "run": "6",
+    "triples": [
+      {
+        "subject": "cyclins",
+        "relation": "regulates",
+        "object": "CDK activity"
+      },
+      {
+        "subject": "CDKs",
+        "relation": "are_present",
+        "object": "constitutively"
+      },
+      {
+        "subject": "CDKs",
+        "relation": "activation_requires_binding_to",
+        "object": "cyclins"
+      },
+      {
+        "subject": "Wee1/Myt1",
+        "relation": "catalyzes_inhibitory_phosphorylation_of",
+        "object": "CDKs"
+      },
+      {
+        "subject": "CAK",
+        "relation": "catalyzes_activating_phosphorylation_of",
+        "object": "CDKs"
+      },
+      {
+        "subject": "CKIs",
+        "relation": "include",
+        "object": "p21"
+      },
+      {
+        "subject": "CKIs",
+        "relation": "include",
+        "object": "p27"
+      },
+      {
+        "subject": "CKIs",
+        "relation": "include",
+        "object": "p16"
+      },
+      {
+        "subject": "p21",
+        "relation": "inhibits",
+        "object": "CDK_activity"
+      },
+      {
+        "subject": "p27",
+        "relation": "inhibits",
+        "object": "CDK_activity"
+      },
+      {
+        "subject": "p16",
+        "relation": "inhibits",
+        "object": "CDK_activity"
+      },
+      {
+        "subject": "cyclins",
+        "relation": "degraded_via",
+        "object": "ubiquitin-proteasome_pathway"
+      },
+      {
+        "subject": "cyclin_degradation",
+        "relation": "turns_off",
+        "object": "CDK_activity"
+      },
+      {
+        "subject": "CDK_genes",
+        "relation": "undergoes_transcriptional_regulation",
+        "object": "transcriptional_regulation"
+      },
+      {
+        "subject": "cyclin_binding",
+        "relation": "is_key_control_of",
+        "object": "CDK_function"
+      }
+    ]
+  },
+  {
+    "question": "What regulates the expression of cyclin-dependent kinases?",
+    "run": "7",
+    "triples": [
+      {
+        "subject": "CDKs",
+        "relation": "activation depends on",
+        "object": "binding to specific cyclins"
+      },
+      {
+        "subject": "cyclins",
+        "relation": "levels",
+        "object": "rise and fall during the cell cycle"
+      },
+      {
+        "subject": "CDK-activating kinase (CAK)",
+        "relation": "adds activating phosphorylation to",
+        "object": "CDK"
+      },
+      {
+        "subject": "Wee1",
+        "relation": "adds inhibitory phosphate to",
+        "object": "CDK"
+      },
+      {
+        "subject": "Cdc25",
+        "relation": "removes inhibitory phosphate from",
+        "object": "CDK"
+      },
+      {
+        "subject": "CKIs",
+        "relation": "inhibit",
+        "object": "CDK\u2013cyclin complexes"
+      },
+      {
+        "subject": "p21",
+        "relation": "is a",
+        "object": "CKI"
+      },
+      {
+        "subject": "p27",
+        "relation": "is a",
+        "object": "CKI"
+      },
+      {
+        "subject": "p15",
+        "relation": "is a",
+        "object": "CKI"
+      },
+      {
+        "subject": "p16",
+        "relation": "is a",
+        "object": "CKI"
+      },
+      {
+        "subject": "cyclins",
+        "relation": "are degraded by",
+        "object": "ubiquitin\u2013proteasome system"
+      },
+      {
+        "subject": "degradation of cyclins",
+        "relation": "leads to",
+        "object": "inactivation of the paired CDK"
+      },
+      {
+        "subject": "ubiquitin\u2013proteasome\u2013mediated degradation",
+        "relation": "causes",
+        "object": "cyclin degradation"
+      },
+      {
+        "subject": "transcriptional regulation of CDKs",
+        "relation": "is described as",
+        "object": "less tightly controlled"
+      },
+      {
+        "subject": "CDK levels",
+        "relation": "are",
+        "object": "relatively constant"
+      },
+      {
+        "subject": "CDK expression",
+        "relation": "is influenced by",
+        "object": "growth signals"
+      },
+      {
+        "subject": "CDK expression",
+        "relation": "is influenced by",
+        "object": "transcription factors such as E2F"
+      },
+      {
+        "subject": "E2F",
+        "relation": "links to",
+        "object": "Rb phosphorylation"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "is regulated by",
+        "object": "cyclin binding"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "is regulated by",
+        "object": "phosphorylation"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "is regulated by",
+        "object": "CKIs"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "is regulated by",
+        "object": "cyclin degradation"
+      }
+    ]
+  },
+  {
+    "question": "What regulates the expression of cyclin-dependent kinases?",
+    "run": "8",
+    "triples": [
+      {
+        "subject": "CDKs",
+        "relation": "are not mainly regulated by",
+        "object": "changes in their own expression"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "is controlled by",
+        "object": "cyclins"
+      },
+      {
+        "subject": "CDKs",
+        "relation": "must bind to",
+        "object": "specific cyclins D, E, A, B"
+      },
+      {
+        "subject": "Cyclins",
+        "relation": "have levels that rise and fall with",
+        "object": "the cell cycle"
+      },
+      {
+        "subject": "CKIs",
+        "relation": "inhibit",
+        "object": "CDK activity"
+      },
+      {
+        "subject": "CKIs",
+        "relation": "prevent formation of",
+        "object": "cyclin-CDK complexes"
+      },
+      {
+        "subject": "p21",
+        "relation": "is a",
+        "object": "CKI"
+      },
+      {
+        "subject": "p27",
+        "relation": "is a",
+        "object": "CKI"
+      },
+      {
+        "subject": "p16",
+        "relation": "is a",
+        "object": "CKI"
+      },
+      {
+        "subject": "CDKs",
+        "relation": "are activated by",
+        "object": "phosphorylation of the activation loop by CAK"
+      },
+      {
+        "subject": "CDKs",
+        "relation": "are inhibited by",
+        "object": "phosphorylation on Thr14/Tyr15 by Wee1/Myt1"
+      },
+      {
+        "subject": "Cdc25 phosphatases",
+        "relation": "remove inhibitory phosphates from",
+        "object": "CDKs"
+      },
+      {
+        "subject": "Transcriptional regulation of cyclins and CKIs",
+        "relation": "is regulated by",
+        "object": "growth factors, p53 status, RB-E2F pathway"
+      },
+      {
+        "subject": "growth factors",
+        "relation": "regulate transcription of",
+        "object": "cyclins and CKIs"
+      },
+      {
+        "subject": "p53 status",
+        "relation": "regulates transcription of",
+        "object": "cyclins and CKIs"
+      },
+      {
+        "subject": "RB-E2F pathway",
+        "relation": "regulates transcription of",
+        "object": "cyclins and CKIs"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "is regulated by",
+        "object": "cyclin association"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "is regulated by",
+        "object": "inhibitory proteins"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "is regulated by",
+        "object": "phosphorylation"
+      },
+      {
+        "subject": "CDK expression",
+        "relation": "is not the main regulator of",
+        "object": "CDK activity"
+      }
+    ]
+  },
+  {
+    "question": "What regulates the expression of cyclin-dependent kinases?",
+    "run": "9",
+    "triples": [
+      {
+        "subject": "CDKs",
+        "relation": "regulated_by",
+        "object": "activity_level"
+      },
+      {
+        "subject": "Cyclin D",
+        "relation": "binds_to",
+        "object": "CDK4/6"
+      },
+      {
+        "subject": "Cyclin E",
+        "relation": "binds_to",
+        "object": "CDK2"
+      },
+      {
+        "subject": "Cyclin A",
+        "relation": "binds_to",
+        "object": "CDK2"
+      },
+      {
+        "subject": "Cyclin B",
+        "relation": "binds_to",
+        "object": "CDK1"
+      },
+      {
+        "subject": "Cyclins",
+        "relation": "activate",
+        "object": "CDKs"
+      },
+      {
+        "subject": "Cyclin_availability",
+        "relation": "controls",
+        "object": "CDK_activation"
+      },
+      {
+        "subject": "p16INK4a",
+        "relation": "inhibits",
+        "object": "CDK_activity"
+      },
+      {
+        "subject": "p21Cip1",
+        "relation": "inhibits",
+        "object": "CDK_activity"
+      },
+      {
+        "subject": "p27Kip1",
+        "relation": "inhibits",
+        "object": "CDK_activity"
+      },
+      {
+        "subject": "CKIs",
+        "relation": "prevent",
+        "object": "formation_of_active_cyclin-CDK_complexes"
+      },
+      {
+        "subject": "Wee1_kinase",
+        "relation": "adds_inhibitory_phosphate_to",
+        "object": "CDKs"
+      },
+      {
+        "subject": "Myt1_kinase",
+        "relation": "adds_inhibitory_phosphate_to",
+        "object": "CDKs"
+      },
+      {
+        "subject": "Cdc25_phosphatases",
+        "relation": "removes_inhibitory_phosphate_from",
+        "object": "CDKs"
+      },
+      {
+        "subject": "CAK",
+        "relation": "provides_activating_phosphorylation_to",
+        "object": "CDKs"
+      },
+      {
+        "subject": "SCF_complex",
+        "relation": "targets_for_degradation",
+        "object": "cyclins"
+      },
+      {
+        "subject": "APC_complex",
+        "relation": "targets_for_degradation",
+        "object": "cyclins"
+      },
+      {
+        "subject": "ubiquitin\u2013proteasome_system",
+        "relation": "degrades",
+        "object": "cyclins"
+      },
+      {
+        "subject": "Cyclin_degradation",
+        "relation": "reduces",
+        "object": "CDK_activity"
+      },
+      {
+        "subject": "Growth_factor_signaling",
+        "relation": "influences",
+        "object": "transcription_of_CDKs_or_cyclins"
+      },
+      {
+        "subject": "RB\u2013E2F_pathway",
+        "relation": "influences",
+        "object": "transcription_of_CDKs_or_cyclins"
+      },
+      {
+        "subject": "Myc",
+        "relation": "influences",
+        "object": "transcription_of_CDKs_or_cyclins"
+      },
+      {
+        "subject": "p53",
+        "relation": "influences",
+        "object": "transcription_of_CDKs_or_cyclins"
+      },
+      {
+        "subject": "CDK_activity",
+        "relation": "governed_by",
+        "object": "cyclin_availability"
+      },
+      {
+        "subject": "CDK_activity",
+        "relation": "governed_by",
+        "object": "CKIs"
+      },
+      {
+        "subject": "CDK_activity",
+        "relation": "governed_by",
+        "object": "phosphorylation_control_enzymes"
+      },
+      {
+        "subject": "CDK_activity",
+        "relation": "governed_by",
+        "object": "cyclin_degradation"
+      },
+      {
+        "subject": "CDK_expression",
+        "relation": "is_constitutive",
+        "object": "true"
+      }
+    ]
+  },
+  {
+    "question": "What regulates the expression of cyclin-dependent kinases?",
+    "run": "10",
+    "triples": [
+      [
+        "CDK expression",
+        "regulated_by",
+        "cell-cycle- and growth-factor-responsive transcription programs"
+      ],
+      [
+        "Cell-cycle transcription factors",
+        "promote transcription of",
+        "CDK genes"
+      ],
+      [
+        "Oncogenic signals",
+        "promote transcription of",
+        "CDK genes"
+      ],
+      [
+        "Rb-E2F axis",
+        "modulates",
+        "CDK gene expression"
+      ],
+      [
+        "p53",
+        "modulates",
+        "CDK gene expression"
+      ],
+      [
+        "MAPK/ERK pathway",
+        "influences transcription of",
+        "CDK genes"
+      ],
+      [
+        "PI3K/AKT/mTOR pathway",
+        "influences transcription of",
+        "CDK genes"
+      ],
+      [
+        "microRNAs",
+        "affect",
+        "CDK mRNA stability"
+      ],
+      [
+        "microRNAs",
+        "affect",
+        "CDK translation"
+      ],
+      [
+        "RNA-binding proteins",
+        "affect",
+        "CDK mRNA stability"
+      ],
+      [
+        "RNA-binding proteins",
+        "affect",
+        "CDK translation"
+      ],
+      [
+        "Epigenetic regulation",
+        "affects",
+        "CDK gene expression"
+      ],
+      [
+        "Promoter chromatin state",
+        "influences",
+        "CDK gene expression"
+      ],
+      [
+        "CDKs",
+        "require association with",
+        "specific cyclin partner for activity"
+      ],
+      [
+        "CKIs",
+        "inhibit",
+        "CDKs"
+      ],
+      [
+        "INK4 family",
+        "inhibit",
+        "CDK4/6"
+      ],
+      [
+        "Cip/Kip family",
+        "inhibit",
+        "CDK2 and CDK1 with various cyclins"
+      ],
+      [
+        "Wee1",
+        "adds inhibitory phosphates to",
+        "CDKs"
+      ],
+      [
+        "Cdc25",
+        "removes inhibitory phosphates from",
+        "CDKs"
+      ],
+      [
+        "CAK",
+        "phosphorylates to activate",
+        "CDKs"
+      ],
+      [
+        "SCF/APC/C ubiquitin ligases",
+        "mediate degradation of",
+        "cyclins"
+      ],
+      [
+        "Cyclin degradation",
+        "limits",
+        "CDK activity"
+      ]
+    ]
+  }
+]

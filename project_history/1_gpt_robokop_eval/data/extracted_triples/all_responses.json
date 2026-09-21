@@ -1,0 +1,5247 @@
+[
+  {
+    "question": "is there any association of LCH with BRAF mutation?",
+    "run": "1",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "is driven by",
+        "object": "activating mutations in the MAPK pathway"
+      },
+      {
+        "subject": "BRAF V600E mutation",
+        "relation": "is found in",
+        "object": "LCH"
+      },
+      {
+        "subject": "LCH",
+        "relation": "has non-V600E BRAF mutations",
+        "object": "non-V600E BRAF mutations"
+      },
+      {
+        "subject": "LCH",
+        "relation": "has MAP2K1 (MEK1) mutations",
+        "object": "MAP2K1 (MEK1) mutations"
+      },
+      {
+        "subject": "BRAF V600E mutation",
+        "relation": "can be detected in lesional tissue by",
+        "object": "sequencing (PCR/NGS)"
+      },
+      {
+        "subject": "BRAF V600E mutation",
+        "relation": "can be detected by",
+        "object": "immunohistochemistry using VE1 antibody"
+      },
+      {
+        "subject": "Circulating tumor DNA",
+        "relation": "can detect",
+        "object": "BRAF V600E mutation"
+      },
+      {
+        "subject": "BRAF V600E mutation",
+        "relation": "indicates",
+        "object": "a clonal, neoplastic component in many LCH cases"
+      },
+      {
+        "subject": "BRAF V600E mutation",
+        "relation": "guides therapy",
+        "object": "targeted therapy for LCH (BRAF or MEK inhibitors)"
+      },
+      {
+        "subject": "Refractory or high-risk LCH with BRAF V600E or other MAPK mutations",
+        "relation": "is treated with",
+        "object": "targeted therapy (BRAF inhibitors or MEK inhibitors)"
+      },
+      {
+        "subject": "BRAF inhibitors",
+        "relation": "examples",
+        "object": "dabrafenib"
+      },
+      {
+        "subject": "BRAF inhibitors",
+        "relation": "examples",
+        "object": "vemurafenib"
+      },
+      {
+        "subject": "MEK inhibitors",
+        "relation": "example",
+        "object": "trametinib"
+      },
+      {
+        "subject": "Some patients with LCH",
+        "relation": "do not have",
+        "object": "BRAF mutations"
+      },
+      {
+        "subject": "Other MAPK pathway mutations",
+        "relation": "can drive",
+        "object": "LCH"
+      },
+      {
+        "subject": "Biopsy testing for BRAF V600E and MAP2K1 mutations",
+        "relation": "can be clinically useful for",
+        "object": "guided targeted therapy decisions"
+      }
+    ]
+  },
+  {
+    "question": "is there any association of LCH with BRAF mutation?",
+    "run": "2",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "has activating mutations in",
+        "object": "MAPK pathway"
+      },
+      {
+        "subject": "BRAF V600E",
+        "relation": "is found in",
+        "object": "roughly 40\u201360% of LCH lesions tested"
+      },
+      {
+        "subject": "MAPK pathway mutations other than BRAF V600E (e.g., MAP2K1 / MEK1)",
+        "relation": "are found in",
+        "object": "a sizable fraction of cases when BRAF V600E is wild-type"
+      },
+      {
+        "subject": "Other rarer mutations in the MAPK pathway",
+        "relation": "can occur in",
+        "object": "LCH"
+      },
+      {
+        "subject": "LCH",
+        "relation": "is a clonal neoplasm driven by",
+        "object": "MAPK signaling"
+      },
+      {
+        "subject": "BRAF inhibitors",
+        "relation": "have produced meaningful responses in",
+        "object": "patients with BRAF V600E or other MAPK mutations"
+      },
+      {
+        "subject": "MEK inhibitors",
+        "relation": "have produced meaningful responses in",
+        "object": "patients with BRAF V600E or other MAPK mutations"
+      },
+      {
+        "subject": "Dabrafenib",
+        "relation": "is a",
+        "object": "BRAF inhibitor"
+      },
+      {
+        "subject": "Vemurafenib",
+        "relation": "is a",
+        "object": "BRAF inhibitor"
+      },
+      {
+        "subject": "Trametinib",
+        "relation": "is a",
+        "object": "MEK inhibitor"
+      },
+      {
+        "subject": "BRAF V600E testing",
+        "relation": "is commonly done on",
+        "object": "biopsy tissue"
+      },
+      {
+        "subject": "cell-free DNA from blood",
+        "relation": "can be used to detect",
+        "object": "mutations (e.g., BRAF V600E)"
+      }
+    ]
+  },
+  {
+    "question": "is there any association of LCH with BRAF mutation?",
+    "run": "3",
+    "triples": [
+      [
+        "Langerhans cell histiocytosis",
+        "has activating mutation in",
+        "MAPK pathway"
+      ],
+      [
+        "Langerhans cell histiocytosis",
+        "most often mutated in",
+        "BRAF V600E"
+      ],
+      [
+        "BRAF V600E",
+        "found in",
+        "roughly 40\u201360% of LCH cases"
+      ],
+      [
+        "BRAF V600E",
+        "prevalence higher in",
+        "multisystem/high-risk LCH (in some studies)"
+      ],
+      [
+        "Langerhans cell histiocytosis",
+        "may have",
+        "MAP2K1 mutations"
+      ],
+      [
+        "MAP2K1 mutations",
+        "found in",
+        "substantial minority of LCH cases"
+      ],
+      [
+        "LCH",
+        "has other MAPK pathway alterations",
+        "present in substantial minority of cases"
+      ],
+      [
+        "LCH lesions",
+        "are BRAF wild-type",
+        "true"
+      ],
+      [
+        "LCH lesions",
+        "are MAPK-pathway mutant",
+        "true"
+      ],
+      [
+        "BRAF V600E status",
+        "helps explain",
+        "biology of LCH"
+      ],
+      [
+        "BRAF V600E status",
+        "guides",
+        "therapy for LCH"
+      ],
+      [
+        "Vemurafenib",
+        "is a",
+        "BRAF inhibitor"
+      ],
+      [
+        "Dabrafenib",
+        "is a",
+        "BRAF inhibitor"
+      ],
+      [
+        "BRAF inhibitors",
+        "have produced",
+        "notable responses in BRAF V600E-mutant LCH"
+      ],
+      [
+        "Trametinib",
+        "is a",
+        "MEK inhibitor"
+      ],
+      [
+        "MEK inhibitors",
+        "are used for",
+        "MEK pathway\u2013driven disease"
+      ],
+      [
+        "MEK inhibitors",
+        "are used for",
+        "BRAF-wild-type cases with progression"
+      ],
+      [
+        "Tissue biopsy with molecular testing for BRAF V600E",
+        "is recommended when considering",
+        "targeted therapies"
+      ],
+      [
+        "PCR/sequencing or immunohistochemistry with VE1",
+        "are methods to detect",
+        "BRAF V600E"
+      ],
+      [
+        "Negative BRAF V600E test",
+        "leads to testing for",
+        "MAP2K1 or other MAPK mutations"
+      ],
+      [
+        "MAP2K1 mutations",
+        "are tested for when considering",
+        "targeted therapies"
+      ]
+    ]
+  },
+  {
+    "question": "is there any association of LCH with BRAF mutation?",
+    "run": "4",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "is_a",
+        "object": "clonal, neoplastic disorder of Langerhans cells driven by activating mutations in the MAPK pathway"
+      },
+      {
+        "subject": "LCH",
+        "relation": "has_mutation",
+        "object": "BRAF V600E"
+      },
+      {
+        "subject": "BRAF V600E mutation",
+        "relation": "is_most_common_mutation_of",
+        "object": "LCH"
+      },
+      {
+        "subject": "BRAF V600E mutation",
+        "relation": "detected_in",
+        "object": "roughly 40\u201360% of LCH lesions"
+      },
+      {
+        "subject": "MAP2K1 mutation",
+        "relation": "occurs_in",
+        "object": "LCH"
+      },
+      {
+        "subject": "NRAS mutation",
+        "relation": "occurs_in",
+        "object": "LCH"
+      },
+      {
+        "subject": "KRAS mutation",
+        "relation": "occurs_in",
+        "object": "LCH"
+      },
+      {
+        "subject": "MAPK pathway mutations",
+        "relation": "are_found_in",
+        "object": "lesional tissue"
+      },
+      {
+        "subject": "MAPK pathway mutations",
+        "relation": "are_found_in",
+        "object": "circulating DNA or blood cells"
+      },
+      {
+        "subject": "Presence of BRAF V600E mutation",
+        "relation": "supports",
+        "object": "neoplastic mechanism of LCH"
+      },
+      {
+        "subject": "Other MAPK mutations",
+        "relation": "support",
+        "object": "neoplastic mechanism of LCH"
+      },
+      {
+        "subject": "Presence of BRAF V600E mutation",
+        "relation": "influences",
+        "object": "therapy"
+      },
+      {
+        "subject": "MAPK mutations",
+        "relation": "influences",
+        "object": "therapy"
+      },
+      {
+        "subject": "Dabrafenib",
+        "relation": "is_a",
+        "object": "BRAF inhibitor"
+      },
+      {
+        "subject": "Vemurafenib",
+        "relation": "is_a",
+        "object": "BRAF inhibitor"
+      },
+      {
+        "subject": "Trametinib",
+        "relation": "is_a",
+        "object": "MEK inhibitor"
+      },
+      {
+        "subject": "BRAF-mutant LCH",
+        "relation": "shows_activity_with",
+        "object": "BRAF inhibitors"
+      },
+      {
+        "subject": "BRAF-mutant LCH",
+        "relation": "shows_activity_with",
+        "object": "MEK inhibitors"
+      },
+      {
+        "subject": "Not all LCH cases have BRAF mutations",
+        "relation": "implies",
+        "object": "many have other MAPK alterations or none detectable with current assays"
+      },
+      {
+        "subject": "Testing lesional tissue for MAPK mutations",
+        "relation": "inform",
+        "object": "prognosis and potential targeted therapy"
+      },
+      {
+        "subject": "Circulating tumor DNA testing for MAPK mutations",
+        "relation": "inform",
+        "object": "prognosis and potential targeted therapy"
+      }
+    ]
+  },
+  {
+    "question": "is there any association of LCH with BRAF mutation?",
+    "run": "5",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "driven_by",
+        "object": "activating mutations in the MAPK signaling pathway"
+      },
+      {
+        "subject": "BRAF V600E mutation",
+        "relation": "is_the_most_frequent_mutation_in",
+        "object": "LCH"
+      },
+      {
+        "subject": "BRAF V600E mutation",
+        "relation": "detected_in",
+        "object": "roughly 40\u201360% of LCH cases (by standard assays)"
+      },
+      {
+        "subject": "BRAF-negative LCH cases",
+        "relation": "have_mutations_in",
+        "object": "MAPK pathway"
+      },
+      {
+        "subject": "MAP2K1 mutations",
+        "relation": "occur_in",
+        "object": "LCH"
+      },
+      {
+        "subject": "BRAF fusions",
+        "relation": "occur_in",
+        "object": "LCH"
+      },
+      {
+        "subject": "BRAF V600E\u2013positive LCH",
+        "relation": "associated_with",
+        "object": "multisystem involvement"
+      },
+      {
+        "subject": "BRAF inhibitors",
+        "relation": "treat",
+        "object": "BRAF V600E\u2013positive LCH"
+      },
+      {
+        "subject": "Dabrafenib",
+        "relation": "is_a",
+        "object": "BRAF inhibitor"
+      },
+      {
+        "subject": "Vemurafenib",
+        "relation": "is_a",
+        "object": "BRAF inhibitor"
+      },
+      {
+        "subject": "Trametinib",
+        "relation": "is_a",
+        "object": "MEK inhibitor"
+      },
+      {
+        "subject": "MAPK panel testing",
+        "relation": "includes",
+        "object": "MAP2K1"
+      },
+      {
+        "subject": "MAPK panel testing",
+        "relation": "includes",
+        "object": "BRAF fusions"
+      },
+      {
+        "subject": "Testing for BRAF V600E",
+        "relation": "should_be_performed_on",
+        "object": "tissue biopsy"
+      },
+      {
+        "subject": "MAPK panel testing",
+        "relation": "should_be_considered_on",
+        "object": "tissue biopsy"
+      },
+      {
+        "subject": "Circulating tumor DNA",
+        "relation": "can_help_monitor",
+        "object": "disease in some settings"
+      }
+    ]
+  },
+  {
+    "question": "is there any association of LCH with BRAF mutation?",
+    "run": "6",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "is associated with",
+        "object": "activating mutations in the MAPK pathway"
+      },
+      {
+        "subject": "BRAF V600E",
+        "relation": "is an",
+        "object": "activating mutation in the MAPK pathway"
+      },
+      {
+        "subject": "BRAF V600E",
+        "relation": "found_in",
+        "object": "a substantial subset of LCH cases (roughly 40\u201360%)"
+      },
+      {
+        "subject": "MAP2K1 mutation",
+        "relation": "is_seen_in",
+        "object": "LCH"
+      },
+      {
+        "subject": "MAPK pathway mutations in LCH",
+        "relation": "are",
+        "object": "somatic (not germline)"
+      },
+      {
+        "subject": "MAPK pathway mutations in LCH",
+        "relation": "support",
+        "object": "the view of LCH as a clonal neoplastic disorder rather than purely inflammatory"
+      },
+      {
+        "subject": "BRAF V600E status",
+        "relation": "guides",
+        "object": "targeted therapy"
+      },
+      {
+        "subject": "BRAF inhibitors (e.g., vemurafenib, dabrafenib)",
+        "relation": "can_be_effective_in",
+        "object": "refractory or high-risk LCH disease"
+      },
+      {
+        "subject": "Testing of lesional tissue for BRAF V600E",
+        "relation": "is_recommended",
+        "object": "to assess BRAF V600E and other MAPK mutations"
+      },
+      {
+        "subject": "Not all LCH cases have BRAF mutations",
+        "relation": "implies",
+        "object": "some cases are BRAF-wild-type but may have other MAPK pathway alterations"
+      }
+    ]
+  },
+  {
+    "question": "is there any association of LCH with BRAF mutation?",
+    "run": "7",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "associated_with",
+        "object": "activating mutations in MAPK pathway"
+      },
+      {
+        "subject": "BRAF V600E",
+        "relation": "found_in",
+        "object": "substantial subset of LCH_cases"
+      },
+      {
+        "subject": "BRAF V600E",
+        "relation": "frequency_in_LCH_cases",
+        "object": "approximately 40-60%"
+      },
+      {
+        "subject": "multisystem/high-risk LCH",
+        "relation": "shows_higher_BRAF_V600E_rate",
+        "object": "true"
+      },
+      {
+        "subject": "MAP2K1 mutations",
+        "relation": "present_in",
+        "object": "LCH"
+      },
+      {
+        "subject": "MAP2K1 mutations",
+        "relation": "activate_MAPK_pathway",
+        "object": "true"
+      },
+      {
+        "subject": "BRAF fusions",
+        "relation": "observed_in",
+        "object": "LCH"
+      },
+      {
+        "subject": "other MAPK_pathway_alterations",
+        "relation": "observed_in",
+        "object": "LCH"
+      },
+      {
+        "subject": "LCH",
+        "relation": "driven_by",
+        "object": "MAPK signaling"
+      },
+      {
+        "subject": "BRAF V600E",
+        "relation": "detectable_by",
+        "object": "sequencing methods"
+      },
+      {
+        "subject": "BRAF V600E",
+        "relation": "detectable_by",
+        "object": "immunohistochemistry (VE1)"
+      },
+      {
+        "subject": "MAPK mutations",
+        "relation": "detectable_by",
+        "object": "sequencing methods"
+      },
+      {
+        "subject": "MAPK mutations",
+        "relation": "detectable_by",
+        "object": "immunohistochemistry"
+      },
+      {
+        "subject": "ctDNA testing",
+        "relation": "explored_for",
+        "object": "MAPK_mutations_in_LCH"
+      },
+      {
+        "subject": "refractory or multisystem LCH",
+        "relation": "may_be_treated_with",
+        "object": "BRAF inhibitors"
+      },
+      {
+        "subject": "refractory or multisystem LCH",
+        "relation": "may_be_treated_with",
+        "object": "MEK inhibitors"
+      },
+      {
+        "subject": "Dabrafenib",
+        "relation": "is_a",
+        "object": "BRAF inhibitor"
+      },
+      {
+        "subject": "Vemurafenib",
+        "relation": "is_a",
+        "object": "BRAF inhibitor"
+      },
+      {
+        "subject": "Trametinib",
+        "relation": "is_a",
+        "object": "MEK inhibitor"
+      },
+      {
+        "subject": "LCH_patients",
+        "relation": "may_not_have",
+        "object": "BRAF V600E mutation"
+      },
+      {
+        "subject": "Targeted therapy for LCH",
+        "relation": "is_not_universal",
+        "object": "true"
+      },
+      {
+        "subject": "absence_of_BRAF_V600E",
+        "relation": "does_not_rule_out",
+        "object": "LCH"
+      },
+      {
+        "subject": "management_decisions",
+        "relation": "depend_on",
+        "object": "overall clinical picture"
+      }
+    ]
+  },
+  {
+    "question": "is there any association of LCH with BRAF mutation?",
+    "run": "8",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "is driven by",
+        "object": "activating mutations in the MAPK pathway"
+      },
+      {
+        "subject": "BRAF V600E",
+        "relation": "is the most common",
+        "object": "activating mutation in the MAPK pathway in LCH"
+      },
+      {
+        "subject": "BRAF V600E",
+        "relation": "found in",
+        "object": "roughly 40\u201360% of LCH cases"
+      },
+      {
+        "subject": "Other activating mutations in the MAPK pathway (MAP2K1/MEK1, HRAS, KRAS)",
+        "relation": "are seen",
+        "object": "in LCH"
+      },
+      {
+        "subject": "these mutations",
+        "relation": "can be detected in",
+        "object": "about half to most patients when comprehensive testing is done"
+      },
+      {
+        "subject": "BRAF V600E",
+        "relation": "is more often reported in",
+        "object": "multisystem or high-risk LCH"
+      },
+      {
+        "subject": "circulating BRAF V600E (in blood)",
+        "relation": "can reflect",
+        "object": "disease burden in high-risk cases"
+      },
+      {
+        "subject": "discovery of BRAF and other MAPK mutations",
+        "relation": "has led to",
+        "object": "targeted therapies"
+      },
+      {
+        "subject": "BRAF inhibitors (vemurafenib, dabrafenib)",
+        "relation": "have shown",
+        "object": "rapid responses in BRAF V600E\u2013mutant, refractory LCH"
+      },
+      {
+        "subject": "MEK inhibitors",
+        "relation": "are used in",
+        "object": "other MAPK-mutant cases or when BRAF inhibitors aren\u2019t suitable"
+      },
+      {
+        "subject": "Testing lesion tissue with PCR/NGS for MAPK mutations (including BRAF V600E)",
+        "relation": "is typical",
+        "object": "testing approach for patients"
+      },
+      {
+        "subject": "Blood-based assays",
+        "relation": "can be informative in",
+        "object": "some cases"
+      }
+    ]
+  },
+  {
+    "question": "is there any association of LCH with BRAF mutation?",
+    "run": "9",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "involves activating mutations in",
+        "object": "MAPK pathway"
+      },
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "has_common_mutation",
+        "object": "BRAF V600E"
+      },
+      {
+        "subject": "BRAF V600E mutation",
+        "relation": "frequency_in",
+        "object": "40\u201360% of LCH cases"
+      },
+      {
+        "subject": "BRAF V600E mutation",
+        "relation": "more_common_in",
+        "object": "multisystem LCH"
+      },
+      {
+        "subject": "BRAF V600E mutation",
+        "relation": "associated_with",
+        "object": "risk organ involvement"
+      },
+      {
+        "subject": "MAP2K1 (MEK1) mutation",
+        "relation": "present_in",
+        "object": "BRAF-wildtype LCH"
+      },
+      {
+        "subject": "MAPK pathway mutations",
+        "relation": "present_in",
+        "object": "some BRAF-wildtype LCH lesions"
+      },
+      {
+        "subject": "Some LCH lesions",
+        "relation": "may_have",
+        "object": "no known MAPK mutations"
+      },
+      {
+        "subject": "BRAF V600E mutation",
+        "relation": "supports",
+        "object": "LCH as clonal neoplastic disease driven by MAPK"
+      },
+      {
+        "subject": "LCH",
+        "relation": "driven_by",
+        "object": "MAPK pathway activation"
+      },
+      {
+        "subject": "Molecular testing of affected tissue",
+        "relation": "is_commonly_performed_to",
+        "object": "identify mutations in LCH"
+      },
+      {
+        "subject": "Targeted NGS",
+        "relation": "detects",
+        "object": "BRAF V600E in LCH"
+      },
+      {
+        "subject": "PCR",
+        "relation": "detects",
+        "object": "BRAF V600E in LCH"
+      },
+      {
+        "subject": "Immunohistochemistry for BRAF V600E VE1",
+        "relation": "used_in",
+        "object": "some_settings"
+      },
+      {
+        "subject": "Relapsed/refractory or high-risk LCH with BRAF V600E",
+        "relation": "treated_with",
+        "object": "BRAF inhibitors"
+      },
+      {
+        "subject": "BRAF inhibitors",
+        "relation": "examples",
+        "object": "dabrafenib, vemurafenib"
+      },
+      {
+        "subject": "BRAF inhibitors",
+        "relation": "associated_with",
+        "object": "clinical responses"
+      },
+      {
+        "subject": "BRAF inhibitors",
+        "relation": "sometimes_combined_with",
+        "object": "MEK inhibitors"
+      },
+      {
+        "subject": "MEK inhibitors",
+        "relation": "example",
+        "object": "trametinib"
+      },
+      {
+        "subject": "MAPK mutations in BRAF-wildtype LCH",
+        "relation": "may_be_treated_with",
+        "object": "MEK inhibitors"
+      },
+      {
+        "subject": "MEK inhibitors",
+        "relation": "used_in",
+        "object": "specialized settings"
+      },
+      {
+        "subject": "Mutation status",
+        "relation": "influences",
+        "object": "therapy decisions"
+      },
+      {
+        "subject": "Prognostic_significance_of_mutation_status_in_LCH",
+        "relation": "is_still_being_studied",
+        "object": ""
+      },
+      {
+        "subject": "Mutation_status",
+        "relation": "not_only_determinant_of_outcome",
+        "object": "outcome"
+      },
+      {
+        "subject": "Hematologist/oncologist/pathologist",
+        "relation": "can_confirm_mutation_status_with",
+        "object": "appropriate testing"
+      },
+      {
+        "subject": "Appropriate testing",
+        "relation": "guides",
+        "object": "therapy based on full clinical picture"
+      }
+    ]
+  },
+  {
+    "question": "is there any association of LCH with BRAF mutation?",
+    "run": "10",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "involves activating mutations in",
+        "object": "MAPK pathway"
+      },
+      {
+        "subject": "BRAF V600E",
+        "relation": "is the most common activating mutation in",
+        "object": "MAPK pathway mutations in LCH"
+      },
+      {
+        "subject": "BRAF V600E",
+        "relation": "is detected in",
+        "object": "roughly 40\u201360% of LCH cases"
+      },
+      {
+        "subject": "LCH cases without BRAF V600E",
+        "relation": "have",
+        "object": "other MAPK pathway mutations, most commonly MAP2K1 (MEK1) mutations"
+      },
+      {
+        "subject": "MAP2K1 (MEK1) mutations",
+        "relation": "are the most common among",
+        "object": "non-BRAF MAPK pathway mutations in LCH"
+      },
+      {
+        "subject": "LCH",
+        "relation": "is a clonal/neoplastic process driven by",
+        "object": "MAPK pathway activation"
+      },
+      {
+        "subject": "BRAF V600E testing",
+        "relation": "can be assessed by",
+        "object": "sequencing or VE1 immunohistochemistry on lesional tissue"
+      },
+      {
+        "subject": "BRAF V600E test result negative",
+        "relation": "leads to",
+        "object": "testing for MAP2K1 and other MAPK mutations"
+      },
+      {
+        "subject": "BRAF V600E\u2013mutant LCH",
+        "relation": "is associated with",
+        "object": "multisystem/high-risk disease"
+      },
+      {
+        "subject": "MAPK-activated LCH",
+        "relation": "can be treated with",
+        "object": "targeted therapies (BRAF inhibitors such as dabrafenib or vemurafenib; MEK inhibitors like trametinib)"
+      },
+      {
+        "subject": "BRAF inhibitors (dabrafenib or vemurafenib)",
+        "relation": "have shown meaningful responses in",
+        "object": "refractory or multisystem LCH"
+      },
+      {
+        "subject": "MEK inhibitors (trametinib)",
+        "relation": "have shown meaningful responses in",
+        "object": "refractory or multisystem LCH"
+      },
+      {
+        "subject": "Targeted mutation testing (BRAF V600E and MAP2K1)",
+        "relation": "can influence",
+        "object": "prognosis and treatment options"
+      }
+    ]
+  },
+  {
+    "question": "is there any bias of sexes in LCH",
+    "run": "1",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "sex_bias",
+        "object": "no strong or consistent sex bias"
+      },
+      {
+        "subject": "Pediatric data on LCH",
+        "relation": "sex_bias",
+        "object": "slight male predominance (male-to-female ratio ~1.2:1 to 1.6:1) in some registries"
+      },
+      {
+        "subject": "Pediatric data on LCH",
+        "relation": "sex_bias",
+        "object": "roughly equal sex distribution in other cohorts"
+      },
+      {
+        "subject": "Adult data on LCH",
+        "relation": "sex_bias",
+        "object": "not clearly present; not well studied; available series do not show a clear, consistent sex bias"
+      },
+      {
+        "subject": "Langerhans cell histiocytosis",
+        "relation": "sex_prognostic_factor",
+        "object": "not recognized as an independent prognostic factor"
+      },
+      {
+        "subject": "Langerhans cell histiocytosis",
+        "relation": "major_prognostic_determinants",
+        "object": "extent of disease (single-system vs multisystem) and risk-organ involvement (liver, spleen, bone marrow, etc.)"
+      },
+      {
+        "subject": "Langerhans cell histiocytosis",
+        "relation": "treatment_outcomes_by_sex",
+        "object": "no meaningful differences; most studies do not find sex-related differences; small sample sizes limit conclusions"
+      }
+    ]
+  },
+  {
+    "question": "is there any bias of sexes in LCH",
+    "run": "2",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "has_sex_bias",
+        "object": "no_strong_or_universal_bias"
+      },
+      {
+        "subject": "pediatric_LCH_patients",
+        "relation": "sex_bias",
+        "object": "male_excess"
+      },
+      {
+        "subject": "pediatric_LCH_patients",
+        "relation": "male_to_female_ratio",
+        "object": "1.2:1_to_1.5:1"
+      },
+      {
+        "subject": "adult_LCH_patients",
+        "relation": "sex_bias",
+        "object": "near_equal_distribution"
+      },
+      {
+        "subject": "sex_in_LCH",
+        "relation": "predicts_prognosis_or_treatment",
+        "object": "not_major"
+      },
+      {
+        "subject": "disease_extent_in_LCH",
+        "relation": "is_more_important_predictor_of_outcome_than",
+        "object": "sex"
+      },
+      {
+        "subject": "site_of_LCH_involvement",
+        "relation": "is_more_important_predictor_of_outcome_than",
+        "object": "sex"
+      },
+      {
+        "subject": "LCH_studies",
+        "relation": "limitations_affect_findings",
+        "object": "study_design_and_biases_age_distribution_geography"
+      },
+      {
+        "subject": "LCH",
+        "relation": "rarity",
+        "object": "rare"
+      }
+    ]
+  },
+  {
+    "question": "is there any bias of sexes in LCH",
+    "run": "3",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "sex_bias",
+        "object": "not strong or consistent"
+      },
+      {
+        "subject": "LCH in children",
+        "relation": "sex_bias",
+        "object": "slight male predominance"
+      },
+      {
+        "subject": "LCH in children",
+        "relation": "male_case_percentage",
+        "object": "54-60%"
+      },
+      {
+        "subject": "LCH in children",
+        "relation": "male_to_female_ratio",
+        "object": "1.1-1.5:1"
+      },
+      {
+        "subject": "LCH in adults",
+        "relation": "sex_bias",
+        "object": "near-equal distribution"
+      },
+      {
+        "subject": "LCH in adults",
+        "relation": "sex_bias",
+        "object": "small female predominance reported in a few studies"
+      },
+      {
+        "subject": "LCH",
+        "relation": "sex_risk_factor",
+        "object": "not a major risk factor"
+      },
+      {
+        "subject": "LCH prognosis",
+        "relation": "influenced_by",
+        "object": "age_at_diagnosis"
+      },
+      {
+        "subject": "LCH prognosis",
+        "relation": "influenced_by",
+        "object": "number_of_systems_involved"
+      },
+      {
+        "subject": "LCH prognosis",
+        "relation": "influenced_by",
+        "object": "specific_organ_involvement (risk_organs)"
+      },
+      {
+        "subject": "Sex",
+        "relation": "driver_of_prognosis_or_treatment",
+        "object": "not a key driver"
+      },
+      {
+        "subject": "Small_numbers_in_rare_diseases",
+        "relation": "can_produce",
+        "object": "apparent biases that aren\u2019t biologically meaningful"
+      }
+    ]
+  },
+  {
+    "question": "is there any bias of sexes in LCH",
+    "run": "4",
+    "triples": [
+      {
+        "subject": "Pediatric LCH",
+        "relation": "exhibits",
+        "object": "slight male predominance"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "male_to_female_ratio",
+        "object": "1.2\u20131.5:1"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "percent_boys",
+        "object": "54\u201360%"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "bias_strength",
+        "object": "modest"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "bias_variability_between_studies",
+        "object": "varies"
+      },
+      {
+        "subject": "Adult LCH",
+        "relation": "sex_distribution_consistency",
+        "object": "less_consistent"
+      },
+      {
+        "subject": "Adult LCH",
+        "relation": "sex_distribution",
+        "object": "near_equal_in_some_series"
+      },
+      {
+        "subject": "Adult LCH",
+        "relation": "sex_distribution",
+        "object": "small_male_bias_in_other_series"
+      },
+      {
+        "subject": "Adult LCH",
+        "relation": "overall_sex_bias_strength",
+        "object": "not_strong_or_universal"
+      },
+      {
+        "subject": "LCH_sex_bias",
+        "relation": "nature",
+        "object": "epidemiologic_observation"
+      },
+      {
+        "subject": "Differences_by_age_and_extent",
+        "relation": "can_differ_by",
+        "object": "age_group_and_disease_extent (single-system vs multisystem)"
+      },
+      {
+        "subject": "Patterns_of_sex_bias_in_LCH",
+        "relation": "established",
+        "object": "not_firm"
+      }
+    ]
+  },
+  {
+    "question": "is there any bias of sexes in LCH",
+    "run": "5",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "has_sex_bias",
+        "object": "not strong"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "exhibits_sex_bias",
+        "object": "slight male predominance"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "sex_ratio",
+        "object": "approximately 1.2\u20131.5 males per female"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "sex_bias_consistency",
+        "object": "variable; many cohorts near 1:1"
+      },
+      {
+        "subject": "Adult LCH",
+        "relation": "sex_distribution",
+        "object": "generally balanced"
+      },
+      {
+        "subject": "Adult LCH",
+        "relation": "sex_bias_pattern",
+        "object": "no clear, consistent bias"
+      },
+      {
+        "subject": "Sex",
+        "relation": "determinant_of_disease_extent",
+        "object": "not major"
+      },
+      {
+        "subject": "Sex",
+        "relation": "determinant_of_prognosis",
+        "object": "not major"
+      },
+      {
+        "subject": "Age_at_diagnosis",
+        "relation": "influences_prognosis_more_than",
+        "object": "sex"
+      },
+      {
+        "subject": "Body_involvement_extent",
+        "relation": "influences_prognosis_more_than",
+        "object": "sex"
+      }
+    ]
+  },
+  {
+    "question": "is there any bias of sexes in LCH",
+    "run": "6",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "has_universal_sex_bias",
+        "object": "no strong"
+      },
+      {
+        "subject": "pediatric LCH",
+        "relation": "sex_bias",
+        "object": "slight male predominance"
+      },
+      {
+        "subject": "pediatric LCH",
+        "relation": "male_to_female_ratio",
+        "object": "1.2:1 to 1.5:1"
+      },
+      {
+        "subject": "pediatric LCH",
+        "relation": "sex_bias_description",
+        "object": "more boys than girls, but not by a lot"
+      },
+      {
+        "subject": "pediatric LCH",
+        "relation": "cohort_variability",
+        "object": "some cohorts find no significant difference"
+      },
+      {
+        "subject": "adult LCH",
+        "relation": "sex_bias",
+        "object": "closer to balanced; sometimes small male predominance in certain series"
+      },
+      {
+        "subject": "adult LCH",
+        "relation": "sex_distribution",
+        "object": "closer to balanced"
+      },
+      {
+        "subject": "adult LCH",
+        "relation": "sex_bias_in_some_series",
+        "object": "small male predominance"
+      },
+      {
+        "subject": "studies_on_LCH_sex_bias",
+        "relation": "causes_of_variability",
+        "object": "small_sample_sizes"
+      },
+      {
+        "subject": "studies_on_LCH_sex_bias",
+        "relation": "causes_of_variability",
+        "object": "geographic_or_referral_biases"
+      },
+      {
+        "subject": "studies_on_LCH_sex_bias",
+        "relation": "causes_of_variability",
+        "object": "differences_in_case_classification (single-system vs multisystem)"
+      },
+      {
+        "subject": "studies_on_LCH_sex_bias",
+        "relation": "causes_of_variability",
+        "object": "study_design"
+      }
+    ]
+  },
+  {
+    "question": "is there any bias of sexes in LCH",
+    "run": "7",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "sex_bias",
+        "object": "not large or consistent"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "sex_bias",
+        "object": "slight male predominance"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "male_to_female_ratio",
+        "object": "1.2 to 1.6"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "bias_strength",
+        "object": "modest"
+      },
+      {
+        "subject": "Adult LCH",
+        "relation": "sex_distribution",
+        "object": "roughly equal"
+      },
+      {
+        "subject": "Adult LCH",
+        "relation": "sex_difference",
+        "object": "not_strong"
+      },
+      {
+        "subject": "LCH prognosis",
+        "relation": "sex_as_prognostic_factor",
+        "object": "not_major"
+      },
+      {
+        "subject": "LCH",
+        "relation": "main_prognostic_determinants",
+        "object": "extent_of_disease and involvement_of_risk_organs"
+      },
+      {
+        "subject": "risk_organs_involvement",
+        "relation": "prognostic_importance",
+        "object": "liver, spleen, bone marrow"
+      }
+    ]
+  },
+  {
+    "question": "is there any bias of sexes in LCH",
+    "run": "8",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "has_no_strong_or_consistent_sex_bias",
+        "object": "true"
+      },
+      {
+        "subject": "LCH in children",
+        "relation": "sex_distribution",
+        "object": "slight male predominance (1.2\u20131.5 males per female)"
+      },
+      {
+        "subject": "LCH in children",
+        "relation": "sex_distribution",
+        "object": "near-equal sex distribution (reported by some studies)"
+      },
+      {
+        "subject": "LCH in adults",
+        "relation": "sex_bias",
+        "object": "not clearly demonstrated / not consistently observed"
+      },
+      {
+        "subject": "LCH",
+        "relation": "sex_distribution_by_system",
+        "object": "no meaningful difference between single-system and multisystem disease"
+      },
+      {
+        "subject": "LCH",
+        "relation": "sex_distribution_by_organ_involvement",
+        "object": "no meaningful difference by organ involvement"
+      },
+      {
+        "subject": "LCH",
+        "relation": "data_limitations",
+        "object": "rare; data come from small cohorts or registries"
+      },
+      {
+        "subject": "Differences_in_sex_distribution_in_LCH",
+        "relation": "may_reflect",
+        "object": "sampling or reporting biases"
+      },
+      {
+        "subject": "Summary_offer",
+        "relation": "offer",
+        "object": "to summarize by age group or region or find recent reviews with exact numbers"
+      }
+    ]
+  },
+  {
+    "question": "is there any bias of sexes in LCH",
+    "run": "9",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "has_no",
+        "object": "strong or universal sex bias"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "shows",
+        "object": "slight male predominance (approximately 1.2\u20131.5 males per female)"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "note",
+        "object": "difference is small and not seen in all datasets"
+      },
+      {
+        "subject": "Adult LCH",
+        "relation": "sex_distribution",
+        "object": "closer to 1:1; sometimes very modest male predominance; not strong or consistent"
+      },
+      {
+        "subject": "Single-system LCH",
+        "relation": "comparison_of_sex_ratio",
+        "object": "not clearly different from multisystem LCH"
+      },
+      {
+        "subject": "Multisystem LCH",
+        "relation": "comparison_of_sex_ratio",
+        "object": "not clearly different from single-system LCH"
+      },
+      {
+        "subject": "Sex in LCH",
+        "relation": "should_not_guide",
+        "object": "diagnosis, prognosis, or treatment decisions"
+      },
+      {
+        "subject": "Sex bias in LCH",
+        "relation": "consistency_across_studies_and_subtypes",
+        "object": "not entirely consistent"
+      },
+      {
+        "subject": "Individual studies on LCH sex distribution",
+        "relation": "report",
+        "object": "variations in sex ratio that may be influenced by sample size and regional factors"
+      }
+    ]
+  },
+  {
+    "question": "is there any bias of sexes in LCH",
+    "run": "10",
+    "triples": [
+      [
+        "Langerhans cell histiocytosis (LCH)",
+        "has_overall_sex_bias",
+        "not strong or consistent"
+      ],
+      [
+        "LCH in pediatric groups",
+        "sex_bias",
+        "slight male predominance (approximate male-to-female ratio 1.2:1 to 1.5:1)"
+      ],
+      [
+        "LCH in adults",
+        "sex_bias",
+        "balanced (near 1:1)"
+      ],
+      [
+        "Sex bias in LCH",
+        "varies_by",
+        "age group (pediatric vs adult)"
+      ],
+      [
+        "Sex bias in LCH",
+        "varies_by",
+        "disease_extent (single-system vs multisystem)"
+      ],
+      [
+        "Sex bias in LCH",
+        "varies_by",
+        "geography/population differences"
+      ],
+      [
+        "Small_sample_sizes_and_biases",
+        "affect",
+        "observed sex distribution numbers"
+      ],
+      [
+        "If precise figures are requested",
+        "action",
+        "summarize relevant studies or updated registry data"
+      ]
+    ]
+  },
+  {
+    "question": "is LCH associated with neurodegeneration?",
+    "run": "1",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "can be associated with",
+        "object": "neurodegenerative LCH (ND-LCH)"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "is a",
+        "object": "progressive neurologic syndrome"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "can occur after",
+        "object": "initial LCH diagnosis"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "can occur when",
+        "object": "LCH is not currently active"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "cerebellar ataxia"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "tremor"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "dysarthria"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "dystonia or other movement disorders"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "cognitive or behavioral changes"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "memory problems"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "seizures"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "MRI_findings",
+        "object": "symmetric T2/FLAIR signal abnormalities in cerebellum, brainstem, and deep white matter"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "MRI_findings",
+        "object": "brain atrophy (in some cases)"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "is_recognized_complication_of",
+        "object": "Langerhans cell histiocytosis (LCH)"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "prevalence_context",
+        "object": "relatively uncommon but not rare in long-term survivors"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "pathophysiology",
+        "object": "not fully understood"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "possible_mechanism",
+        "object": "neuroinflammatory or autoimmune process linked to prior LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "may_be_related_to",
+        "object": "active LCH lesions"
+      },
+      {
+        "subject": "BRAF V600E mutation in LCH",
+        "relation": "may_be_involved_in",
+        "object": "ND-LCH"
+      },
+      {
+        "subject": "BRAF V600E mutation in LCH",
+        "relation": "may_inform",
+        "object": "treatment options"
+      },
+      {
+        "subject": "ND-LCH_diagnosis_workup",
+        "relation": "includes",
+        "object": "brain MRI"
+      },
+      {
+        "subject": "ND-LCH_diagnosis_workup",
+        "relation": "includes",
+        "object": "neurological examination"
+      },
+      {
+        "subject": "ND-LCH_diagnosis_workup",
+        "relation": "includes",
+        "object": "assessment of systemic LCH activity"
+      },
+      {
+        "subject": "genetic/molecular_testing (e.g., BRAF mutation status)",
+        "relation": "may_inform",
+        "object": "treatment_options"
+      },
+      {
+        "subject": "ND-LCH_treatment",
+        "relation": "includes",
+        "object": "immunotherapy"
+      },
+      {
+        "subject": "ND-LCH_treatment",
+        "relation": "includes",
+        "object": "cytotoxic chemotherapy (e.g., cladribine, methotrexate)"
+      },
+      {
+        "subject": "ND-LCH_treatment",
+        "relation": "includes",
+        "object": "targeted therapy for mutations (e.g., BRAF inhibitors like dabrafenib or vemurafenib)"
+      },
+      {
+        "subject": "BRAF inhibitors (e.g., dabrafenib or vemurafenib)",
+        "relation": "are_examples_of",
+        "object": "targeted therapy for BRAF V600E"
+      },
+      {
+        "subject": "ND-LCH_treatment",
+        "relation": "includes",
+        "object": "supportive and rehabilitative care (physical therapy, occupational therapy, speech therapy)"
+      },
+      {
+        "subject": "multidisciplinary team",
+        "relation": "recommends_follow_up_by",
+        "object": "ND-LCH management (oncology/hematology, neurology, endocrinology, rehabilitation)"
+      },
+      {
+        "subject": "ND-LCH_prognosis",
+        "relation": "can_be",
+        "object": "progressive"
+      },
+      {
+        "subject": "ND-LCH_prognosis",
+        "relation": "can_lead_to",
+        "object": "lasting disability"
+      },
+      {
+        "subject": "ND-LCH_prognosis",
+        "relation": "course_is",
+        "object": "highly variable"
+      },
+      {
+        "subject": "some_patients",
+        "relation": "stabilize_or_improve_with",
+        "object": "treatment and rehabilitation"
+      },
+      {
+        "subject": "neurologist and LCH specialist",
+        "relation": "should_be_involved_when",
+        "object": "neurologic symptoms develop"
+      },
+      {
+        "subject": "ND-LCH_evaluation",
+        "relation": "includes",
+        "object": "brain MRI"
+      },
+      {
+        "subject": "ND-LCH_evaluation",
+        "relation": "includes",
+        "object": "neurological examination"
+      },
+      {
+        "subject": "ND-LCH_evaluation",
+        "relation": "includes",
+        "object": "assessment of systemic LCH activity"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "pattern_on_MRI",
+        "object": "MRI pattern can help differentiate from other causes"
+      }
+    ]
+  },
+  {
+    "question": "is LCH associated with neurodegeneration?",
+    "run": "2",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "associated_with",
+        "object": "neurodegeneration"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "type_of",
+        "object": "late-onset, progressive neurological syndrome"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "occurs_in",
+        "object": "patients_with_history_of_LCH"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "can_occur_during",
+        "object": "remission_of_systemic_LCH"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "onset_after",
+        "object": "months_to_years_after_initial_LCH_diagnosis"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "presents_with",
+        "object": "ataxia"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "presents_with",
+        "object": "tremor"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "presents_with",
+        "object": "dysarthria"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "presents_with",
+        "object": "dystonia"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "presents_with",
+        "object": "myoclonus"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "presents_with",
+        "object": "balance_difficulties"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "presents_with",
+        "object": "dysphagia"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "presents_with",
+        "object": "cognitive_or_behavioral_changes"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "presents_with",
+        "object": "seizures"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "brain_imaging_finding",
+        "object": "cerebellar_involvement"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "brain_imaging_finding",
+        "object": "brainstem_involvement"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "brain_imaging_finding",
+        "object": "white_matter_changes"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "brain_imaging_finding",
+        "object": "brain_atrophy"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "proposed_mechanism",
+        "object": "inflammatory/immune-mediated_neurodegeneration"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "not_fully_understood",
+        "object": "true"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "involves_direct_LC_infiltration",
+        "object": "not_consistently_involved"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "associated_with",
+        "object": "prior_CNS_involvement"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "associated_with",
+        "object": "BRAFV600E_mutation"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "treatment_status",
+        "object": "no_universally_proven_disease-modifying_therapy"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "management_approach",
+        "object": "multidisciplinary"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "management_focus",
+        "object": "treat_active_LCH_if_present"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "management_focus",
+        "object": "symptom_control_and_rehabilitation"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "management_focus",
+        "object": "medications_or_interventions_for_specific_neurologic_symptoms"
+      },
+      {
+        "subject": "neurodegenerative Langerhans cell histiocytosis (ND-LCH)",
+        "relation": "management_focus",
+        "object": "targeted_therapies_in_selected_cases"
+      },
+      {
+        "subject": "targeted_therapies_in_selected_cases",
+        "relation": "include",
+        "object": "BRAF_inhibitors"
+      },
+      {
+        "subject": "targeted_therapies_in_selected_cases",
+        "relation": "include",
+        "object": "MEK_inhibitors"
+      },
+      {
+        "subject": "BRAF_inhibitors",
+        "relation": "used_when",
+        "object": "active_disease_or_certain_mutations"
+      },
+      {
+        "subject": "MEK_inhibitors",
+        "relation": "used_when",
+        "object": "active_disease_or_certain_mutations"
+      },
+      {
+        "subject": "evidence_for_targeted_therapies",
+        "relation": "data",
+        "object": "limited"
+      },
+      {
+        "subject": "ND-LCH_concern",
+        "relation": "advice",
+        "object": "discuss_with_hematologist_oncologist_specializing_in_LCH"
+      },
+      {
+        "subject": "ND-LCH_concern",
+        "relation": "advice",
+        "object": "discuss_with_neurologist"
+      },
+      {
+        "subject": "hematologist_oncologist_specializing_in_LCH",
+        "relation": "can_evaluate_with",
+        "object": "clinical_exams_and_MRI"
+      },
+      {
+        "subject": "clinical_exams_and_MRI",
+        "relation": "used_to",
+        "object": "tailor_management"
+      }
+    ]
+  },
+  {
+    "question": "is LCH associated with neurodegeneration?",
+    "run": "3",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "can be associated with",
+        "object": "neurodegeneration associated with LCH (ND-LCH)"
+      },
+      {
+        "subject": "neurodegeneration associated with LCH (ND-LCH)",
+        "relation": "can occur after",
+        "object": "initial LCH diagnosis"
+      },
+      {
+        "subject": "neurodegeneration associated with LCH (ND-LCH)",
+        "relation": "can occur even if",
+        "object": "there is no active systemic disease at the time"
+      },
+      {
+        "subject": "neurodegeneration associated with LCH (ND-LCH)",
+        "relation": "presents with",
+        "object": "cerebellar ataxia"
+      },
+      {
+        "subject": "neurodegeneration associated with LCH (ND-LCH)",
+        "relation": "presents with",
+        "object": "gait dysfunction"
+      },
+      {
+        "subject": "neurodegeneration associated with LCH (ND-LCH)",
+        "relation": "presents with",
+        "object": "dystonia or other movement disorders"
+      },
+      {
+        "subject": "neurodegeneration associated with LCH (ND-LCH)",
+        "relation": "presents with",
+        "object": "dysarthria"
+      },
+      {
+        "subject": "neurodegeneration associated with LCH (ND-LCH)",
+        "relation": "presents with",
+        "object": "dysphagia"
+      },
+      {
+        "subject": "neurodegeneration associated with LCH (ND-LCH)",
+        "relation": "presents with",
+        "object": "vision or eye movement abnormalities"
+      },
+      {
+        "subject": "neurodegeneration associated with LCH (ND-LCH)",
+        "relation": "presents with",
+        "object": "cognitive/behavioral changes"
+      },
+      {
+        "subject": "neurodegeneration associated with LCH (ND-LCH)",
+        "relation": "presents with",
+        "object": "seizures"
+      },
+      {
+        "subject": "neurodegeneration associated with LCH (ND-LCH)",
+        "relation": "MRI findings involve",
+        "object": "cerebellum and brainstem"
+      },
+      {
+        "subject": "neurodegeneration associated with LCH (ND-LCH)",
+        "relation": "MRI findings include",
+        "object": "white matter changes"
+      },
+      {
+        "subject": "CSF in ND-LCH",
+        "relation": "may show",
+        "object": "inflammatory markers"
+      },
+      {
+        "subject": "CSF in ND-LCH",
+        "relation": "may show",
+        "object": "oligoclonal bands"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "cause",
+        "object": "not fully understood"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "may involve",
+        "object": "autoimmune/inflammatory mechanisms"
+      },
+      {
+        "subject": "Direct tumor infiltration of the CNS",
+        "relation": "is not the sole explanation for",
+        "object": "ND-LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "risk factors include",
+        "object": "younger age at initial LCH diagnosis"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "risk factors include",
+        "object": "multisystem/high-risk organ disease"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "has",
+        "object": "no proven disease-modifying therapy"
+      },
+      {
+        "subject": "ND-LCH treatments",
+        "relation": "include",
+        "object": "immunotherapy (IVIG, steroids, rituximab)"
+      },
+      {
+        "subject": "ND-LCH treatments",
+        "relation": "include",
+        "object": "other anti-inflammatory approaches"
+      },
+      {
+        "subject": "Targeted therapies for LCH",
+        "relation": "may help",
+        "object": "active disease"
+      },
+      {
+        "subject": "ND-LCH management",
+        "relation": "focuses on",
+        "object": "symptom control"
+      },
+      {
+        "subject": "ND-LCH management",
+        "relation": "focuses on",
+        "object": "supportive care"
+      },
+      {
+        "subject": "ND-LCH management",
+        "relation": "focuses on",
+        "object": "monitoring"
+      },
+      {
+        "subject": "ND-LCH management",
+        "relation": "should be coordinated with",
+        "object": "a center experienced in LCH"
+      }
+    ]
+  },
+  {
+    "question": "is LCH associated with neurodegeneration?",
+    "run": "4",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "is associated with",
+        "object": "neurodegenerative LCH (ND-LCH)"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "is a",
+        "object": "late complication of LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "develops after",
+        "object": "initial LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "progressive neurologic problems"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "most commonly presents with",
+        "object": "cerebellar signs"
+      },
+      {
+        "subject": "cerebellar signs",
+        "relation": "include",
+        "object": "ataxia"
+      },
+      {
+        "subject": "cerebellar signs",
+        "relation": "include",
+        "object": "unsteady gait"
+      },
+      {
+        "subject": "cerebellar signs",
+        "relation": "include",
+        "object": "slurred speech"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "can include",
+        "object": "cognitive changes"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "can include",
+        "object": "behavioral changes"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "can include",
+        "object": "myoclonus"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "can include",
+        "object": "dystonia"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "can include",
+        "object": "other movement disorders"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "MRI findings",
+        "object": "T2/FLAIR signal changes in cerebellum, brainstem, or other white matter regions"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "early imaging may be",
+        "object": "normal"
+      },
+      {
+        "subject": "MAPK pathway mutations (e.g., BRAFV600E) in LCH lesions",
+        "relation": "may be associated with",
+        "object": "higher risk of ND-LCH"
+      },
+      {
+        "subject": "BRAFV600E mutation",
+        "relation": "is present in",
+        "object": "LCH lesions"
+      },
+      {
+        "subject": "MAPK pathway mutations",
+        "relation": "are linked to",
+        "object": "ND-LCH risk"
+      },
+      {
+        "subject": "ND-LCH diagnosis",
+        "relation": "involves",
+        "object": "clinical assessment"
+      },
+      {
+        "subject": "ND-LCH diagnosis",
+        "relation": "involves",
+        "object": "brain imaging"
+      },
+      {
+        "subject": "ND-LCH diagnosis",
+        "relation": "involves",
+        "object": "exclusion of other causes"
+      },
+      {
+        "subject": "CSF studies",
+        "relation": "may be used in",
+        "object": "ND-LCH evaluation"
+      },
+      {
+        "subject": "autoimmune testing",
+        "relation": "may be used in",
+        "object": "ND-LCH evaluation"
+      },
+      {
+        "subject": "ND-LCH treatment",
+        "relation": "is",
+        "object": "not standardized"
+      },
+      {
+        "subject": "ND-LCH treatment options",
+        "relation": "include",
+        "object": "immunomodulatory therapies"
+      },
+      {
+        "subject": "immunomodulatory therapies",
+        "relation": "include",
+        "object": "steroids"
+      },
+      {
+        "subject": "immunomodulatory therapies",
+        "relation": "include",
+        "object": "IVIG"
+      },
+      {
+        "subject": "ND-LCH treatment options",
+        "relation": "include",
+        "object": "cytarabine"
+      },
+      {
+        "subject": "ND-LCH treatment options",
+        "relation": "include",
+        "object": "other chemotherapy"
+      },
+      {
+        "subject": "ND-LCH treatment options",
+        "relation": "include",
+        "object": "targeted therapy"
+      },
+      {
+        "subject": "targeted therapy",
+        "relation": "includes",
+        "object": "MEK inhibitors"
+      },
+      {
+        "subject": "targeted therapy",
+        "relation": "includes",
+        "object": "BRAF inhibitors"
+      },
+      {
+        "subject": "patients with relevant mutations",
+        "relation": "receive",
+        "object": "targeted therapy"
+      },
+      {
+        "subject": "Supportive care",
+        "relation": "includes",
+        "object": "physical therapy"
+      },
+      {
+        "subject": "Supportive care",
+        "relation": "includes",
+        "object": "occupational therapy"
+      },
+      {
+        "subject": "ND-LCH outcomes",
+        "relation": "are",
+        "object": "variable"
+      },
+      {
+        "subject": "Some patients",
+        "relation": "respond to",
+        "object": "therapy"
+      },
+      {
+        "subject": "Others",
+        "relation": "have",
+        "object": "progressive symptoms"
+      },
+      {
+        "subject": "LCH patient with new or worsening neurological symptoms",
+        "relation": "should discuss with",
+        "object": "multidisciplinary team"
+      },
+      {
+        "subject": "multidisciplinary team",
+        "relation": "consists of",
+        "object": "pediatric/hematology-oncology"
+      },
+      {
+        "subject": "multidisciplinary team",
+        "relation": "consists of",
+        "object": "neurology"
+      },
+      {
+        "subject": "multidisciplinary team",
+        "relation": "consists of",
+        "object": "neuro-oncology"
+      }
+    ]
+  },
+  {
+    "question": "is LCH associated with neurodegeneration?",
+    "run": "5",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "is associated with",
+        "object": "neurodegenerative LCH (ND-LCH)"
+      },
+      {
+        "subject": "Neurodegenerative LCH (ND-LCH)",
+        "relation": "can develop after",
+        "object": "LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "may appear when",
+        "object": "systemic LCH is quiet or in remission"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "movement problems (ataxia, tremor, dystonia)"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "balance and gait difficulties"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "slurred speech (dysarthria)"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "cognitive or behavioral changes"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "seizures"
+      },
+      {
+        "subject": "Brain MRI findings in ND-LCH",
+        "relation": "include",
+        "object": "patterns (often in the cerebellum/brainstem or other deep structures) with T2/FLAIR signal changes"
+      },
+      {
+        "subject": "ND-LCH evaluation",
+        "relation": "may include",
+        "object": "neurological evaluation"
+      },
+      {
+        "subject": "ND-LCH evaluation",
+        "relation": "may include",
+        "object": "CSF tests"
+      },
+      {
+        "subject": "ND-LCH evaluation",
+        "relation": "may include",
+        "object": "neuropsychology tests"
+      },
+      {
+        "subject": "Causes of ND-LCH",
+        "relation": "are",
+        "object": "not fully understood"
+      },
+      {
+        "subject": "ND-LCH pathophysiology",
+        "relation": "involves",
+        "object": "ongoing inflammation or autoimmune-like processes affecting the nervous system"
+      },
+      {
+        "subject": "ND-LCH link",
+        "relation": "may be linked to",
+        "object": "immune dysregulation even if LCH is not active elsewhere"
+      },
+      {
+        "subject": "ND-LCH treatment",
+        "relation": "has",
+        "object": "no universally proven cure"
+      },
+      {
+        "subject": "ND-LCH management",
+        "relation": "is",
+        "object": "individualized and multidisciplinary"
+      },
+      {
+        "subject": "ND-LCH treatment options",
+        "relation": "include",
+        "object": "immunotherapies (IVIG, steroids, rituximab) and chemotherapy (cladribine, cytarabine)"
+      },
+      {
+        "subject": "ND-LCH therapy",
+        "relation": "may include",
+        "object": "supportive therapies (physical, occupational, speech therapy)"
+      },
+      {
+        "subject": "ND-LCH prognosis",
+        "relation": "varies",
+        "object": "some patients stabilize, others decline"
+      },
+      {
+        "subject": "If a person with LCH develops new neurological symptoms",
+        "relation": "should prompt",
+        "object": "evaluation by a neurologist"
+      }
+    ]
+  },
+  {
+    "question": "is LCH associated with neurodegeneration?",
+    "run": "6",
+    "triples": [
+      {
+        "subject": "ND-LCH",
+        "relation": "associated_with",
+        "object": "LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "occurs_in",
+        "object": "minority_of_people_with_LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "onset_timing",
+        "object": "years_after_initial_LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "more_common_in",
+        "object": "multisystem_LCH_or_CNS_risk_lesions"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "ataxia"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "tremor"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "dysarthria"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "gait_problems"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "cognitive_or_behavioral_changes"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "seizures"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "imaging_findings",
+        "object": "bilateral_symmetric_changes_in_cerebellum_and_brainstem"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "imaging_findings",
+        "object": "changes_in_basal_ganglia_and_thalamus"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "imaging_findings",
+        "object": "white_matter_changes"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "possible_causes",
+        "object": "autoimmune_or_inflammatory_processes"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "possible_causes",
+        "object": "persistent_MAPK_pathway_activity"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "associated_with",
+        "object": "anti_neuronal_antibodies"
+      },
+      {
+        "subject": "LCH_mutation_BRAF_V600E",
+        "relation": "linked_to",
+        "object": "ND-LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatment_focus",
+        "object": "slowing_progression_and_managing_symptoms"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatment_includes",
+        "object": "steroids"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatment_includes",
+        "object": "cytarabine"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatment_includes",
+        "object": "cladribine"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatment_includes",
+        "object": "IVIG"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatment_includes",
+        "object": "rituximab"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatment_includes",
+        "object": "dabrafenib_or_vemurafenib"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatment_includes",
+        "object": "trametinib"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "rehabilitation_included",
+        "object": "physiotherapy"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "rehabilitation_included",
+        "object": "speech_therapy"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "rehabilitation_included",
+        "object": "occupational_therapy"
+      },
+      {
+        "subject": "patient_counseling",
+        "relation": "advised_action",
+        "object": "seek_evaluation_by_hematologist_oncologist_and_neurologist"
+      },
+      {
+        "subject": "MRI_and_neuropsych_testing",
+        "relation": "used_in",
+        "object": "assessment"
+      }
+    ]
+  },
+  {
+    "question": "is LCH associated with neurodegeneration?",
+    "run": "7",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "can be associated with",
+        "object": "neurodegeneration (neurodegenerative LCH, ND-LCH)"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "is a late complication of",
+        "object": "Langerhans cell histiocytosis (LCH)"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "can develop after",
+        "object": "initial Langerhans cell histiocytosis (LCH)"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "occurs more often in",
+        "object": "people with multisystem disease or CNS involvement"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "can occur even when",
+        "object": "LCH seems quiet"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "may include",
+        "object": "ataxia"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "may include",
+        "object": "dysarthria"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "may include",
+        "object": "tremors or myoclonus"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "may include",
+        "object": "difficulty with walking"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "may include",
+        "object": "changes in thinking, behavior, or memory"
+      },
+      {
+        "subject": "MRI findings in ND-LCH",
+        "relation": "involve",
+        "object": "brainstem"
+      },
+      {
+        "subject": "MRI findings in ND-LCH",
+        "relation": "involve",
+        "object": "cerebellum"
+      },
+      {
+        "subject": "MRI findings in ND-LCH",
+        "relation": "involve",
+        "object": "basal ganglia or thalamus"
+      },
+      {
+        "subject": "MRI findings in ND-LCH",
+        "relation": "can be",
+        "object": "normal early in the process"
+      },
+      {
+        "subject": "The exact cause of ND-LCH",
+        "relation": "is",
+        "object": "not fully understood"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "may be associated with",
+        "object": "underlying MAPK pathway mutations in LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "has",
+        "object": "no single proven standard treatment"
+      },
+      {
+        "subject": "Some patients",
+        "relation": "have shown",
+        "object": "improvement or stabilization with targeted therapies (MEK inhibitors such as trametinib or cobimetinib) when MAPK pathway mutations are present"
+      },
+      {
+        "subject": "Other approaches",
+        "relation": "have included",
+        "object": "steroids"
+      },
+      {
+        "subject": "Other approaches",
+        "relation": "have included",
+        "object": "intravenous immunoglobulin"
+      },
+      {
+        "subject": "Other approaches",
+        "relation": "have included",
+        "object": "chemotherapy in selected cases"
+      },
+      {
+        "subject": "ND-LCH management",
+        "relation": "includes",
+        "object": "supportive therapies like physical, occupational, and speech therapy"
+      },
+      {
+        "subject": "Steroids",
+        "relation": "are used in",
+        "object": "ND-LCH"
+      },
+      {
+        "subject": "Intravenous immunoglobulin",
+        "relation": "are used in",
+        "object": "ND-LCH"
+      },
+      {
+        "subject": "Chemotherapy",
+        "relation": "are used in",
+        "object": "selected cases of ND-LCH"
+      },
+      {
+        "subject": "Supportive therapies",
+        "relation": "include",
+        "object": "physical therapy"
+      },
+      {
+        "subject": "Supportive therapies",
+        "relation": "include",
+        "object": "occupational therapy"
+      },
+      {
+        "subject": "Supportive therapies",
+        "relation": "include",
+        "object": "speech therapy"
+      },
+      {
+        "subject": "ND-LCH prognosis",
+        "relation": "is",
+        "object": "variable"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "is a major source of",
+        "object": "long-term morbidity for survivors"
+      },
+      {
+        "subject": "Outcomes in ND-LCH",
+        "relation": "depend on",
+        "object": "extent of neurodegeneration"
+      },
+      {
+        "subject": "Outcomes in ND-LCH",
+        "relation": "depend on",
+        "object": "how quickly it\u2019s recognized and treated"
+      },
+      {
+        "subject": "Hematologist/oncologist or neuro-histiocytosis specialty team",
+        "relation": "can tailor",
+        "object": "evaluation and management to the specific case"
+      }
+    ]
+  },
+  {
+    "question": "is LCH associated with neurodegeneration?",
+    "run": "8",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "can be associated with",
+        "object": "LCH-associated neurodegeneration (ND-LCH)"
+      },
+      {
+        "subject": "LCH-associated neurodegeneration (ND-LCH)",
+        "relation": "is a",
+        "object": "neurodegenerative process in the brain"
+      },
+      {
+        "subject": "LCH-associated neurodegeneration (ND-LCH)",
+        "relation": "is also known as",
+        "object": "neurodegenerative LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "develops after",
+        "object": "initial LCH diagnosis"
+      },
+      {
+        "subject": "LCH patients with CNS-related risk lesions",
+        "relation": "have increased risk of",
+        "object": "ND-LCH"
+      },
+      {
+        "subject": "LCH patients with hypothalamic\u2013pituitary involvement",
+        "relation": "have increased risk of",
+        "object": "ND-LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "ataxia (loss of coordination)"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "tremor"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "dysarthria (slurred speech)"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "myoclonus"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "other movement abnormalities"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents with",
+        "object": "cognitive or behavioral changes"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "may include",
+        "object": "seizures"
+      },
+      {
+        "subject": "MRI findings in ND-LCH",
+        "relation": "include",
+        "object": "cerebellar atrophy"
+      },
+      {
+        "subject": "MRI findings in ND-LCH",
+        "relation": "include",
+        "object": "brainstem atrophy"
+      },
+      {
+        "subject": "MRI findings in ND-LCH",
+        "relation": "include",
+        "object": "specific signal changes"
+      },
+      {
+        "subject": "MRI findings in ND-LCH",
+        "relation": "may show",
+        "object": "neuroinflammation"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "is distinct from",
+        "object": "direct LCH infiltration of the brain"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "pathogenesis involves",
+        "object": "autoimmune/inflammatory mechanisms"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "pathogenesis involves",
+        "object": "microglial activation"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "is not caused by",
+        "object": "active cancerous Langerhans cells in the brain"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatment options studied include",
+        "object": "chemotherapy (methotrexate, cytarabine)"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatment options studied include",
+        "object": "intravenous immunoglobulin (IVIG)"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatment options studied include",
+        "object": "rituximab"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatment options studied include",
+        "object": "supportive/rehabilitative therapies"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "has variable treatment response",
+        "object": "some stabilize or slow progression, others worsen"
+      },
+      {
+        "subject": "Early rehabilitation and multidisciplinary care",
+        "relation": "are important in",
+        "object": "management of ND-LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "monitoring includes",
+        "object": "regular follow-up with neurology and neuroimaging"
+      },
+      {
+        "subject": "Survivors of LCH",
+        "relation": "monitoring includes",
+        "object": "regular follow-up with neurology and neuroimaging"
+      },
+      {
+        "subject": "New or worsening neurological symptoms in someone with LCH",
+        "relation": "should prompt",
+        "object": "discussion with treating team"
+      }
+    ]
+  },
+  {
+    "question": "is LCH associated with neurodegeneration?",
+    "run": "9",
+    "triples": [
+      {
+        "subject": "subset of people with Langerhans cell histiocytosis (LCH)",
+        "relation": "may_develop",
+        "object": "neurodegenerative LCH (ND-LCH) / CNS-LCH with neurodegeneration"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "is_also_known_as",
+        "object": "CNS-LCH with neurodegeneration"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "typically_develops_after",
+        "object": "initial LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "may_occur_when",
+        "object": "systemic LCH is in remission"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "movement problems (ataxia, tremor, dysarthria)"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "cognitive or behavioral changes"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "seizures"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "imaging_findings",
+        "object": "degeneration in cerebellum"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "imaging_findings",
+        "object": "degeneration in brainstem"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "imaging_findings",
+        "object": "degeneration in basal ganglia"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "imaging_findings",
+        "object": "degeneration in other CNS areas"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "cause",
+        "object": "exact mechanism not fully understood"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "may_involve",
+        "object": "chronic CNS inflammation"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "may_involve",
+        "object": "autoimmune-like processes"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "may_involve",
+        "object": "BRAFV600E mutations in brain tissue"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatment",
+        "object": "no standardized cure"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatment_options_include",
+        "object": "chemotherapy (e.g., cladribine, cytarabine)"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatment_options_include",
+        "object": "steroids"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatment_options_include",
+        "object": "MAPK inhibitors (targeted therapies)"
+      },
+      {
+        "subject": "MAPK inhibitors",
+        "relation": "examples",
+        "object": "vemurafenib"
+      },
+      {
+        "subject": "MAPK inhibitors",
+        "relation": "examples",
+        "object": "dabrafenib"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "may_use_treatment_if",
+        "object": "BRAFV600E mutation present -> targeted therapies"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "management",
+        "object": "supportive care and rehabilitation"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "management",
+        "object": "individualized"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "management_center",
+        "object": "neuro-oncology or LCH specialist center"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "prognosis",
+        "object": "varies"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "prognosis_description",
+        "object": "some patients stabilize or slowly progress"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "prognosis_description",
+        "object": "others have more rapid decline"
+      },
+      {
+        "subject": "patients with LCH and new/worsening neurological symptoms",
+        "relation": "should_consult",
+        "object": "clinician specialized in LCH/NCI"
+      }
+    ]
+  },
+  {
+    "question": "is LCH associated with neurodegeneration?",
+    "run": "10",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "associated_with",
+        "object": "neurodegenerative_process (ND-LCH)"
+      },
+      {
+        "subject": "neurodegenerative LCH (ND-LCH)",
+        "relation": "is_a",
+        "object": "rare_progressive_neurologic_syndrome"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "develops_in_population",
+        "object": "people_with_LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "affects",
+        "object": "cerebellum"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "affects",
+        "object": "brainstem"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "affects",
+        "object": "basal_ganglia"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "affects",
+        "object": "white_matter"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "risk_factor",
+        "object": "history_of_CNS_involvement_from_LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "ataxia"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "tremor"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "dysarthria"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "dystonia"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "myoclonus"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "cognitive_changes"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "behavioral_changes"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "presents_with",
+        "object": "seizures"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "diagnosed_by",
+        "object": "neurologic_exam"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "diagnosed_by",
+        "object": "MRI_brain_findings"
+      },
+      {
+        "subject": "MRI_brain_findings",
+        "relation": "include",
+        "object": "T2/FLAIR_hyperintensities_in_cerebellum"
+      },
+      {
+        "subject": "MRI_brain_findings",
+        "relation": "include",
+        "object": "T2/FLAIR_hyperintensities_in_brainstem"
+      },
+      {
+        "subject": "MRI_brain_findings",
+        "relation": "include",
+        "object": "T2/FLAIR_hyperintensities_in_basal_ganglia"
+      },
+      {
+        "subject": "MRI_brain_findings",
+        "relation": "include",
+        "object": "T2/FLAIR_hyperintensities_in_white_matter"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "diagnosis_involves",
+        "object": "history_of_LCH"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "differential_diagnosis",
+        "object": "other_causes_ruled_out"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "prognosis",
+        "object": "variable"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatment_involves",
+        "object": "immunomodulatory_therapies"
+      },
+      {
+        "subject": "immunomodulatory_therapies",
+        "relation": "examples",
+        "object": "steroids"
+      },
+      {
+        "subject": "immunomodulatory_therapies",
+        "relation": "examples",
+        "object": "IVIG"
+      },
+      {
+        "subject": "immunomodulatory_therapies",
+        "relation": "examples",
+        "object": "other_immunosuppressants"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "treatment_involves",
+        "object": "MAPK_pathway_inhibitors"
+      },
+      {
+        "subject": "MAPK_pathway_inhibitors",
+        "relation": "example",
+        "object": "MEK_inhibitors"
+      },
+      {
+        "subject": "BRAFV600E_mutation",
+        "relation": "presence_triggers",
+        "object": "targeted_therapy_discussion"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "requires_supportive_care",
+        "object": "physiotherapy"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "requires_supportive_care",
+        "object": "occupational_therapy"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "requires_supportive_care",
+        "object": "speech_therapy"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "disease_course",
+        "object": "stabilization_to_slow_progression"
+      },
+      {
+        "subject": "ND-LCH_suspected_or_new_neurological_symptoms_in_LCH_patient",
+        "relation": "advised_action",
+        "object": "multidisciplinary_team_consultation"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "diagnosis_requires",
+        "object": "MRI_and_neurologic_assessment"
+      },
+      {
+        "subject": "ND-LCH",
+        "relation": "targeted_therapies_discussion",
+        "object": "if_mutations_identified"
+      }
+    ]
+  },
+  {
+    "question": "What is the molecular mechanism of sorafenib?",
+    "run": "1",
+    "triples": [
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "CRAF/Raf-1 (RAF family kinase)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "B-RAF"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces_phosphorylation_of",
+        "object": "MEK"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces_phosphorylation_of",
+        "object": "ERK"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGFR-2 (KDR)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGFR-3 (Flt-4)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "PDGFR-\u03b2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "RET"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "FLT3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "c-KIT"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "binds_to",
+        "object": "ATP-binding pocket of kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "stabilizes",
+        "object": "inactive (DFG-out) conformation of kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "is_a",
+        "object": "Type II kinase inhibitor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "suppresses",
+        "object": "tumor cell proliferation via Raf/MEK/ERK pathway"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "tumor angiogenesis"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "lowers",
+        "object": "tumor blood vessel formation"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "lowers",
+        "object": "nutrient supply to tumor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "used_to_treat",
+        "object": "hepatocellular carcinoma"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "used_to_treat",
+        "object": "renal cell carcinoma"
+      }
+    ]
+  },
+  {
+    "question": "What is the molecular mechanism of sorafenib?",
+    "run": "2",
+    "triples": [
+      {
+        "subject": "Sorafenib",
+        "relation": "type",
+        "object": "small-molecule multi-kinase inhibitor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "used_in",
+        "object": "cancer therapy"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "CRAF (wild-type)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "BRAF (wild-type)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "VEGFR-2 (KDR)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "VEGFR-3 (Flt-4)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "PDGFR-\u03b2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "FLT3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "RET"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "c-KIT"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "binds_to",
+        "object": "ATP-binding sites of RAF kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "is_a",
+        "object": "ATP-competitive inhibitor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "is_type",
+        "object": "type II inhibitor (RAF)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "phosphorylation of downstream substrates"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "blocks",
+        "object": "RAS-RAF-MEK-ERK signaling pathway"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces",
+        "object": "tumor cell proliferation"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces",
+        "object": "tumor cell survival"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "blocks",
+        "object": "VEGF/VEGFR signaling"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "blocks",
+        "object": "PDGF/PDGFR signaling"
+      },
+      {
+        "subject": "VEGF/VEGFR signaling",
+        "relation": "promotes",
+        "object": "angiogenesis"
+      },
+      {
+        "subject": "PDGF/PDGFR signaling",
+        "relation": "promotes",
+        "object": "angiogenesis"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "has_effect",
+        "object": "anti-proliferative effects on tumor cells"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "has_effect",
+        "object": "anti-angiogenic effects in the tumor microenvironment"
+      },
+      {
+        "subject": "Renal cell carcinoma (RCC)",
+        "relation": "treated_with",
+        "object": "Sorafenib"
+      },
+      {
+        "subject": "Hepatocellular carcinoma (HCC)",
+        "relation": "treated_with",
+        "object": "Sorafenib"
+      }
+    ]
+  },
+  {
+    "question": "What is the molecular mechanism of sorafenib?",
+    "run": "3",
+    "triples": [
+      {
+        "subject": "Sorafenib",
+        "relation": "is-a",
+        "object": "multi-target small-molecule kinase inhibitor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "RAF family serine/threonine kinases (CRAF/Raf-1 and BRAF)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "VEGFR-2 (KDR)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "VEGFR-3 (Flt-4)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "PDGFR-\u03b2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "RET"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "FLT3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "c-KIT"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "binds_to",
+        "object": "ATP-binding sites of these kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "acts_as",
+        "object": "kinase inhibitor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "behaves_as",
+        "object": "type II inhibitor (for RAF kinases)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "stabilizes",
+        "object": "inactive conformation of RAF kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "prevents",
+        "object": "phosphorylation of downstream targets in MAPK/ERK pathway"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGFR-2/3 and PDGFR-\u03b2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "blocks",
+        "object": "angiogenic signaling in endothelial cells"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces",
+        "object": "tumor cell proliferation"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces",
+        "object": "angiogenesis"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "may_cause",
+        "object": "paradoxical activation of MAPK pathway in cells with active RAS due to RAF dimerization"
+      }
+    ]
+  },
+  {
+    "question": "What is the molecular mechanism of sorafenib?",
+    "run": "4",
+    "triples": [
+      {
+        "subject": "Sorafenib",
+        "relation": "is_a",
+        "object": "small-molecule multi-kinase inhibitor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "RAF kinases (CRAF/RAF-1 and wild-type BRAF)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "binds_to",
+        "object": "ATP-binding site of RAF kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "stabilizes",
+        "object": "inactive (DFG-out) conformation of RAF kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "blocks",
+        "object": "phosphorylation in RAF\u2192MEK\u2192ERK (MAPK) signaling cascade"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces",
+        "object": "tumor cell proliferation"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGFR-2 (KDR/Flk-1)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGFR-3 (Flt-4)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "PDGFR-\u03b2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "RET"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "c-KIT"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "FLT3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "blocks",
+        "object": "VEGF/PDGF signaling"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "leads_to",
+        "object": "decreased angiogenesis"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "leads_to",
+        "object": "decreased tumor growth signals"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "selectivity",
+        "object": "not highly selective for BRAF V600E"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "context_dependence",
+        "object": "effects depend on tumor context"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "antiproliferative_effect",
+        "object": "RAF-MEK-ERK pathway inhibition"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "anti-angiogenic_effect",
+        "object": "VEGF/PDGF signaling inhibition"
+      }
+    ]
+  },
+  {
+    "question": "What is the molecular mechanism of sorafenib?",
+    "run": "5",
+    "triples": [
+      {
+        "subject": "Sorafenib",
+        "relation": "is_a",
+        "object": "multi-kinase inhibitor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "has_action",
+        "object": "anti-proliferative"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "has_action",
+        "object": "anti-angiogenic"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "RAF kinases (CRAF/RAF-1 and B-RAF)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "VEGFR-2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "VEGFR-3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "PDGFR-\u03b2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "FLT3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "RET"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "c-KIT"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "binds_to",
+        "object": "ATP-binding pockets of these kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "locks_inactive_conformation_of",
+        "object": "RAF kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "is_type_of",
+        "object": "Type_II_RAF_inhibitor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "blocks_pathway",
+        "object": "MAPK/ERK signaling cascade"
+      },
+      {
+        "subject": "MAPK/ERK signaling cascade",
+        "relation": "comprises",
+        "object": "RAS\u2013RAF\u2013MEK\u2013ERK"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces",
+        "object": "tumor cell proliferation"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces",
+        "object": "tumor cell survival"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGFR signaling"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "PDGFR signaling"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces",
+        "object": "tumor angiogenesis"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "has_effect",
+        "object": "direct anti-tumor effects"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "has_effect",
+        "object": "anti-angiogenic effects"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "induces",
+        "object": "apoptosis in tumor cells"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "causes",
+        "object": "cell cycle arrest in tumor cells"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "shows_clinical_activity_in",
+        "object": "hepatocellular carcinoma"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "shows_clinical_activity_in",
+        "object": "renal cell carcinoma"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "shows_clinical_activity_in",
+        "object": "other cancers"
+      },
+      {
+        "subject": "RAF inhibitors",
+        "relation": "can_cause",
+        "object": "paradoxical activation of MAPK signaling via RAF dimers"
+      }
+    ]
+  },
+  {
+    "question": "What is the molecular mechanism of sorafenib?",
+    "run": "6",
+    "triples": [
+      {
+        "subject": "Sorafenib",
+        "relation": "is-a",
+        "object": "multi-target small-molecule tyrosine and serine/threonine kinase inhibitor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "RAF kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "binds_to",
+        "object": "ATP-binding sites of RAF family kinases (CRAF/RAF-1 and BRAF)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "blocks",
+        "object": "RAF\u2192MEK\u2192ERK signaling cascade"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces",
+        "object": "tumor cell proliferation"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "promotes",
+        "object": "apoptosis in tumor cells"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGFR-2 (KDR)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGFR-3 (Flt-4)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "PDGFR-\u03b2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "suppresses",
+        "object": "angiogenesis"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "RET"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "FLT3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "KIT"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "used_clinically_for",
+        "object": "hepatocellular carcinoma"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "used_clinically_for",
+        "object": "renal cell carcinoma"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "used_clinically_for",
+        "object": "differentiated thyroid carcinoma"
+      }
+    ]
+  },
+  {
+    "question": "What is the molecular mechanism of sorafenib?",
+    "run": "7",
+    "triples": [
+      [
+        "Sorafenib",
+        "is_a",
+        "multi-target small-molecule tyrosine kinase inhibitor"
+      ],
+      [
+        "Sorafenib",
+        "is_a",
+        "type II kinase inhibitor"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "RAF kinases"
+      ],
+      [
+        "Sorafenib",
+        "targets",
+        "CRAF"
+      ],
+      [
+        "Sorafenib",
+        "targets",
+        "B-RAF"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "RAF\u2013MEK\u2013ERK pathway phosphorylation events"
+      ],
+      [
+        "Sorafenib",
+        "reduces",
+        "MAPK signaling"
+      ],
+      [
+        "Sorafenib",
+        "reduces",
+        "cell proliferation"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "VEGFR-2"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "VEGFR-3"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "PDGFR-\u03b2"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "RET"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "FLT3"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "c-KIT"
+      ],
+      [
+        "Sorafenib",
+        "blocks",
+        "VEGF/PDGF signaling"
+      ],
+      [
+        "Sorafenib",
+        "reduces",
+        "angiogenesis"
+      ],
+      [
+        "Sorafenib",
+        "impairs",
+        "tumor growth"
+      ],
+      [
+        "Sorafenib",
+        "effective_against",
+        "renal cell carcinoma"
+      ],
+      [
+        "Sorafenib",
+        "effective_against",
+        "hepatocellular carcinoma"
+      ],
+      [
+        "Sorafenib",
+        "binds_to",
+        "ATP-binding pocket of kinases in inactive (DFG-out) conformation"
+      ],
+      [
+        "Sorafenib",
+        "has_effect",
+        "anti-proliferative effects on tumor cells"
+      ],
+      [
+        "Sorafenib",
+        "has_effect",
+        "anti-angiogenic effects"
+      ],
+      [
+        "Sorafenib",
+        "slows",
+        "tumor growth"
+      ]
+    ]
+  },
+  {
+    "question": "What is the molecular mechanism of sorafenib?",
+    "run": "8",
+    "triples": [
+      [
+        "Sorafenib",
+        "is-a",
+        "multi-target small-molecule tyrosine kinase inhibitor"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "RAF kinases (CRAF/RAF-1 and BRAF)"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "VEGFR-2 (KDR)"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "VEGFR-3"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "PDGFR-\u03b2"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "RET"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "FLT3"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "c-KIT"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "CSF-1R"
+      ],
+      [
+        "Sorafenib",
+        "binds-to",
+        "ATP-binding pockets of these kinases (primarily in the inactive/DFG-out conformation for RAF)"
+      ],
+      [
+        "Sorafenib",
+        "is-a",
+        "ATP-competitive, type II inhibitor"
+      ],
+      [
+        "Sorafenib",
+        "blocks",
+        "MAPK/ERK signaling cascade"
+      ],
+      [
+        "Sorafenib",
+        "reduces",
+        "tumor cell proliferation"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "angiogenesis"
+      ],
+      [
+        "Sorafenib",
+        "limits",
+        "tumor blood vessel formation"
+      ],
+      [
+        "Sorafenib",
+        "has-clinical-consequence",
+        "anti-proliferative effects"
+      ],
+      [
+        "Sorafenib",
+        "has-clinical-consequence",
+        "anti-angiogenic effects"
+      ],
+      [
+        "Sorafenib",
+        "useful-in",
+        "renal cell carcinoma"
+      ],
+      [
+        "Sorafenib",
+        "useful-in",
+        "hepatocellular carcinoma"
+      ],
+      [
+        "Sorafenib",
+        "limits",
+        "paradoxical MAPK activation (relative to other RAF inhibitors)"
+      ]
+    ]
+  },
+  {
+    "question": "What is the molecular mechanism of sorafenib?",
+    "run": "9",
+    "triples": [
+      {
+        "subject": "Sorafenib",
+        "relation": "is_a",
+        "object": "small-molecule"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "is_a",
+        "object": "multi-kinase inhibitor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "CRAF"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "BRAF"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces_phosphorylation_of",
+        "object": "MEK"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces_phosphorylation_of",
+        "object": "ERK"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "lowers",
+        "object": "MAPK_signaling"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "slows",
+        "object": "tumor_cell_proliferation"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGFR-2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGFR-3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "PDGFR-\u03b2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "RET"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "c-KIT"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "FLT3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "related_kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "exerts_direct_anti_proliferative_effect_on",
+        "object": "tumor_cells"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "dampens",
+        "object": "RAF/MEK/ERK_pathway"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "blocks",
+        "object": "VEGF_signaling_in_endothelial_cells"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces",
+        "object": "tumor_blood_vessel_formation"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces",
+        "object": "tumor_blood_vessel_growth"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "binds_competitively_to",
+        "object": "ATP_binding_pockets_of_kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "effective_in_tumors_dependent_on",
+        "object": "MAPK_signaling_and_angiogenesis"
+      }
+    ]
+  },
+  {
+    "question": "What is the molecular mechanism of sorafenib?",
+    "run": "10",
+    "triples": [
+      {
+        "subject": "Sorafenib",
+        "relation": "is_a",
+        "object": "multi-kinase inhibitor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "RAF\u2013MAPK pathway in tumor cells"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "RAF kinases (CRAF/RAF-1 and B-RAF)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "CRAF/RAF-1"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "B-RAF"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces_phosphorylation_of",
+        "object": "MEK and ERK"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "downregulates",
+        "object": "MAPK/ERK signaling"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "angiogenic signaling in the tumor vasculature"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "VEGFR-2 (KDR)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "VEGFR-3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "PDGFR-\u03b2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "RET"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "c-KIT"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "FLT3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "blocks",
+        "object": "VEGF/PDGF signaling"
+      },
+      {
+        "subject": "VEGF/PDGF signaling",
+        "relation": "is_blocked_by",
+        "object": "Sorafenib"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "binds_to",
+        "object": "ATP-binding pockets of these kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "acts_as",
+        "object": "type II inhibitor for many RAF kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "binds_conformation",
+        "object": "inactive conformation of RAF kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits_phosphorylation_of",
+        "object": "downstream targets"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "antitumor_effects_arise_from",
+        "object": "direct inhibition of tumor cell proliferation"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "antitumor_effects_arise_from",
+        "object": "anti-angiogenic effects on the tumor vasculature"
+      }
+    ]
+  },
+  {
+    "question": "What regulates the expression of cyclin-dependent kinases?",
+    "run": "1",
+    "triples": [
+      {
+        "subject": "CDK4/6",
+        "relation": "binds_to",
+        "object": "Cyclin D"
+      },
+      {
+        "subject": "CDK2",
+        "relation": "binds_to",
+        "object": "Cyclin E"
+      },
+      {
+        "subject": "CDK2",
+        "relation": "binds_to",
+        "object": "Cyclin A"
+      },
+      {
+        "subject": "CDK1",
+        "relation": "binds_to",
+        "object": "Cyclin B"
+      },
+      {
+        "subject": "Cyclins",
+        "relation": "drive",
+        "object": "CDK_activity"
+      },
+      {
+        "subject": "INK4_family (p16, p15)",
+        "relation": "inhibits",
+        "object": "CDK4/6"
+      },
+      {
+        "subject": "p16",
+        "relation": "inhibits",
+        "object": "CDK4/6"
+      },
+      {
+        "subject": "p15",
+        "relation": "inhibits",
+        "object": "CDK4/6"
+      },
+      {
+        "subject": "p21",
+        "relation": "inhibits",
+        "object": "CDK2"
+      },
+      {
+        "subject": "p27",
+        "relation": "inhibits",
+        "object": "CDK2"
+      },
+      {
+        "subject": "p57",
+        "relation": "inhibits",
+        "object": "CDK2"
+      },
+      {
+        "subject": "p21",
+        "relation": "inhibits",
+        "object": "CDK1"
+      },
+      {
+        "subject": "p27",
+        "relation": "inhibits",
+        "object": "CDK1"
+      },
+      {
+        "subject": "p57",
+        "relation": "inhibits",
+        "object": "CDK1"
+      },
+      {
+        "subject": "CIP/KIP_family",
+        "relation": "inhibits",
+        "object": "CDKs"
+      },
+      {
+        "subject": "CAK",
+        "relation": "phosphorylates",
+        "object": "CDKs"
+      },
+      {
+        "subject": "Wee1",
+        "relation": "mediates_inhibitory_phosphorylation_of",
+        "object": "CDKs"
+      },
+      {
+        "subject": "Cdc25",
+        "relation": "dephosphorylates",
+        "object": "CDKs"
+      },
+      {
+        "subject": "APC/C",
+        "relation": "ubiquitinates",
+        "object": "cyclins"
+      },
+      {
+        "subject": "SCF",
+        "relation": "ubiquitinates",
+        "object": "cyclins"
+      },
+      {
+        "subject": "Cyclins",
+        "relation": "degraded_by",
+        "object": "APC/C"
+      },
+      {
+        "subject": "Cyclins",
+        "relation": "degraded_by",
+        "object": "SCF"
+      },
+      {
+        "subject": "Localization",
+        "relation": "regulates_access_to_substrates_for",
+        "object": "CDKs"
+      },
+      {
+        "subject": "Growth_signals",
+        "relation": "influence",
+        "object": "CDK_gene_expression"
+      },
+      {
+        "subject": "E2F_pathway",
+        "relation": "influences",
+        "object": "CDK_gene_expression"
+      },
+      {
+        "subject": "p53_pathway",
+        "relation": "influences",
+        "object": "CDK_gene_expression"
+      },
+      {
+        "subject": "CDK_expression",
+        "relation": "is_constant",
+        "object": "true"
+      }
+    ]
+  },
+  {
+    "question": "What regulates the expression of cyclin-dependent kinases?",
+    "run": "2",
+    "triples": [
+      [
+        "CDK expression",
+        "is regulated by",
+        "E2F transcription factors"
+      ],
+      [
+        "E2F transcription factors",
+        "are regulated by",
+        "RB pathway"
+      ],
+      [
+        "E2F transcription factors",
+        "promote transcription of",
+        "CDK genes"
+      ],
+      [
+        "c-Myc",
+        "drives",
+        "CDK gene expression"
+      ],
+      [
+        "FoxM1",
+        "drives",
+        "CDK gene expression"
+      ],
+      [
+        "p53",
+        "induces",
+        "p21"
+      ],
+      [
+        "p53",
+        "represses",
+        "E2F activity"
+      ]
+    ]
+  },
+  {
+    "question": "What regulates the expression of cyclin-dependent kinases?",
+    "run": "3",
+    "triples": [
+      {
+        "subject": "CDKs",
+        "relation": "are active only when bound to",
+        "object": "specific cyclins"
+      },
+      {
+        "subject": "Cyclins",
+        "relation": "bind",
+        "object": "CDKs"
+      },
+      {
+        "subject": "Cyclin levels",
+        "relation": "vary with",
+        "object": "cell cycle"
+      },
+      {
+        "subject": "CKIs",
+        "relation": "bind",
+        "object": "CDK\u2013cyclin complexes"
+      },
+      {
+        "subject": "CKIs",
+        "relation": "inhibit",
+        "object": "CDK\u2013cyclin activity"
+      },
+      {
+        "subject": "p21^Cip1",
+        "relation": "is_a",
+        "object": "CKI"
+      },
+      {
+        "subject": "p27^Kip1",
+        "relation": "is_a",
+        "object": "CKI"
+      },
+      {
+        "subject": "p16^INK4a",
+        "relation": "is_a",
+        "object": "CKI"
+      },
+      {
+        "subject": "Wee1 kinase",
+        "relation": "phosphorylates",
+        "object": "CDK at Thr14/Tyr15"
+      },
+      {
+        "subject": "Cdc25 phosphatases",
+        "relation": "dephosphorylate",
+        "object": "CDK Thr14/Tyr15"
+      },
+      {
+        "subject": "CDK-activating kinase (CAK)",
+        "relation": "phosphorylates",
+        "object": "CDK (activates)"
+      },
+      {
+        "subject": "cyclins",
+        "relation": "degraded by",
+        "object": "ubiquitin-proteasome system"
+      },
+      {
+        "subject": "APC/C",
+        "relation": "targets",
+        "object": "cyclins for degradation"
+      },
+      {
+        "subject": "SCF complexes",
+        "relation": "targets",
+        "object": "cyclins for degradation"
+      },
+      {
+        "subject": "degradation of cyclins",
+        "relation": "reduces",
+        "object": "CDK activity"
+      },
+      {
+        "subject": "Growth factors",
+        "relation": "regulate expression of",
+        "object": "cyclins"
+      },
+      {
+        "subject": "E2F",
+        "relation": "regulates",
+        "object": "cyclin expression"
+      },
+      {
+        "subject": "Growth factors",
+        "relation": "regulate expression of",
+        "object": "CDKs"
+      },
+      {
+        "subject": "p53",
+        "relation": "influences",
+        "object": "cyclin and CDK expression"
+      },
+      {
+        "subject": "Rb",
+        "relation": "influences",
+        "object": "cyclin and CDK expression"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "is governed by",
+        "object": "availability of cyclins"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "is governed by",
+        "object": "availability of CKIs"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "is governed by",
+        "object": "post-translational modifications"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "is governed by",
+        "object": "cyclin degradation"
+      }
+    ]
+  },
+  {
+    "question": "What regulates the expression of cyclin-dependent kinases?",
+    "run": "4",
+    "triples": [
+      {
+        "subject": "CDK expression",
+        "relation": "is controlled at the transcriptional level by",
+        "object": "cell-cycle transcription factors (especially the E2F family; governed by the Rb pathway)"
+      },
+      {
+        "subject": "E2F transcription factors",
+        "relation": "control",
+        "object": "CDK expression"
+      },
+      {
+        "subject": "Rb pathway",
+        "relation": "governs",
+        "object": "E2F transcription factors"
+      },
+      {
+        "subject": "Growth signals",
+        "relation": "promote transcription of",
+        "object": "CDKs and cyclins"
+      },
+      {
+        "subject": "Cyclins",
+        "relation": "activate",
+        "object": "specific CDKs"
+      },
+      {
+        "subject": "CDK inhibitors (CKIs) such as p21, p27, p16",
+        "relation": "block",
+        "object": "CDK activity"
+      },
+      {
+        "subject": "CAK",
+        "relation": "activates CDKs by phosphorylation",
+        "object": "CDKs"
+      },
+      {
+        "subject": "Wee1/Myt1",
+        "relation": "add inhibitory phosphates to",
+        "object": "CDKs"
+      },
+      {
+        "subject": "Cdc25",
+        "relation": "removes inhibitory phosphates from",
+        "object": "CDKs"
+      },
+      {
+        "subject": "Degradation of cyclins",
+        "relation": "limits",
+        "object": "CDK activity"
+      }
+    ]
+  },
+  {
+    "question": "What regulates the expression of cyclin-dependent kinases?",
+    "run": "5",
+    "triples": [
+      {
+        "subject": "Cyclin",
+        "relation": "binds_to",
+        "object": "CDK"
+      },
+      {
+        "subject": "Cyclin",
+        "relation": "activates",
+        "object": "CDK"
+      },
+      {
+        "subject": "Cyclin levels",
+        "relation": "vary_during",
+        "object": "cell_cycle"
+      },
+      {
+        "subject": "Cyclin levels",
+        "relation": "control",
+        "object": "CDK activity"
+      },
+      {
+        "subject": "p21",
+        "relation": "binds_to",
+        "object": "CDK\u2013cyclin_complex"
+      },
+      {
+        "subject": "p27",
+        "relation": "binds_to",
+        "object": "CDK\u2013cyclin_complex"
+      },
+      {
+        "subject": "p57",
+        "relation": "binds_to",
+        "object": "CDK\u2013cyclin_complex"
+      },
+      {
+        "subject": "p21",
+        "relation": "inhibits",
+        "object": "CDK\u2013cyclin_complex"
+      },
+      {
+        "subject": "p27",
+        "relation": "inhibits",
+        "object": "CDK\u2013cyclin_complex"
+      },
+      {
+        "subject": "p57",
+        "relation": "inhibits",
+        "object": "CDK\u2013cyclin_complex"
+      },
+      {
+        "subject": "p16",
+        "relation": "inhibits",
+        "object": "CDK4/6"
+      },
+      {
+        "subject": "p15",
+        "relation": "inhibits",
+        "object": "CDK4/6"
+      },
+      {
+        "subject": "p18",
+        "relation": "inhibits",
+        "object": "CDK4/6"
+      },
+      {
+        "subject": "p19",
+        "relation": "inhibits",
+        "object": "CDK4/6"
+      },
+      {
+        "subject": "Wee1",
+        "relation": "adds_inhibitory_phosphate_to",
+        "object": "CDK"
+      },
+      {
+        "subject": "Myt1",
+        "relation": "adds_inhibitory_phosphate_to",
+        "object": "CDK"
+      },
+      {
+        "subject": "Cdc25",
+        "relation": "removes_inhibitory_phosphate_from",
+        "object": "CDK"
+      },
+      {
+        "subject": "CAK",
+        "relation": "phosphorylates",
+        "object": "CDK_T-loop"
+      },
+      {
+        "subject": "SCF ligase",
+        "relation": "targets",
+        "object": "Cyclin"
+      },
+      {
+        "subject": "APC/C ligase",
+        "relation": "targets",
+        "object": "Cyclin"
+      },
+      {
+        "subject": "Cyclin",
+        "relation": "is_degraded_by",
+        "object": "ubiquitin-proteasome system"
+      },
+      {
+        "subject": "E2F pathway",
+        "relation": "regulates_transcription_of",
+        "object": "Cyclins"
+      },
+      {
+        "subject": "Myc pathway",
+        "relation": "regulates_transcription_of",
+        "object": "Cyclins"
+      },
+      {
+        "subject": "p53 pathway",
+        "relation": "regulates_transcription_of",
+        "object": "Cyclins"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "depends_on",
+        "object": "Cyclin availability"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "depends_on",
+        "object": "inhibitors"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "depends_on",
+        "object": "phosphorylation status"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "depends_on",
+        "object": "cyclin degradation"
+      },
+      {
+        "subject": "Cyclin degradation",
+        "relation": "leads_to",
+        "object": "CDK inactivity"
+      }
+    ]
+  },
+  {
+    "question": "What regulates the expression of cyclin-dependent kinases?",
+    "run": "6",
+    "triples": [
+      {
+        "subject": "cyclins",
+        "relation": "regulate",
+        "object": "CDK activity"
+      },
+      {
+        "subject": "CDKs",
+        "relation": "are_present",
+        "object": "constitutively"
+      },
+      {
+        "subject": "CDKs",
+        "relation": "activate_when_bound_to",
+        "object": "specific_cyclins"
+      },
+      {
+        "subject": "CDK4/6",
+        "relation": "activated_by",
+        "object": "cyclin D/E/A/B"
+      },
+      {
+        "subject": "CDK2",
+        "relation": "activated_by",
+        "object": "cyclin D/E/A/B"
+      },
+      {
+        "subject": "CDK1",
+        "relation": "activated_by",
+        "object": "cyclin D/E/A/B"
+      },
+      {
+        "subject": "Wee1",
+        "relation": "catalyzes_inhibitory_phosphorylation_of",
+        "object": "CDKs"
+      },
+      {
+        "subject": "Myt1",
+        "relation": "catalyzes_inhibitory_phosphorylation_of",
+        "object": "CDKs"
+      },
+      {
+        "subject": "CAK",
+        "relation": "catalyzes_activating_phosphorylation_of",
+        "object": "CDKs"
+      },
+      {
+        "subject": "p21",
+        "relation": "inhibits",
+        "object": "CDK activity"
+      },
+      {
+        "subject": "p27",
+        "relation": "inhibits",
+        "object": "CDK activity"
+      },
+      {
+        "subject": "p16",
+        "relation": "inhibits",
+        "object": "CDK activity"
+      },
+      {
+        "subject": "cyclins",
+        "relation": "are_degraded_by",
+        "object": "ubiquitin-proteasome_pathway"
+      },
+      {
+        "subject": "CDK genes",
+        "relation": "are_transcriptionally_regulated_by",
+        "object": "transcriptional_regulation"
+      },
+      {
+        "subject": "CDK function",
+        "relation": "is_controlled_by",
+        "object": "cyclin_binding_and_regulators"
+      }
+    ]
+  },
+  {
+    "question": "What regulates the expression of cyclin-dependent kinases?",
+    "run": "7",
+    "triples": [
+      {
+        "subject": "CDKs",
+        "relation": "are regulated by",
+        "object": "post-translational mechanisms (after synthesis)"
+      },
+      {
+        "subject": "CDKs",
+        "relation": "become active only when bound to",
+        "object": "specific cyclins"
+      },
+      {
+        "subject": "Cyclins",
+        "relation": "bind to",
+        "object": "CDKs"
+      },
+      {
+        "subject": "CDK-activating kinase (CAK)",
+        "relation": "adds activating phosphorylation to",
+        "object": "CDKs"
+      },
+      {
+        "subject": "Wee1",
+        "relation": "adds inhibitory phosphorylation to",
+        "object": "CDKs"
+      },
+      {
+        "subject": "Cdc25",
+        "relation": "removes inhibitory phosphorylation from",
+        "object": "CDKs"
+      },
+      {
+        "subject": "CDK inhibitors (CKIs)",
+        "relation": "bind and inhibit",
+        "object": "CDK\u2013cyclin complexes"
+      },
+      {
+        "subject": "CKIs",
+        "relation": "bind to and inhibit",
+        "object": "CDK\u2013cyclin complexes"
+      },
+      {
+        "subject": "Cyclins",
+        "relation": "are degraded via",
+        "object": "ubiquitin\u2013proteasome system"
+      },
+      {
+        "subject": "Cyclin degradation",
+        "relation": "leads to",
+        "object": "inactivation of the paired CDK"
+      },
+      {
+        "subject": "Cyclin levels",
+        "relation": "vary during",
+        "object": "the cell cycle"
+      },
+      {
+        "subject": "CDK expression",
+        "relation": "is relatively constant",
+        "object": "in proliferating cells"
+      },
+      {
+        "subject": "CDK expression",
+        "relation": "can be influenced by",
+        "object": "growth signals"
+      },
+      {
+        "subject": "CDK expression",
+        "relation": "can be influenced by",
+        "object": "transcription factors such as E2F"
+      },
+      {
+        "subject": "E2F",
+        "relation": "regulates transcription of",
+        "object": "CDKs"
+      },
+      {
+        "subject": "E2F",
+        "relation": "activity is linked to",
+        "object": "Rb phosphorylation"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "is tightly regulated by",
+        "object": "cyclin binding"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "is tightly regulated by",
+        "object": "phosphorylation"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "is tightly regulated by",
+        "object": "CKIs"
+      },
+      {
+        "subject": "CDK activity",
+        "relation": "is tightly regulated by",
+        "object": "cyclin degradation"
+      }
+    ]
+  },
+  {
+    "question": "What regulates the expression of cyclin-dependent kinases?",
+    "run": "8",
+    "triples": [
+      {
+        "subject": "CDKs",
+        "relation": "activate when bound to",
+        "object": "cyclins (D, E, A, B)"
+      },
+      {
+        "subject": "Cyclins",
+        "relation": "have levels that",
+        "object": "rise and fall with the cell cycle"
+      },
+      {
+        "subject": "CKIs",
+        "relation": "inhibit",
+        "object": "CDK activity"
+      },
+      {
+        "subject": "CKIs",
+        "relation": "prevent the formation of",
+        "object": "cyclin-CDK complexes"
+      },
+      {
+        "subject": "CAK",
+        "relation": "phosphorylates",
+        "object": "activation loop of CDKs"
+      },
+      {
+        "subject": "Wee1/Myt1",
+        "relation": "phosphorylate inhibitory sites on",
+        "object": "CDKs (Thr14/Tyr15)"
+      },
+      {
+        "subject": "Cdc25 phosphatases",
+        "relation": "dephosphorylate inhibitory phosphates on",
+        "object": "CDKs"
+      },
+      {
+        "subject": "Growth factors",
+        "relation": "regulate levels of",
+        "object": "cyclins and CKIs"
+      },
+      {
+        "subject": "p53 status",
+        "relation": "regulate levels of",
+        "object": "cyclins and CKIs"
+      },
+      {
+        "subject": "RB-E2F pathway",
+        "relation": "regulate levels of",
+        "object": "cyclins and CKIs"
+      }
+    ]
+  },
+  {
+    "question": "What regulates the expression of cyclin-dependent kinases?",
+    "run": "9",
+    "triples": [
+      {
+        "subject": "Cyclin D",
+        "relation": "binds_to",
+        "object": "CDK4/6"
+      },
+      {
+        "subject": "Cyclin E",
+        "relation": "binds_to",
+        "object": "CDK2"
+      },
+      {
+        "subject": "Cyclin A",
+        "relation": "binds_to",
+        "object": "CDK2"
+      },
+      {
+        "subject": "Cyclin B",
+        "relation": "binds_to",
+        "object": "CDK1"
+      },
+      {
+        "subject": "Cyclins",
+        "relation": "activate",
+        "object": "CDKs"
+      },
+      {
+        "subject": "Availability of the relevant cyclin",
+        "relation": "controls_when",
+        "object": "CDK activity"
+      },
+      {
+        "subject": "p16INK4a",
+        "relation": "inhibits",
+        "object": "CDK4/6 activity"
+      },
+      {
+        "subject": "p21Cip1",
+        "relation": "inhibits",
+        "object": "CDK activity"
+      },
+      {
+        "subject": "p27Kip1",
+        "relation": "inhibits",
+        "object": "CDK activity"
+      },
+      {
+        "subject": "CKIs (p16INK4a, p21Cip1, p27Kip1)",
+        "relation": "inhibit",
+        "object": "CDK activity"
+      },
+      {
+        "subject": "CKIs",
+        "relation": "prevent_formation_of",
+        "object": "active cyclin-CDK complexes"
+      },
+      {
+        "subject": "Wee1/Myt1 kinases",
+        "relation": "add_inhibitory_phosphates_to",
+        "object": "CDKs"
+      },
+      {
+        "subject": "Cdc25 phosphatases",
+        "relation": "remove_inhibitory_phosphates_from",
+        "object": "CDKs"
+      },
+      {
+        "subject": "CDK-activating kinase (CAK)",
+        "relation": "provides_activating_phosphorylation_to",
+        "object": "CDKs"
+      },
+      {
+        "subject": "SCF/APC",
+        "relation": "targets",
+        "object": "cyclins"
+      },
+      {
+        "subject": "Destruction of cyclins",
+        "relation": "reduces",
+        "object": "CDK activity"
+      },
+      {
+        "subject": "Growth factor signaling",
+        "relation": "influences_transcription_of",
+        "object": "CDKs or cyclins"
+      },
+      {
+        "subject": "RB-E2F pathway",
+        "relation": "influences_transcription_of",
+        "object": "CDKs or cyclins"
+      },
+      {
+        "subject": "Myc",
+        "relation": "influences_transcription_of",
+        "object": "CDKs or cyclins"
+      },
+      {
+        "subject": "p53",
+        "relation": "influences_transcription_of",
+        "object": "CDKs or cyclins"
+      }
+    ]
+  },
+  {
+    "question": "What regulates the expression of cyclin-dependent kinases?",
+    "run": "10",
+    "triples": [
+      {
+        "subject": "CDKs",
+        "relation": "are_regulated_at",
+        "object": "several levels"
+      },
+      {
+        "subject": "cell-cycle\u2013responsive transcription programs",
+        "relation": "regulate",
+        "object": "CDK gene transcription"
+      },
+      {
+        "subject": "growth-factor\u2013responsive transcription programs",
+        "relation": "regulate",
+        "object": "CDK gene transcription"
+      },
+      {
+        "subject": "Cell-cycle transcription factors (e.g., E2F)",
+        "relation": "promote transcription of",
+        "object": "CDK genes"
+      },
+      {
+        "subject": "Oncogenic signals (e.g., Myc)",
+        "relation": "promote transcription of",
+        "object": "CDK genes"
+      },
+      {
+        "subject": "Tumor suppressors and their pathways (Rb\u2013E2F axis, p53)",
+        "relation": "modulate",
+        "object": "CDK gene expression"
+      },
+      {
+        "subject": "Growth-factor signaling pathways (MAPK/ERK, PI3K/AKT/mTOR)",
+        "relation": "influence",
+        "object": "CDK transcription"
+      },
+      {
+        "subject": "Post-transcriptional control (microRNAs, RNA-binding proteins)",
+        "relation": "affect",
+        "object": "CDK mRNA stability"
+      },
+      {
+        "subject": "Post-transcriptional control (microRNAs, RNA-binding proteins)",
+        "relation": "affect",
+        "object": "CDK translation"
+      },
+      {
+        "subject": "Epigenetic regulation (promoter chromatin state)",
+        "relation": "impacts",
+        "object": "CDK gene expression"
+      },
+      {
+        "subject": "CDKs",
+        "relation": "require",
+        "object": "association with a specific cyclin partner"
+      },
+      {
+        "subject": "CKIs",
+        "relation": "inhibit",
+        "object": "CDKs"
+      },
+      {
+        "subject": "INK4 family",
+        "relation": "inhibits",
+        "object": "CDK4/6"
+      },
+      {
+        "subject": "Cip/Kip family",
+        "relation": "inhibits",
+        "object": "CDK2/1 with various cyclins"
+      },
+      {
+        "subject": "Wee1",
+        "relation": "adds inhibitory phosphates to",
+        "object": "CDKs"
+      },
+      {
+        "subject": "Cdc25",
+        "relation": "removes inhibitory phosphates from",
+        "object": "CDKs"
+      },
+      {
+        "subject": "CAK",
+        "relation": "phosphorylates to activate",
+        "object": "CDKs"
+      },
+      {
+        "subject": "SCF/APC/C ubiquitin ligases",
+        "relation": "mediate degradation of",
+        "object": "cyclins"
+      },
+      {
+        "subject": "Cyclin degradation",
+        "relation": "limits",
+        "object": "CDK activity during the cell cycle"
+      }
+    ]
+  }
+]

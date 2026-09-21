@@ -1,0 +1,477 @@
+[
+  {
+    "question": "is there any bias of sexes in LCH",
+    "run": "1",
+    "triples": [
+      {
+        "subject": "LCH",
+        "relation": "has_sex_bias",
+        "object": "none / not strong or consistent"
+      },
+      {
+        "subject": "pediatric_LCH_data",
+        "relation": "sex_bias",
+        "object": "slight male predominance"
+      },
+      {
+        "subject": "pediatric_LCH_data",
+        "relation": "male_to_female_ratio",
+        "object": "1.2:1 to 1.6:1"
+      },
+      {
+        "subject": "pediatric_LCH_data",
+        "relation": "sex_bias_distribution_variability",
+        "object": "some registries show slight male predominance; others show roughly equal distribution"
+      },
+      {
+        "subject": "adult_LCH_data",
+        "relation": "sex_bias",
+        "object": "not clearly biased"
+      },
+      {
+        "subject": "LCH",
+        "relation": "sex_prognostic_value",
+        "object": "not recognized as independent prognostic factor"
+      },
+      {
+        "subject": "LCH",
+        "relation": "major_prognostic_determinants",
+        "object": "extent_of_disease and risk_organ_involvement"
+      },
+      {
+        "subject": "risk_organ_involvement",
+        "relation": "examples_of_organs",
+        "object": "liver, spleen, bone marrow"
+      },
+      {
+        "subject": "LCH_treatment_outcomes",
+        "relation": "sex_difference_in_outcomes",
+        "object": "not_meaningful"
+      },
+      {
+        "subject": "small_sample_sizes",
+        "relation": "limit_conclusions",
+        "object": "about_sex_differences"
+      }
+    ]
+  },
+  {
+    "question": "is there any bias of sexes in LCH",
+    "run": "2",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "has_sex_bias",
+        "object": "no strong or universal sex bias"
+      },
+      {
+        "subject": "Pediatric LCH data",
+        "relation": "show",
+        "object": "modest excess of males (male-to-female ratio about 1.2:1 to 1.5:1)"
+      },
+      {
+        "subject": "Male-to-female ratio in pediatric LCH",
+        "relation": "range",
+        "object": "approximately 1.2:1 to 1.5:1"
+      },
+      {
+        "subject": "Adult LCH data",
+        "relation": "sex_distribution",
+        "object": "sparser and less consistent; some adult series show near-equal distribution; sex bias not well established"
+      },
+      {
+        "subject": "Sex and prognosis/treatment in LCH",
+        "relation": "predicts_prognosis_or_treatment_response",
+        "object": "not a major independent predictor"
+      },
+      {
+        "subject": "Disease extent and site of involvement in LCH",
+        "relation": "are_factors_in_prognosis",
+        "object": "more important than sex"
+      },
+      {
+        "subject": "Limitations of LCH studies",
+        "relation": "affect_findings",
+        "object": "rare disease; biases due to study design, referral/registry biases, age distribution, geographic differences"
+      }
+    ]
+  },
+  {
+    "question": "is there any bias of sexes in LCH",
+    "run": "3",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "has sex bias",
+        "object": "not strong or consistent"
+      },
+      {
+        "subject": "LCH in children",
+        "relation": "sex distribution",
+        "object": "slight male predominance"
+      },
+      {
+        "subject": "Boys with LCH",
+        "relation": "proportion",
+        "object": "54\u201360% of cases"
+      },
+      {
+        "subject": "Male-to-female ratio in children with LCH",
+        "relation": "ratio",
+        "object": "approximately 1.1\u20131.5 to 1 (male:female)"
+      },
+      {
+        "subject": "LCH in adults",
+        "relation": "sex distribution",
+        "object": "less clear and more variable"
+      },
+      {
+        "subject": "Adult LCH studies",
+        "relation": "sex distribution",
+        "object": "near-equal distribution"
+      },
+      {
+        "subject": "Some adult LCH studies",
+        "relation": "sex distribution",
+        "object": "small female predominance"
+      },
+      {
+        "subject": "Sex in LCH",
+        "relation": "risk factor",
+        "object": "not a major risk factor"
+      },
+      {
+        "subject": "Prognosis in LCH",
+        "relation": "influencing factors",
+        "object": "age at diagnosis"
+      },
+      {
+        "subject": "Prognosis in LCH",
+        "relation": "influencing factors",
+        "object": "number of systems involved"
+      },
+      {
+        "subject": "Prognosis in LCH",
+        "relation": "influencing factors",
+        "object": "specific organ involvement (e.g., risk organs)"
+      },
+      {
+        "subject": "Data from registries in rare diseases",
+        "relation": "bias potential",
+        "object": "small numbers can produce apparent biases that aren\u2019t biologically meaningful"
+      }
+    ]
+  },
+  {
+    "question": "is there any bias of sexes in LCH",
+    "run": "4",
+    "triples": [
+      {
+        "subject": "LCH",
+        "relation": "has_sex_bias",
+        "object": "modest"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "has_sex_bias",
+        "object": "slight male predominance"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "male_to_female_ratio",
+        "object": "1.2\u20131.5:1"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "percent_boys",
+        "object": "54\u201360%"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "bias_variation_between_studies",
+        "object": "varies"
+      },
+      {
+        "subject": "Adult LCH",
+        "relation": "sex_bias",
+        "object": "inconsistent; near-equal distribution or small male bias"
+      },
+      {
+        "subject": "Adult LCH",
+        "relation": "overall_sex_bias",
+        "object": "no strong or universal sex bias"
+      },
+      {
+        "subject": "Bias_note",
+        "relation": "diagnostic_prognostic_utility",
+        "object": "not strong enough for diagnosis or prognosis; epidemiologic observation"
+      },
+      {
+        "subject": "Sex_bias_variation",
+        "relation": "by_age_and_extent",
+        "object": "differences by age group and by disease extent (single-system vs multisystem); patterns not firmly established"
+      }
+    ]
+  },
+  {
+    "question": "is there any bias of sexes in LCH",
+    "run": "5",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "has_sex_bias",
+        "object": "no_strong_sex_bias"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "sex_distribution",
+        "object": "slight_male_predominance"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "male_to_female_ratio",
+        "object": "approximately_1.2_to_1.5_males_per_female"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "sex_ratio_variability",
+        "object": "varies; many_cohorts_close_to_1_to_1"
+      },
+      {
+        "subject": "Adult LCH",
+        "relation": "sex_distribution",
+        "object": "generally_balanced"
+      },
+      {
+        "subject": "Adult LCH",
+        "relation": "sex_bias",
+        "object": "no_clear_bias"
+      },
+      {
+        "subject": "LCH",
+        "relation": "sex_not_major_determinant_of_disease_extent_or_prognosis",
+        "object": "true"
+      },
+      {
+        "subject": "Age at diagnosis",
+        "relation": "influence_on_outcome_in_LCH",
+        "object": "more_important_than_sex"
+      },
+      {
+        "subject": "Extent_of_body_involvement",
+        "relation": "influence_on_outcome_in_LCH",
+        "object": "more_important_than_sex"
+      }
+    ]
+  },
+  {
+    "question": "is there any bias of sexes in LCH",
+    "run": "6",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "has_universal_sex_bias",
+        "object": "not strong"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "sex_bias",
+        "object": "slight male predominance"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "typical_male_to_female_ratio",
+        "object": "1.2:1 to 1.5:1"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "majority_report",
+        "object": "modest male-to-female ratio"
+      },
+      {
+        "subject": "Some pediatric cohorts",
+        "relation": "find",
+        "object": "no significant sex difference"
+      },
+      {
+        "subject": "Adult LCH",
+        "relation": "sex_distribution",
+        "object": "closer to balanced"
+      },
+      {
+        "subject": "Adult LCH",
+        "relation": "in_series",
+        "object": "small male predominance in certain series"
+      },
+      {
+        "subject": "Reasons for variability in sex bias estimates",
+        "relation": "include",
+        "object": "small sample sizes in many studies"
+      },
+      {
+        "subject": "Reasons for variability in sex bias estimates",
+        "relation": "include",
+        "object": "geographic or referral biases"
+      },
+      {
+        "subject": "Reasons for variability in sex bias estimates",
+        "relation": "include",
+        "object": "differences in case classification (single-system vs multisystem)"
+      },
+      {
+        "subject": "Reasons for variability in sex bias estimates",
+        "relation": "include",
+        "object": "study design"
+      }
+    ]
+  },
+  {
+    "question": "is there any bias of sexes in LCH",
+    "run": "7",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "has_sex_bias",
+        "object": "not large or consistent"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "sex_bias",
+        "object": "slight male predominance"
+      },
+      {
+        "subject": "Pediatric LCH",
+        "relation": "male_to_female_ratio",
+        "object": "1.2 to 1.6 males per female"
+      },
+      {
+        "subject": "Adult LCH",
+        "relation": "sex_bias",
+        "object": "data limited and less consistent; no strong difference"
+      },
+      {
+        "subject": "Adult LCH",
+        "relation": "sex_distribution",
+        "object": "roughly equal or small bias"
+      },
+      {
+        "subject": "LCH",
+        "relation": "prognostic_factor_of_sex",
+        "object": "sex is not a major prognostic factor"
+      },
+      {
+        "subject": "LCH",
+        "relation": "main_prognostic_determinants",
+        "object": "extent of disease and involvement of risk organs (liver, spleen, bone marrow)"
+      }
+    ]
+  },
+  {
+    "question": "is there any bias of sexes in LCH",
+    "run": "8",
+    "triples": [
+      [
+        "Langerhans cell histiocytosis (LCH)",
+        "has_sex_bias",
+        "not strong or not consistent"
+      ],
+      [
+        "LCH in children",
+        "sex_distribution",
+        "slight male predominance (approximately 1.2\u20131.5 males per female)"
+      ],
+      [
+        "LCH in children",
+        "sex_distribution",
+        "near-equal distribution in some studies"
+      ],
+      [
+        "LCH in adults",
+        "sex_bias",
+        "not clearly demonstrated / no consistent bias"
+      ],
+      [
+        "LCH",
+        "sex_distribution_between_systems",
+        "no meaningful difference between single-system and multisystem LCH"
+      ],
+      [
+        "LCH",
+        "sex_distribution_by_organ_involvement",
+        "no meaningful difference"
+      ],
+      [
+        "LCH data",
+        "limitation",
+        "rare; data mainly from small cohorts or registries"
+      ],
+      [
+        "Observed differences in sex distribution",
+        "potential_cause",
+        "sampling or reporting biases"
+      ]
+    ]
+  },
+  {
+    "question": "is there any bias of sexes in LCH",
+    "run": "9",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis (LCH)",
+        "relation": "has sex bias",
+        "object": "not strong or universal"
+      },
+      {
+        "subject": "LCH in pediatric patients",
+        "relation": "sex distribution",
+        "object": "slight male predominance"
+      },
+      {
+        "subject": "LCH in adult patients",
+        "relation": "sex distribution",
+        "object": "balanced (approximately 1:1)"
+      },
+      {
+        "subject": "LCH by disease form (single-system vs multisystem)",
+        "relation": "sex distribution difference",
+        "object": "not clearly different universally"
+      },
+      {
+        "subject": "Sex distribution in LCH",
+        "relation": "clinical implication",
+        "object": "should not be used to guide diagnosis, prognosis, or treatment decisions"
+      }
+    ]
+  },
+  {
+    "question": "is there any bias of sexes in LCH",
+    "run": "10",
+    "triples": [
+      {
+        "subject": "Langerhans cell histiocytosis",
+        "relation": "has_sex_bias",
+        "object": "not strong or consistent"
+      },
+      {
+        "subject": "LCH in pediatric patients",
+        "relation": "sex_bias",
+        "object": "slight male predominance; male-to-female ratio approximately 1.2:1 to 1.5:1"
+      },
+      {
+        "subject": "LCH in adults",
+        "relation": "sex_bias",
+        "object": "balanced, near 1:1"
+      },
+      {
+        "subject": "sex_bias in LCH",
+        "relation": "varies_by",
+        "object": "age group, disease extent (single-system vs multisystem), geographic/population differences"
+      },
+      {
+        "subject": "LCH sex-bias data",
+        "relation": "influenced_by",
+        "object": "small sample sizes and referral/diagnostic biases"
+      }
+    ]
+  }
+]

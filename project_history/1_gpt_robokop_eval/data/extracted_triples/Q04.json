@@ -1,0 +1,1087 @@
+[
+  {
+    "question": "What is the molecular mechanism of sorafenib?",
+    "run": "1",
+    "triples": [
+      {
+        "subject": "Sorafenib",
+        "relation": "is_a",
+        "object": "multi-target small-molecule tyrosine kinase inhibitor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "RAF family kinases (CRAF/Raf-1 and B-RAF)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces_phosphorylation_of",
+        "object": "MEK"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces_phosphorylation_of",
+        "object": "ERK"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "decreases",
+        "object": "cell proliferation signals"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGFR-2 (KDR)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGFR-3 (Flt-4)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "PDGFR-\u03b2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "RET"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "FLT3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "c-KIT"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "binds",
+        "object": "ATP-binding pocket of Raf family kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "stabilizes_inactive_conformation_of",
+        "object": "Raf kinases (DFG-out)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "is_a",
+        "object": "type II kinase inhibitor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "tumor angiogenesis"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "used_for",
+        "object": "hepatocellular carcinoma"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "used_for",
+        "object": "renal cell carcinoma"
+      }
+    ]
+  },
+  {
+    "question": "What is the molecular mechanism of sorafenib?",
+    "run": "2",
+    "triples": [
+      {
+        "subject": "Sorafenib",
+        "relation": "is_a",
+        "object": "small-molecule"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "is_a",
+        "object": "multi-kinase_inhibitor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "used_in",
+        "object": "cancer_therapy"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "blocks",
+        "object": "several_key_kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "shuts_down",
+        "object": "two_main_signaling_axes"
+      },
+      {
+        "subject": "two_main_signaling_axes",
+        "relation": "promote",
+        "object": "tumor_growth"
+      },
+      {
+        "subject": "two_main_signaling_axes",
+        "relation": "promote",
+        "object": "angiogenesis"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "CRAF"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "BRAF_wild_type"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "not_highly_selective_inhibitor_of",
+        "object": "BRAF_V600E_mutant"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "VEGFR-2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "VEGFR-3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "PDGFR-beta"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "FLT3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "RET"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "c-KIT"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "binds_to",
+        "object": "ATP_binding_sites_of_kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "is_a",
+        "object": "ATP_competitive_inhibitor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "type_of_inhibitor_for",
+        "object": "RAF_Type_II_inhibitor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "prevents_phosphorylation_of",
+        "object": "downstream_substrates"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "blocks",
+        "object": "RAS-RAF-MEK-ERK_signaling_pathway_in_tumor_cells"
+      },
+      {
+        "subject": "RAS-RAF-MEK-ERK_signaling_pathway_in_tumor_cells",
+        "relation": "promotes",
+        "object": "tumor_cell_proliferation_and_survival"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces",
+        "object": "tumor_cell_proliferation_and_survival"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "blocks",
+        "object": "VEGF/VEGFR_signaling"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "blocks",
+        "object": "PDGF/PDGFR_signaling"
+      },
+      {
+        "subject": "VEGF/VEGFR_signaling",
+        "relation": "promotes",
+        "object": "angiogenesis"
+      },
+      {
+        "subject": "PDGF/PDGFR_signaling",
+        "relation": "promotes",
+        "object": "angiogenesis"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "has_net_effect",
+        "object": "anti_proliferative_effect_on_tumor_cells"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "has_net_effect",
+        "object": "anti_angiogenic_effect_in_tumor_microenvironment"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "slows_tumor_growth_in",
+        "object": "renal_cell_carcinoma"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "slows_tumor_growth_in",
+        "object": "hepatocellular_carcinoma"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "has_broad_activity_across",
+        "object": "multiple_kinases"
+      }
+    ]
+  },
+  {
+    "question": "What is the molecular mechanism of sorafenib?",
+    "run": "3",
+    "triples": [
+      {
+        "subject": "Sorafenib",
+        "relation": "is_a",
+        "object": "multi-target small-molecule kinase inhibitor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "RAF family serine/threonine kinases (CRAF/Raf-1, BRAF)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "CRAF/Raf-1"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "BRAF"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "VEGFR-2 (KDR)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "VEGFR-3 (Flt-4)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "PDGFR-\u03b2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "RET"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "FLT3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "c-KIT"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "binds_to",
+        "object": "ATP-binding sites of these kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "acts_as",
+        "object": "type II inhibitor of RAF kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "stabilizes",
+        "object": "inactive conformation of RAF kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "prevents",
+        "object": "phosphorylation of downstream targets in MAPK/ERK pathway"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "blocks",
+        "object": "MAPK/ERK signaling"
+      },
+      {
+        "subject": "MAPK/ERK signaling",
+        "relation": "drives",
+        "object": "tumor cell proliferation"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGFR-2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGFR-3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "PDGFR-\u03b2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGF/PDGF signaling"
+      },
+      {
+        "subject": "VEGF/PDGF signaling",
+        "relation": "promotes",
+        "object": "angiogenesis"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces",
+        "object": "angiogenesis"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "slows",
+        "object": "tumor growth"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces",
+        "object": "tumor blood vessel formation"
+      },
+      {
+        "subject": "RAF inhibitors",
+        "relation": "can_cause",
+        "object": "paradoxical activation of MAPK pathway in cells with active RAS"
+      },
+      {
+        "subject": "paradoxical activation of MAPK pathway",
+        "relation": "caused_by",
+        "object": "RAF dimerization"
+      },
+      {
+        "subject": "cells with active RAS",
+        "relation": "are_susceptible_to",
+        "object": "paradoxical activation by RAF inhibitors"
+      }
+    ]
+  },
+  {
+    "question": "What is the molecular mechanism of sorafenib?",
+    "run": "4",
+    "triples": [
+      [
+        "Sorafenib",
+        "is_a",
+        "small-molecule, multi-kinase inhibitor"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "RAF kinases (CRAF/RAF-1 and wild-type BRAF)"
+      ],
+      [
+        "Sorafenib",
+        "binds_to",
+        "ATP-binding site of RAF kinases"
+      ],
+      [
+        "Sorafenib",
+        "stabilizes",
+        "inactive (DFG-out) conformation of RAF kinases"
+      ],
+      [
+        "Sorafenib",
+        "blocks_phosphorylation_in",
+        "RAF\u2192MEK\u2192ERK (MAPK) signaling cascade"
+      ],
+      [
+        "Sorafenib",
+        "reduces",
+        "tumor cell proliferation"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "VEGFR-2 (KDR/Flk-1)"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "VEGFR-3 (Flt-4)"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "PDGFR-\u03b2"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "RET"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "c-KIT"
+      ],
+      [
+        "Sorafenib",
+        "inhibits",
+        "FLT3"
+      ],
+      [
+        "Sorafenib",
+        "decreases",
+        "angiogenesis"
+      ],
+      [
+        "Sorafenib",
+        "decreases",
+        "tumor growth signals"
+      ],
+      [
+        "Sorafenib",
+        "suppresses",
+        "MAPK signaling"
+      ],
+      [
+        "Sorafenib",
+        "blocks_signaling",
+        "VEGF signaling"
+      ],
+      [
+        "Sorafenib",
+        "blocks_signaling",
+        "PDGF signaling"
+      ]
+    ]
+  },
+  {
+    "question": "What is the molecular mechanism of sorafenib?",
+    "run": "5",
+    "triples": [
+      {
+        "subject": "Sorafenib",
+        "relation": "is_a",
+        "object": "multi-kinase inhibitor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "has_action",
+        "object": "anti-proliferative"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "has_action",
+        "object": "anti-angiogenic"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "RAF kinases (CRAF/RAF-1 and B-RAF)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "VEGFR-2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "VEGFR-3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "PDGFR-\u03b2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "FLT3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "RET"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "c-KIT"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "binds_to",
+        "object": "ATP-binding pockets of these kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "locks_inactive_conformation_of",
+        "object": "RAF kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "MAPK/ERK signaling cascade"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces",
+        "object": "tumor cell proliferation"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces",
+        "object": "tumor cell survival"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGFR signaling"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "PDGFR signaling"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "yields_clinical_activity_in",
+        "object": "hepatocellular carcinoma"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "yields_clinical_activity_in",
+        "object": "renal cell carcinoma"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "yields_clinical_activity_in",
+        "object": "other cancers"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "may_cause",
+        "object": "paradoxical activation of MAPK signaling in Ras-activated cells"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "is_type",
+        "object": "type II RAF inhibitor"
+      }
+    ]
+  },
+  {
+    "question": "What is the molecular mechanism of sorafenib?",
+    "run": "6",
+    "triples": [
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "RAF kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "binds_to",
+        "object": "ATP-binding sites of RAF family kinases (CRAF/RAF-1 and BRAF)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "blocks",
+        "object": "RAF\u2192MEK\u2192ERK signaling cascade"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces",
+        "object": "cell proliferation in tumor cells"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "promotes",
+        "object": "apoptosis in tumor cells"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGFR-2 (KDR)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGFR-3 (Flt-4)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "PDGFR-\u03b2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "suppresses",
+        "object": "angiogenesis"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "RET"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "FLT3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "KIT"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "used_clinically_to_treat",
+        "object": "hepatocellular carcinoma"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "used_clinically_to_treat",
+        "object": "renal cell carcinoma"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "used_clinically_to_treat",
+        "object": "differentiated thyroid carcinoma"
+      }
+    ]
+  },
+  {
+    "question": "What is the molecular mechanism of sorafenib?",
+    "run": "7",
+    "triples": [
+      {
+        "subject": "Sorafenib",
+        "relation": "is_a",
+        "object": "type II kinase inhibitor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "RAF kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "CRAF"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "B-RAF"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits_phosphorylation_in",
+        "object": "RAF\u2013MEK\u2013ERK pathway"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces",
+        "object": "cell proliferation"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGFR-2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGFR-3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "PDGFR-\u03b2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "RET"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "FLT3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "c-KIT"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "blocks",
+        "object": "VEGF signaling"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "blocks",
+        "object": "PDGF signaling"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces",
+        "object": "angiogenesis"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "slows",
+        "object": "tumor growth"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "has_effect",
+        "object": "anti-proliferative effects on tumor cells"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "has_effect",
+        "object": "anti-angiogenic effects via VEGFR/PDGFR inhibition"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "is_effective_in",
+        "object": "renal cell carcinoma (RCC) and hepatocellular carcinoma (HCC)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "binds_to",
+        "object": "ATP-binding pocket of kinases in inactive (DFG-out) conformation"
+      }
+    ]
+  },
+  {
+    "question": "What is the molecular mechanism of sorafenib?",
+    "run": "8",
+    "triples": [
+      {
+        "subject": "Sorafenib",
+        "relation": "is_a",
+        "object": "multi-target small-molecule tyrosine kinase inhibitor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "RAF-1 (CRAF)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "BRAF"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGFR-2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGFR-3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "PDGFR-\u03b2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "RET"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "FLT3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "c-KIT"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "CSF-1R"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "binds_to",
+        "object": "ATP-binding pockets_of_kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "is_a",
+        "object": "ATP-competitive_type_II_inhibitor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "preferentially_binds_to",
+        "object": "inactive_DFG-out_conformation_of_RAF"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "MAPK/ERK_signaling_cascade"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces",
+        "object": "tumor_cell_proliferation"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "angiogenesis"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "treats",
+        "object": "renal_cell_carcinoma"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "treats",
+        "object": "hepatocellular_carcinoma"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "may_cause",
+        "object": "paradoxical_MAPK_activation_in_cells_with_certain_Ras_Raf_backgrounds"
+      }
+    ]
+  },
+  {
+    "question": "What is the molecular mechanism of sorafenib?",
+    "run": "9",
+    "triples": [
+      {
+        "subject": "Sorafenib",
+        "relation": "is",
+        "object": "a small-molecule, multi-kinase inhibitor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "CRAF (RAF1)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "BRAF"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces",
+        "object": "phosphorylation of MEK and ERK"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "lowers",
+        "object": "MAPK signaling"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "slows",
+        "object": "tumor-cell proliferation"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "dampens",
+        "object": "RAF/MEK/ERK pathway"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "blocks",
+        "object": "VEGF signaling in endothelial cells"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces",
+        "object": "tumor blood vessel formation and growth"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGFR-2 (KDR)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "VEGFR-3 (FLT4)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "PDGFR-\u03b2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "RET"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "c-KIT"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "FLT3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "binds competitively to",
+        "object": "ATP-binding pockets of these kinases"
+      },
+      {
+        "subject": "RAS-mutant settings",
+        "relation": "associated with",
+        "object": "paradoxical effects on MAPK signaling"
+      }
+    ]
+  },
+  {
+    "question": "What is the molecular mechanism of sorafenib?",
+    "run": "10",
+    "triples": [
+      {
+        "subject": "Sorafenib",
+        "relation": "is_a",
+        "object": "multi-kinase inhibitor"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "RAF\u2013MAPK pathway in tumor cells"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "RAF kinases (CRAF/RAF-1)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "B-RAF"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces_phosphorylation_of",
+        "object": "MEK"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "reduces_phosphorylation_of",
+        "object": "ERK"
+      },
+      {
+        "subject": "MAPK/ERK signaling",
+        "relation": "drives",
+        "object": "cell proliferation"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "inhibits",
+        "object": "angiogenic signaling in the tumor vasculature"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "VEGFR-2 (KDR)"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "VEGFR-3"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "PDGFR-\u03b2"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "RET"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "c-KIT"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "targets",
+        "object": "FLT3"
+      },
+      {
+        "subject": "VEGF/PDGF signaling",
+        "relation": "is_blocked_by",
+        "object": "Sorafenib"
+      },
+      {
+        "subject": "VEGF/PDGF signaling",
+        "relation": "promotes",
+        "object": "angiogenesis"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "binds",
+        "object": "ATP-binding pockets of kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "acts_as",
+        "object": "type II inhibitor for many RAF kinases"
+      },
+      {
+        "subject": "Sorafenib",
+        "relation": "binds_to",
+        "object": "inactive conformation of RAF kinases"
+      }
+    ]
+  }
+]
