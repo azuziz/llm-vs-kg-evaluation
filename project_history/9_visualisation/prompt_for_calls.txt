@@ -1,0 +1,42 @@
+em_text = (
+        "Extract biomedical relations between exactly two given nodes. "
+        "Return only relations that plausibly hold. "
+        "If none, return an empty edges list. "
+        "Use only the allowed predicates and only the provided CURIEs."
+
+---------------------------------------------------------------------------------------
+			IS PROMPT CORRECT? 
+1. PROMPT CORRECT? 
+	the task: Given two biomedical entities, return KG-style relations between them using an allowed predicate set, or return no edges.
+	Prompts: 
+	“Extract biomedical relations between exactly two given nodes.” ===
+	Prevents hallucinated third entities
+	“Return only relations that plausibly hold.” ===
+	Discourages random guessing
+	“If none, return an empty edges list.” ===
+	Enables false-negative measurement instead of forced guesses
+	“Use only the allowed predicates and only the provided CURIEs.” ===
+	Enforces schema compliance and node identity consistency
+
+the study is narrowed down from “Can GPT talk about biology?” to “Can GPT reproduce KG-style relations under schema constraints?”
+
+You are not asking:
+“What does ROBOKOP say?”
+
+You are asking:
+“What relations plausibly hold in biology?”
+ ---- since we want to assess how gpt would probably answer if that was a scientist asking a question in a human speech form
+✔ It is appropriate for a conservative, schema-constrained evaluation
+
+1. What if we remove: “If none, return an empty edges list.”
+	Even if ROBOKOP always has at least one edge, you should still keep the option for GPT to return no edges.
+	Because otherwise you force GPT to always guess.
+2. “commonly asserted in curated biomedical knowledge bases”
+	So it helps by aligning GPT’s output distribution with the data-generating process of ROBOKOP.
+
+
+“Extract all biomedical relations that are asserted between exactly the two given nodes in curated biomedical knowledge bases.
+Return only relations that plausibly hold.
+If none, return an empty edges list.
+Use only the allowed predicates and only the provided CURIEs.
+Ensure subject and object roles match standard biological conventions.”

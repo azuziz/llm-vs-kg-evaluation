@@ -1,0 +1,26 @@
+163 questions, a per-question boxplot on one figure becomes unreadable
+separate “analysis scale”:
+- Small scale = show a manageable subset (e.g., top 20 / bottom 20 / chosen examples)
+- Big picture = show summaries for all questions in a compact chart/table (ranked bars, heatmap, quantiles)
+		SMALL SCALE
+1. Top 20 questions by median F1 (best cases)
+2. Bottom 20 questions by median F1 (worst cases)
+3. Optional: Most variable questions (largest IQR / widest spread)
+4. Optional: a few “case study” questions you want to discuss
+	for each subset, show:
+Boxplot of F1 per question (now readable)
+Or jitter/scatter of 100 runs per question (also readable)
+		BIG SCALE (ALL QUESTIONS; COMPACT)
+	Use per-question summaries:
+1. Ranked bar chart of median F1 for all questions
+2. Distribution of per-question median F1 (histogram of 163 values)
+3. A table (CSV) with columns like:
+	- median_f1, mean_f1, zero_f1_rate, mean_jaccard, etc.
+	- plus rank columns
+
+!!!!for most questions, 100 runs are largely redundant!!!!
+output space is constrained to 75 predicates (enum)
+temperature is low / moderate
+schema forces structured outputs
+
+!!!!switch to 4 prompt variants × 25 runs is methodologically stronger than 1 prompt × 100 runs!!!!
