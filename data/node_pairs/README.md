@@ -43,7 +43,7 @@ Columns:
 
 - `question_id` is the join key across:
   - ROBOKOP triples (`data/robokop/robokop_triples.tsv`)
-  - LLM outputs (stored under `data/outputs/` or `experiments/`)
+  - LLM outputs (see `data/outputs/README.md`; the generated outputs are stored under `project_history/`)
   - metrics tables and plots
 
 ## Notes / limitations

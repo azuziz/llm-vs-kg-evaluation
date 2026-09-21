@@ -1,90 +1,61 @@
-\# Outputs (LLM runs, aggregated results, and metrics)
+# Outputs (LLM runs, aggregated results, and metrics)
 
-
-
-This folder is reserved for storing \*\*generated outputs\*\* from LLM runs and/or
-
+This folder is reserved for storing **generated outputs** from LLM runs and/or
 post-processed derived tables.
-
-
 
 The goal is to keep:
 
-\- raw run-level outputs (for reproducibility and error analysis)
+- raw run-level outputs (for reproducibility and error analysis)
+- aggregated per-question outputs (for evaluation)
+- metric tables (for plotting and reporting)
 
-\- aggregated per-question outputs (for evaluation)
+> **Where the outputs are in this repository:** the generated outputs of the
+> thesis experiments are kept in [`project_history/`](../../project_history/README.md),
+> next to the scripts that produced them. The final prompt-variant runs and
+> metrics are in `project_history/10_prompt_design/out/` and
+> `project_history/14_united_results/`. The files described below first appear in
+> `project_history/6_gpt/` (`gpt_runs.csv`, `gpt_aggregated.csv`,
+> `step3_per_question.csv`); `step3_per_run_metrics.csv` is in
+> `project_history/8_questions/thosecomputations/` and `project_history/9_visualisation/out/`.
+> This folder itself only documents the conventions.
 
-\- metric tables (for plotting and reporting)
-
-
-
-\## Contents (conventions)
-
-
+## Contents (conventions)
 
 Depending on pipeline stage, typical files are:
 
+- `gpt_runs.csv`
+  One row per (question_id, run_id), containing the raw structured JSON response
+  or a normalized edge list.
 
+- `gpt_aggregated.csv`
+  Per-question aggregation of repeated runs (e.g., stability measures, mode output,
+  invalid rate).
 
-\- `gpt\_runs.csv`  
+- `step3_per_run_metrics.csv`
+  Per-run comparison metrics against ROBOKOP (Jaccard, precision-like, recall-like, F1).
 
-&nbsp; One row per (question\_id, run\_id), containing the raw structured JSON response
+- `step3_per_question.csv`
+  Metrics summarized per question (means, medians, variances, etc.).
 
-&nbsp; or a normalized edge list.
-
-
-
-\- `gpt\_aggregated.csv`  
-
-&nbsp; Per-question aggregation of repeated runs (e.g., stability measures, mode output,
-
-&nbsp; invalid rate).
-
-
-
-\- `step3\_per\_run\_metrics.csv`  
-
-&nbsp; Per-run comparison metrics against ROBOKOP (Jaccard, precision-like, recall-like, F1).
-
-
-
-\- `step3\_per\_question.csv`  
-
-&nbsp; Metrics summarized per question (means, medians, variances, etc.).
-
-
-
-\## The role of this folder
-
-
+## The role of this folder
 
 Outputs evolve during development and experimentation. Keeping them under version
-
-control (or at least keeping \*schemas and small samples\* under version control)
-
+control (or at least keeping *schemas and small samples* under version control)
 allows to:
 
-\- reproduce plots exactly
+- reproduce plots exactly
+- debug failures (schema invalidity, retry artifacts)
+- compare prompt variants on identical inputs
 
-\- debug failures (schema invalidity, retry artifacts)
-
-\- compare prompt variants on identical inputs
-
-
-
-\## Size warning
-
-
+## Size warning
 
 Raw outputs can become large (e.g., 163 questions × 100 runs). If files exceed
-
 reasonable repo size, store only:
 
-\- small samples + schemas + metadata in GitHub
+- small samples + schemas + metadata in GitHub
 
 and keep the full outputs externally (e.g., local disk),
-
 referenced by an experiment log.
 
-
-
+For this repository the outputs were small enough (about 70 MB in total) that the
+complete set of runs was kept under version control in `project_history/`.

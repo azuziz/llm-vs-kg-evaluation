@@ -1,7 +1,6 @@
 # Prompts
 
-This folder contains the prompt variants used to query the LLM. Each prompt file
-represents an experimental hypothesis about how instructions change model behavior.
+This folder contains the four prompt variants (v1–v4) used to query the LLM. The variants differ only in a small number of instruction-framing and evidence-requirement constraints, so that prompt sensitivity can be compared on the identical set of 163 node pairs. The exact texts are the `.txt` files in this folder; they are also reproduced verbatim in the thesis (Appendix A.1).
 
 All prompt variants are used together with **Structured Outputs** (JSON schema),
 where the schema enforces:
@@ -9,31 +8,22 @@ where the schema enforces:
 - `predicate` must be one of the allowed Biolink predicates (enum)
 - `subject` and `object` must be the provided CURIEs
 - no additional properties
+- the `edges` list may contain zero or more triples (an empty list is a valid output)
 
 Because the schema already constrains the output strongly, prompt differences focus
-on *semantic calibration* (conservative vs forced prediction) and *role/directionality
-guidance*.
+on *how strong an evidence requirement* the instruction places on a returned relation.
 
 ## Files
 
-### `prompt_v1_minimal.txt`
-**Minimal instruction set**.
-Goal:Extract any biomedical relations that reasonably make sense between the two nodes.
+| File | Variant (as named in the thesis) | Instruction in short |
+|---|---|---|
+| `prompt_v1_minimal.txt` | v1, baseline | Return only relations that plausibly hold. |
+| `prompt_v2_curated_kb.txt` | v2, single most plausible relation | Return the single most plausible relation based on general biomedical knowledge, only if at least one relation is plausibly supported; otherwise an empty edges list. |
+| `prompt_v3_directional.txt` | v3, curated KB constraint | Return only relations that are commonly asserted in curated biomedical knowledge bases; if none is commonly asserted, an empty edges list. Multiple relations are allowed. |
+| `prompt_v4_forced_choice.txt` | v4, single most commonly asserted curated relation | Return the single most commonly asserted relation in curated biomedical knowledge bases, if any such assertion exists; otherwise an empty edges list. |
 
-### `prompt_v2_curated_kb.txt`
-Adds language like “commonly asserted in curated biomedical knowledge bases”.
-Goal: push the model toward **conservative, KG-like assertions** and reduce speculative 
-edges.
-Expected behavior: fewer edges, higher precision-like overlap, potentially lower recall.
+**Note on file names.** The file names are historical working names and do not always describe the final prompt. In particular, `prompt_v2_curated_kb.txt` is the "single most plausible relation" prompt and `prompt_v3_directional.txt` is the "curated KB constraint" prompt, and neither v3 nor v4 forces a non-empty answer. The variant labels v1–v4 and the descriptions in the thesis are authoritative.
 
-### `prompt_v3_directional.txt`
-Extract only relations that are widely documented in authoritative biomedical knowledge 
-bases (e.g., curated ontologies, databases).Goal: reduce subject/object flipping and 
-inverse predicate usage.
-Expected behavior: requires stronger evidence than mere plausibility, multiple 
-relations allowed, if none are commonly asserted → empty edges list.
+## Repetition budget
 
-### `prompt_v4_forced_choice.txt`
-Forces at least one edge (i.e., discourages empty output).
-Goal: test whether the “empty edges allowed” instruction is driving false negatives.
-Expected behavior: higher recall-like scores but inflated false positives / lower precision.
+The baseline v1 was executed 100 times per question (16,300 runs). Variants v2–v4 were executed 25 times per question (4,075 runs per variant) as a prompt-sensitivity study. Results per variant (agreement, output volume, abstention) are reported in Chapter 4 of the thesis (Section 4.5.2).
