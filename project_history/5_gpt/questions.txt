@@ -1,0 +1,8 @@
+Q1 Is Langerhans cell histiocytosis related to neurodegenerative disease?
+Q2 Is Langerhans cell histiocytosis related to BRAF gene of Homo Sapiens?
+Q3 Is lung adenocarcinoma related to TP53 gene of Homo Sapiens?
+Q4 Is TP53 related to FOXO1 (Homo sapiens)?
+Q5 Is KRAS related to liver cancer?
+Q6 How is FOXO1 related to BNIP3?
+Q7 How is FOXO1 related to SOD2?
+Q8 How is FOXO1 related to IGF1?

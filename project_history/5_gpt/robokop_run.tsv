@@ -1,0 +1,9 @@
+question_id	status	http_status	results_count	saved_path	notes
+Q1	OK	200	1	robokop_raw/Q1.json	SUBJ:DISEASE_MONDO|OBJ:DISEASE_MONDO|elapsed_sec=0.67
+Q2	OK	200	1	robokop_raw/Q2.json	SUBJ:DISEASE_MONDO|OBJ:VARIANT_PROXY_TO_GENE;GENE_HGNC|elapsed_sec=1.26
+Q3	OK	200	1	robokop_raw/Q3.json	SUBJ:DISEASE_MONDO|OBJ:VARIANT_PROXY_TO_GENE;P53_TO_TP53;GENE_HGNC|elapsed_sec=0.64
+Q4	OK	200	1	robokop_raw/Q4.json	SUBJ:GENE_HGNC|OBJ:GENE_HGNC|elapsed_sec=0.84
+Q5	OK	200	1	robokop_raw/Q5.json	SUBJ:GENE_HGNC|OBJ:DISEASE_MONDO|elapsed_sec=0.85
+Q6	OK	200	1	robokop_raw/Q6.json	SUBJ:GENE_HGNC|OBJ:GENE_HGNC|elapsed_sec=0.72
+Q7	OK	200	1	robokop_raw/Q7.json	SUBJ:GENE_HGNC|OBJ:GENE_HGNC|elapsed_sec=1.77
+Q8	OK	200	1	robokop_raw/Q8.json	SUBJ:GENE_HGNC|OBJ:GENE_HGNC|elapsed_sec=1.57

@@ -1,0 +1,72 @@
+1. Ground truth edges between fixed biomedical node pairs retrieved from ROBOKOP (Translator KG) via TRAPI, collected once and stored.
+2. GPT-5 outputs for the same node pairs collected via API calls, repeated 100 independent times per question (fresh context each run).
+3. Quantitative statistics measuring:
+correctness vs KG ground truth
+hallucination rate
+consistency/variance across repeated GPT runs
+
+---- Started with 8 questions, each representing a relationship query between two biomedical concepts:
+Convert questions into node pairs
+Resolve strings to stable identifiers (CURIE grounding)
+Query ROBOKOP once per question (ground truth collection)
+Extract KG edges into a ground truth triple set
+
+---- Query GPT-5 and collect outputs
+Prompt design
+constrained GPT so the evaluation is mechanical:
+endpoints must be exactly the two given CURIEs
+output JSON schema only
+output 0..N triples
+output NO if not confident
+---- Outcome
+The run succeeded: 100 runs per question (plus raw outputs)
+GPT was highly conservative for some questions and returned NO every time
+
+---- Scoring and statistics (100-run evaluation)
+computed metrics under three match granularities:
+A) Endpoints-only (directionless pair, ignore predicate)
+B) Endpoints + predicate
+C) Exact directed triple (subject, predicate, object)
+
+---- also computed stability metrics:
+support size (# unique predicted edges across 100 runs)
+mode frequency (how often most common answer appears)
+entropy (output diversity)
+mean pairwise Jaccard similarity (agreement between runs)
+
+---- Key results
+Mean hit rate: 0.5375
+Mean empty rate: 0.4625
+Hallucination mass: 0.0
+Mean Jaccard: 0.927 (high consistency, partly due to repeated empty answers)
+
+
+Always NO (100/100 empty): Q1, Q3, Q6
+Systematic false negatives even though KG has edges.
+Always YES and always hits: Q2, Q5
+Always returns a KG-consistent edge; recall limited because KG has multiple possible edges.
+Mostly YES: Q4 (0.99 hit), Q7 (0.95 hit)
+Mixed / conservative: Q8 (0.36 hit, 0.64 empty)
+
+--- Hallucination
+“if unsure output NO”
+BOTH --- with and without no
+
+
+
+MORE QUESTIONS IN
+OTHER LLMS
+zeitlich 
+mid term presentation
+
+
+Jaccard similarity — это мера сходства двух множеств.
+Она показывает, какая доля общих элементов есть у двух наборов по отношению ко всем элементам, которые есть хотя бы в одном из них.
+
+BOTH --- with and without no --- with and without hallucination
+MORE QUESTIONS --- MAYBE FROM THE PAPER ---- 30k 
+only GPT 
+---
+correct - deviate
+
+more plots --- motivate the project - discuss the process - present robokop,  present result

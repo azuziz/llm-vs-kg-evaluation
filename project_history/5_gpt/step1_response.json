@@ -1,0 +1,119 @@
+{
+  "id": "resp_048c3893075009cd006963917e8310819a98568c7751ba295c",
+  "object": "response",
+  "created_at": 1768132990,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1768132991,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "msg_048c3893075009cd006963917ed4d8819a9032b2ed77502277",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"pairs\":[{\"question_id\":\"Q1\",\"subject\":\"Langerhans cell histiocytosis\",\"object\":\"neurodegenerative disease\"},{\"question_id\":\"Q2\",\"subject\":\"Langerhans cell histiocytosis\",\"object\":\"BRAF mutation\"},{\"question_id\":\"Q3\",\"subject\":\"lung adenocarcinoma\",\"object\":\"p53 mutation\"},{\"question_id\":\"Q4\",\"subject\":\"TP53\",\"object\":\"FOXO1\"},{\"question_id\":\"Q5\",\"subject\":\"KRAS\",\"object\":\"liver cancer\"},{\"question_id\":\"Q6\",\"subject\":\"FOXO1\",\"object\":\"BNIP3\"},{\"question_id\":\"Q7\",\"subject\":\"FOXO1\",\"object\":\"SOD2\"},{\"question_id\":\"Q8\",\"subject\":\"FOXO1\",\"object\":\"IGF1\"}]}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "none",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 0.0,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "node_pairs",
+      "schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "pairs"
+        ],
+        "properties": {
+          "pairs": {
+            "type": "array",
+            "minItems": 8,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "question_id",
+                "subject",
+                "object"
+              ],
+              "properties": {
+                "question_id": {
+                  "type": "string",
+                  "enum": [
+                    "Q1",
+                    "Q2",
+                    "Q3",
+                    "Q4",
+                    "Q5",
+                    "Q6",
+                    "Q7",
+                    "Q8"
+                  ]
+                },
+                "subject": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "object": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        }
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 259,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 430
+  },
+  "user": null,
+  "metadata": {}
+}

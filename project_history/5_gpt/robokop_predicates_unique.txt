@@ -1,0 +1,7 @@
+biolink:affects
+biolink:genetically_associated_with
+biolink:has_phenotype
+biolink:interacts_with
+biolink:physically_interacts_with
+biolink:related_to
+predicate

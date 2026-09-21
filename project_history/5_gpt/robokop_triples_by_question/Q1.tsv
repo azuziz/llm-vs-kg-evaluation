@@ -1,0 +1,2 @@
+question_id	query_edge_key	edge_id	subject	predicate	object	subject_label	object_label	provenance
+Q1	e0	uuid:2a0cf142-198e-11f0-be82-6045bdb3d4c0_e_2	MONDO:0018310	biolink:has_phenotype	MONDO:0005559	Langerhans cell histiocytosis	neurodegenerative disease	infores:automat-robokop(primary_knowledge_source)

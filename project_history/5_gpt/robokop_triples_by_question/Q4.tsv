@@ -1,0 +1,6 @@
+question_id	query_edge_key	edge_id	subject	predicate	object	subject_label	object_label	provenance
+Q4	e0	e_1	NCBIGene:7157	biolink:affects	NCBIGene:2308	TP53	FOXO1	infores:text-mining-provider-targeted(primary_knowledge_source);infores:automat-robokop(aggregator_knowledge_source)
+Q4	e0	e_2	NCBIGene:2308	biolink:affects	NCBIGene:7157	FOXO1	TP53	infores:text-mining-provider-targeted(primary_knowledge_source);infores:automat-robokop(aggregator_knowledge_source)
+Q4	e0	e_3	NCBIGene:2308	biolink:affects	NCBIGene:7157	FOXO1	TP53	infores:text-mining-provider-targeted(primary_knowledge_source);infores:automat-robokop(aggregator_knowledge_source)
+Q4	e0	e_4_e_6	NCBIGene:7157	biolink:interacts_with	NCBIGene:2308	TP53	FOXO1	infores:automat-robokop(primary_knowledge_source)
+Q4	e0	e_5_e_6	NCBIGene:7157	biolink:interacts_with	UniProtKB:P04637-1	TP53	cellular tumor antigen p53 isoform 1 (human)	infores:automat-robokop(primary_knowledge_source)

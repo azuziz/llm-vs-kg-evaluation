@@ -1,0 +1,66 @@
+{
+  "model": "gpt-5.2",
+  "temperature": 0,
+  "input": [
+    {
+      "role": "system",
+      "content": "Extract node pairs. Output MUST match the JSON schema. Strip any parenthetical species text from names (e.g., 'FOXO1 (Homo sapiens)' -> 'FOXO1'). For 'mutations' use singular 'mutation' in the extracted object text."
+    },
+    {
+      "role": "user",
+      "content": "Q1 Is Langerhans cell histiocytosis related to neurodegenerative disease?\nQ2 Is Langerhans cell histiocytosis related to BRAF mutation?\nQ3 Is lung adenocarcinoma related to p53 mutations?\nQ4 Is TP53 related to FOXO1 (Homo sapiens)?\nQ5 Is KRAS related to liver cancer?\nQ6 How is FOXO1 related to BNIP3?\nQ7 How is FOXO1 related to SOD2?\nQ8 How is FOXO1 related to IGF1?\n"
+    }
+  ],
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "name": "node_pairs",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "pairs"
+        ],
+        "properties": {
+          "pairs": {
+            "type": "array",
+            "minItems": 8,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "question_id",
+                "subject",
+                "object"
+              ],
+              "properties": {
+                "question_id": {
+                  "type": "string",
+                  "enum": [
+                    "Q1",
+                    "Q2",
+                    "Q3",
+                    "Q4",
+                    "Q5",
+                    "Q6",
+                    "Q7",
+                    "Q8"
+                  ]
+                },
+                "subject": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "object": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

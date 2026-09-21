@@ -1,0 +1,9 @@
+question_id	kg_answer	results_count	unique_edges	kg_edges_total	per_question_file
+Q1	YES	1	1	3	robokop_triples_by_question/Q1.tsv
+Q2	YES	1	3	5	robokop_triples_by_question/Q2.tsv
+Q3	YES	1	2	2	robokop_triples_by_question/Q3.tsv
+Q4	YES	1	5	8	robokop_triples_by_question/Q4.tsv
+Q5	YES	1	14	29	robokop_triples_by_question/Q5.tsv
+Q6	YES	1	2	2	robokop_triples_by_question/Q6.tsv
+Q7	YES	1	5	11	robokop_triples_by_question/Q7.tsv
+Q8	YES	1	5	8	robokop_triples_by_question/Q8.tsv
