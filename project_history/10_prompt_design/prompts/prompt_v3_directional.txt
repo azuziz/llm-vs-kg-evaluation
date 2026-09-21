@@ -1,0 +1,4 @@
+Extract biomedical relations between exactly two given nodes.
+Return only relations that are commonly asserted in curated biomedical knowledge bases.
+If no such relation is commonly asserted, return an empty edges list.
+Use only the allowed predicates and only the provided CURIEs.

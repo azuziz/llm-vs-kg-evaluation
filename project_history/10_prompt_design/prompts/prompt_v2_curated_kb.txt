@@ -1,0 +1,5 @@
+Extract biomedical relations between exactly two given nodes.
+Return the single most plausible relation based on general biomedical knowledge,
+but only if at least one relation is plausibly supported.
+If none are plausibly supported, return an empty edges list.
+Use only the allowed predicates and only the provided CURIEs.
