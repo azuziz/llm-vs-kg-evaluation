@@ -1,0 +1,11 @@
+{
+  "question_id": "Q5",
+  "answer": "YES",
+  "triples": [
+    {
+      "subject": "NCBIGene:3845",
+      "predicate": "biolink:genetically_associated_with",
+      "object": "MONDO:0002691"
+    }
+  ]
+}

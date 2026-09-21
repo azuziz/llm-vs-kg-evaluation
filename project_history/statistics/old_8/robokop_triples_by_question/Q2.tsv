@@ -1,0 +1,4 @@
+question_id	query_edge_key	edge_id	subject	predicate	object	subject_label	object_label	provenance
+Q2	e0	uuid:1d88a349-198e-11f0-be82-6045bdb3d4c0_e_4	MONDO:0018310	biolink:has_phenotype	MONDO:0020520	Langerhans cell histiocytosis	adult pulmonary Langerhans cell histiocytosis	infores:automat-robokop(primary_knowledge_source)
+Q2	e0	e_2	NCBIGene:673	biolink:genetically_associated_with	MONDO:0018310	BRAF	Langerhans cell histiocytosis	infores:disgenet(primary_knowledge_source);infores:pharos(aggregator_knowledge_source);infores:automat-robokop(aggregator_knowledge_source)
+Q2	e0	e_3	NCBIGene:673	biolink:genetically_associated_with	MONDO:0018310	BRAF	Langerhans cell histiocytosis	infores:diseases(primary_knowledge_source);infores:pharos(aggregator_knowledge_source);infores:automat-robokop(aggregator_knowledge_source)

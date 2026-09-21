@@ -1,0 +1,16 @@
+{
+  "question_id": "Q8",
+  "answer": "YES",
+  "triples": [
+    {
+      "subject": "NCBIGene:2308",
+      "predicate": "biolink:affects",
+      "object": "NCBIGene:3479"
+    },
+    {
+      "subject": "NCBIGene:2308",
+      "predicate": "biolink:interacts_with",
+      "object": "NCBIGene:3479"
+    }
+  ]
+}

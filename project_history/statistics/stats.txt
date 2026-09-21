@@ -1,0 +1,28 @@
+Compare central tendency, variability, and failure modes of prompts, conditioned on question difficulty.
+1. Core comparison axes
+A. Accuracy (against ground truth)
+- F1 (primary)
+- Jaccard (secondary, sanity)
+- Precision-like vs Recall-like (diagnostics)
+B. Stability / variance
+- Across runs
+- Across questions
+C. Coverage behaviour
+- How many edges GPT emits
+- Zero-edge / one-edge collapse
+D. Question difficulty sensitivity
+- Easy vs hard questions (as defined by GT size or GT entropy)
+
+2. Must-have visualizations (core figures)
+These are the figures that belong in a paper / thesis.
+2.1 Per-question F1 distribution (box / violin)
+- x-axis: question_id
+- y-axis: F1
+- One panel per prompt (v1–v4) or overlay with facets
+Shows:
+Which questions are consistently solvable
+Which questions are noisy or impossible
+Whether v1’s 100 runs stabilize or just add noise
+
+If v2–v4 outperform v1 only on easy questions → prompt overfitting
+If variance shrinks but median doesn’t move → prompt constrains output, not accuracy

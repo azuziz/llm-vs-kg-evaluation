@@ -1,0 +1,3 @@
+question_id	query_edge_key	edge_id	subject	predicate	object	subject_label	object_label	provenance
+Q6	e0	e_1	NCBIGene:2308	biolink:physically_interacts_with	NCBIGene:664	FOXO1	BNIP3	infores:string(primary_knowledge_source);infores:automat-robokop(aggregator_knowledge_source)
+Q6	e0	e_2	NCBIGene:664	biolink:physically_interacts_with	NCBIGene:2308	BNIP3	FOXO1	infores:string(primary_knowledge_source);infores:automat-robokop(aggregator_knowledge_source)

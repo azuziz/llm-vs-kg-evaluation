@@ -1,0 +1,22 @@
+2.1 GPT strongly collapses to 0–1 edges
+ROBOKOP: 0-9 EDGES
+
+This is not a bug — it is a prompt semantics effect:
+“Extract biomedical relations between exactly two given nodes”
+→ interpreted as one canonical relation, not all relations
+
+Mean GPT edge count ≈ ~1 (or below)
+ROBOKOP: 2+ edges on average
+
+3.2 Prompt variants change distribution shape, not ontology
+v2–v4 slightly reweight predicates
+but do not introduce new predicate families
+
+Prompt engineering modulates selection bias, not knowledge scope
+
+4.1 F1 behaves sanely (and is the right choice)
+Precision alone is misleading (penalizes coverage)
+Recall alone is misleading (rewards verbosity)
+F1 balances both under your setup
+
+The same prompt + model can oscillate between correct and incorrect answers for the same biological question.
