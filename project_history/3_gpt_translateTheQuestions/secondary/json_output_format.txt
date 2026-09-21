@@ -1,0 +1,23 @@
+{
+  "question_id": "Q1",
+  "natural_question": "Is LCH associated with neurodegeneration?",
+  "nodes": {
+    "n0": {
+      "label": "Langerhans cell histiocytosis",
+      "categories": ["biolink:Disease"],
+      "role": "subject"
+    },
+    "n1": {
+      "label": "neurodegeneration",
+      "categories": ["biolink:PhenotypicFeature"],
+      "role": "object"
+    }
+  },
+  "edges": {
+    "e0": {
+      "subject": "n0",
+      "object": "n1",
+      "predicates": ["biolink:has_phenotype"]
+    }
+  }
+}

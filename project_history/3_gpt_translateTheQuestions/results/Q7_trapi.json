@@ -1,0 +1,33 @@
+{
+  "message": {
+    "query_graph": {
+      "nodes": {
+        "n0": {
+          "ids": [
+            "MONDO:0018310"
+          ],
+          "categories": [
+            "biolink:Disease"
+          ]
+        },
+        "n1": {
+          "ids": [
+            "UMLS:C1997315"
+          ],
+          "categories": [
+            "biolink:PhenotypicFeature"
+          ]
+        }
+      },
+      "edges": {
+        "e0": {
+          "subject": "n0",
+          "object": "n1",
+          "predicates": [
+            "biolink:related_to"
+          ]
+        }
+      }
+    }
+  }
+}

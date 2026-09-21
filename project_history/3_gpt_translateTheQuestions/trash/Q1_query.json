@@ -1,0 +1,23 @@
+{
+  "question_id": "q1",
+  "natural_question": "Is Langerhans cell histiocytosis associated with neurodegenerative disease?",
+  "nodes": {
+    "n0": {
+      "label": "Langerhans cell histiocytosis",
+      "categories": ["biolink:Disease"],
+      "role": "subject"
+    },
+    "n1": {
+      "label": "neurodegenerative disease",
+      "categories": ["biolink:Disease"],
+      "role": "object"
+    }
+  },
+  "edges": {
+    "e0": {
+      "subject": "n0",
+      "object": "n1",
+      "predicates": ["biolink:related_to"]
+    }
+  }
+}

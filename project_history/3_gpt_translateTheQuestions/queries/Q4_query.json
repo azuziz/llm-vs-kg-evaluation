@@ -1,0 +1,29 @@
+{
+  "natural_question": "What cancers are associated with FOXO1 (Homo sapiens)?",
+  "nodes": {
+    "n0": {
+      "label": "FOXO1",
+      "categories": [
+        "biolink:Gene"
+      ],
+      "role": "subject"
+    },
+    "n1": {
+      "label": "cancer",
+      "categories": [
+        "biolink:Disease"
+      ],
+      "role": "object"
+    }
+  },
+  "edges": {
+    "e0": {
+      "subject": "n0",
+      "object": "n1",
+      "predicates": [
+        "biolink:related_to"
+      ]
+    }
+  },
+  "question_id": "Q4"
+}

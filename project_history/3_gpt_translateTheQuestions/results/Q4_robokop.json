@@ -1,0 +1,4212 @@
+{
+  "message": {
+    "query_graph": {
+      "nodes": {
+        "n0": {
+          "ids": [
+            "NCBIGene:2308"
+          ],
+          "categories": [
+            "biolink:Gene"
+          ],
+          "set_interpretation": "BATCH",
+          "constraints": [],
+          "member_ids": []
+        },
+        "n1": {
+          "ids": [
+            "MONDO:0004992"
+          ],
+          "categories": [
+            "biolink:Disease"
+          ],
+          "set_interpretation": "BATCH",
+          "constraints": [],
+          "member_ids": []
+        }
+      },
+      "edges": {
+        "e0": {
+          "subject": "n0",
+          "object": "n1",
+          "knowledge_type": null,
+          "predicates": [
+            "biolink:related_to"
+          ],
+          "attribute_constraints": [],
+          "qualifier_constraints": []
+        }
+      }
+    },
+    "knowledge_graph": {
+      "nodes": {
+        "NCBIGene:2308": {
+          "name": "FOXO1",
+          "categories": [
+            "biolink:BiologicalEntity",
+            "biolink:ChemicalEntityOrGeneOrGeneProduct",
+            "biolink:ChemicalEntityOrProteinOrPolypeptide",
+            "biolink:Gene",
+            "biolink:GeneOrGeneProduct",
+            "biolink:GeneProductMixin",
+            "biolink:GenomicEntity",
+            "biolink:MacromolecularMachineMixin",
+            "biolink:NamedThing",
+            "biolink:OntologyClass",
+            "biolink:PhysicalEssence",
+            "biolink:PhysicalEssenceOrOccurrent",
+            "biolink:Polypeptide",
+            "biolink:Protein",
+            "biolink:ThingWithTaxon"
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "symbol",
+              "value": "FOXO1",
+              "attribute_type_id": "biolink:symbol"
+            },
+            {
+              "original_attribute_name": "locus_group",
+              "value": "protein-coding gene",
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "description",
+              "value": "A forkhead box protein O1 that is encoded in the genome of human.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "location",
+              "value": "13q14.11",
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "taxon",
+              "value": "NCBITaxon:9606",
+              "attribute_type_id": "biolink:OrganismTaxon"
+            },
+            {
+              "original_attribute_name": "information_content",
+              "value": 100.0,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "NCBITaxon",
+              "value": "10090",
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "equivalent_identifiers",
+              "value": [
+                "ENSEMBL:ENSP00000368880",
+                "ENSEMBL:ENSG00000150907",
+                "PR:Q12778",
+                "NCBIGene:2308",
+                "UMLS:C0250455",
+                "UMLS:C1333572",
+                "HGNC:3819",
+                "UniProtKB:Q12778",
+                "OMIM:136533",
+                "ENSEMBL:ENSP00000368880.4"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "MONDO:0002334": {
+          "name": "hematopoietic and lymphoid system neoplasm",
+          "categories": [
+            "biolink:BiologicalEntity",
+            "biolink:Disease",
+            "biolink:DiseaseOrPhenotypicFeature",
+            "biolink:NamedThing",
+            "biolink:ThingWithTaxon"
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplastic_disease_or_syndrome",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer_or_benign_tumor",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_hematopoietic_and_lymphoid_system_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "description",
+              "value": "Neoplasms of the hematopoietic system, including hematopoietic cell neoplasms (e.g. leukemias, lymphomas) and non-hematopoietic cell neoplasms that can affect the hematopoietic system (e.g. lymph node and splenic sarcomas). --2003",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_human_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "information_content",
+              "value": 47.5,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_hematologic_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "equivalent_identifiers",
+              "value": [
+                "UMLS:C0376545",
+                "MEDDRA:10086808",
+                "NCIT:C35813",
+                "HP:0004377",
+                "UMLS:C1512393",
+                "MEDDRA:10066476",
+                "MEDDRA:10066481",
+                "MESH:D019337",
+                "MONDO:0002334",
+                "MEDDRA:10086698",
+                "SNOMEDCT:129154003",
+                "medgen:268180",
+                "SNOMEDCT:269475001",
+                "DOID:2531",
+                "UMLS:C0348393"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "MONDO:0021063": {
+          "name": "colon cancer",
+          "categories": [
+            "biolink:BiologicalEntity",
+            "biolink:Disease",
+            "biolink:DiseaseOrPhenotypicFeature",
+            "biolink:NamedThing",
+            "biolink:ThingWithTaxon"
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer_or_benign_tumor",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_intestinal_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_intestinal_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_colonic_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "description",
+              "value": "A primary or metastatic malignant neoplasm that affects the colon. Representative examples include carcinoma, lymphoma, and sarcoma.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_human_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "url",
+              "value": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?obo_id=DOID:219",
+              "attribute_type_id": "biolink:url",
+              "value_type_id": "xsd:string"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_digestive_system_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "equivalent_identifiers",
+              "value": [
+                "HP:0003003",
+                "MEDDRA:10009951",
+                "medgen:2839",
+                "MEDDRA:10009989",
+                "MEDDRA:10025859",
+                "SNOMEDCT:363406005",
+                "MEDDRA:10009944",
+                "ICD10:C18",
+                "ICD9:153",
+                "UMLS:C0007102",
+                "MEDDRA:10025848",
+                "DOID:219",
+                "MEDDRA:10009990",
+                "MONDO:0021063",
+                "NCIT:C9242"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplastic_disease_or_syndrome",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_colorectal_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_intestinal_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_colorectal_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_digestive_system_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "definition",
+              "value": "A colorectal cancer that is located_in the colon.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_digestive_system_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "information_content",
+              "value": 100.0,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_large_intestine_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "MONDO:0005864": {
+          "name": "muscle cancer",
+          "categories": [
+            "biolink:BiologicalEntity",
+            "biolink:Disease",
+            "biolink:DiseaseOrPhenotypicFeature",
+            "biolink:NamedThing",
+            "biolink:ThingWithTaxon"
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer_or_benign_tumor",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_musculoskeletal_system_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "description",
+              "value": "A malignant neoplasm affecting the skeletal or smooth muscles. Malignant neoplasms arising from the skeletal muscles are called rhabdomyosarcomas. Malignant neoplasms arising from the smooth muscles are called leiomyosarcomas.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_human_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "equivalent_identifiers",
+              "value": [
+                "medgen:151927",
+                "NCIT:C4883",
+                "SNOMEDCT:20667008",
+                "MEDDRA:10062050",
+                "MEDDRA:10050530",
+                "UMLS:C0684743",
+                "UMLS:C0027095",
+                "EFO:0007384",
+                "MESH:D009217",
+                "SNOMEDCT:363495004",
+                "DOID:4045",
+                "MONDO:0005864"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplastic_disease_or_syndrome",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_musculoskeletal_system_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "information_content",
+              "value": 63.8,
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "MONDO:0005089": {
+          "name": "sarcoma",
+          "categories": [
+            "biolink:BiologicalEntity",
+            "biolink:Disease",
+            "biolink:DiseaseOrPhenotypicFeature",
+            "biolink:NamedThing",
+            "biolink:ThingWithTaxon"
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplastic_disease_or_syndrome",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer_or_benign_tumor",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_sarcoma",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "description",
+              "value": "A usually aggressive malignant neoplasm of the soft tissue or bone. It arises from muscle, fat, fibrous tissue, bone, cartilage, and blood vessels. Sarcomas occur in both children and adults. The prognosis depends largely on the degree of differentiation (grade) of the neoplasm. Representative subtypes are liposarcoma, leiomyosarcoma, osteosarcoma, and chondrosarcoma.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_human_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "information_content",
+              "value": 53.2,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "equivalent_identifiers",
+              "value": [
+                "SNOMEDCT:424413001",
+                "MEDDRA:10039491",
+                "UMLS:C1261473",
+                "MEDDRA:10039494",
+                "HP:0100242",
+                "medgen:224714",
+                "UMLS:C0153519",
+                "NCIT:C9118",
+                "SNOMEDCT:1187396000",
+                "EFO:0000691",
+                "ICD9:171.9",
+                "DOID:1115",
+                "MONDO:0005089",
+                "MESH:D012509",
+                "ICD10:C49"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "MONDO:0009994": {
+          "name": "alveolar rhabdomyosarcoma",
+          "categories": [
+            "biolink:BiologicalEntity",
+            "biolink:Disease",
+            "biolink:DiseaseOrPhenotypicFeature",
+            "biolink:NamedThing",
+            "biolink:ThingWithTaxon"
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer_or_benign_tumor",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_malignant_soft_tissue_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "description",
+              "value": "A rapidly growing malignant mesenchymal neoplasm. It is characterized by the presence of round cells with myoblastic differentiation and a fibrovascular stroma resembling an alveolar growth pattern. The tumor usually presents in the extremities.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_human_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "equivalent_identifiers",
+              "value": [
+                "medgen:61651",
+                "NCIT:C3749",
+                "UMLS:C0279613",
+                "HP:0006779",
+                "MONDO:0009994",
+                "MEDDRA:10065867",
+                "NCIT:C7958",
+                "OMIM:268220",
+                "MESH:D018232",
+                "EFO:0000248",
+                "SNOMEDCT:63449009",
+                "SNOMEDCT:404053004",
+                "orphanet:99756",
+                "UMLS:C0206655",
+                "DOID:4051",
+                "icd11.foundation:1742058067"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplastic_disease_or_syndrome",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_soft_tissue_sarcoma",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_sarcoma",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_soft_tissue_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "information_content",
+              "value": 100.0,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_connective_and_soft_tissue_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "MONDO:0018874": {
+          "name": "acute myeloid leukemia",
+          "categories": [
+            "biolink:BiologicalEntity",
+            "biolink:Disease",
+            "biolink:DiseaseOrPhenotypicFeature",
+            "biolink:NamedThing",
+            "biolink:ThingWithTaxon"
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_acute_leukemia",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer_or_benign_tumor",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_connective_tissue_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_immune_system_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_musculoskeletal_system_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_immune_system_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_connective_tissue_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_bone_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "description",
+              "value": "Acute myeloid leukemia (AML) is a group of neoplasms arising from precursor cells committed to the myeloid cell-line differentiation. All of them are characterized by clonal expansion of myeloid blasts. AML manifests by fever, pallor, anemia, hemorrhages and recurrent infections.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_acute_myeloid_leukemia",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_human_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_bone_marrow_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_hematologic_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_skeletal_system_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_leukemia",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_bone_marrow_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_myeloid_leukemia",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "definition",
+              "value": "A myeloid leukemia that is characterized by the rapid growth of abnormal white blood cells that accumulate in the bone marrow and interfere with the production of normal blood cells.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_hematopoietic_and_lymphoid_cell_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_acute_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_myeloid_hemopathy",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_myeloproliferative_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_bone_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "url",
+              "value": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?obo_id=DOID:9119",
+              "attribute_type_id": "biolink:url",
+              "value_type_id": "xsd:string"
+            },
+            {
+              "original_attribute_name": "equivalent_identifiers",
+              "value": [
+                "MEDDRA:10028552",
+                "MEDDRA:10024291",
+                "ICD9:205.0",
+                "MEDDRA:10060354",
+                "MEDDRA:10028557",
+                "DOID:9119",
+                "MEDDRA:10051003",
+                "KEGG.DISEASE:05221",
+                "MEDDRA:10024346",
+                "UMLS:C3275959",
+                "MEDDRA:10029549",
+                "MONDO:0018874",
+                "orphanet:519",
+                "MEDDRA:10000884",
+                "MEDDRA:10000878",
+                "MEDDRA:10000801",
+                "MESH:D015470",
+                "NCIT:C3171",
+                "MEDDRA:10060557",
+                "MEDDRA:10060553",
+                "MEDDRA:10000886",
+                "MEDDRA:10060394",
+                "medgen:9730",
+                "HP:0004808",
+                "MEDDRA:10000880",
+                "OMIM:601626",
+                "EFO:0000222",
+                "MEDDRA:10054296",
+                "SNOMEDCT:1162928000",
+                "SNOMEDCT:91861009",
+                "MEDDRA:10029551",
+                "UMLS:C0023467"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplastic_disease_or_syndrome",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_musculoskeletal_system_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_hematopoietic_and_lymphoid_system_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_bone_marrow_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_myeloid_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "information_content",
+              "value": 100.0,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_bone_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "MONDO:0008315": {
+          "name": "prostate cancer",
+          "categories": [
+            "biolink:BiologicalEntity",
+            "biolink:Disease",
+            "biolink:DiseaseOrPhenotypicFeature",
+            "biolink:NamedThing",
+            "biolink:ThingWithTaxon"
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer_or_benign_tumor",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_male_reproductive_system_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "description",
+              "value": "A primary or metastatic malignant tumor involving the prostate gland. The vast majority are carcinomas.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_human_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_reproductive_system_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "url",
+              "value": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?obo_id=DOID:10283",
+              "attribute_type_id": "biolink:url",
+              "value_type_id": "xsd:string"
+            },
+            {
+              "original_attribute_name": "equivalent_identifiers",
+              "value": [
+                "HP:0012125",
+                "MEDDRA:10026389",
+                "MEDDRA:10036908",
+                "DOID:10283",
+                "MEDDRA:10007113",
+                "MEDDRA:10036910",
+                "ICD9:185",
+                "SNOMEDCT:399068003",
+                "MEDDRA:10060862",
+                "NCIT:C7378",
+                "ICD10:C61",
+                "MEDDRA:10036946",
+                "UMLS:C0376358",
+                "MESH:D011471",
+                "KEGG.DISEASE:05215",
+                "medgen:138169",
+                "MONDO:0008315"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplastic_disease_or_syndrome",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_reproductive_system_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_reproductive_system_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_male_reproductive_organ_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_male_reproductive_system_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "information_content",
+              "value": 100.0,
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "MONDO:0020320": {
+          "name": "acute myeloblastic leukemia with maturation",
+          "categories": [
+            "biolink:BiologicalEntity",
+            "biolink:Disease",
+            "biolink:DiseaseOrPhenotypicFeature",
+            "biolink:NamedThing",
+            "biolink:ThingWithTaxon"
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_acute_leukemia",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer_or_benign_tumor",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_connective_tissue_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_immune_system_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_musculoskeletal_system_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_immune_system_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_connective_tissue_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_bone_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "description",
+              "value": "An acute myeloid leukemia (AML) characterized by blasts with evidence of maturation to more mature neutrophils. (WHO, 2001)",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_acute_myeloid_leukemia",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_human_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_bone_marrow_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_hematologic_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_skeletal_system_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_leukemia",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_bone_marrow_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_myeloid_leukemia",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_hematopoietic_and_lymphoid_cell_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_acute_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_myeloid_hemopathy",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_myeloproliferative_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_bone_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "equivalent_identifiers",
+              "value": [
+                "SNOMEDCT:359648001",
+                "UMLS:C1879321",
+                "NCIT:C3250",
+                "DOID:0081087",
+                "medgen:361829",
+                "MONDO:0020320",
+                "SNOMEDCT:103691009",
+                "EFO:0003028",
+                "orphanet:98834"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplastic_disease_or_syndrome",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_musculoskeletal_system_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_hematopoietic_and_lymphoid_system_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_bone_marrow_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_myeloid_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "information_content",
+              "value": 100.0,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_bone_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "MONDO:0021259": {
+          "name": "prostate neoplasm",
+          "categories": [
+            "biolink:BiologicalEntity",
+            "biolink:Disease",
+            "biolink:DiseaseOrPhenotypicFeature",
+            "biolink:NamedThing",
+            "biolink:ThingWithTaxon"
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer_or_benign_tumor",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "description",
+              "value": "A neoplasm (disease) that involves the prostate gland.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_human_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_reproductive_system_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "equivalent_identifiers",
+              "value": [
+                "MEDDRA:10029002",
+                "HP:0100787",
+                "ICD10:N40",
+                "medgen:18697",
+                "MEDDRA:10036965",
+                "UMLS:C0033578",
+                "ICD9:600.1",
+                "UMLS:C0748012",
+                "DOID:13206",
+                "MEDDRA:10077903",
+                "SNOMEDCT:126906006",
+                "MEDDRA:10036927",
+                "MEDDRA:10029096",
+                "NCIT:C3343",
+                "MONDO:0021259"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplastic_disease_or_syndrome",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_reproductive_system_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_male_reproductive_system_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "information_content",
+              "value": 62.2,
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "MONDO:0004992": {
+          "name": "cancer",
+          "categories": [
+            "biolink:BiologicalEntity",
+            "biolink:Disease",
+            "biolink:DiseaseOrPhenotypicFeature",
+            "biolink:NamedThing",
+            "biolink:ThingWithTaxon"
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer_or_benign_tumor",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "description",
+              "value": "A tumor composed of atypical neoplastic, often pleomorphic cells that invade other tissues. Malignant neoplasms often metastasize to distant anatomic sites and may recur after excision. The most common malignant neoplasms are carcinomas (adenocarcinomas or squamous cell carcinomas), Hodgkin and non-Hodgkin lymphomas, leukemias, melanomas, and sarcomas.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_human_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "url",
+              "value": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?obo_id=DOID:162",
+              "attribute_type_id": "biolink:url",
+              "value_type_id": "xsd:string"
+            },
+            {
+              "original_attribute_name": "equivalent_identifiers",
+              "value": [
+                "NCIT:C3263",
+                "MEDDRA:10028997",
+                "SNOMEDCT:363346000",
+                "ICD10:C80.1",
+                "UMLS:C4023185",
+                "MONDO:0004992",
+                "SNOMEDCT:1240414004",
+                "ICD9:199",
+                "MESH:D009371",
+                "DOID:162",
+                "MEDDRA:10049516",
+                "UMLS:C0027653",
+                "MEDDRA:10007051",
+                "medgen:14297",
+                "UMLS:C0006826",
+                "MEDDRA:10007050",
+                "HP:0011793",
+                "MEDDRA:10025691",
+                "MEDDRA:10026655",
+                "NCIT:C9305",
+                "DOID:0050687",
+                "DOID:0050686",
+                "MEDDRA:10073835"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplastic_disease_or_syndrome",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "definition",
+              "value": "A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "information_content",
+              "value": 36.5,
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "MONDO:0005212": {
+          "name": "rhabdomyosarcoma",
+          "categories": [
+            "biolink:BiologicalEntity",
+            "biolink:Disease",
+            "biolink:DiseaseOrPhenotypicFeature",
+            "biolink:NamedThing",
+            "biolink:ThingWithTaxon"
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer_or_benign_tumor",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_malignant_soft_tissue_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "description",
+              "value": "A rare aggressive malignant mesenchymal neoplasm arising from skeletal muscle. It usually occurs in children and young adults. Only a small percentage of tumors arise in the skeletal muscle of the extremities. The majority arise in other anatomical sites.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_human_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "url",
+              "value": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?obo_id=DOID:3247",
+              "attribute_type_id": "biolink:url",
+              "value_type_id": "xsd:string"
+            },
+            {
+              "original_attribute_name": "equivalent_identifiers",
+              "value": [
+                "MONDO:0005212",
+                "SNOMEDCT:302847003",
+                "MEDDRA:10039023",
+                "MESH:D012208",
+                "DOID:3247",
+                "MEDDRA:10039022",
+                "SNOMEDCT:30924005",
+                "orphanet:780",
+                "UMLS:C0035412",
+                "medgen:20561",
+                "MEDDRA:10039028",
+                "MEDDRA:10039024",
+                "NCIT:C3359",
+                "EFO:0002918",
+                "HP:0002859"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplastic_disease_or_syndrome",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_soft_tissue_sarcoma",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_sarcoma",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_soft_tissue_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "definition",
+              "value": "A myosarcoma that arise from skeletal muscle progenitors.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "information_content",
+              "value": 67.5,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_connective_and_soft_tissue_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "MONDO:0005224": {
+          "name": "acute myeloblastic leukemia without maturation",
+          "categories": [
+            "biolink:BiologicalEntity",
+            "biolink:Disease",
+            "biolink:DiseaseOrPhenotypicFeature",
+            "biolink:NamedThing",
+            "biolink:ThingWithTaxon"
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_acute_leukemia",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer_or_benign_tumor",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_connective_tissue_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_immune_system_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_musculoskeletal_system_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_immune_system_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_connective_tissue_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_bone_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "description",
+              "value": "An acute myeloid leukemia (AML) characterized by blasts without evidence of maturation to more mature neutrophils. (WHO, 2001)",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_acute_myeloid_leukemia",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_human_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_bone_marrow_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_hematologic_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_skeletal_system_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_leukemia",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_bone_marrow_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_myeloid_leukemia",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_hematopoietic_and_lymphoid_cell_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_acute_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_myeloid_hemopathy",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_myeloproliferative_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_bone_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "equivalent_identifiers",
+              "value": [
+                "NCIT:C3249",
+                "EFO:0003027",
+                "DOID:0081086",
+                "SNOMEDCT:359640008",
+                "orphanet:98833",
+                "MONDO:0005224",
+                "UMLS:C0026998",
+                "medgen:10232",
+                "SNOMEDCT:103690005"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplastic_disease_or_syndrome",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_musculoskeletal_system_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_hematopoietic_and_lymphoid_system_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_bone_marrow_cancer",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_myeloid_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "information_content",
+              "value": 100.0,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_bone_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "MONDO:0018905": {
+          "name": "diffuse large B-cell lymphoma",
+          "categories": [
+            "biolink:BiologicalEntity",
+            "biolink:Disease",
+            "biolink:DiseaseOrPhenotypicFeature",
+            "biolink:NamedThing",
+            "biolink:ThingWithTaxon"
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer_or_benign_tumor",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_immune_system_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_non-Hodgkin_lymphoma",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_leukocyte_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "description",
+              "value": "Diffuse large B-cell lymphoma is the most common subtype of non-Hodgkin lymphoma (NHL) in adults characterized by a median age of presentation in the sixth decade of life (but also rarely occurring in adolescents and children) with the initial presentation being single or multiple rapidly growing masses (that may or may not be painful) in nodal or extranodal sites (such as thyroid, skin, breast, gastrointestinal tract, testes, bone, or brain) and that can be accompanied by symptoms of fever, night sweats and weight loss. DLBCL has an aggressive disease course, with the elderly having a poorer prognosis than younger patients, and with relapses being common.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_B-cell_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_human_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_hematologic_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "url",
+              "value": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?obo_id=DOID:0050745",
+              "attribute_type_id": "biolink:url",
+              "value_type_id": "xsd:string"
+            },
+            {
+              "original_attribute_name": "equivalent_identifiers",
+              "value": [
+                "orphanet:544",
+                "NCIT:C8851",
+                "SNOMEDCT:1172695008",
+                "DOID:0050745",
+                "MEDDRA:10012819",
+                "SNOMEDCT:109969005",
+                "NCIT:C80280",
+                "icd11:2A81.Z",
+                "icd11.foundation:1946973604",
+                "MEDDRA:10012818",
+                "UMLS:C2699777",
+                "EFO:0000403",
+                "MESH:D016403",
+                "medgen:86954",
+                "UMLS:C0079744",
+                "MEDDRA:10012820",
+                "MONDO:0018905"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplastic_disease_or_syndrome",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_hematopoietic_and_lymphoid_system_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_lymphoma",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "definition",
+              "value": "A B-cell lymphoma that is a cancer of B cells presenting as an aggressive tumour which can arise in virtually any part of the body.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_hematopoietic_and_lymphoid_cell_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_lymphoid_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "information_content",
+              "value": 64.3,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_lymphoid_hemopathy",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_B-cell_non-Hodgkin_lymphoma",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        }
+      },
+      "edges": {
+        "e_1": {
+          "subject": "MONDO:0002334",
+          "predicate": "biolink:regulates",
+          "object": "NCBIGene:2308",
+          "sources": [
+            {
+              "resource_id": "infores:hetionet",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:hetionet"
+              ]
+            }
+          ],
+          "qualifiers": [
+            {
+              "qualifier_type_id": "biolink:object_aspect_qualifier",
+              "qualifier_value": "activity_or_abundance"
+            },
+            {
+              "qualifier_type_id": "biolink:object_direction_qualifier",
+              "qualifier_value": "downregulated"
+            },
+            {
+              "qualifier_type_id": "biolink:qualified_predicate",
+              "qualifier_value": "biolink:causes"
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "DOID:2531",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "NCBIGene:2308",
+              "attribute_type_id": "biolink:original_object"
+            },
+            {
+              "original_attribute_name": "hetio_source",
+              "value": [
+                "STARGEO"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "e_2": {
+          "subject": "MONDO:0021063",
+          "predicate": "biolink:regulates",
+          "object": "NCBIGene:2308",
+          "sources": [
+            {
+              "resource_id": "infores:hetionet",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:hetionet"
+              ]
+            }
+          ],
+          "qualifiers": [
+            {
+              "qualifier_type_id": "biolink:object_aspect_qualifier",
+              "qualifier_value": "activity_or_abundance"
+            },
+            {
+              "qualifier_type_id": "biolink:object_direction_qualifier",
+              "qualifier_value": "downregulated"
+            },
+            {
+              "qualifier_type_id": "biolink:qualified_predicate",
+              "qualifier_value": "biolink:causes"
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "DOID:219",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "NCBIGene:2308",
+              "attribute_type_id": "biolink:original_object"
+            },
+            {
+              "original_attribute_name": "hetio_source",
+              "value": [
+                "STARGEO"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "e_3": {
+          "subject": "MONDO:0005864",
+          "predicate": "biolink:related_to",
+          "object": "NCBIGene:2308",
+          "sources": [
+            {
+              "resource_id": "infores:hetionet",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:hetionet"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "DOID:4045",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "NCBIGene:2308",
+              "attribute_type_id": "biolink:original_object"
+            },
+            {
+              "original_attribute_name": "hetio_source",
+              "value": [
+                "DISEASES",
+                "DisGeNET"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "e_4": {
+          "subject": "MONDO:0005089",
+          "predicate": "biolink:related_to",
+          "object": "NCBIGene:2308",
+          "sources": [
+            {
+              "resource_id": "infores:hetionet",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:hetionet"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "DOID:1115",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "NCBIGene:2308",
+              "attribute_type_id": "biolink:original_object"
+            },
+            {
+              "original_attribute_name": "hetio_source",
+              "value": [
+                "DISEASES"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "e_5": {
+          "subject": "MONDO:0002334",
+          "predicate": "biolink:related_to",
+          "object": "NCBIGene:2308",
+          "sources": [
+            {
+              "resource_id": "infores:hetionet",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:hetionet"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "DOID:2531",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "NCBIGene:2308",
+              "attribute_type_id": "biolink:original_object"
+            },
+            {
+              "original_attribute_name": "hetio_source",
+              "value": [
+                "DisGeNET"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "uuid:0ec43e08-198e-11f0-be82-6045bdb3d4c0": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:causes",
+          "object": "MONDO:0009994",
+          "sources": [
+            {
+              "resource_id": "infores:omim",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:monarchinitiative",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:omim"
+              ]
+            },
+            {
+              "resource_id": "infores:medgen",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:monarchinitiative"
+              ]
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:medgen"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "provided_by",
+              "value": [
+                "hpoa_gene_to_disease_edges"
+              ],
+              "attribute_type_id": "biolink:provided_by"
+            },
+            {
+              "original_attribute_name": "original_subject",
+              "value": "HGNC:3819",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "category",
+              "value": [
+                "biolink:CausalGeneToDiseaseAssociation",
+                "biolink:EntityToDiseaseAssociationMixin",
+                "biolink:GeneToEntityAssociationMixin",
+                "biolink:GeneToDiseaseAssociation",
+                "biolink:GeneToDiseaseOrPhenotypicFeatureAssociation",
+                "biolink:EntityToPhenotypicFeatureAssociationMixin",
+                "biolink:Association",
+                "biolink:Entity",
+                "biolink:FrequencyQuantifier",
+                "biolink:EntityToFeatureOrDiseaseQualifiersMixin",
+                "biolink:FrequencyQualifierMixin",
+                "biolink:RelationshipQuantifier"
+              ],
+              "attribute_type_id": "biolink:category"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "knowledge_assertion",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "MONDO:0009994",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "uuid:1c573567-198e-11f0-be82-6045bdb3d4c0": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:has_phenotype",
+          "object": "MONDO:0009994",
+          "sources": [
+            {
+              "resource_id": "infores:hpo-annotations",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:monarchinitiative",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:hpo-annotations"
+              ]
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:monarchinitiative"
+              ]
+            }
+          ],
+          "qualifiers": [
+            {
+              "qualifier_type_id": "biolink:disease_context_qualifier",
+              "qualifier_value": "MONDO:0009994"
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "provided_by",
+              "value": [
+                "hpoa_gene_to_phenotype_edges"
+              ],
+              "attribute_type_id": "biolink:provided_by"
+            },
+            {
+              "original_attribute_name": "original_subject",
+              "value": "HGNC:3819",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "category",
+              "value": [
+                "biolink:GeneToPhenotypicFeatureAssociation",
+                "biolink:EntityToPhenotypicFeatureAssociationMixin",
+                "biolink:GeneToEntityAssociationMixin",
+                "biolink:GeneToDiseaseOrPhenotypicFeatureAssociation",
+                "biolink:Association",
+                "biolink:Entity",
+                "biolink:FrequencyQuantifier",
+                "biolink:EntityToFeatureOrDiseaseQualifiersMixin",
+                "biolink:FrequencyQualifierMixin",
+                "biolink:RelationshipQuantifier"
+              ],
+              "attribute_type_id": "biolink:category"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "logical_entailment",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "automated_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "HP:0006779",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_8": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0009994",
+          "sources": [
+            {
+              "resource_id": "infores:ctd",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:pharos",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:ctd"
+              ]
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:pharos"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "HGNC:3819",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "prediction",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "DOID:4051",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_9": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0018874",
+          "sources": [
+            {
+              "resource_id": "infores:eram",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:pharos",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:eram"
+              ]
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:pharos"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "HGNC:3819",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "DOID:9119",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_10": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0008315",
+          "sources": [
+            {
+              "resource_id": "infores:disgenet",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:pharos",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:disgenet"
+              ]
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:pharos"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "HGNC:3819",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "score",
+              "value": 0.4,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "UMLS:C0376358",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_11": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0020320",
+          "sources": [
+            {
+              "resource_id": "infores:disgenet",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:pharos",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:disgenet"
+              ]
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:pharos"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "HGNC:3819",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "score",
+              "value": 0.3,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "UMLS:C1879321",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_12": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0021259",
+          "sources": [
+            {
+              "resource_id": "infores:disgenet",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:pharos",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:disgenet"
+              ]
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:pharos"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "HGNC:3819",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "score",
+              "value": 0.35,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "UMLS:C0033578",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_13": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0009994",
+          "sources": [
+            {
+              "resource_id": "infores:disgenet",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:pharos",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:disgenet"
+              ]
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:pharos"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "HGNC:3819",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "score",
+              "value": 0.7,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "UMLS:C0206655",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_14": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0018874",
+          "sources": [
+            {
+              "resource_id": "infores:ctd",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:pharos",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:ctd"
+              ]
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:pharos"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "HGNC:3819",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "prediction",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "DOID:9119",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_15": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0009994",
+          "sources": [
+            {
+              "resource_id": "infores:monarchinitiative",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:pharos",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:monarchinitiative"
+              ]
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:pharos"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "HGNC:3819",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "OMIM:268220",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_16": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0004992",
+          "sources": [
+            {
+              "resource_id": "infores:diseases",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:pharos",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:diseases"
+              ]
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:pharos"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "HGNC:3819",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "knowledge_assertion",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_validation_of_automated_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "DOID:162",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_17": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0005212",
+          "sources": [
+            {
+              "resource_id": "infores:eram",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:pharos",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:eram"
+              ]
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:pharos"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "HGNC:3819",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "DOID:3247",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_18": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0018874",
+          "sources": [
+            {
+              "resource_id": "infores:disgenet",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:pharos",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:disgenet"
+              ]
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:pharos"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "HGNC:3819",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "score",
+              "value": 0.32,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "UMLS:C0023467",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_19": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0009994",
+          "sources": [
+            {
+              "resource_id": "infores:uniprot",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:pharos",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:uniprot"
+              ]
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:pharos"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "HGNC:3819",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "knowledge_assertion",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "OMIM:268220",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_20": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0005224",
+          "sources": [
+            {
+              "resource_id": "infores:disgenet",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:pharos",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:disgenet"
+              ]
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:pharos"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "HGNC:3819",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "score",
+              "value": 0.3,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "UMLS:C0026998",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_21": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0018905",
+          "sources": [
+            {
+              "resource_id": "infores:disgenet",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:pharos",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:disgenet"
+              ]
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:pharos"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "HGNC:3819",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "score",
+              "value": 0.33,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "UMLS:C0079744",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_22": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0008315",
+          "sources": [
+            {
+              "resource_id": "infores:ctd",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:pharos",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:ctd"
+              ]
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:pharos"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "HGNC:3819",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "prediction",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "DOID:10283",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_23": {
+          "subject": "MONDO:0002334",
+          "predicate": "biolink:subclass_of",
+          "object": "MONDO:0004992",
+          "sources": [
+            {
+              "resource_id": "infores:ubergraph",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:ubergraph"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "HP:0004377",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "knowledge_assertion",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "HP:0011793",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_24": {
+          "subject": "MONDO:0021063",
+          "predicate": "biolink:subclass_of",
+          "object": "MONDO:0004992",
+          "sources": [
+            {
+              "resource_id": "infores:ubergraph",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:ubergraph"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "MONDO:0021063",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "knowledge_assertion",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "MONDO:0004992",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_25": {
+          "subject": "MONDO:0005864",
+          "predicate": "biolink:subclass_of",
+          "object": "MONDO:0004992",
+          "sources": [
+            {
+              "resource_id": "infores:ubergraph",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:ubergraph"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "MONDO:0005864",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "knowledge_assertion",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "MONDO:0004992",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_26": {
+          "subject": "MONDO:0005089",
+          "predicate": "biolink:subclass_of",
+          "object": "MONDO:0004992",
+          "sources": [
+            {
+              "resource_id": "infores:ubergraph",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:ubergraph"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "MONDO:0005089",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "knowledge_assertion",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "MONDO:0004992",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_27": {
+          "subject": "MONDO:0009994",
+          "predicate": "biolink:subclass_of",
+          "object": "MONDO:0004992",
+          "sources": [
+            {
+              "resource_id": "infores:ubergraph",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:ubergraph"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "MONDO:0009994",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "knowledge_assertion",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "MONDO:0004992",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_28": {
+          "subject": "MONDO:0018874",
+          "predicate": "biolink:subclass_of",
+          "object": "MONDO:0004992",
+          "sources": [
+            {
+              "resource_id": "infores:ubergraph",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:ubergraph"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "MONDO:0018874",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "knowledge_assertion",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "MONDO:0004992",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_29": {
+          "subject": "MONDO:0008315",
+          "predicate": "biolink:subclass_of",
+          "object": "MONDO:0004992",
+          "sources": [
+            {
+              "resource_id": "infores:ubergraph",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:ubergraph"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "MONDO:0008315",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "knowledge_assertion",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "MONDO:0004992",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_30": {
+          "subject": "MONDO:0020320",
+          "predicate": "biolink:subclass_of",
+          "object": "MONDO:0004992",
+          "sources": [
+            {
+              "resource_id": "infores:ubergraph",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:ubergraph"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "MONDO:0020320",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "knowledge_assertion",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "MONDO:0004992",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_31": {
+          "subject": "MONDO:0021259",
+          "predicate": "biolink:subclass_of",
+          "object": "MONDO:0004992",
+          "sources": [
+            {
+              "resource_id": "infores:ubergraph",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:ubergraph"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "HP:0100787",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "knowledge_assertion",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "HP:0011793",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_32": {
+          "subject": "MONDO:0005212",
+          "predicate": "biolink:subclass_of",
+          "object": "MONDO:0004992",
+          "sources": [
+            {
+              "resource_id": "infores:ubergraph",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:ubergraph"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "MONDO:0005212",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "knowledge_assertion",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "MONDO:0004992",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_33": {
+          "subject": "MONDO:0005224",
+          "predicate": "biolink:subclass_of",
+          "object": "MONDO:0004992",
+          "sources": [
+            {
+              "resource_id": "infores:ubergraph",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:ubergraph"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "MONDO:0005224",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "knowledge_assertion",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "MONDO:0004992",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_34": {
+          "subject": "MONDO:0018905",
+          "predicate": "biolink:subclass_of",
+          "object": "MONDO:0004992",
+          "sources": [
+            {
+              "resource_id": "infores:ubergraph",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:ubergraph"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "NCIT:C8851",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "knowledge_assertion",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "NCIT:C9305",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_1_e_23": {
+          "subject": "MONDO:0002334",
+          "predicate": "biolink:regulates",
+          "object": "MONDO:0004992",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_e_1_e_23"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        },
+        "e_2_e_24": {
+          "subject": "MONDO:0021063",
+          "predicate": "biolink:regulates",
+          "object": "MONDO:0004992",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_e_2_e_24"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        },
+        "e_3_e_25": {
+          "subject": "MONDO:0005864",
+          "predicate": "biolink:related_to",
+          "object": "MONDO:0004992",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_e_3_e_25"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        },
+        "e_4_e_26": {
+          "subject": "MONDO:0005089",
+          "predicate": "biolink:related_to",
+          "object": "MONDO:0004992",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_e_4_e_26"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        },
+        "e_5_e_23": {
+          "subject": "MONDO:0002334",
+          "predicate": "biolink:related_to",
+          "object": "MONDO:0004992",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_e_5_e_23"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        },
+        "uuid:0ec43e08-198e-11f0-be82-6045bdb3d4c0_e_27": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:causes",
+          "object": "MONDO:0004992",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_uuid:0ec43e08-198e-11f0-be82-6045bdb3d4c0_e_27"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        },
+        "uuid:1c573567-198e-11f0-be82-6045bdb3d4c0_e_27": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:has_phenotype",
+          "object": "MONDO:0004992",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_uuid:1c573567-198e-11f0-be82-6045bdb3d4c0_e_27"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        },
+        "e_8_e_27": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0004992",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_e_8_e_27"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        },
+        "e_9_e_28": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0004992",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_e_9_e_28"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        },
+        "e_10_e_29": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0004992",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_e_10_e_29"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        },
+        "e_11_e_30": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0004992",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_e_11_e_30"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        },
+        "e_12_e_31": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0004992",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_e_12_e_31"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        },
+        "e_13_e_27": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0004992",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_e_13_e_27"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        },
+        "e_14_e_28": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0004992",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_e_14_e_28"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        },
+        "e_15_e_27": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0004992",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_e_15_e_27"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        },
+        "e_17_e_32": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0004992",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_e_17_e_32"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        },
+        "e_18_e_28": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0004992",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_e_18_e_28"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        },
+        "e_19_e_27": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0004992",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_e_19_e_27"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        },
+        "e_20_e_33": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0004992",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_e_20_e_33"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        },
+        "e_21_e_34": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0004992",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_e_21_e_34"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        },
+        "e_22_e_29": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0004992",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_e_22_e_29"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        }
+      }
+    },
+    "results": [
+      {
+        "node_bindings": {
+          "n0": [
+            {
+              "id": "NCBIGene:2308",
+              "attributes": []
+            }
+          ],
+          "n1": [
+            {
+              "id": "MONDO:0004992",
+              "attributes": []
+            }
+          ]
+        },
+        "analyses": [
+          {
+            "edge_bindings": {
+              "e0": [
+                {
+                  "id": "e_1_e_23",
+                  "attributes": []
+                },
+                {
+                  "id": "e_2_e_24",
+                  "attributes": []
+                },
+                {
+                  "id": "e_3_e_25",
+                  "attributes": []
+                },
+                {
+                  "id": "e_4_e_26",
+                  "attributes": []
+                },
+                {
+                  "id": "e_5_e_23",
+                  "attributes": []
+                },
+                {
+                  "id": "uuid:0ec43e08-198e-11f0-be82-6045bdb3d4c0_e_27",
+                  "attributes": []
+                },
+                {
+                  "id": "uuid:1c573567-198e-11f0-be82-6045bdb3d4c0_e_27",
+                  "attributes": []
+                },
+                {
+                  "id": "e_8_e_27",
+                  "attributes": []
+                },
+                {
+                  "id": "e_9_e_28",
+                  "attributes": []
+                },
+                {
+                  "id": "e_10_e_29",
+                  "attributes": []
+                },
+                {
+                  "id": "e_11_e_30",
+                  "attributes": []
+                },
+                {
+                  "id": "e_12_e_31",
+                  "attributes": []
+                },
+                {
+                  "id": "e_13_e_27",
+                  "attributes": []
+                },
+                {
+                  "id": "e_14_e_28",
+                  "attributes": []
+                },
+                {
+                  "id": "e_15_e_27",
+                  "attributes": []
+                },
+                {
+                  "id": "e_16",
+                  "attributes": []
+                },
+                {
+                  "id": "e_17_e_32",
+                  "attributes": []
+                },
+                {
+                  "id": "e_18_e_28",
+                  "attributes": []
+                },
+                {
+                  "id": "e_19_e_27",
+                  "attributes": []
+                },
+                {
+                  "id": "e_20_e_33",
+                  "attributes": []
+                },
+                {
+                  "id": "e_21_e_34",
+                  "attributes": []
+                },
+                {
+                  "id": "e_22_e_29",
+                  "attributes": []
+                }
+              ]
+            },
+            "resource_id": "infores:automat-robokop"
+          }
+        ]
+      }
+    ],
+    "auxiliary_graphs": {
+      "aux_e_1_e_23": {
+        "edges": [
+          "e_1",
+          "e_23"
+        ],
+        "attributes": []
+      },
+      "aux_e_2_e_24": {
+        "edges": [
+          "e_2",
+          "e_24"
+        ],
+        "attributes": []
+      },
+      "aux_e_3_e_25": {
+        "edges": [
+          "e_3",
+          "e_25"
+        ],
+        "attributes": []
+      },
+      "aux_e_4_e_26": {
+        "edges": [
+          "e_4",
+          "e_26"
+        ],
+        "attributes": []
+      },
+      "aux_e_5_e_23": {
+        "edges": [
+          "e_5",
+          "e_23"
+        ],
+        "attributes": []
+      },
+      "aux_uuid:0ec43e08-198e-11f0-be82-6045bdb3d4c0_e_27": {
+        "edges": [
+          "uuid:0ec43e08-198e-11f0-be82-6045bdb3d4c0",
+          "e_27"
+        ],
+        "attributes": []
+      },
+      "aux_uuid:1c573567-198e-11f0-be82-6045bdb3d4c0_e_27": {
+        "edges": [
+          "uuid:1c573567-198e-11f0-be82-6045bdb3d4c0",
+          "e_27"
+        ],
+        "attributes": []
+      },
+      "aux_e_8_e_27": {
+        "edges": [
+          "e_8",
+          "e_27"
+        ],
+        "attributes": []
+      },
+      "aux_e_9_e_28": {
+        "edges": [
+          "e_9",
+          "e_28"
+        ],
+        "attributes": []
+      },
+      "aux_e_10_e_29": {
+        "edges": [
+          "e_10",
+          "e_29"
+        ],
+        "attributes": []
+      },
+      "aux_e_11_e_30": {
+        "edges": [
+          "e_11",
+          "e_30"
+        ],
+        "attributes": []
+      },
+      "aux_e_12_e_31": {
+        "edges": [
+          "e_12",
+          "e_31"
+        ],
+        "attributes": []
+      },
+      "aux_e_13_e_27": {
+        "edges": [
+          "e_13",
+          "e_27"
+        ],
+        "attributes": []
+      },
+      "aux_e_14_e_28": {
+        "edges": [
+          "e_14",
+          "e_28"
+        ],
+        "attributes": []
+      },
+      "aux_e_15_e_27": {
+        "edges": [
+          "e_15",
+          "e_27"
+        ],
+        "attributes": []
+      },
+      "aux_e_17_e_32": {
+        "edges": [
+          "e_17",
+          "e_32"
+        ],
+        "attributes": []
+      },
+      "aux_e_18_e_28": {
+        "edges": [
+          "e_18",
+          "e_28"
+        ],
+        "attributes": []
+      },
+      "aux_e_19_e_27": {
+        "edges": [
+          "e_19",
+          "e_27"
+        ],
+        "attributes": []
+      },
+      "aux_e_20_e_33": {
+        "edges": [
+          "e_20",
+          "e_33"
+        ],
+        "attributes": []
+      },
+      "aux_e_21_e_34": {
+        "edges": [
+          "e_21",
+          "e_34"
+        ],
+        "attributes": []
+      },
+      "aux_e_22_e_29": {
+        "edges": [
+          "e_22",
+          "e_29"
+        ],
+        "attributes": []
+      }
+    }
+  },
+  "log_level": null,
+  "workflow": [
+    {
+      "id": "lookup"
+    }
+  ],
+  "bypass_cache": null
+}

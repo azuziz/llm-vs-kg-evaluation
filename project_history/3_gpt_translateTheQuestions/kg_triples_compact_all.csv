@@ -1,0 +1,462 @@
+question_id,query_n0,query_n1,subject,subject_name,predicate,object,object_name,knowledge_level,agent_type,edge_id
+Q10,NCBIGene:2308,NCBIGene:3479,NCBIGene:2308,FOXO1,biolink:affects,NCBIGene:3479,IGF1,not_provided,text_mining_agent,e_1
+Q10,NCBIGene:2308,NCBIGene:3479,NCBIGene:3479,IGF1,biolink:affects,NCBIGene:2308,FOXO1,not_provided,text_mining_agent,e_2
+Q10,NCBIGene:2308,NCBIGene:3479,NCBIGene:3479,IGF1,biolink:affects,NCBIGene:2308,FOXO1,not_provided,text_mining_agent,e_3
+Q10,NCBIGene:2308,NCBIGene:3479,NCBIGene:2308,FOXO1,biolink:interacts_with,NCBIGene:3479,IGF1,logical_entailment,automated_agent,e_4_e_6
+Q10,NCBIGene:2308,NCBIGene:3479,UniProtKB:P05019-4,insulin-like growth factor I isoform 4 (human),biolink:interacts_with,NCBIGene:3479,IGF1,logical_entailment,automated_agent,e_5_e_6
+Q1,MONDO:0018310,MONDO:0005559,MONDO:0018310,Langerhans cell histiocytosis,biolink:has_phenotype,MONDO:0005559,neurodegenerative disease,logical_entailment,automated_agent,uuid:2a0cf142-198e-11f0-be82-6045bdb3d4c0_e_2
+Q2,MONDO:0018310,NCBIGene:673,NCBIGene:673,BRAF,biolink:has_phenotype,MONDO:0018310,Langerhans cell histiocytosis,logical_entailment,automated_agent,uuid:1d88a349-198e-11f0-be82-6045bdb3d4c0_e_4
+Q2,MONDO:0018310,NCBIGene:673,NCBIGene:673,BRAF,biolink:genetically_associated_with,MONDO:0018310,Langerhans cell histiocytosis,not_provided,not_provided,e_2
+Q2,MONDO:0018310,NCBIGene:673,NCBIGene:673,BRAF,biolink:genetically_associated_with,MONDO:0018310,Langerhans cell histiocytosis,knowledge_assertion,manual_agent,e_3
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:contributes_to,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:0eae13ed-198e-11f0-be82-6045bdb3d4c0_e_410
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:contributes_to,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:0eae1497-198e-11f0-be82-6045bdb3d4c0_e_411
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:contributes_to,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:0ec4375b-198e-11f0-be82-6045bdb3d4c0_e_412
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:contributes_to,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:0ec4400b-198e-11f0-be82-6045bdb3d4c0_e_413
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0021063,colon cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_5_e_414
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0002586,thymus cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_6_e_415
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0001406,peripheral nervous system neoplasm,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_7_e_416
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0003059,bile duct cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_8_e_417
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0002367,kidney cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_9_e_418
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0008903,lung cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_10_e_419
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0002691,liver cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_11_e_420
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0100342,malignant glioma,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_12_e_421
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0005411,gallbladder cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_13_e_422
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0002334,hematopoietic and lymphoid system neoplasm,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_14_e_423
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0007254,breast cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_15_e_424
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0004669,salivary gland cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_16_e_425
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0006519,rectal cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_17_e_426
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0009831,malignant pancreatic neoplasm,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_18_e_427
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0005105,melanoma,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_19_e_428
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0002236,ocular cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_20_e_429
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0002108,thyroid cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_21_e_430
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0002974,cervical cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_22_e_431
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0002817,Adrenal Cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_23_e_432
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0005627,head and neck cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_24_e_433
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0016642,meningioma,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_25_e_434
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0002898,skin cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_26_e_435
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0007576,esophageal cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_27_e_436
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0001187,urinary bladder cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_28_e_437
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0002129,bone cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_29_e_438
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0002352,larynx cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_30_e_439
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0002715,uterine cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_31_e_440
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0005864,muscle cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_32_e_441
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0013662,Barrett esophagus,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_33_e_442
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0005517,pharynx cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_34_e_443
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0008170,ovarian cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_35_e_444
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0001056,gastric cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_36_e_445
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0001657,brain cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_37_e_446
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0005089,sarcoma,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_38_e_447
+Q3,NCBIGene:7157,MONDO:0004992,MONDO:0008315,prostate cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_39_e_448
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:causes,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:0eae102a-198e-11f0-be82-6045bdb3d4c0_e_449
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:causes,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:0ec4393a-198e-11f0-be82-6045bdb3d4c0_e_450
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:causes,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:0eae151d-198e-11f0-be82-6045bdb3d4c0_e_451
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:13ff5322-198e-11f0-be82-6045bdb3d4c0_e_452
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:166184a8-198e-11f0-be82-6045bdb3d4c0_e_453
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1c575bc8-198e-11f0-be82-6045bdb3d4c0_e_454
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:132f0d78-198e-11f0-be82-6045bdb3d4c0_e_455
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1c575bd4-198e-11f0-be82-6045bdb3d4c0_e_456
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1d887dfe-198e-11f0-be82-6045bdb3d4c0_e_457
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:11fe3b11-198e-11f0-be82-6045bdb3d4c0_e_458
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1c57540e-198e-11f0-be82-6045bdb3d4c0_e_459
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1c575408-198e-11f0-be82-6045bdb3d4c0_e_460
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:126386f5-198e-11f0-be82-6045bdb3d4c0_e_461
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:15306b56-198e-11f0-be82-6045bdb3d4c0_e_462
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1b2632ca-198e-11f0-be82-6045bdb3d4c0_e_463
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:19f513e5-198e-11f0-be82-6045bdb3d4c0_e_464
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1b264a9c-198e-11f0-be82-6045bdb3d4c0_e_465
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1feab918-198e-11f0-be82-6045bdb3d4c0_e_466
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1792922a-198e-11f0-be82-6045bdb3d4c0_e_467
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:166184a9-198e-11f0-be82-6045bdb3d4c0_e_468
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1b2632cb-198e-11f0-be82-6045bdb3d4c0_e_469
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:19f4de26-198e-11f0-be82-6045bdb3d4c0_e_470
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:19f4d663-198e-11f0-be82-6045bdb3d4c0_e_471
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1d886ea7-198e-11f0-be82-6045bdb3d4c0_e_448
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:19f52362-198e-11f0-be82-6045bdb3d4c0_e_428
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1c574bda-198e-11f0-be82-6045bdb3d4c0_e_472
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:166184b1-198e-11f0-be82-6045bdb3d4c0_e_457
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1d88b40f-198e-11f0-be82-6045bdb3d4c0_e_465
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:19f51b12-198e-11f0-be82-6045bdb3d4c0_e_414
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:18c3acc9-198e-11f0-be82-6045bdb3d4c0_e_473
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1c575bc9-198e-11f0-be82-6045bdb3d4c0_e_448
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:18c3c542-198e-11f0-be82-6045bdb3d4c0_e_465
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:16617c4e-198e-11f0-be82-6045bdb3d4c0_e_474
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1b264a9d-198e-11f0-be82-6045bdb3d4c0_e_428
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:19f513dd-198e-11f0-be82-6045bdb3d4c0_e_469
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:19f513da-198e-11f0-be82-6045bdb3d4c0_e_414
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:153029c0-198e-11f0-be82-6045bdb3d4c0_e_411
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1792a2bf-198e-11f0-be82-6045bdb3d4c0_e_410
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:132f0d6c-198e-11f0-be82-6045bdb3d4c0_e_475
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1c57540d-198e-11f0-be82-6045bdb3d4c0_e_476
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:132f0d6d-198e-11f0-be82-6045bdb3d4c0_e_477
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1d88bbcf-198e-11f0-be82-6045bdb3d4c0_e_478
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:153063c5-198e-11f0-be82-6045bdb3d4c0_e_479
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:19f513d5-198e-11f0-be82-6045bdb3d4c0_e_411
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:16617c61-198e-11f0-be82-6045bdb3d4c0_e_480
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:19f4de25-198e-11f0-be82-6045bdb3d4c0_e_475
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1c5763d5-198e-11f0-be82-6045bdb3d4c0_e_481
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:132f0d79-198e-11f0-be82-6045bdb3d4c0_e_482
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:11fe33c4-198e-11f0-be82-6045bdb3d4c0_e_483
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1feb08cd-198e-11f0-be82-6045bdb3d4c0_e_484
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:13ff0dff-198e-11f0-be82-6045bdb3d4c0_e_428
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1eb99273-198e-11f0-be82-6045bdb3d4c0_e_468
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:17929237-198e-11f0-be82-6045bdb3d4c0_e_484
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:132ecf7f-198e-11f0-be82-6045bdb3d4c0_e_457
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1d88b414-198e-11f0-be82-6045bdb3d4c0_e_485
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1d886652-198e-11f0-be82-6045bdb3d4c0_e_486
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:126386f2-198e-11f0-be82-6045bdb3d4c0_e_487
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:18c3c53c-198e-11f0-be82-6045bdb3d4c0_e_452
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:15306b5c-198e-11f0-be82-6045bdb3d4c0_e_474
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:18c3c53b-198e-11f0-be82-6045bdb3d4c0_e_456
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:18c40273-198e-11f0-be82-6045bdb3d4c0_e_488
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1c575415-198e-11f0-be82-6045bdb3d4c0_e_457
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:153029c1-198e-11f0-be82-6045bdb3d4c0_e_411
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1d88764b-198e-11f0-be82-6045bdb3d4c0_e_489
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:18c3fa6c-198e-11f0-be82-6045bdb3d4c0_e_450
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1d88b40d-198e-11f0-be82-6045bdb3d4c0_e_490
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1792a9e1-198e-11f0-be82-6045bdb3d4c0_e_411
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1d886ea9-198e-11f0-be82-6045bdb3d4c0_e_491
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:19f4d66a-198e-11f0-be82-6045bdb3d4c0_e_465
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:19f51b1c-198e-11f0-be82-6045bdb3d4c0_e_414
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1b264297-198e-11f0-be82-6045bdb3d4c0_e_485
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:18c4027d-198e-11f0-be82-6045bdb3d4c0_e_492
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:18c3c539-198e-11f0-be82-6045bdb3d4c0_e_493
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1eb9927c-198e-11f0-be82-6045bdb3d4c0_e_448
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:18c3bceb-198e-11f0-be82-6045bdb3d4c0_e_469
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:18c3b519-198e-11f0-be82-6045bdb3d4c0_e_465
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1feab919-198e-11f0-be82-6045bdb3d4c0_e_461
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:18c3acd4-198e-11f0-be82-6045bdb3d4c0_e_494
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1d887dfc-198e-11f0-be82-6045bdb3d4c0_e_495
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:166184b2-198e-11f0-be82-6045bdb3d4c0_e_469
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1c574bd2-198e-11f0-be82-6045bdb3d4c0_e_410
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:11fe4b34-198e-11f0-be82-6045bdb3d4c0_e_496
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:17929229-198e-11f0-be82-6045bdb3d4c0_e_497
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:16617c53-198e-11f0-be82-6045bdb3d4c0_e_498
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1d88764d-198e-11f0-be82-6045bdb3d4c0_e_486
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1d88b40c-198e-11f0-be82-6045bdb3d4c0_e_499
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_126_e_500
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_127_e_501
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_128_e_410
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_129_e_502
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_130_e_424
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_131_e_412
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_132_e_501
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_133_e_463
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_134_e_503
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_135_e_504
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_136_e_448
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_137_e_505
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_138_e_506
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_139_e_507
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_140_e_472
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_141_e_508
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_142_e_509
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_143_e_411
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_144_e_510
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_145_e_435
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_146_e_411
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_147_e_424
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_148_e_511
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_149_e_436
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_150_e_512
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_151_e_513
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_152_e_514
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_153_e_450
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_154_e_515
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,knowledge_assertion,manual_validation_of_automated_agent,e_155
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_156_e_516
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_157_e_501
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_158_e_467
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_159_e_437
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_160_e_517
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_161_e_518
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_162_e_519
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_163_e_520
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_164_e_435
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_165_e_521
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_166_e_522
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_167_e_523
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_168_e_447
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_169_e_520
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_170_e_419
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_171_e_467
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_172_e_509
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_173_e_524
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_174_e_525
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_175_e_421
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_176_e_428
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_177_e_526
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_178_e_527
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_179_e_528
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_180_e_528
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_181_e_500
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_182_e_529
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_183_e_489
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_184_e_527
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_185_e_530
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_186_e_472
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_187_e_456
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_188_e_465
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_189_e_472
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_190_e_531
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_191_e_531
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_192_e_450
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_193_e_532
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_194_e_533
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_195_e_534
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_196_e_535
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_197_e_536
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_198_e_537
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_199_e_538
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_200_e_539
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_201_e_540
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_202_e_541
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_203_e_445
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_204_e_530
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_205_e_527
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_206_e_542
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_207_e_422
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_208_e_539
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_209_e_424
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_210_e_432
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_211_e_543
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,not_provided,not_provided,e_212
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_213_e_419
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_214_e_506
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_215_e_544
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_216_e_422
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_217_e_545
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_218_e_546
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_219_e_533
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_220_e_542
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_221_e_524
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_222_e_547
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_223_e_548
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_224_e_529
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_225_e_545
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_226_e_471
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_227_e_468
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_228_e_549
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_229_e_413
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_230_e_550
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_231_e_471
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_232_e_551
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_233_e_421
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_234_e_432
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_235_e_452
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_236_e_420
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_237_e_536
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_238_e_446
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_239_e_447
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_240_e_444
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_241_e_552
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_242_e_526
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_243_e_497
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_244_e_553
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_245_e_503
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_246_e_554
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_247_e_513
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_248_e_472
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_249_e_555
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_250_e_484
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_251_e_449
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_252_e_433
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_253_e_464
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_254_e_556
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_255_e_557
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_256_e_515
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_257_e_530
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_258_e_431
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_259_e_518
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_260_e_558
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_261_e_487
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_262_e_452
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_263_e_420
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_264_e_518
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_265_e_559
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_266_e_532
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_267_e_437
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_268_e_560
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_269_e_561
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_270_e_513
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_271_e_430
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_272_e_536
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_273_e_480
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_274_e_427
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_275_e_541
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_276_e_417
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_277_e_562
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_278_e_458
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_279_e_423
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_280_e_529
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_281_e_513
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_282_e_525
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_283_e_533
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_284_e_563
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_285_e_564
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_286_e_436
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_287_e_428
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_288_e_561
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_289_e_445
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_290_e_499
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_291_e_565
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_292_e_566
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_293_e_535
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_294_e_519
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_295_e_567
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_296_e_568
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_297_e_505
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_298_e_569
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_299_e_461
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_300_e_431
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_301_e_570
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_302_e_523
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_303_e_414
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_304_e_511
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_305_e_565
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_306_e_536
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_307_e_571
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_308_e_572
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_309_e_437
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_310_e_559
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_311_e_558
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_312_e_469
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_313_e_507
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_314_e_468
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_315_e_449
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_316_e_445
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_317_e_421
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_318_e_573
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_319_e_500
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_320_e_574
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_321_e_515
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_322_e_410
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_323_e_506
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_324_e_525
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_325_e_575
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_326_e_544
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_327_e_537
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_328_e_576
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_329_e_577
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_330_e_468
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_331_e_578
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_332_e_533
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_333_e_579
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_334_e_580
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_335_e_501
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_336_e_428
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_337_e_579
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_338_e_562
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_339_e_581
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_340_e_413
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_341_e_533
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_342_e_542
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_343_e_582
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_344_e_550
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_345_e_583
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_346_e_412
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_347_e_584
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_348_e_444
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_349_e_585
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_350_e_581
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_351_e_586
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_352_e_587
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_353_e_414
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_354_e_588
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_355_e_589
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_356_e_502
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_357_e_457
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_358_e_497
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_359_e_518
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_360_e_469
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_361_e_422
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_362_e_471
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_363_e_558
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_364_e_482
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_365_e_529
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_366_e_418
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_367_e_550
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_368_e_436
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_369_e_410
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_370_e_450
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_371_e_410
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_372_e_478
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_373_e_448
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_374_e_469
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_375_e_428
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_376_e_590
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_377_e_419
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_378_e_432
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_379_e_591
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_380_e_540
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_381_e_521
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_382_e_592
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_383_e_593
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_384_e_469
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_385_e_586
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_386_e_513
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_387_e_465
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_388_e_556
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_389_e_413
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_390_e_594
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_391_e_595
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_392_e_504
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_393_e_473
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_394_e_557
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_395_e_596
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_396_e_437
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_397_e_583
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_398_e_428
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_399_e_556
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_400_e_597
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_401_e_545
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_402_e_436
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_403_e_413
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_404_e_410
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_405_e_515
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_406_e_598
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_407_e_574
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:gene_associated_with_condition,MONDO:0004992,cancer,logical_entailment,automated_agent,e_408_e_413
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:gene_associated_with_condition,MONDO:0004992,cancer,logical_entailment,automated_agent,e_409_e_410
+Q4,NCBIGene:2308,MONDO:0004992,MONDO:0002334,hematopoietic and lymphoid system neoplasm,biolink:regulates,MONDO:0004992,cancer,logical_entailment,automated_agent,e_1_e_23
+Q4,NCBIGene:2308,MONDO:0004992,MONDO:0021063,colon cancer,biolink:regulates,MONDO:0004992,cancer,logical_entailment,automated_agent,e_2_e_24
+Q4,NCBIGene:2308,MONDO:0004992,MONDO:0005864,muscle cancer,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_3_e_25
+Q4,NCBIGene:2308,MONDO:0004992,MONDO:0005089,sarcoma,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_4_e_26
+Q4,NCBIGene:2308,MONDO:0004992,MONDO:0002334,hematopoietic and lymphoid system neoplasm,biolink:related_to,MONDO:0004992,cancer,logical_entailment,automated_agent,e_5_e_23
+Q4,NCBIGene:2308,MONDO:0004992,NCBIGene:2308,FOXO1,biolink:causes,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:0ec43e08-198e-11f0-be82-6045bdb3d4c0_e_27
+Q4,NCBIGene:2308,MONDO:0004992,NCBIGene:2308,FOXO1,biolink:has_phenotype,MONDO:0004992,cancer,logical_entailment,automated_agent,uuid:1c573567-198e-11f0-be82-6045bdb3d4c0_e_27
+Q4,NCBIGene:2308,MONDO:0004992,NCBIGene:2308,FOXO1,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_8_e_27
+Q4,NCBIGene:2308,MONDO:0004992,NCBIGene:2308,FOXO1,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_9_e_28
+Q4,NCBIGene:2308,MONDO:0004992,NCBIGene:2308,FOXO1,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_10_e_29
+Q4,NCBIGene:2308,MONDO:0004992,NCBIGene:2308,FOXO1,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_11_e_30
+Q4,NCBIGene:2308,MONDO:0004992,NCBIGene:2308,FOXO1,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_12_e_31
+Q4,NCBIGene:2308,MONDO:0004992,NCBIGene:2308,FOXO1,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_13_e_27
+Q4,NCBIGene:2308,MONDO:0004992,NCBIGene:2308,FOXO1,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_14_e_28
+Q4,NCBIGene:2308,MONDO:0004992,NCBIGene:2308,FOXO1,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_15_e_27
+Q4,NCBIGene:2308,MONDO:0004992,NCBIGene:2308,FOXO1,biolink:genetically_associated_with,MONDO:0004992,cancer,knowledge_assertion,manual_validation_of_automated_agent,e_16
+Q4,NCBIGene:2308,MONDO:0004992,NCBIGene:2308,FOXO1,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_17_e_32
+Q4,NCBIGene:2308,MONDO:0004992,NCBIGene:2308,FOXO1,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_18_e_28
+Q4,NCBIGene:2308,MONDO:0004992,NCBIGene:2308,FOXO1,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_19_e_27
+Q4,NCBIGene:2308,MONDO:0004992,NCBIGene:2308,FOXO1,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_20_e_33
+Q4,NCBIGene:2308,MONDO:0004992,NCBIGene:2308,FOXO1,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_21_e_34
+Q4,NCBIGene:2308,MONDO:0004992,NCBIGene:2308,FOXO1,biolink:genetically_associated_with,MONDO:0004992,cancer,logical_entailment,automated_agent,e_22_e_29
+Q6,NCBIGene:3845,MONDO:0002691,MONDO:0002691,liver cancer,biolink:related_to,NCBIGene:3845,KRAS,not_provided,not_provided,e_1
+Q6,NCBIGene:3845,MONDO:0002691,MONDO:0003059,bile duct cancer,biolink:related_to,MONDO:0002691,liver cancer,logical_entailment,automated_agent,e_2_e_15
+Q6,NCBIGene:3845,MONDO:0002691,NCBIGene:3845,KRAS,biolink:has_phenotype,MONDO:0002691,liver cancer,logical_entailment,automated_agent,uuid:13ff013e-198e-11f0-be82-6045bdb3d4c0_e_16
+Q6,NCBIGene:3845,MONDO:0002691,NCBIGene:3845,KRAS,biolink:genetically_associated_with,MONDO:0002691,liver cancer,logical_entailment,automated_agent,e_4_e_17
+Q6,NCBIGene:3845,MONDO:0002691,NCBIGene:3845,KRAS,biolink:genetically_associated_with,MONDO:0002691,liver cancer,logical_entailment,automated_agent,e_5_e_16
+Q6,NCBIGene:3845,MONDO:0002691,NCBIGene:3845,KRAS,biolink:genetically_associated_with,MONDO:0002691,liver cancer,logical_entailment,automated_agent,e_6_e_18
+Q6,NCBIGene:3845,MONDO:0002691,NCBIGene:3845,KRAS,biolink:genetically_associated_with,MONDO:0002691,liver cancer,logical_entailment,automated_agent,e_7_e_18
+Q6,NCBIGene:3845,MONDO:0002691,NCBIGene:3845,KRAS,biolink:genetically_associated_with,MONDO:0002691,liver cancer,not_provided,not_provided,e_8
+Q6,NCBIGene:3845,MONDO:0002691,NCBIGene:3845,KRAS,biolink:genetically_associated_with,MONDO:0002691,liver cancer,logical_entailment,automated_agent,e_9_e_15
+Q6,NCBIGene:3845,MONDO:0002691,NCBIGene:3845,KRAS,biolink:genetically_associated_with,MONDO:0002691,liver cancer,prediction,manual_agent,e_10
+Q6,NCBIGene:3845,MONDO:0002691,NCBIGene:3845,KRAS,biolink:genetically_associated_with,MONDO:0002691,liver cancer,logical_entailment,automated_agent,e_11_e_17
+Q6,NCBIGene:3845,MONDO:0002691,NCBIGene:3845,KRAS,biolink:genetically_associated_with,MONDO:0002691,liver cancer,logical_entailment,automated_agent,e_12_e_18
+Q6,NCBIGene:3845,MONDO:0002691,NCBIGene:3845,KRAS,biolink:genetically_associated_with,MONDO:0002691,liver cancer,logical_entailment,automated_agent,e_13_e_18
+Q6,NCBIGene:3845,MONDO:0002691,NCBIGene:3845,KRAS,biolink:genetically_associated_with,MONDO:0002691,liver cancer,logical_entailment,automated_agent,e_14_e_16
+Q8,NCBIGene:2308,NCBIGene:664,NCBIGene:2308,FOXO1,biolink:physically_interacts_with,NCBIGene:664,BNIP3,not_provided,text_mining_agent,e_1
+Q8,NCBIGene:2308,NCBIGene:664,NCBIGene:664,BNIP3,biolink:physically_interacts_with,NCBIGene:2308,FOXO1,not_provided,text_mining_agent,e_2
+Q9,NCBIGene:2308,NCBIGene:6648,NCBIGene:2308,FOXO1,biolink:affects,NCBIGene:6648,SOD2,not_provided,text_mining_agent,e_1
+Q9,NCBIGene:2308,NCBIGene:6648,NCBIGene:2308,FOXO1,biolink:physically_interacts_with,NCBIGene:6648,SOD2,logical_entailment,automated_agent,e_2_e_6
+Q9,NCBIGene:2308,NCBIGene:6648,UniProtKB:P04179-4,"superoxide dismutase [Mn], mitochondrial isoform h4 (human)",biolink:physically_interacts_with,NCBIGene:6648,SOD2,logical_entailment,automated_agent,e_3_e_6
+Q9,NCBIGene:2308,NCBIGene:6648,NCBIGene:2308,FOXO1,biolink:physically_interacts_with,NCBIGene:6648,SOD2,logical_entailment,automated_agent,e_4_e_7
+Q9,NCBIGene:2308,NCBIGene:6648,UniProtKB:P04179-1,"superoxide dismutase [Mn], mitochondrial isoform 1 (human)",biolink:physically_interacts_with,NCBIGene:6648,SOD2,logical_entailment,automated_agent,e_5_e_7

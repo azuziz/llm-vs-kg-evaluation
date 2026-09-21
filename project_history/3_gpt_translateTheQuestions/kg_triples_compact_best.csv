@@ -1,0 +1,9 @@
+question_id,query_n0,query_n1,subject,subject_name,predicate,object,object_name,knowledge_level,agent_type,edge_id
+Q1,MONDO:0018310,MONDO:0005559,MONDO:0018310,Langerhans cell histiocytosis,biolink:has_phenotype,MONDO:0005559,neurodegenerative disease,logical_entailment,automated_agent,uuid:2a0cf142-198e-11f0-be82-6045bdb3d4c0_e_2
+Q10,NCBIGene:2308,NCBIGene:3479,NCBIGene:2308,FOXO1,biolink:interacts_with,NCBIGene:3479,IGF1,logical_entailment,automated_agent,e_4_e_6
+Q2,MONDO:0018310,NCBIGene:673,NCBIGene:673,BRAF,biolink:genetically_associated_with,MONDO:0018310,Langerhans cell histiocytosis,knowledge_assertion,manual_agent,e_3
+Q3,NCBIGene:7157,MONDO:0004992,NCBIGene:7157,TP53,biolink:genetically_associated_with,MONDO:0004992,cancer,knowledge_assertion,manual_validation_of_automated_agent,e_155
+Q4,NCBIGene:2308,MONDO:0004992,NCBIGene:2308,FOXO1,biolink:genetically_associated_with,MONDO:0004992,cancer,knowledge_assertion,manual_validation_of_automated_agent,e_16
+Q6,NCBIGene:3845,MONDO:0002691,NCBIGene:3845,KRAS,biolink:genetically_associated_with,MONDO:0002691,liver cancer,not_provided,not_provided,e_8
+Q8,NCBIGene:2308,NCBIGene:664,NCBIGene:2308,FOXO1,biolink:physically_interacts_with,NCBIGene:664,BNIP3,not_provided,text_mining_agent,e_1
+Q9,NCBIGene:2308,NCBIGene:6648,NCBIGene:2308,FOXO1,biolink:affects,NCBIGene:6648,SOD2,not_provided,text_mining_agent,e_1

@@ -1,0 +1,29 @@
+{
+  "question_id": "q1",
+  "natural_question": "Is KRAS associated with liver cancer?",
+  "nodes": {
+    "n0": {
+      "label": "KRAS",
+      "categories": [
+        "biolink:Gene"
+      ],
+      "role": "subject"
+    },
+    "n1": {
+      "label": "liver cancer",
+      "categories": [
+        "biolink:Disease"
+      ],
+      "role": "object"
+    }
+  },
+  "edges": {
+    "e0": {
+      "subject": "n0",
+      "object": "n1",
+      "predicates": [
+        "biolink:related_to"
+      ]
+    }
+  }
+}

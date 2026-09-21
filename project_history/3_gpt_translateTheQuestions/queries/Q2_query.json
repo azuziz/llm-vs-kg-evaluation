@@ -1,0 +1,29 @@
+{
+  "natural_question": "Is Langerhans cell histiocytosis associated with BRAF mutation?",
+  "nodes": {
+    "n0": {
+      "label": "Langerhans cell histiocytosis",
+      "categories": [
+        "biolink:Disease"
+      ],
+      "role": "object"
+    },
+    "n1": {
+      "label": "BRAF",
+      "categories": [
+        "biolink:Gene"
+      ],
+      "role": "subject"
+    }
+  },
+  "edges": {
+    "e0": {
+      "subject": "n1",
+      "object": "n0",
+      "predicates": [
+        "biolink:related_to"
+      ]
+    }
+  },
+  "question_id": "Q2"
+}

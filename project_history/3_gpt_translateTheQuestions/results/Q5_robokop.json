@@ -1,0 +1,55 @@
+{
+  "message": {
+    "query_graph": {
+      "nodes": {
+        "n0": {
+          "ids": [
+            "UMLS:C0017337"
+          ],
+          "categories": [
+            "biolink:Gene"
+          ],
+          "set_interpretation": "BATCH",
+          "constraints": [],
+          "member_ids": []
+        },
+        "n1": {
+          "ids": [
+            "GO:0006119"
+          ],
+          "categories": [
+            "biolink:BiologicalProcessOrActivity"
+          ],
+          "set_interpretation": "BATCH",
+          "constraints": [],
+          "member_ids": []
+        }
+      },
+      "edges": {
+        "e0": {
+          "subject": "n0",
+          "object": "n1",
+          "knowledge_type": null,
+          "predicates": [
+            "biolink:related_to"
+          ],
+          "attribute_constraints": [],
+          "qualifier_constraints": []
+        }
+      }
+    },
+    "knowledge_graph": {
+      "nodes": {},
+      "edges": {}
+    },
+    "results": [],
+    "auxiliary_graphs": {}
+  },
+  "log_level": null,
+  "workflow": [
+    {
+      "id": "lookup"
+    }
+  ],
+  "bypass_cache": null
+}

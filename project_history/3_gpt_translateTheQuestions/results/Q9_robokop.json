@@ -1,0 +1,813 @@
+{
+  "message": {
+    "query_graph": {
+      "nodes": {
+        "n0": {
+          "ids": [
+            "NCBIGene:2308"
+          ],
+          "categories": [
+            "biolink:Gene"
+          ],
+          "set_interpretation": "BATCH",
+          "constraints": [],
+          "member_ids": []
+        },
+        "n1": {
+          "ids": [
+            "NCBIGene:6648"
+          ],
+          "categories": [
+            "biolink:Gene"
+          ],
+          "set_interpretation": "BATCH",
+          "constraints": [],
+          "member_ids": []
+        }
+      },
+      "edges": {
+        "e0": {
+          "subject": "n0",
+          "object": "n1",
+          "knowledge_type": null,
+          "predicates": [
+            "biolink:related_to"
+          ],
+          "attribute_constraints": [],
+          "qualifier_constraints": []
+        }
+      }
+    },
+    "knowledge_graph": {
+      "nodes": {
+        "NCBIGene:2308": {
+          "name": "FOXO1",
+          "categories": [
+            "biolink:BiologicalEntity",
+            "biolink:ChemicalEntityOrGeneOrGeneProduct",
+            "biolink:ChemicalEntityOrProteinOrPolypeptide",
+            "biolink:Gene",
+            "biolink:GeneOrGeneProduct",
+            "biolink:GeneProductMixin",
+            "biolink:GenomicEntity",
+            "biolink:MacromolecularMachineMixin",
+            "biolink:NamedThing",
+            "biolink:OntologyClass",
+            "biolink:PhysicalEssence",
+            "biolink:PhysicalEssenceOrOccurrent",
+            "biolink:Polypeptide",
+            "biolink:Protein",
+            "biolink:ThingWithTaxon"
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "symbol",
+              "value": "FOXO1",
+              "attribute_type_id": "biolink:symbol"
+            },
+            {
+              "original_attribute_name": "locus_group",
+              "value": "protein-coding gene",
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "description",
+              "value": "A forkhead box protein O1 that is encoded in the genome of human.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "location",
+              "value": "13q14.11",
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "taxon",
+              "value": "NCBITaxon:9606",
+              "attribute_type_id": "biolink:OrganismTaxon"
+            },
+            {
+              "original_attribute_name": "information_content",
+              "value": 100.0,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "NCBITaxon",
+              "value": "10090",
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "equivalent_identifiers",
+              "value": [
+                "ENSEMBL:ENSP00000368880",
+                "ENSEMBL:ENSG00000150907",
+                "PR:Q12778",
+                "NCBIGene:2308",
+                "UMLS:C0250455",
+                "UMLS:C1333572",
+                "HGNC:3819",
+                "UniProtKB:Q12778",
+                "OMIM:136533",
+                "ENSEMBL:ENSP00000368880.4"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "NCBIGene:6648": {
+          "name": "SOD2",
+          "categories": [
+            "biolink:BiologicalEntity",
+            "biolink:ChemicalEntityOrGeneOrGeneProduct",
+            "biolink:ChemicalEntityOrProteinOrPolypeptide",
+            "biolink:Gene",
+            "biolink:GeneOrGeneProduct",
+            "biolink:GeneProductMixin",
+            "biolink:GenomicEntity",
+            "biolink:MacromolecularMachineMixin",
+            "biolink:NamedThing",
+            "biolink:OntologyClass",
+            "biolink:PhysicalEssence",
+            "biolink:PhysicalEssenceOrOccurrent",
+            "biolink:Polypeptide",
+            "biolink:Protein",
+            "biolink:ThingWithTaxon"
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "symbol",
+              "value": "SOD2",
+              "attribute_type_id": "biolink:symbol"
+            },
+            {
+              "original_attribute_name": "locus_group",
+              "value": "protein-coding gene",
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "description",
+              "value": "A superoxide dismutase [Mn], mitochondrial that is encoded in the genome of human.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "location",
+              "value": "6q25.3",
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "taxon",
+              "value": "NCBITaxon:9606",
+              "attribute_type_id": "biolink:OrganismTaxon"
+            },
+            {
+              "original_attribute_name": "information_content",
+              "value": 100.0,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "NCBITaxon",
+              "value": "10090",
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "equivalent_identifiers",
+              "value": [
+                "UniProtKB:Q9UG59",
+                "PR:P04179",
+                "UniProtKB:A0A384NL29",
+                "ENSEMBL:ENSP00000406713.2",
+                "UniProtKB:P04179",
+                "UMLS:C1420307",
+                "OMIM:147460",
+                "HGNC:11180",
+                "UMLS:C1743497",
+                "UniProtKB:G5E9P6",
+                "UniProtKB:Q96AM7",
+                "ENSEMBL:ENSP00000406713",
+                "NCBIGene:6648",
+                "ENSEMBL:ENSG00000291237"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "UniProtKB:P04179-4": {
+          "name": "superoxide dismutase [Mn], mitochondrial isoform h4 (human)",
+          "categories": [
+            "biolink:BiologicalEntity",
+            "biolink:ChemicalEntityOrGeneOrGeneProduct",
+            "biolink:ChemicalEntityOrProteinOrPolypeptide",
+            "biolink:GeneOrGeneProduct",
+            "biolink:GeneProductMixin",
+            "biolink:MacromolecularMachineMixin",
+            "biolink:NamedThing",
+            "biolink:Polypeptide",
+            "biolink:Protein",
+            "biolink:ThingWithTaxon"
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "description",
+              "value": "A superoxide dismutase [Mn], mitochondrial (human) that is a translation product of some mRNA whose exon structure and start site selection renders it capable of giving rise to a protein with the amino acid sequence represented by UniProtKB:P04179-4.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "information_content",
+              "value": 100.0,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "equivalent_identifiers",
+              "value": [
+                "ENSEMBL:ENSP00000442920",
+                "PR:P04179-4",
+                "UniProtKB:P04179-4",
+                "ENSEMBL:ENSP00000442920.1"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "UniProtKB:P04179-1": {
+          "name": "superoxide dismutase [Mn], mitochondrial isoform 1 (human)",
+          "categories": [
+            "biolink:BiologicalEntity",
+            "biolink:ChemicalEntityOrGeneOrGeneProduct",
+            "biolink:ChemicalEntityOrProteinOrPolypeptide",
+            "biolink:GeneOrGeneProduct",
+            "biolink:GeneProductMixin",
+            "biolink:MacromolecularMachineMixin",
+            "biolink:NamedThing",
+            "biolink:Polypeptide",
+            "biolink:Protein",
+            "biolink:ThingWithTaxon"
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "description",
+              "value": "A superoxide dismutase [Mn], mitochondrial isoform 1 that is encoded in the genome of human.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "information_content",
+              "value": 100.0,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "equivalent_identifiers",
+              "value": [
+                "ENSEMBL:ENSP00000446252",
+                "ENSEMBL:ENSP00000356022",
+                "PR:P04179-1",
+                "UniProtKB:P04179-1",
+                "ENSEMBL:ENSP00000356022.4",
+                "ENSEMBL:ENSP00000446252.1"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        }
+      },
+      "edges": {
+        "e_1": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:affects",
+          "object": "NCBIGene:6648",
+          "sources": [
+            {
+              "resource_id": "infores:text-mining-provider-targeted",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:text-mining-provider-targeted"
+              ]
+            }
+          ],
+          "qualifiers": [
+            {
+              "qualifier_type_id": "biolink:object_aspect_qualifier",
+              "qualifier_value": "activity_or_abundance"
+            },
+            {
+              "qualifier_type_id": "biolink:object_direction_qualifier",
+              "qualifier_value": "decreased"
+            },
+            {
+              "qualifier_type_id": "biolink:qualified_predicate",
+              "qualifier_value": "biolink:causes"
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "UniProtKB:Q12778",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "publications",
+              "value": [
+                "PMC:6719220"
+              ],
+              "attribute_type_id": "biolink:publications",
+              "value_type_id": "linkml:Uriorcurie"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "text_mining_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "sentences",
+              "value": "Membranes were blocked in 5% non-fat dry milk in TBS buffer containing 0.1% Tween 20 and incubated with the following antibodies: anti-phospho-ERK, anti-ERK, anti-phospho-AMPK? (Thr172), anti-AMPK?, anti-phospho-mTOR (Ser2448), anti-mTOR, anti-phospho-4E-BP1 (Ser65), anti-4EBP1, anti-phospho-p70S6K (Thr389), anti-S6K, anti-phospho-FOXO1 (Ser256), anti-SOD2, anti-Catalase, anti-PARP, anti-acetyl-p53 (Lys382), anti-p53, anti-PUMA, anti-SIRT1, anti-?TUBULIN (Cell Signaling, Danvers, MA, USA), anti-Visfatin (Bethyl Laboratories, Montgomery, TX, USA), and anti-GAPDH (Merck Millipore, Darmstadt, Germany) according to the manufacturer?s instructions.|NA",
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "UniProtKB:P04179",
+              "attribute_type_id": "biolink:original_object"
+            },
+            {
+              "original_attribute_name": "tmkp_confidence_score",
+              "value": 0.9447552,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "tmkp_ids",
+              "value": [
+                "tmkp:75e7abaf968f513557462546b593ed9c1261d04ae18fec8bfbe76040660c4511"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "e_2": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:physically_interacts_with",
+          "object": "UniProtKB:P04179-4",
+          "sources": [
+            {
+              "resource_id": "infores:string",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:string"
+              ]
+            }
+          ],
+          "qualifiers": [
+            {
+              "qualifier_type_id": "biolink:species_context_qualifier",
+              "qualifier_value": "NCBITaxon:9606"
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "ENSEMBL:ENSP00000368880",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "text_mining_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "ENSEMBL:ENSP00000442920",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_3": {
+          "subject": "UniProtKB:P04179-4",
+          "predicate": "biolink:physically_interacts_with",
+          "object": "NCBIGene:2308",
+          "sources": [
+            {
+              "resource_id": "infores:string",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:string"
+              ]
+            }
+          ],
+          "qualifiers": [
+            {
+              "qualifier_type_id": "biolink:species_context_qualifier",
+              "qualifier_value": "NCBITaxon:9606"
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "ENSEMBL:ENSP00000442920",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "text_mining_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "ENSEMBL:ENSP00000368880",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_4": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:physically_interacts_with",
+          "object": "UniProtKB:P04179-1",
+          "sources": [
+            {
+              "resource_id": "infores:string",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:string"
+              ]
+            }
+          ],
+          "qualifiers": [
+            {
+              "qualifier_type_id": "biolink:species_context_qualifier",
+              "qualifier_value": "NCBITaxon:9606"
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "ENSEMBL:ENSP00000368880",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "knowledge_assertion",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "ENSEMBL:ENSP00000446252",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_5": {
+          "subject": "UniProtKB:P04179-1",
+          "predicate": "biolink:physically_interacts_with",
+          "object": "NCBIGene:2308",
+          "sources": [
+            {
+              "resource_id": "infores:string",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:string"
+              ]
+            }
+          ],
+          "qualifiers": [
+            {
+              "qualifier_type_id": "biolink:species_context_qualifier",
+              "qualifier_value": "NCBITaxon:9606"
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "ENSEMBL:ENSP00000446252",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "knowledge_assertion",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "ENSEMBL:ENSP00000368880",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_6": {
+          "subject": "UniProtKB:P04179-4",
+          "predicate": "biolink:subclass_of",
+          "object": "NCBIGene:6648",
+          "sources": [
+            {
+              "resource_id": "infores:ubergraph",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:ubergraph"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "PR:P04179-4",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "knowledge_assertion",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "PR:P04179",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_7": {
+          "subject": "UniProtKB:P04179-1",
+          "predicate": "biolink:subclass_of",
+          "object": "NCBIGene:6648",
+          "sources": [
+            {
+              "resource_id": "infores:ubergraph",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:ubergraph"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "PR:P04179-1",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "knowledge_assertion",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "PR:P04179",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_2_e_6": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:physically_interacts_with",
+          "object": "NCBIGene:6648",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_e_2_e_6"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        },
+        "e_3_e_6": {
+          "subject": "UniProtKB:P04179-4",
+          "predicate": "biolink:physically_interacts_with",
+          "object": "NCBIGene:6648",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_e_3_e_6"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        },
+        "e_4_e_7": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:physically_interacts_with",
+          "object": "NCBIGene:6648",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_e_4_e_7"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        },
+        "e_5_e_7": {
+          "subject": "UniProtKB:P04179-1",
+          "predicate": "biolink:physically_interacts_with",
+          "object": "NCBIGene:6648",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_e_5_e_7"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        }
+      }
+    },
+    "results": [
+      {
+        "node_bindings": {
+          "n0": [
+            {
+              "id": "NCBIGene:2308",
+              "attributes": []
+            }
+          ],
+          "n1": [
+            {
+              "id": "NCBIGene:6648",
+              "attributes": []
+            }
+          ]
+        },
+        "analyses": [
+          {
+            "edge_bindings": {
+              "e0": [
+                {
+                  "id": "e_1",
+                  "attributes": []
+                },
+                {
+                  "id": "e_2_e_6",
+                  "attributes": []
+                },
+                {
+                  "id": "e_3_e_6",
+                  "attributes": []
+                },
+                {
+                  "id": "e_4_e_7",
+                  "attributes": []
+                },
+                {
+                  "id": "e_5_e_7",
+                  "attributes": []
+                }
+              ]
+            },
+            "resource_id": "infores:automat-robokop"
+          }
+        ]
+      }
+    ],
+    "auxiliary_graphs": {
+      "aux_e_2_e_6": {
+        "edges": [
+          "e_2",
+          "e_6"
+        ],
+        "attributes": []
+      },
+      "aux_e_3_e_6": {
+        "edges": [
+          "e_3",
+          "e_6"
+        ],
+        "attributes": []
+      },
+      "aux_e_4_e_7": {
+        "edges": [
+          "e_4",
+          "e_7"
+        ],
+        "attributes": []
+      },
+      "aux_e_5_e_7": {
+        "edges": [
+          "e_5",
+          "e_7"
+        ],
+        "attributes": []
+      }
+    }
+  },
+  "log_level": null,
+  "workflow": [
+    {
+      "id": "lookup"
+    }
+  ],
+  "bypass_cache": null
+}

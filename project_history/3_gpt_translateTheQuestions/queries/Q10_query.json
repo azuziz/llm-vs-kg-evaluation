@@ -1,0 +1,29 @@
+{
+  "natural_question": "What is the association between FOXO1 and IGF1?",
+  "nodes": {
+    "n0": {
+      "label": "FOXO1",
+      "categories": [
+        "biolink:Gene"
+      ],
+      "role": "subject"
+    },
+    "n1": {
+      "label": "IGF1",
+      "categories": [
+        "biolink:Gene"
+      ],
+      "role": "object"
+    }
+  },
+  "edges": {
+    "e0": {
+      "subject": "n0",
+      "object": "n1",
+      "predicates": [
+        "biolink:related_to"
+      ]
+    }
+  },
+  "question_id": "Q10"
+}

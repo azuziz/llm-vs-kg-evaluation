@@ -1,0 +1,29 @@
+{
+  "question_id": "Q7",
+  "natural_question": "Is Langerhans cell histiocytosis associated with biological sex?",
+  "nodes": {
+    "n0": {
+      "label": "Langerhans cell histiocytosis",
+      "categories": [
+        "biolink:Disease"
+      ],
+      "role": "subject"
+    },
+    "n1": {
+      "label": "biological sex",
+      "categories": [
+        "biolink:PhenotypicFeature"
+      ],
+      "role": "object"
+    }
+  },
+  "edges": {
+    "e0": {
+      "subject": "n0",
+      "object": "n1",
+      "predicates": [
+        "biolink:related_to"
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "message": {
+    "query_graph": {
+      "nodes": {
+        "n0": {
+          "ids": [
+            "NCBIGene:2308"
+          ],
+          "categories": [
+            "biolink:Gene"
+          ]
+        },
+        "n1": {
+          "ids": [
+            "NCBIGene:3479"
+          ],
+          "categories": [
+            "biolink:Gene"
+          ]
+        }
+      },
+      "edges": {
+        "e0": {
+          "subject": "n0",
+          "object": "n1",
+          "predicates": [
+            "biolink:related_to"
+          ]
+        }
+      }
+    }
+  }
+}

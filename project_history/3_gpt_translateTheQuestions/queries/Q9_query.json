@@ -1,0 +1,29 @@
+{
+  "natural_question": "What is the association between FOXO1 and SOD2?",
+  "nodes": {
+    "n0": {
+      "label": "FOXO1",
+      "categories": [
+        "biolink:Gene"
+      ],
+      "role": "subject"
+    },
+    "n1": {
+      "label": "SOD2",
+      "categories": [
+        "biolink:Gene"
+      ],
+      "role": "object"
+    }
+  },
+  "edges": {
+    "e0": {
+      "subject": "n0",
+      "object": "n1",
+      "predicates": [
+        "biolink:related_to"
+      ]
+    }
+  },
+  "question_id": "Q9"
+}

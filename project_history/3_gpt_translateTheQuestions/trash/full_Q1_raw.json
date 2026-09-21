@@ -1,0 +1,35 @@
+{
+  "id": "chatcmpl-CkwsELEjk5U12c5ASTP7xiYjl5Yok",
+  "object": "chat.completion",
+  "created": 1765305434,
+  "model": "gpt-5.1-2025-11-13",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"question_id\": \"q1\",\n  \"natural_question\": \"Is Langerhans cell histiocytosis associated with neurodegenerative disease?\",\n  \"nodes\": {\n    \"n0\": {\n      \"label\": \"Langerhans cell histiocytosis\",\n      \"categories\": [\"biolink:Disease\"],\n      \"role\": \"subject\"\n    },\n    \"n1\": {\n      \"label\": \"neurodegenerative disease\",\n      \"categories\": [\"biolink:Disease\"],\n      \"role\": \"object\"\n    }\n  },\n  \"edges\": {\n    \"e0\": {\n      \"subject\": \"n0\",\n      \"object\": \"n1\",\n      \"predicates\": [\"biolink:associated_with\"]\n    }\n  }\n}",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 349,
+    "completion_tokens": 172,
+    "total_tokens": 521,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

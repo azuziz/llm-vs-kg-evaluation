@@ -1,0 +1,33 @@
+{
+  "message": {
+    "query_graph": {
+      "nodes": {
+        "n0": {
+          "ids": [
+            "UMLS:C0017337"
+          ],
+          "categories": [
+            "biolink:Gene"
+          ]
+        },
+        "n1": {
+          "ids": [
+            "GO:0006119"
+          ],
+          "categories": [
+            "biolink:BiologicalProcessOrActivity"
+          ]
+        }
+      },
+      "edges": {
+        "e0": {
+          "subject": "n0",
+          "object": "n1",
+          "predicates": [
+            "biolink:related_to"
+          ]
+        }
+      }
+    }
+  }
+}

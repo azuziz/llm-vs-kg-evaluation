@@ -1,0 +1,29 @@
+{
+  "question_id": "Q3",
+  "natural_question": "What cancer entities are related to p53 mutations?",
+  "nodes": {
+    "n0": {
+      "label": "TP53",
+      "categories": [
+        "biolink:Gene"
+      ],
+      "role": "subject"
+    },
+    "n1": {
+      "label": "cancer",
+      "categories": [
+        "biolink:Disease"
+      ],
+      "role": "object"
+    }
+  },
+  "edges": {
+    "e0": {
+      "subject": "n0",
+      "object": "n1",
+      "predicates": [
+        "biolink:related_to"
+      ]
+    }
+  }
+}

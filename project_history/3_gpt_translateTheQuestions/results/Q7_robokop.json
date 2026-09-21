@@ -1,0 +1,55 @@
+{
+  "message": {
+    "query_graph": {
+      "nodes": {
+        "n0": {
+          "ids": [
+            "MONDO:0018310"
+          ],
+          "categories": [
+            "biolink:Disease"
+          ],
+          "set_interpretation": "BATCH",
+          "constraints": [],
+          "member_ids": []
+        },
+        "n1": {
+          "ids": [
+            "UMLS:C1997315"
+          ],
+          "categories": [
+            "biolink:PhenotypicFeature"
+          ],
+          "set_interpretation": "BATCH",
+          "constraints": [],
+          "member_ids": []
+        }
+      },
+      "edges": {
+        "e0": {
+          "subject": "n0",
+          "object": "n1",
+          "knowledge_type": null,
+          "predicates": [
+            "biolink:related_to"
+          ],
+          "attribute_constraints": [],
+          "qualifier_constraints": []
+        }
+      }
+    },
+    "knowledge_graph": {
+      "nodes": {},
+      "edges": {}
+    },
+    "results": [],
+    "auxiliary_graphs": {}
+  },
+  "log_level": null,
+  "workflow": [
+    {
+      "id": "lookup"
+    }
+  ],
+  "bypass_cache": null
+}

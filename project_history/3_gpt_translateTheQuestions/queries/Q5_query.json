@@ -1,0 +1,29 @@
+{
+  "natural_question": "Which genes are associated with oxidative phosphorylation?",
+  "nodes": {
+    "n0": {
+      "label": "gene",
+      "categories": [
+        "biolink:Gene"
+      ],
+      "role": "subject"
+    },
+    "n1": {
+      "label": "oxidative phosphorylation",
+      "categories": [
+        "biolink:BiologicalProcessOrActivity"
+      ],
+      "role": "object"
+    }
+  },
+  "edges": {
+    "e0": {
+      "subject": "n0",
+      "object": "n1",
+      "predicates": [
+        "biolink:related_to"
+      ]
+    }
+  },
+  "question_id": "Q5"
+}

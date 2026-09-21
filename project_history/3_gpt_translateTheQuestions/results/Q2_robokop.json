@@ -1,0 +1,692 @@
+{
+  "message": {
+    "query_graph": {
+      "nodes": {
+        "n0": {
+          "ids": [
+            "MONDO:0018310"
+          ],
+          "categories": [
+            "biolink:Disease"
+          ],
+          "set_interpretation": "BATCH",
+          "constraints": [],
+          "member_ids": []
+        },
+        "n1": {
+          "ids": [
+            "NCBIGene:673"
+          ],
+          "categories": [
+            "biolink:Gene"
+          ],
+          "set_interpretation": "BATCH",
+          "constraints": [],
+          "member_ids": []
+        }
+      },
+      "edges": {
+        "e0": {
+          "subject": "n1",
+          "object": "n0",
+          "knowledge_type": null,
+          "predicates": [
+            "biolink:related_to"
+          ],
+          "attribute_constraints": [],
+          "qualifier_constraints": []
+        }
+      }
+    },
+    "knowledge_graph": {
+      "nodes": {
+        "MONDO:0020520": {
+          "name": "adult pulmonary Langerhans cell histiocytosis",
+          "categories": [
+            "biolink:BiologicalEntity",
+            "biolink:Disease",
+            "biolink:DiseaseOrPhenotypicFeature",
+            "biolink:NamedThing",
+            "biolink:ThingWithTaxon"
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer_or_benign_tumor",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_immune_system_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_respiratory_tract_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_lung_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_leukocyte_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_lymphoid_system_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "description",
+              "value": "Adult pulmonary Langerhans Cell Histiocytosis (PLCH) is a rare histiocytic lung disease characterized by the accumulation of Langerhans and other inflammatory cells in the small airways, resulting in the formation of nodular inflammatory lesions.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_lymphatic_system_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_human_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_hematologic_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "equivalent_identifiers",
+              "value": [
+                "UMLS:C1455705",
+                "icd11.foundation:792398738",
+                "MEDDRA:10020119",
+                "HP:0034769",
+                "SNOMEDCT:417152008",
+                "MONDO:0020520",
+                "medgen:853967",
+                "NCIT:C142833",
+                "SNOMEDCT:328611000119105",
+                "SNOMEDCT:28122003",
+                "UMLS:C3161104"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplastic_disease_or_syndrome",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_hematopoietic_and_lymphoid_system_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_lower_respiratory_tract_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplasm_of_thorax",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_hematopoietic_and_lymphoid_cell_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_respiratory_system_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "information_content",
+              "value": 100.0,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_lymphoid_hemopathy",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "MONDO:0018310": {
+          "name": "Langerhans cell histiocytosis",
+          "categories": [
+            "biolink:BiologicalEntity",
+            "biolink:Disease",
+            "biolink:DiseaseOrPhenotypicFeature",
+            "biolink:NamedThing",
+            "biolink:ThingWithTaxon"
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_cancer_or_benign_tumor",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_immune_system_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_leukocyte_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_lymphoid_system_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "description",
+              "value": "Langerhans cell histiocytosis (LCH) is a systemic disease associated with the proliferation and accumulation (usually in granulomas) of Langerhans cells in various tissues.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_lymphatic_system_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_human_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_hematologic_disorder",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "equivalent_identifiers",
+              "value": [
+                "MEDDRA:10024267",
+                "UMLS:C0432554",
+                "UMLS:C0432547",
+                "UMLS:C0432549",
+                "UMLS:C0432548",
+                "OMIM:604856",
+                "UMLS:C5779774",
+                "DOID:2571",
+                "UMLS:C0432551",
+                "UMLS:C0019621",
+                "NCIT:C3107",
+                "MESH:C538636",
+                "MEDDRA:10069698",
+                "MEDDRA:10024268",
+                "MEDDRA:10024270",
+                "MEDDRA:10053133",
+                "MONDO:0018310",
+                "icd11.foundation:1388720498",
+                "SNOMEDCT:110450007",
+                "ICD9:202.5",
+                "EFO:1000318",
+                "MEDDRA:10024273",
+                "ICD10:C96.0",
+                "UMLS:C0432552",
+                "MEDDRA:10023688",
+                "icd11.foundation:216625985",
+                "SNOMEDCT:65399007",
+                "MEDDRA:10024266",
+                "ICD10:C96.6",
+                "orphanet:389",
+                "MESH:D006646",
+                "MEDDRA:10024269",
+                "UMLS:C0432553",
+                "MEDDRA:10024272",
+                "medgen:5568",
+                "MEDDRA:10024271",
+                "UMLS:C0432550"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_neoplastic_disease_or_syndrome",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_disease",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_hematopoietic_and_lymphoid_system_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_hematopoietic_and_lymphoid_cell_neoplasm",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "information_content",
+              "value": 80.3,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "MONDO_SUPERCLASS_lymphoid_hemopathy",
+              "value": true,
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "NCBIGene:673": {
+          "name": "BRAF",
+          "categories": [
+            "biolink:BiologicalEntity",
+            "biolink:ChemicalEntityOrGeneOrGeneProduct",
+            "biolink:ChemicalEntityOrProteinOrPolypeptide",
+            "biolink:Gene",
+            "biolink:GeneOrGeneProduct",
+            "biolink:GeneProductMixin",
+            "biolink:GenomicEntity",
+            "biolink:MacromolecularMachineMixin",
+            "biolink:NamedThing",
+            "biolink:OntologyClass",
+            "biolink:PhysicalEssence",
+            "biolink:PhysicalEssenceOrOccurrent",
+            "biolink:Polypeptide",
+            "biolink:Protein",
+            "biolink:ThingWithTaxon"
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "symbol",
+              "value": "BRAF",
+              "attribute_type_id": "biolink:symbol"
+            },
+            {
+              "original_attribute_name": "locus_group",
+              "value": "protein-coding gene",
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "description",
+              "value": "A B-Raf proto-oncogene serine/threonine-protein kinase that is encoded in the genome of human.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "location",
+              "value": "7q34",
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "taxon",
+              "value": "NCBITaxon:9606",
+              "attribute_type_id": "biolink:OrganismTaxon"
+            },
+            {
+              "original_attribute_name": "information_content",
+              "value": 100.0,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "NCBITaxon",
+              "value": "9606",
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "equivalent_identifiers",
+              "value": [
+                "ENSEMBL:ENSP00000493543.1",
+                "PR:P15056",
+                "UMLS:C0812241",
+                "ENSEMBL:ENSP00000493543",
+                "HGNC:1097",
+                "ENSEMBL:ENSG00000157764",
+                "OMIM:164757",
+                "NCBIGene:673",
+                "UniProtKB:P15056",
+                "UMLS:C1259929"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        }
+      },
+      "edges": {
+        "uuid:1d88a349-198e-11f0-be82-6045bdb3d4c0": {
+          "subject": "NCBIGene:673",
+          "predicate": "biolink:has_phenotype",
+          "object": "MONDO:0020520",
+          "sources": [
+            {
+              "resource_id": "infores:hpo-annotations",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:monarchinitiative",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:hpo-annotations"
+              ]
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:monarchinitiative"
+              ]
+            }
+          ],
+          "qualifiers": [
+            {
+              "qualifier_type_id": "biolink:frequency_qualifier",
+              "qualifier_value": "HP:0040283"
+            },
+            {
+              "qualifier_type_id": "biolink:disease_context_qualifier",
+              "qualifier_value": "MONDO:0018310"
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "HGNC:1097",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "provided_by",
+              "value": [
+                "hpoa_gene_to_phenotype_edges"
+              ],
+              "attribute_type_id": "biolink:provided_by"
+            },
+            {
+              "original_attribute_name": "category",
+              "value": [
+                "biolink:GeneToPhenotypicFeatureAssociation",
+                "biolink:EntityToPhenotypicFeatureAssociationMixin",
+                "biolink:GeneToEntityAssociationMixin",
+                "biolink:GeneToDiseaseOrPhenotypicFeatureAssociation",
+                "biolink:Association",
+                "biolink:Entity",
+                "biolink:FrequencyQuantifier",
+                "biolink:EntityToFeatureOrDiseaseQualifiersMixin",
+                "biolink:FrequencyQualifierMixin",
+                "biolink:RelationshipQuantifier"
+              ],
+              "attribute_type_id": "biolink:category"
+            },
+            {
+              "original_attribute_name": "publications",
+              "value": [
+                "ORPHA:389"
+              ],
+              "attribute_type_id": "biolink:publications",
+              "value_type_id": "linkml:Uriorcurie"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "logical_entailment",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "automated_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "HP:0034769",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_2": {
+          "subject": "NCBIGene:673",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0018310",
+          "sources": [
+            {
+              "resource_id": "infores:disgenet",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:pharos",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:disgenet"
+              ]
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:pharos"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "HGNC:1097",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "score",
+              "value": 0.4,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "UMLS:C0019621",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_3": {
+          "subject": "NCBIGene:673",
+          "predicate": "biolink:genetically_associated_with",
+          "object": "MONDO:0018310",
+          "sources": [
+            {
+              "resource_id": "infores:diseases",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:pharos",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:diseases"
+              ]
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:pharos"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "HGNC:1097",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "knowledge_assertion",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "DOID:2571",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_4": {
+          "subject": "MONDO:0020520",
+          "predicate": "biolink:subclass_of",
+          "object": "MONDO:0018310",
+          "sources": [
+            {
+              "resource_id": "infores:ubergraph",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:ubergraph"
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "MONDO:0020520",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "knowledge_assertion",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "manual_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "MONDO:0018310",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "uuid:1d88a349-198e-11f0-be82-6045bdb3d4c0_e_4": {
+          "subject": "NCBIGene:673",
+          "predicate": "biolink:has_phenotype",
+          "object": "MONDO:0018310",
+          "attributes": [
+            {
+              "attribute_type_id": "biolink:knowledge_level",
+              "value": "logical_entailment"
+            },
+            {
+              "attribute_type_id": "biolink:agent_type",
+              "value": "automated_agent"
+            },
+            {
+              "attribute_type_id": "biolink:support_graphs",
+              "value": [
+                "aux_uuid:1d88a349-198e-11f0-be82-6045bdb3d4c0_e_4"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "primary_knowledge_source"
+            }
+          ]
+        }
+      }
+    },
+    "results": [
+      {
+        "node_bindings": {
+          "n0": [
+            {
+              "id": "MONDO:0018310",
+              "attributes": []
+            }
+          ],
+          "n1": [
+            {
+              "id": "NCBIGene:673",
+              "attributes": []
+            }
+          ]
+        },
+        "analyses": [
+          {
+            "edge_bindings": {
+              "e0": [
+                {
+                  "id": "uuid:1d88a349-198e-11f0-be82-6045bdb3d4c0_e_4",
+                  "attributes": []
+                },
+                {
+                  "id": "e_2",
+                  "attributes": []
+                },
+                {
+                  "id": "e_3",
+                  "attributes": []
+                }
+              ]
+            },
+            "resource_id": "infores:automat-robokop"
+          }
+        ]
+      }
+    ],
+    "auxiliary_graphs": {
+      "aux_uuid:1d88a349-198e-11f0-be82-6045bdb3d4c0_e_4": {
+        "edges": [
+          "uuid:1d88a349-198e-11f0-be82-6045bdb3d4c0",
+          "e_4"
+        ],
+        "attributes": []
+      }
+    }
+  },
+  "log_level": null,
+  "workflow": [
+    {
+      "id": "lookup"
+    }
+  ],
+  "bypass_cache": null
+}

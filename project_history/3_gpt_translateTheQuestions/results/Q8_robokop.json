@@ -1,0 +1,332 @@
+{
+  "message": {
+    "query_graph": {
+      "nodes": {
+        "n0": {
+          "ids": [
+            "NCBIGene:2308"
+          ],
+          "categories": [
+            "biolink:Gene"
+          ],
+          "set_interpretation": "BATCH",
+          "constraints": [],
+          "member_ids": []
+        },
+        "n1": {
+          "ids": [
+            "NCBIGene:664"
+          ],
+          "categories": [
+            "biolink:Gene"
+          ],
+          "set_interpretation": "BATCH",
+          "constraints": [],
+          "member_ids": []
+        }
+      },
+      "edges": {
+        "e0": {
+          "subject": "n0",
+          "object": "n1",
+          "knowledge_type": null,
+          "predicates": [
+            "biolink:related_to"
+          ],
+          "attribute_constraints": [],
+          "qualifier_constraints": []
+        }
+      }
+    },
+    "knowledge_graph": {
+      "nodes": {
+        "NCBIGene:2308": {
+          "name": "FOXO1",
+          "categories": [
+            "biolink:BiologicalEntity",
+            "biolink:ChemicalEntityOrGeneOrGeneProduct",
+            "biolink:ChemicalEntityOrProteinOrPolypeptide",
+            "biolink:Gene",
+            "biolink:GeneOrGeneProduct",
+            "biolink:GeneProductMixin",
+            "biolink:GenomicEntity",
+            "biolink:MacromolecularMachineMixin",
+            "biolink:NamedThing",
+            "biolink:OntologyClass",
+            "biolink:PhysicalEssence",
+            "biolink:PhysicalEssenceOrOccurrent",
+            "biolink:Polypeptide",
+            "biolink:Protein",
+            "biolink:ThingWithTaxon"
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "symbol",
+              "value": "FOXO1",
+              "attribute_type_id": "biolink:symbol"
+            },
+            {
+              "original_attribute_name": "locus_group",
+              "value": "protein-coding gene",
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "description",
+              "value": "A forkhead box protein O1 that is encoded in the genome of human.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "location",
+              "value": "13q14.11",
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "taxon",
+              "value": "NCBITaxon:9606",
+              "attribute_type_id": "biolink:OrganismTaxon"
+            },
+            {
+              "original_attribute_name": "information_content",
+              "value": 100.0,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "NCBITaxon",
+              "value": "10090",
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "equivalent_identifiers",
+              "value": [
+                "ENSEMBL:ENSP00000368880",
+                "ENSEMBL:ENSG00000150907",
+                "PR:Q12778",
+                "NCBIGene:2308",
+                "UMLS:C0250455",
+                "UMLS:C1333572",
+                "HGNC:3819",
+                "UniProtKB:Q12778",
+                "OMIM:136533",
+                "ENSEMBL:ENSP00000368880.4"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        },
+        "NCBIGene:664": {
+          "name": "BNIP3",
+          "categories": [
+            "biolink:BiologicalEntity",
+            "biolink:ChemicalEntityOrGeneOrGeneProduct",
+            "biolink:ChemicalEntityOrProteinOrPolypeptide",
+            "biolink:Gene",
+            "biolink:GeneOrGeneProduct",
+            "biolink:GeneProductMixin",
+            "biolink:GenomicEntity",
+            "biolink:MacromolecularMachineMixin",
+            "biolink:NamedThing",
+            "biolink:OntologyClass",
+            "biolink:PhysicalEssence",
+            "biolink:PhysicalEssenceOrOccurrent",
+            "biolink:Polypeptide",
+            "biolink:Protein",
+            "biolink:ThingWithTaxon"
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "symbol",
+              "value": "BNIP3",
+              "attribute_type_id": "biolink:symbol"
+            },
+            {
+              "original_attribute_name": "locus_group",
+              "value": "protein-coding gene",
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "description",
+              "value": "A BCL2/adenovirus E1B 19 kDa protein-interacting protein 3 that is encoded in the genome of human.",
+              "attribute_type_id": "biolink:description",
+              "value_type_id": "dct:description"
+            },
+            {
+              "original_attribute_name": "location",
+              "value": "10q26.3",
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "taxon",
+              "value": "NCBITaxon:9606",
+              "attribute_type_id": "biolink:OrganismTaxon"
+            },
+            {
+              "original_attribute_name": "information_content",
+              "value": 100.0,
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "NCBITaxon",
+              "value": "10090",
+              "attribute_type_id": "biolink:Attribute"
+            },
+            {
+              "original_attribute_name": "equivalent_identifiers",
+              "value": [
+                "NCBIGene:664",
+                "ENSEMBL:ENSP00000357625",
+                "UMLS:C1412812",
+                "PR:Q12983",
+                "HGNC:1084",
+                "OMIM:603293",
+                "ENSEMBL:ENSP00000357625.6",
+                "UMLS:C0763459",
+                "ENSEMBL:ENSG00000176171",
+                "UniProtKB:Q12983",
+                "UniProtKB:Q6NVY4"
+              ],
+              "attribute_type_id": "biolink:Attribute"
+            }
+          ]
+        }
+      },
+      "edges": {
+        "e_1": {
+          "subject": "NCBIGene:2308",
+          "predicate": "biolink:physically_interacts_with",
+          "object": "NCBIGene:664",
+          "sources": [
+            {
+              "resource_id": "infores:string",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:string"
+              ]
+            }
+          ],
+          "qualifiers": [
+            {
+              "qualifier_type_id": "biolink:species_context_qualifier",
+              "qualifier_value": "NCBITaxon:9606"
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "ENSEMBL:ENSP00000368880",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "text_mining_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "ENSEMBL:ENSP00000357625",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        },
+        "e_2": {
+          "subject": "NCBIGene:664",
+          "predicate": "biolink:physically_interacts_with",
+          "object": "NCBIGene:2308",
+          "sources": [
+            {
+              "resource_id": "infores:string",
+              "resource_role": "primary_knowledge_source"
+            },
+            {
+              "resource_id": "infores:automat-robokop",
+              "resource_role": "aggregator_knowledge_source",
+              "upstream_resource_ids": [
+                "infores:string"
+              ]
+            }
+          ],
+          "qualifiers": [
+            {
+              "qualifier_type_id": "biolink:species_context_qualifier",
+              "qualifier_value": "NCBITaxon:9606"
+            }
+          ],
+          "attributes": [
+            {
+              "original_attribute_name": "original_subject",
+              "value": "ENSEMBL:ENSP00000357625",
+              "attribute_type_id": "biolink:original_subject"
+            },
+            {
+              "original_attribute_name": "knowledge_level",
+              "value": "not_provided",
+              "attribute_type_id": "biolink:knowledge_level"
+            },
+            {
+              "original_attribute_name": "agent_type",
+              "value": "text_mining_agent",
+              "attribute_type_id": "biolink:agent_type"
+            },
+            {
+              "original_attribute_name": "original_object",
+              "value": "ENSEMBL:ENSP00000368880",
+              "attribute_type_id": "biolink:original_object"
+            }
+          ]
+        }
+      }
+    },
+    "results": [
+      {
+        "node_bindings": {
+          "n0": [
+            {
+              "id": "NCBIGene:2308",
+              "attributes": []
+            }
+          ],
+          "n1": [
+            {
+              "id": "NCBIGene:664",
+              "attributes": []
+            }
+          ]
+        },
+        "analyses": [
+          {
+            "edge_bindings": {
+              "e0": [
+                {
+                  "id": "e_1",
+                  "attributes": []
+                },
+                {
+                  "id": "e_2",
+                  "attributes": []
+                }
+              ]
+            },
+            "resource_id": "infores:automat-robokop"
+          }
+        ]
+      }
+    ],
+    "auxiliary_graphs": {}
+  },
+  "log_level": null,
+  "workflow": [
+    {
+      "id": "lookup"
+    }
+  ],
+  "bypass_cache": null
+}
