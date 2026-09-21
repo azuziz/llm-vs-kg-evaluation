@@ -15,3 +15,13 @@ __pycache__/
 
 # Large outputs (adjust as needed)
 data/outputs/**
+
+# Virtualenvs / IDE
+.venv/
+.idea/
+
+# API keys (never commit)
+api_key.txt
+openai_api_key.txt
+OPENAI_API_KEY.txt
+set_api.sh
