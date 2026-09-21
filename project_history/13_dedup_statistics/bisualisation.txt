@@ -1,0 +1,36 @@
+A. Prompt-level summary bars (v1 now; later v1–v4)
+
+macro_precision, macro_recall, macro_f1, zero_f1_rate
+This is the most “thesis-friendly” figure: one bar per metric per prompt version.
+
+Output source: out/v1/summary.tsv (and later out/v2/summary.tsv etc.)
+
+B. Distribution plots across questions (v1)
+
+These show heterogeneity without showing 16k points:
+
+Histogram of mean_f1 across 163 questions
+
+Histogram of match_rate across 163 questions
+
+Histogram of gpt_edge_rate across 163 questions
+
+Histogram of kg_edges across 163 questions (KG complexity)
+
+Output source: out/v1/per_question_metrics.tsv
+
+C. Scatter diagnostics (v1)
+
+Very informative, still readable:
+
+kg_edges (x) vs mean_f1 (y)
+→ shows whether KG complexity kills performance.
+
+gpt_edge_rate (x) vs match_rate (y)
+→ separates “silent” vs “hallucinating” vs “partially correct”.
+
+These plots typically explain your macro scores better than anything else.
+
+
+
+The distribution of mode-share values indicates generally high output stability across repeated LLM runs, with a substantial proportion of questions yielding identical outputs. However, a smaller subset exhibits considerable variability, suggesting prompt sensitivity or uncertain underlying knowledge. Stability alone does not imply factual correctness and must be interpreted alongside KG agreement metrics.

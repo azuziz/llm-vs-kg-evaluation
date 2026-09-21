@@ -1,0 +1,2 @@
+questions_total	nonzero_runs_total	macro_precision_nonzero	macro_recall_nonzero	macro_f1_nonzero	micro_precision_nonzero	micro_recall_nonzero	micro_f1_nonzero	mean_nonzero_runs_per_question
+163	9381	0.1081522933379688	0.031887515038946275	0.04505364485907593	0.1321422093234174	0.03739253175927114	0.05829049228861196	57.5521472392638

@@ -1,0 +1,16 @@
+edge	questions_count
+MONDO:0024327 | biolink:subclass_of | MONDO:0005300	5
+CHEBI:43415 | biolink:subclass_of | CHEBI:5855	2
+UniProtKB:P10275-1 | biolink:subclass_of | NCBIGene:367	2
+MONDO:0004375 | biolink:subclass_of | MONDO:0005300	2
+UniProtKB:P37231-1 | biolink:subclass_of | NCBIGene:5468	2
+MONDO:0005300 | biolink:treats_or_applied_or_studied_to_treat | MONDO:0024327	2
+MONDO:0005300 | biolink:treats_or_applied_or_studied_to_treat | MONDO:0004375	2
+MONDO:0005300 | biolink:genetically_associated_with | MONDO:0024327	2
+MONDO:0004991 | biolink:subclass_of | MONDO:0005061	2
+MONDO:0005016 | biolink:subclass_of | MONDO:0005300	2
+NCBIGene:5468 | biolink:interacts_with | UniProtKB:P37231-1	2
+NCBIGene:5290 | biolink:physically_interacts_with | NCBIGene:2475	1
+NCBIGene:5290 | biolink:interacts_with | UniProtKB:P60484-1	1
+NCBIGene:5290 | biolink:interacts_with | UniProtKB:P03372-1	1
+NCBIGene:5290 | biolink:directly_physically_interacts_with | NCBIGene:5728	1

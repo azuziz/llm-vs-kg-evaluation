@@ -1,0 +1,2 @@
+questions_total	runs_total	macro_precision	macro_recall	macro_f1	zero_f1_rate	micro_precision	micro_recall	micro_f1	mean_kg_edges_per_question	mean_gpt_edges_per_run	mean_match_rate_per_question	mean_gpt_edge_rate_per_question
+163	4075	0.031042944785276073	0.005617002629272568	0.009324232686195878	0.8343558282208589	0.14382022471910114	0.008462809917355372	0.015985014049328755	3.7116564417177913	0.2184049079754601	0.03141104294478528	0.2161963190184049

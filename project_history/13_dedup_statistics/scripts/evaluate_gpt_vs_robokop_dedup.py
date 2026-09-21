@@ -1,0 +1,219 @@
+#!/usr/bin/env python3
+"""
+evaluate_gpt_vs_robokop_dedup.py
+
+Strict evaluation:
+- predicate must match exactly
+- direction must match (subject -> object)
+- per run: precision/recall/F1 computed against per-question KG edge set
+- per question: mean over runs (e.g., 100)
+- overall: macro-average over questions (mean of per-question means)
+
+Inputs:
+- --kg_tsv: robokop_triples_deduplicated.tsv
+- --gpt_jsonl: gpt_runs_v1.json (JSONL: one JSON per line)
+Outputs (prefix):
+- <out_prefix>.per_run.tsv
+- <out_prefix>.per_question.tsv
+- <out_prefix>.top15_questions.tsv
+- <out_prefix>.overall_summary.tsv
+"""
+
+import argparse
+import json
+from pathlib import Path
+from typing import Dict, List, Set, Tuple
+
+import pandas as pd
+
+
+Edge = Tuple[str, str, str]  # (subject, predicate, object)
+
+
+def load_kg_edges(kg_tsv: Path) -> Dict[str, Set[Edge]]:
+    df = pd.read_csv(kg_tsv, sep="\t", dtype=str).fillna("")
+    required = {"question_id", "subject", "predicate", "object"}
+    missing = required - set(df.columns)
+    if missing:
+        raise ValueError(f"KG TSV missing columns: {sorted(missing)}")
+
+    kg: Dict[str, Set[Edge]] = {}
+    for row in df.itertuples(index=False):
+        qid = getattr(row, "question_id")
+        s = getattr(row, "subject")
+        p = getattr(row, "predicate")
+        o = getattr(row, "object")
+        kg.setdefault(qid, set()).add((s, p, o))
+    return kg
+
+
+def iter_jsonl(path: Path):
+    with path.open("r", encoding="utf-8") as f:
+        for i, line in enumerate(f, start=1):
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                yield json.loads(line)
+            except json.JSONDecodeError as e:
+                raise ValueError(f"Invalid JSON on line {i} of {path}: {e}") from e
+
+
+def parse_gpt_edges(edge_keys) -> Set[Edge]:
+    """
+    edge_keys is expected to be:
+      []  or  [[subj, pred, obj], [subj, pred, obj], ...]
+    """
+    out: Set[Edge] = set()
+    if not edge_keys:
+        return out
+    for ek in edge_keys:
+        if not isinstance(ek, list) or len(ek) != 3:
+            # be strict: skip malformed entries rather than crash
+            continue
+        s, p, o = (str(ek[0]), str(ek[1]), str(ek[2]))
+        out.add((s, p, o))
+    return out
+
+
+def prf(gpt_edges: Set[Edge], kg_edges: Set[Edge]) -> Tuple[float, float, float, int, int, int]:
+    inter = gpt_edges & kg_edges
+    tp = len(inter)
+    g = len(gpt_edges)
+    k = len(kg_edges)
+
+    precision = tp / g if g > 0 else 0.0
+    recall = tp / k if k > 0 else 0.0
+    f1 = (2 * precision * recall / (precision + recall)) if (precision + recall) > 0 else 0.0
+    return precision, recall, f1, tp, g, k
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--kg_tsv", required=True, type=Path, help="robokop_triples_deduplicated.tsv")
+    ap.add_argument("--gpt_jsonl", required=True, type=Path, help="gpt_runs_v1.json (JSONL)")
+    ap.add_argument("--out_prefix", required=True, type=str, help="Output prefix for TSV files")
+    ap.add_argument("--top_n", type=int, default=15, help="Top N questions to export (default: 15)")
+    args = ap.parse_args()
+
+    kg = load_kg_edges(args.kg_tsv)
+
+    per_run_rows: List[dict] = []
+
+    # Track the (curie1, curie2) per question from GPT file (useful for reporting)
+    q_nodes: Dict[str, Tuple[str, str]] = {}
+
+    # Read GPT runs and compute per-run stats
+    for obj in iter_jsonl(args.gpt_jsonl):
+        qid = str(obj.get("question_id", ""))
+        run_id = obj.get("run_id", None)
+
+        curie1 = str(obj.get("curie1", ""))
+        curie2 = str(obj.get("curie2", ""))
+        if qid and qid not in q_nodes and curie1 and curie2:
+            q_nodes[qid] = (curie1, curie2)
+
+        gpt_edges = parse_gpt_edges(obj.get("edge_keys", []))
+        kg_edges = kg.get(qid, set())
+
+        precision, recall, f1, tp, g, k = prf(gpt_edges, kg_edges)
+
+        per_run_rows.append(
+            {
+                "question_id": qid,
+                "run_id": run_id,
+                "curie1": curie1,
+                "curie2": curie2,
+                "gpt_n_edges": g,
+                "kg_n_edges": k,
+                "tp_edges": tp,
+                "precision": precision,
+                "recall": recall,
+                "f1": f1,
+            }
+        )
+
+    per_run = pd.DataFrame(per_run_rows)
+
+    # Integrity checks
+    kg_questions = set(kg.keys())
+    gpt_questions = set(per_run["question_id"].unique())
+    missing_in_gpt = sorted(list(kg_questions - gpt_questions))
+    missing_in_kg = sorted(list(gpt_questions - kg_questions))
+    # missing_in_kg can happen if GPT file contains questions not in KG file; report in summary
+
+    # Per-question aggregation (mean over runs)
+    grp = per_run.groupby("question_id", dropna=False)
+
+    per_q = grp.agg(
+        runs=("run_id", "count"),
+        mean_precision=("precision", "mean"),
+        mean_recall=("recall", "mean"),
+        mean_f1=("f1", "mean"),
+        zero_f1_runs=("f1", lambda s: int((s == 0).sum())),
+        mean_gpt_n_edges=("gpt_n_edges", "mean"),
+        mean_tp_edges=("tp_edges", "mean"),
+        kg_n_edges=("kg_n_edges", "first"),
+    ).reset_index()
+
+    per_q["zero_f1_run_rate"] = per_q["zero_f1_runs"] / per_q["runs"]
+
+    # Add node pair for readability (from GPT file)
+    per_q["curie1"] = per_q["question_id"].map(lambda q: q_nodes.get(q, ("", ""))[0])
+    per_q["curie2"] = per_q["question_id"].map(lambda q: q_nodes.get(q, ("", ""))[1])
+
+    # Overall macro-averages across questions (mean of per-question means)
+    overall = {
+        "questions_in_kg": len(kg_questions),
+        "questions_in_gpt": len(gpt_questions),
+        "questions_missing_in_gpt": len(missing_in_gpt),
+        "questions_missing_in_kg": len(missing_in_kg),
+        "macro_mean_precision": float(per_q["mean_precision"].mean()) if len(per_q) else 0.0,
+        "macro_mean_recall": float(per_q["mean_recall"].mean()) if len(per_q) else 0.0,
+        "macro_mean_f1": float(per_q["mean_f1"].mean()) if len(per_q) else 0.0,
+        # Zero-F1 rate at question level (mean_f1 == 0)
+        "zero_f1_question_rate": float((per_q["mean_f1"] == 0).mean()) if len(per_q) else 0.0,
+        # Average per-question zero-F1 run rate
+        "avg_zero_f1_run_rate": float(per_q["zero_f1_run_rate"].mean()) if len(per_q) else 0.0,
+        "avg_kg_edges_per_question": float(per_q["kg_n_edges"].mean()) if len(per_q) else 0.0,
+        "avg_gpt_edges_per_run": float(per_run["gpt_n_edges"].mean()) if len(per_run) else 0.0,
+    }
+
+    # Top-N questions by mean F1 (tie-break by recall then precision)
+    per_q_sorted = per_q.sort_values(
+        ["mean_f1", "mean_recall", "mean_precision"],
+        ascending=[False, False, False],
+    )
+    topN = per_q_sorted.head(args.top_n).copy()
+
+    # Write outputs
+    out_prefix = args.out_prefix
+
+    per_run_out = Path(f"{out_prefix}.per_run.tsv")
+    per_q_out = Path(f"{out_prefix}.per_question.tsv")
+    top_out = Path(f"{out_prefix}.top{args.top_n}_questions.tsv")
+    overall_out = Path(f"{out_prefix}.overall_summary.tsv")
+
+    per_run.to_csv(per_run_out, sep="\t", index=False)
+    per_q_sorted.to_csv(per_q_out, sep="\t", index=False)
+    topN.to_csv(top_out, sep="\t", index=False)
+
+    pd.DataFrame([overall]).to_csv(overall_out, sep="\t", index=False)
+
+    print("Wrote:")
+    print(f"  {per_run_out}")
+    print(f"  {per_q_out}")
+    print(f"  {top_out}")
+    print(f"  {overall_out}")
+
+    if missing_in_gpt:
+        print("\nQuestions present in KG but missing in GPT runs (first 10):")
+        print(missing_in_gpt[:10])
+
+    if missing_in_kg:
+        print("\nQuestions present in GPT runs but missing in KG (first 10):")
+        print(missing_in_kg[:10])
+
+
+if __name__ == "__main__":
+    main()

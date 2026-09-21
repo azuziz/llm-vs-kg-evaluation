@@ -1,0 +1,117 @@
+4 Results
+4.1 Overall Performance Under Strict Triple Matching (v1)
+
+The evaluation was conducted on 163 node pairs, each queried 100 times (16,300 total model runs). All analyses were performed using strictly deduplicated ROBOKOP triples as ground truth. Exact directed triple matching was required (subject, predicate, object).
+
+4.1.1 Macro- and Micro-Averaged Performance
+
+Across all questions, the following macro-averaged metrics were obtained:
+
+Macro Precision: 0.0767
+
+Macro Recall: 0.0190
+
+Macro F1: 0.0292
+
+Zero-F1 Rate: 0.7117
+
+The macro-averaged F1 score of 0.029 indicates very low exact triple agreement between GPT outputs and the knowledge graph. Importantly, 71.2% of all questions achieved a mean F1 score of zero, meaning that for the majority of node pairs, GPT did not retrieve a single exact matching KG edge across 100 runs.
+
+Micro-averaged metrics, computed across all runs jointly, yielded:
+
+Micro Precision: 0.1321
+
+Micro Recall: 0.0241
+
+Micro F1: 0.0407
+
+Micro precision is higher than macro precision because a small number of questions with repeated matches contribute disproportionately to the global true positive count. However, the difference does not alter the overall conclusion: strict triple agreement remains low.
+
+4.2 Output Behavior and Silence Rate
+
+The model did not consistently return edges. The mean GPT edge rate per question was 0.5755, corresponding to a mean silence rate of 0.4245. Thus, in approximately 42.4% of runs, the model returned no edges.
+
+Despite this silence rate, all 163 questions had at least one KG edge in the deduplicated ground truth (kg_zero_questions = 0), meaning that absence of output cannot be attributed to missing KG data.
+
+The mean match rate per question (probability of retrieving at least one correct edge per run) was 0.0872, indicating that even when GPT produced output, correct matches were rare.
+
+4.3 Performance Conditional on Non-Zero Outputs
+
+To separate model silence from incorrect predictions, a secondary analysis was performed excluding runs where GPT returned zero edges. Across all non-zero runs (n = 9,381), the following macro-averaged metrics were observed:
+
+Macro Precision (non-zero runs): 0.1082
+
+Macro Recall (non-zero runs): 0.0319
+
+Macro F1 (non-zero runs): 0.0451
+
+Micro-averaged conditional performance:
+
+Micro Precision: 0.1321
+
+Micro Recall: 0.0374
+
+Micro F1: 0.0583
+
+Excluding silent runs increases precision and F1 modestly, but performance remains low. This indicates that silence alone does not explain poor overall agreement. Rather, the majority of produced edges do not match the KG exactly.
+
+On average, each question had 57.6 non-zero runs, meaning GPT produced output in roughly 58% of attempts per question. However, correct triple overlap remained limited even among these.
+
+4.4 Knowledge Graph Coverage and Union Recall
+
+To assess whether GPT occasionally retrieves correct edges across multiple attempts, union recall was computed. For each question, the union of all predicted edges across 100 runs was compared to the KG edge set.
+
+The mean union recall was 0.1055, meaning that across 100 attempts, GPT recovered approximately 10.5% of KG edges per question on average.
+
+This value is substantially higher than mean per-run recall (0.0190), indicating that GPT occasionally retrieves different correct edges across runs. However, the overall KG coverage remains limited.
+
+Union precision was 0.0943, showing that even aggregating across runs does not substantially increase correctness relative to noise.
+
+4.5 Output Stability and Consistency
+
+Model stability was assessed using two measures:
+
+Mean Mode Share: 0.8104
+
+Mean Pairwise Jaccard Similarity: 0.7681
+
+The high mode share (81%) indicates that for most questions, the same edge set was repeatedly produced across runs. The high mean pairwise Jaccard similarity (0.768) further confirms strong intra-question stability.
+
+Thus, the model is not highly stochastic in its outputs under the given prompt configuration. Instead, it produces stable but predominantly non-matching triples.
+
+This finding is critical: poor strict performance cannot be attributed primarily to instability or sampling variance, but rather to systematic predicate or triple mismatches relative to the KG schema.
+
+4.6 Structural Factors Affecting Performance
+
+The knowledge graph contained on average 3.71 edges per question, whereas GPT produced on average 0.68 edges per run. This asymmetry inherently limits achievable recall. Even under perfect precision, retrieving fewer than one edge per run makes complete KG recovery improbable.
+
+The combination of:
+
+Low recall,
+
+High zero-F1 rate,
+
+Moderate silence rate,
+
+High output stability,
+
+suggests that GPT frequently produces edges that are semantically plausible but do not exactly match the KG triple representation (e.g., predicate vocabulary differences, directionality differences, or ontology alignment mismatches).
+
+4.7 Summary of v1 Findings
+
+Under strict exact triple matching:
+
+Overall agreement with the KG is low (macro F1 = 0.029).
+
+Most questions (71%) never produce a correct match.
+
+GPT is moderately silent (42% of runs).
+
+When GPT outputs edges, conditional precision increases but remains modest (10.8%).
+
+Across repeated attempts, GPT recovers only ~10.5% of KG edges.
+
+Output stability is high, indicating systematic rather than random errors.
+
+These results establish a stringent baseline for evaluating prompt refinements (v2–v4), which aim to improve predicate alignment, directionality control, and structured output consistency.
+

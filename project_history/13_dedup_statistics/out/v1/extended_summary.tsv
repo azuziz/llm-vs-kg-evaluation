@@ -1,0 +1,2 @@
+questions_total	kg_zero_questions	mean_silence_rate	mean_match_rate	mean_precision_cond_on_output	mean_recall_cond_on_output	mean_f1_cond_on_output	mean_union_recall	mean_union_precision	mean_mode_share	mean_pairwise_jaccard
+163	0	0.42447852760736193	0.08717791411042945	0.1081522933379688	0.031887515038946275	0.04505364485907593	0.10548252020644658	0.09431784983932225	0.8103680981595093	0.7681027865567743

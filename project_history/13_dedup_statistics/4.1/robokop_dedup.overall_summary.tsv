@@ -1,0 +1,10 @@
+metric	value
+questions_total	163
+questions_with_exact_duplicates	80
+rows_total	750
+rows_unique_exact_total	605
+rows_unique_directionless_total	529
+rows_unique_directionless_inv_total	529
+rows_removed_by_exact_dedup	145
+rows_removed_by_directionless	221
+rows_removed_by_directionless_inv	221

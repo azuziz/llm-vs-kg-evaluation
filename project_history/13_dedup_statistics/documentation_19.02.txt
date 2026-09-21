@@ -1,0 +1,51 @@
+Prior to evaluation, ROBOKOP outputs were deduplicated by removing identical triples within each query, eliminating aggregation redundancy while preserving query-specific relations. All subsequent analyses were performed on this deduplicated knowledge graph.
+
+mean_silence_rate = 0.4245
+→ In ~42.45% of runs, GPT outputs 0 edges (silent).
+(Equivalent: average gpt_edge_rate ≈ 57.55%.)
+
+mean_match_rate = 0.08718
+→ In only 8.72% of runs (averaged across questions), GPT gets ≥1 exact match.
+
+mean_precision_cond_on_output = 0.10815
+→ When GPT outputs at least one edge, ~10.8% of those edges are correct (strict exact triple match).
+
+mean_recall_cond_on_output = 0.03189
+→ When GPT outputs, it recovers ~3.19% of KG edges per run on average.
+
+mean_f1_cond_on_output = 0.04505
+→ Conditional (non-silent) strict F1 is ~4.5% on average.
+
+mean_union_recall = 0.10548
+→ If you take the union across 100 runs, GPT eventually recovers ~10.5% of the KG edges per question on average.
+This is a “capability across retries” measure.
+
+mean_mode_share = 0.81037 and mean_pairwise_jaccard = 0.76810
+→ GPT is actually quite stable in what it outputs (same/similar edge-set most of the time).
+So performance is poor mostly because it’s consistently wrong/mismatched, not because the outputs are random.
+
+***
+It separates:
+
+“model is silent” from
+
+“model is wrong when speaking.”
+***
+
+
+
+
+The distributions of match rate, F1 score, precision, and recall reveal a pronounced skew toward low agreement with the knowledge graph. Even when non-zero outputs are considered, most predicted relations do not correspond to curated KG edges. However, a minority of node pairs show high agreement, suggesting uneven knowledge representation in the LLM. These findings indicate that while LLMs can reproduce certain well-established biomedical relations, their outputs frequently diverge from structured KG knowledge, reflecting differences in knowledge representation, potential hallucinations, and incomplete KG coverage.
+
+
+maybe:
+KG incompleteness
+Especially ROBOKOP:
+heterogeneous sources
+incomplete biomedical coverage
+Thus:
+low precision ≠ necessarily wrong biology.
+This is crucial for reviewers.
+
+
+
