@@ -1,0 +1,8 @@
+{
+  "question_id": "Q4",
+  "answer": "YES",
+  "predicate": "biolink:interacts_with",
+  "subject_id": "NCBIGene:7157",
+  "object_id": "NCBIGene:2308",
+  "notes": "TP53 and FOXO1 are linked in stress/apoptosis pathways and reported to functionally/physically interact (p53-FOXO crosstalk)."
+}

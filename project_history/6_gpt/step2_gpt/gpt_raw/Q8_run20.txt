@@ -1,0 +1,8 @@
+{
+  "question_id": "Q8",
+  "answer": "YES",
+  "predicate": "biolink:regulates",
+  "subject_id": "NCBIGene:2308",
+  "object_id": "NCBIGene:3479",
+  "notes": "FOXO1 is a transcription factor in insulin/IGF signaling and can regulate IGF1 pathway components; plausible regulatory relation to IGF1."
+}

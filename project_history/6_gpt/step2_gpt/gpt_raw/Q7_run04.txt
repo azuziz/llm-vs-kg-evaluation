@@ -1,0 +1,8 @@
+{
+  "question_id": "Q7",
+  "answer": "YES",
+  "predicate": "biolink:regulates",
+  "subject_id": "NCBIGene:2308",
+  "object_id": "NCBIGene:6648",
+  "notes": "FOXO1 is a transcription factor reported to regulate expression of antioxidant genes including SOD2 in stress/ROS-related pathways."
+}

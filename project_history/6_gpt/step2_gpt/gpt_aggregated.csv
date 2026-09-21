@@ -1,0 +1,9 @@
+question_id,n_total,n_valid,invalid_rate,yes_rate_valid,mode_answer,answer_stability,mode_predicate_among_yes,predicate_stability_among_yes,yes_predicate_distribution
+Q1,20,20,0.0000,0.0000,NO,1.0000,,,
+Q2,20,20,0.0000,1.0000,YES,1.0000,biolink:associated_with,0.6000,biolink:associated_with:12;biolink:disease_has_basis_in:8
+Q3,20,20,0.0000,1.0000,YES,1.0000,biolink:gene_associated_with_condition,0.6000,biolink:gene_associated_with_condition:12;biolink:associated_with:5;biolink:genetically_associated_with:2;biolink:disease_has_basis_in:1
+Q4,20,20,0.0000,1.0000,YES,1.0000,biolink:interacts_with,0.5500,biolink:interacts_with:11;biolink:regulates:9
+Q5,20,20,0.0000,1.0000,YES,1.0000,biolink:gene_associated_with_condition,1.0000,biolink:gene_associated_with_condition:20
+Q6,20,20,0.0000,1.0000,YES,1.0000,biolink:regulates,1.0000,biolink:regulates:20
+Q7,20,20,0.0000,1.0000,YES,1.0000,biolink:regulates,1.0000,biolink:regulates:20
+Q8,20,20,0.0000,1.0000,YES,1.0000,biolink:regulates,0.5500,biolink:regulates:11;biolink:associated_with:7;biolink:related_to:1;biolink:acts_upstream_of:1

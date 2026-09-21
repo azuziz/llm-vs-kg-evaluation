@@ -1,0 +1,8 @@
+{
+  "question_id": "Q1",
+  "answer": "NO",
+  "predicate": null,
+  "subject_id": "MONDO:0018310",
+  "object_id": "MONDO:0005559",
+  "notes": "Langerhans cell histiocytosis can affect CNS but is not plausibly related to the broad class 'neurodegenerative disease' as a general association."
+}

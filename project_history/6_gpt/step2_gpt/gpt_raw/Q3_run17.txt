@@ -1,0 +1,8 @@
+{
+  "question_id": "Q3",
+  "answer": "YES",
+  "predicate": "biolink:gene_associated_with_condition",
+  "subject_id": "MONDO:0005061",
+  "object_id": "NCBIGene:7157",
+  "notes": "TP53 mutations are common in lung adenocarcinoma; TP53 is a well-known tumor suppressor gene associated with this cancer."
+}

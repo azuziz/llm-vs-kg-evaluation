@@ -1,0 +1,8 @@
+{
+  "question_id": "Q4",
+  "answer": "YES",
+  "predicate": "biolink:regulates",
+  "subject_id": "NCBIGene:7157",
+  "object_id": "NCBIGene:2308",
+  "notes": "TP53 and FOXO1 are functionally linked in stress/apoptosis pathways; p53 can regulate FOXO-family transcriptional programs. Plausible gene-gene regulation."
+}

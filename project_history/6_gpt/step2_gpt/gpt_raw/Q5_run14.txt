@@ -1,0 +1,8 @@
+{
+  "question_id": "Q5",
+  "answer": "YES",
+  "predicate": "biolink:gene_associated_with_condition",
+  "subject_id": "NCBIGene:3845",
+  "object_id": "MONDO:0002691",
+  "notes": "KRAS is a well-known oncogene; activating KRAS mutations are reported in hepatocellular carcinoma and related liver cancers, supporting gene-disease association."
+}

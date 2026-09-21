@@ -1,0 +1,8 @@
+{
+  "question_id": "Q8",
+  "answer": "YES",
+  "predicate": "biolink:associated_with",
+  "subject_id": "NCBIGene:2308",
+  "object_id": "NCBIGene:3479",
+  "notes": "FOXO1 is a downstream transcription factor in insulin/IGF signaling; IGF1 signaling modulates FOXO1 activity (AKT phosphorylation). Plausible gene-gene association."
+}

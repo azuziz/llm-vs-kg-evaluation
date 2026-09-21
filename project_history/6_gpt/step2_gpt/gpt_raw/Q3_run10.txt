@@ -1,0 +1,8 @@
+{
+  "question_id": "Q3",
+  "answer": "YES",
+  "predicate": "biolink:gene_associated_with_condition",
+  "subject_id": "MONDO:0005061",
+  "object_id": "NCBIGene:7157",
+  "notes": "TP53 (p53) mutations are common in lung adenocarcinoma; gene is associated with the condition."
+}

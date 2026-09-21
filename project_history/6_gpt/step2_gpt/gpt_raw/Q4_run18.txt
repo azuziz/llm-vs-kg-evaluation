@@ -1,0 +1,8 @@
+{
+  "question_id": "Q4",
+  "answer": "YES",
+  "predicate": "biolink:interacts_with",
+  "subject_id": "NCBIGene:7157",
+  "object_id": "NCBIGene:2308",
+  "notes": "TP53 and FOXO1 are functionally linked transcription factors with reported regulatory/interaction relationships in stress/apoptosis pathways."
+}

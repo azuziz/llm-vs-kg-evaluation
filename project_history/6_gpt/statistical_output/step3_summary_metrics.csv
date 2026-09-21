@@ -1,0 +1,2 @@
+existence_accuracy,existence_precision,existence_recall,existence_f1,predicate_mode_hit_rate,predicate_any_overlap_rate,mean_jaccard_predicates,mean_answer_stability,mean_predicate_stability_among_yes
+0.8750,1.0000,0.8750,0.9333,0.1429,0.1429,0.0417,1.0000,0.7571

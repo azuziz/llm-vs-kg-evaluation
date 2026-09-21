@@ -1,0 +1,8 @@
+{
+  "question_id": "Q8",
+  "answer": "YES",
+  "predicate": "biolink:associated_with",
+  "subject_id": "NCBIGene:2308",
+  "object_id": "NCBIGene:3479",
+  "notes": "FOXO1 is a downstream effector of insulin/IGF signaling; IGF1 pathway regulates FOXO1 activity and FOXO1 can influence IGF axis genes, so plausible association."
+}

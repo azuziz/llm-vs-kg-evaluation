@@ -1,0 +1,8 @@
+{
+  "question_id": "Q1",
+  "answer": "NO",
+  "predicate": null,
+  "subject_id": "MONDO:0018310",
+  "object_id": "MONDO:0005559",
+  "notes": "Langerhans cell histiocytosis can involve CNS, but no clear general relation to the disease class 'neurodegenerative disease' as a whole."
+}

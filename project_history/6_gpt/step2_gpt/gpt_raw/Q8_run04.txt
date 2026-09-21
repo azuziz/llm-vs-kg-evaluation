@@ -1,0 +1,8 @@
+{
+  "question_id": "Q8",
+  "answer": "YES",
+  "predicate": "biolink:regulates",
+  "subject_id": "NCBIGene:2308",
+  "object_id": "NCBIGene:3479",
+  "notes": "FOXO1 is a transcription factor downstream of insulin/IGF signaling and can regulate IGF1 expression in some contexts (e.g., liver/metabolic regulation)."
+}

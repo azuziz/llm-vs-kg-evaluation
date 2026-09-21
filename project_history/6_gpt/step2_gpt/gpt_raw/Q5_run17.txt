@@ -1,0 +1,8 @@
+{
+  "question_id": "Q5",
+  "answer": "YES",
+  "predicate": "biolink:gene_associated_with_condition",
+  "subject_id": "NCBIGene:3845",
+  "object_id": "MONDO:0002691",
+  "notes": "KRAS activating mutations are implicated in hepatocellular carcinoma and other liver cancers; thus KRAS is gene-associated with liver cancer."
+}

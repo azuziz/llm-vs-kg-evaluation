@@ -1,0 +1,8 @@
+{
+  "question_id": "Q1",
+  "answer": "NO",
+  "predicate": null,
+  "subject_id": "MONDO:0018310",
+  "object_id": "MONDO:0005559",
+  "notes": "Langerhans cell histiocytosis is a histiocytic neoplasm/inflammatory disorder; not plausibly related as a class to neurodegenerative disease category."
+}

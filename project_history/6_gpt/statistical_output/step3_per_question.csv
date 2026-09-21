@@ -1,0 +1,9 @@
+question_id,robokop_edge_count,robokop_predicate_count,robokop_predicates,gpt_n_total,gpt_n_valid,gpt_invalid_rate,gpt_yes_rate_valid,gpt_mode_answer,gpt_answer_stability,gpt_mode_predicate,gpt_predicate_stability_among_yes,gpt_yes_predicate_distribution,robokop_has_edge,gpt_has_edge,existence_confusion,mode_predicate_in_robokop,any_gpt_predicate_in_robokop,jaccard_predicates,notes
+Q1,1,1,biolink:has_phenotype,20,20,0.0000,0.0000,NO,1.0000,,,,1,0,FN,,,0.0000,
+Q2,3,2,biolink:genetically_associated_with;biolink:has_phenotype,20,20,0.0000,1.0000,YES,1.0000,biolink:associated_with,0.6000,biolink:associated_with:12;biolink:disease_has_basis_in:8,1,1,TP,0,0,0.0000,
+Q3,2,1,biolink:has_phenotype,20,20,0.0000,1.0000,YES,1.0000,biolink:gene_associated_with_condition,0.6000,biolink:gene_associated_with_condition:12;biolink:associated_with:5;biolink:genetically_associated_with:2;biolink:disease_has_basis_in:1,1,1,TP,0,0,0.0000,
+Q4,5,2,biolink:affects;biolink:interacts_with,20,20,0.0000,1.0000,YES,1.0000,biolink:interacts_with,0.5500,biolink:interacts_with:11;biolink:regulates:9,1,1,TP,1,1,0.3333,
+Q5,14,3,biolink:genetically_associated_with;biolink:has_phenotype;biolink:related_to,20,20,0.0000,1.0000,YES,1.0000,biolink:gene_associated_with_condition,1.0000,biolink:gene_associated_with_condition:20,1,1,TP,0,0,0.0000,
+Q6,2,1,biolink:physically_interacts_with,20,20,0.0000,1.0000,YES,1.0000,biolink:regulates,1.0000,biolink:regulates:20,1,1,TP,0,0,0.0000,
+Q7,5,2,biolink:affects;biolink:physically_interacts_with,20,20,0.0000,1.0000,YES,1.0000,biolink:regulates,1.0000,biolink:regulates:20,1,1,TP,0,0,0.0000,
+Q8,5,2,biolink:affects;biolink:interacts_with,20,20,0.0000,1.0000,YES,1.0000,biolink:regulates,0.5500,biolink:regulates:11;biolink:associated_with:7;biolink:related_to:1;biolink:acts_upstream_of:1,1,1,TP,0,0,0.0000,

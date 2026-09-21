@@ -1,0 +1,8 @@
+{
+  "question_id": "Q8",
+  "answer": "YES",
+  "predicate": "biolink:acts_upstream_of",
+  "subject_id": "NCBIGene:2308",
+  "object_id": "NCBIGene:3479",
+  "notes": "FOXO1 is a transcription factor that can regulate IGF1 gene expression in some contexts, so a plausible upstream regulatory relation exists."
+}

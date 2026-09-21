@@ -1,0 +1,8 @@
+{
+  "question_id": "Q3",
+  "answer": "YES",
+  "predicate": "biolink:disease_has_basis_in",
+  "subject_id": "MONDO:0005061",
+  "object_id": "NCBIGene:7157",
+  "notes": "TP53 (p53) mutations are common drivers in lung adenocarcinoma; disease can have genetic basis in TP53 alterations."
+}

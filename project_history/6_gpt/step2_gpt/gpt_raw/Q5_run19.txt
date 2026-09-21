@@ -1,0 +1,8 @@
+{
+  "question_id": "Q5",
+  "answer": "YES",
+  "predicate": "biolink:gene_associated_with_condition",
+  "subject_id": "NCBIGene:3845",
+  "object_id": "MONDO:0002691",
+  "notes": "KRAS mutations are recurrent in liver cancers (e.g., hepatocellular carcinoma/cholangiocarcinoma) and implicated in tumorigenesis, supporting gene-disease association."
+}

@@ -1,0 +1,8 @@
+{
+  "question_id": "Q4",
+  "answer": "YES",
+  "predicate": "biolink:interacts_with",
+  "subject_id": "NCBIGene:7157",
+  "object_id": "NCBIGene:2308",
+  "notes": "TP53 and FOXO1 are transcription factors with reported functional/physical interactions in stress/apoptosis pathways; plausible gene-gene interaction."
+}

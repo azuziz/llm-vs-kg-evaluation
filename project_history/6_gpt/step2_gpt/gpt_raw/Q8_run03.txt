@@ -1,0 +1,8 @@
+{
+  "question_id": "Q8",
+  "answer": "YES",
+  "predicate": "biolink:associated_with",
+  "subject_id": "NCBIGene:2308",
+  "object_id": "NCBIGene:3479",
+  "notes": "FOXO1 is a key transcription factor in insulin/IGF signaling; IGF1/PI3K-AKT pathway regulates FOXO1 activity, indicating a biological association."
+}

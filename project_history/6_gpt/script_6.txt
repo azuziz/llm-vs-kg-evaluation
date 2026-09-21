@@ -1,0 +1,40 @@
+so far: 20 api calls x 8 Questions = 160 json files
+now: compare Outputs to GT
+the Question #1 is all NO
+
+	clean, principled comparison framework:
+- respects set-valued ground truth (ROBOKOP = 1…N edges),
+- respects stochastic model output (GPT = 0…N edges across runs),
+- avoids forcing false binary labels,
+- produces tables, plots, and paper-style metrics that reviewers will accept.
+
+	Comparison model (three non-negotiable levels)
+	Predicate set overlap (ontology-aware)
+	Stability vs determinism (model behavior)
+
+"⚠️ Explicitly state:
+“ROBOKOP is treated as a reference system, not absolute ground truth.”"
+
+--------------------------ACTUAL WORK---------------------------------------
+1) STEP-3 CSV schema 
+A) step3_per_question.csv (primary comparison table)
+B) step3_confusion_matrix.csv (existence level)
+C) step3_summary_metrics.csv (paper-style metrics)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

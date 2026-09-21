@@ -1,0 +1,8 @@
+{
+  "question_id": "Q2",
+  "answer": "YES",
+  "predicate": "biolink:disease_has_basis_in",
+  "subject_id": "MONDO:0018310",
+  "object_id": "NCBIGene:673",
+  "notes": "Langerhans cell histiocytosis commonly harbors activating BRAF mutations (e.g., V600E), indicating molecular basis in BRAF alteration."
+}

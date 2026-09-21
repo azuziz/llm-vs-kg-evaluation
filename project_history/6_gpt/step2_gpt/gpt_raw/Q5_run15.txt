@@ -1,0 +1,8 @@
+{
+  "question_id": "Q5",
+  "answer": "YES",
+  "predicate": "biolink:gene_associated_with_condition",
+  "subject_id": "NCBIGene:3845",
+  "object_id": "MONDO:0002691",
+  "notes": "KRAS is an oncogene; activating KRAS mutations are reported in subsets of liver cancers (e.g., HCC/cholangiocarcinoma), supporting gene-condition association."
+}

@@ -1,0 +1,8 @@
+{
+  "question_id": "Q6",
+  "answer": "YES",
+  "predicate": "biolink:regulates",
+  "subject_id": "NCBIGene:2308",
+  "object_id": "NCBIGene:664",
+  "notes": "FOXO1 is a transcription factor reported to regulate BNIP3 expression (pro-apoptotic/autophagy gene) in stress/hypoxia contexts."
+}
