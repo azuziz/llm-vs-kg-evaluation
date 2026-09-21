@@ -1,0 +1,13 @@
+{
+  "n_questions": 163,
+  "zero_f1_rate_mean_over_runs": 0.7116564417177914,
+  "zero_f1_rate_union_over_runs": 0.7116564417177914,
+  "never_match_rate_union_over_runs": 0.7116564417177914,
+  "P_union_mean": 0.09431784983932225,
+  "R_union_mean": 0.10548252020644658,
+  "F1_union_mean": 0.08511073112300108,
+  "J_union_mean": 0.05351010611746808,
+  "P_mean_mean": 0.1081522933379688,
+  "R_mean_mean": 0.031887515038946275,
+  "F1_mean_mean": 0.04505364485907593
+}
