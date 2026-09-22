@@ -18,11 +18,11 @@ on *how strong an evidence requirement* the instruction places on a returned rel
 | File | Variant (as named in the thesis) | Instruction in short |
 |---|---|---|
 | `prompt_v1_minimal.txt` | v1, baseline | Return only relations that plausibly hold. |
-| `prompt_v2_curated_kb.txt` | v2, single most plausible relation | Return the single most plausible relation based on general biomedical knowledge, only if at least one relation is plausibly supported; otherwise an empty edges list. |
-| `prompt_v3_directional.txt` | v3, curated KB constraint | Return only relations that are commonly asserted in curated biomedical knowledge bases; if none is commonly asserted, an empty edges list. Multiple relations are allowed. |
-| `prompt_v4_forced_choice.txt` | v4, single most commonly asserted curated relation | Return the single most commonly asserted relation in curated biomedical knowledge bases, if any such assertion exists; otherwise an empty edges list. |
+| `prompt_v2_most_plausible.txt` | v2, single most plausible relation | Return the single most plausible relation based on general biomedical knowledge, only if at least one relation is plausibly supported; otherwise an empty edges list. |
+| `prompt_v3_curated_kb.txt` | v3, curated KB constraint | Return only relations that are commonly asserted in curated biomedical knowledge bases; if none is commonly asserted, an empty edges list. Multiple relations are allowed. |
+| `prompt_v4_most_asserted.txt` | v4, single most commonly asserted curated relation | Return the single most commonly asserted relation in curated biomedical knowledge bases, if any such assertion exists; otherwise an empty edges list. |
 
-**Note on file names.** The file names are historical working names and do not always describe the final prompt. In particular, `prompt_v2_curated_kb.txt` is the "single most plausible relation" prompt and `prompt_v3_directional.txt` is the "curated KB constraint" prompt, and neither v3 nor v4 forces a non-empty answer. The variant labels v1–v4 and the descriptions in the thesis are authoritative.
+File names were renamed to match their content (v2 was previously named `prompt_v2_curated_kb.txt`, which is actually the curated-KB constraint of v3, and v3 was named `prompt_v3_directional.txt`; v4 was named `prompt_v4_forced_choice.txt`, though it allows an empty edges list and so does not force a non-empty answer). The historical copy under `project_history/10_prompt_design/prompts/` keeps the original file names, matching what the scripts in that folder were actually run against.
 
 ## Repetition budget
 

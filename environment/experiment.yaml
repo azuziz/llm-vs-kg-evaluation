@@ -4,11 +4,11 @@ n_runs_per_prompt: 25
 
 prompts:
   - id: v2
-    file: prompts/prompt_v2_curated_kb.txt
+    file: prompts/prompt_v2_most_plausible.txt
   - id: v3
-    file: prompts/prompt_v3_directional.txt
+    file: prompts/prompt_v3_curated_kb.txt
   - id: v4
-    file: prompts/prompt_v4_forced_choice.txt
+    file: prompts/prompt_v4_most_asserted.txt
 
 model:
   name: gpt-5.2
