@@ -1,6 +1,6 @@
 # Evaluation of LLMs for Biomedical Relation Discovery
 
-Bachelor thesis project. The full write-up is in [`thesis/BachelorArbeit.pdf`](thesis/BachelorArbeit.pdf).
+Bachelor thesis project (Bioinformatics, University of Tübingen). The full write-up, "*Evaluation of LLMs and Knowledge Bases for Scientific Discovery*" by Abdulaziz Rustamov, is in [`thesis/BachelorArbeit.pdf`](thesis/BachelorArbeit.pdf); see [`CITATION.cff`](CITATION.cff) for how to cite it.
 
 ## Motivation
 
@@ -36,8 +36,8 @@ This work does **not** aim to validate novel biological discoveries, establish c
 | `data/node_pairs/` | The 163 evaluation node pairs (`node_pairs_163.tsv`) |
 | `data/robokop/` | ROBOKOP reference triples for these pairs (`robokop_triples.tsv`) |
 | `data/outputs/` | Conventions for generated outputs (raw runs, aggregates, metrics); the outputs themselves are in `project_history/` |
-| `prompts/` | The four prompt variants: v1 minimal, v2 curated KB, v3 directional, v4 forced choice |
-| `environment/` | Experiment configuration (`experiment.yaml`) |
+| `prompts/` | The four prompt variants: v1 baseline, v2 single most plausible relation, v3 curated KB constraint, v4 single most commonly asserted relation |
+| `environment/` | Experiment configuration (`experiment.yaml`) and Python dependencies (`requirements.txt`) |
 | `project_history/` | Complete working history of the thesis, one folder per stage (numbered in the order they were worked on), containing all scripts, raw LLM runs, metrics and plots. See [`project_history/README.md`](project_history/README.md) |
 | `thesis/` | The bachelor thesis as PDF |
 
@@ -50,6 +50,17 @@ Where to find the code in `project_history/`:
 
 The allowed-predicate list used for the JSON schema is at `project_history/7_gpt/data/allowed_predicates.json`. Python virtual environments, IDE files and API keys are not part of the repository; the scripts expect an OpenAI API key in the `OPENAI_API_KEY` environment variable.
 
+## Setup
+
+```
+pip install -r environment/requirements.txt
+export OPENAI_API_KEY=...   # required by the GPT-querying scripts
+```
+
 ## Status
 
 The project is finished and documented in the bachelor thesis. The pipeline for LLM querying, structured output validation, relation aggregation, and metric computation is implemented, repeated LLM runs per node pair were completed for the prompt variants, and variability-aware metrics were computed and analyzed.
+
+## License
+
+MIT, see [`LICENSE`](LICENSE). This covers the code and data in this repository; the thesis PDF is included for reference and reproducibility.

@@ -1,0 +1,20 @@
+# Python dependencies used across the scripts in project_history/.
+# Versions below are pinned to what was actually installed and used while
+# running the thesis experiments (from the project's virtualenv). scikit-learn
+# and PyYAML are listed unpinned since their exact installed version was not
+# recorded.
+#
+# Used with Python 3.13.
+#
+# pip install -r environment/requirements.txt
+
+openai==2.15.0
+pandas==2.3.3
+numpy==2.4.0
+matplotlib==3.10.8
+seaborn==0.13.2
+networkx==3.6.1
+requests==2.32.5
+scipy==1.17.0
+scikit-learn
+PyYAML
